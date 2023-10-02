@@ -1,7 +1,7 @@
 <template>
   <section class="bg-primary">
     <div class="grid grid-cols-1 lg:grid-cols-2">
-      <div class="flex items-center justify-center py-28 md:py-[149px]">
+      <div class="flex items-center justify-center py-24 md:py-[149px]">
         <div class="w-full max-w-md px-2">
           <img src="/public/img/arrow.svg" alt="Up Arrow">
           <h2 class="mb-8 text-white text-3xl md:text-5xl">

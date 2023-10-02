@@ -30,11 +30,11 @@
           </ul>
         </div>
 
-        <div class="flex items-center">
+        <div class="flex items-center gap-3 sm:gap-2 md:gap-5">
           <AppButton secondary class="shrink-0">View Portfolio</AppButton>
-          <AppButton class="hidden lg:block shrink-0 mx-5 lg:ml-5">Direct Contact</AppButton>
+          <AppButton class="hidden lg:block shrink-0">Direct Contact</AppButton>
           <!-- Hamburger button for mobile view -->
-          <div class="flex lg:hidden items-center pl-4 text-primary" @click="showMobileMenu = !showMobileMenu">
+          <div class="flex lg:hidden items-center text-primary" @click="showMobileMenu = !showMobileMenu">
             <span v-if="!showMobileMenu" class="i-solar-hamburger-menu-linear w-9 h-9"/>
             <span
                 v-else
@@ -81,13 +81,14 @@
               </li>
             </ul>
 
-            <div class="nav-image transition relative pt-3">
-              <div class="nav-image-container overflow-hidden rounded-2xl" @click="playDemoVideo = true">
+            <div class="nav-image transition relative pt-3 mb-40">
+              <div class="nav-image-container overflow-hidden rounded-2xl">
                 <img src="/public/img/rocket.png" alt="Rocket" :class="[showMobileMenu? 'zoom-in':'zoom-out']">
               </div>
               <div class="absolute top-[50%] left-[50%] -translate-y-2/4 -translate-x-2/4">
                 <button
                     class="play-btn bg-white flex justify-center items-center rounded-full w-14 h-14 md:w-16 md:h-16 cursor-pointer"
+                    @click="playDemoVideo = true"
                 >
                   <span class="btn-control-icon i-mdi-play text-pink w-9 h-9 md:w-10 md:h-10"/>
                 </button>

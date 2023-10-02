@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="video-banner px-3 md:px-5">
-      <div class="video-container relative cursor-pointer rounded-lg rounded-xl lg:rounded-[40px] overflow-hidden" @click="playVideo = true">
+      <div class="video-container relative cursor-pointer rounded-lg rounded-xl lg:rounded-[40px] overflow-hidden">
         <div class="flex flex-col justify-center">
           <img class="block lg:hidden" src="/public/img/rocket.png" alt="Rocket">
           <Parallaxy class="hidden lg:block" :speed="80" direction="opposite">
@@ -50,6 +50,7 @@
           <button
               class="play-btn flex justify-center items-center rounded-full w-8 h-8 md:w-14 md:h-14 lg:h-[77px] lg:w-[77px] relative cursor-pointer"
               :class="[playVideo ? 'fade-out' : 'fade-in']"
+              @click="playVideo = true"
           >
             <div class="btn-bg" />
             <span class="btn-control-icon i-mdi-play md:w-8 md:h-8" />
@@ -86,7 +87,7 @@ watch(playVideo, (val) => {
 
 <style scoped lang="scss">
 .horizontal-slider{
-  animation-duration: 15s;
+  animation-duration: 12s;
   animation-iteration-count: infinite;
   animation-name: HSlider;
   animation-play-state: running;
