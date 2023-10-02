@@ -1,0 +1,43 @@
+@import "variables";
+@import "animations";
+
+html{
+  scroll-behavior: smooth;
+}
+
+.play-btn, .close-btn{
+  & .btn-bg{
+    &::after, &::before{
+      border-radius: 100%;
+      content: "";
+      display: block;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+    &::before{
+      opacity: 0;
+      transition: opacity 0ms linear .5s;
+    }
+  }
+  & .btn-control-icon,.btn-bg::after{
+    transition: transform .5s cubic-bezier(.19,1,.22,1);
+  }
+  &:hover{
+    & .btn-bg {
+      &::before {
+        opacity: 1;
+        transition: opacity 0ms linear;
+      }
+
+      &::after, {
+        transform: translate3d(-2px, -2px, 0);
+      }
+    }
+    & .btn-control-icon{
+      transform: translate3d(-2px, -2px, 0);
+    }
+  }
+}
