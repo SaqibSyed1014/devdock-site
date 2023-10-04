@@ -7,7 +7,7 @@
         <figure>
           <router-link
               class="sm:mx-2 my-1 md:mb-0 md:mt-0"
-              to="/">
+              :to="{ name: 'SiteHome' }">
             <img src="/public/img/logo.svg" alt="DevDock Logo" class="w-[70%] sm:w-3/4">
           </router-link>
         </figure>
@@ -20,7 +20,9 @@
             <li>
               <AppDropdown show-hover-color :options="['Account', 'Settings']">Services</AppDropdown>
             </li>
-            <li class="cursor-pointer px-4 hover:text-pink transition">Portfolio</li>
+            <li class="cursor-pointer px-4 hover:text-pink transition">
+              <router-link :to="{ name: 'SitePortfolio' }">Portfolio</router-link>
+            </li>
             <li>
               <AppDropdown show-hover-color :options="['Account', 'Settings']">Resources</AppDropdown>
             </li>
@@ -31,7 +33,9 @@
         </div>
 
         <div class="flex items-center gap-3 sm:gap-2 md:gap-5">
-          <AppButton secondary class="shrink-0">View Portfolio</AppButton>
+          <AppButton v-if="route.name !== 'SitePortfolio'" secondary class="shrink-0">
+            <router-link :to="{ name: 'SitePortfolio' }">View Portfolio</router-link>
+          </AppButton>
           <AppButton class="hidden lg:block shrink-0">Direct Contact</AppButton>
           <!-- Hamburger button for mobile view -->
           <div class="flex lg:hidden items-center text-primary" @click="showMobileMenu = !showMobileMenu">
@@ -63,10 +67,13 @@
                     class="menu-labels transition text-primary font-medium text-lg mb-3"
                     :style="{ '--index': index }"
                 >
-                  {{ link.label }}
+                  <template v-if="link.hasSubLinks">{{ link.label }}</template>
+                  <template v-else>
+                    <router-link :to="{ name: link.pathName}">{{ link.label }}</router-link>
+                  </template>
                 </p>
                 <ul
-                    v-if="link.subLinks.length"
+                    v-if="link.hasSubLinks"
                     class="list-style-none mb-7"
                 >
                   <li
@@ -75,7 +82,7 @@
                       class="sub-menu-link transition text-sm py-2"
                       :style="{ '--subIndex': i }"
                   >
-                    <router-link to="\">{{ subLink }}</router-link>
+                    <router-link :to="{ name: subLink.pathName}">{{ subLink.label }}</router-link>
                   </li>
                 </ul>
               </li>
@@ -111,13 +118,20 @@ import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
 import AppButton from '@/core/components/AppButton.vue'
 import AppDropdown from "@/core/components/AppDropdown.vue"
 import VideoPlayer from '@/core/components/VideoPlayer.vue'
+import { useRoute } from 'vue-router'
+
 
 let showMobileMenu = ref(false)
-const playDemoVideo = ref(false)
+let playDemoVideo = ref(false)
+const route = useRoute()
 
 // Variables to track scroll position
 const scrollY = ref(window.scrollY);
 const isScrollingDown = ref(false);
+
+watch(route, () => {
+  if (showMobileMenu.value) showMobileMenu.value = false
+})
 
 // Function to handle scroll event
 const handleScroll = () => {
@@ -142,10 +156,36 @@ watch(showMobileMenu, (val) => {
 })
 
 const menuLinks = [
-  { label: 'Services', subLinks: ['Account', 'Settings'] },
-  { label: 'Portfolio', subLinks: [] },
-  { label: 'Resources', subLinks: ['Account', 'Settings'] },
-  { label: 'Company', subLinks: ['Account', 'Settings'] }
+  {
+    label: 'Services',
+    hasSubLinks: true,
+    subLinks: [
+      { label: 'Account', pathName: 'SiteHome'  },
+      { label: 'Settings', pathName: 'SiteHome'  }
+    ]
+  },
+  {
+    label: 'Portfolio',
+    pathName: 'SitePortfolio',
+    hasSubLinks: false,
+    subLinks: []
+  },
+  {
+    label: 'Resources',
+    hasSubLinks: true,
+    subLinks: [
+      { label: 'Account', pathName: 'SiteHome'  },
+      { label: 'Settings', pathName: 'SiteHome'  }
+    ]
+  },
+  {
+    label: 'Company',
+    hasSubLinks: true,
+    subLinks: [
+      { label: 'Account', pathName: 'SiteHome'  },
+      { label: 'Settings', pathName: 'SiteHome'  }
+    ]
+  }
 ]
 </script>
 

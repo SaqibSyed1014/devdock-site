@@ -8,20 +8,21 @@ const routes = [
   {
     path: '/',
     component: DefaultLayout,
+    name: 'SiteDefaultLayout',
     meta: {
       title: '',
     },
-    redirect: { name: 'Home' },
+    redirect: { name: 'SiteHome' },
     children: [
       {
         path: '/',
         component: Home,
-        name: 'Home'
+        name: 'SiteHome'
       },
       {
         path: '/portfolio',
         component: Portfolio,
-        name: 'Portfolio'
+        name: 'SitePortfolio'
       }
     ]
   },
