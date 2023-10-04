@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import DefaultLayout from '@/layout/DefaultLayout.vue'
-import Home from '@/pages/Home.vue'
-import Portfolio from '@/pages/Portfolio.vue'
+import DefaultLayout from '@/layout/DefaultLayout/DefaultLayout.vue'
+import Home from '@/pages/home/HomeView.vue'
+import Portfolio from '@/pages/portfolio/PortfolioView.vue'
 
 const routes = [
   {

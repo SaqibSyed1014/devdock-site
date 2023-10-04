@@ -3,7 +3,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-2">
       <div class="flex items-center justify-center py-24 md:py-[149px]">
         <div class="w-full max-w-md px-2">
-          <img src="/public/img/arrow.svg" alt="Up Arrow">
+          <img src="/public/svg/arrow.svg" alt="Up Arrow">
           <h2 class="mb-8 text-white text-3xl md:text-5xl">
             <span class="text-secondary">DevDock</span> works with Companies and
             supports startups in four critical ways.
@@ -24,7 +24,7 @@
                     {{ `${index + 1}.` }}
                   </span>
                   <div class="pt-10 transition group-hover:pt-10">
-                    <img class="group-hover:hidden" :src="`/img/${service.icon}`" :alt="service.alt">
+                    <img class="group-hover:hidden" :src="`/svg/${service.icon}`" :alt="service.alt">
                     <div class="flex gap-3 xl:gap-8 justify-between items-center pt-5">
                       <h3 class="text-2xl sm:text-2xl md:text-2xl xl:text-3xl font-medium sm:pr-5 transition group-hover:text-black group-hover:mb-2">
                         {{ service.title }}

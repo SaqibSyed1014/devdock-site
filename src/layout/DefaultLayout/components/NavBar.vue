@@ -8,7 +8,7 @@
           <router-link
               class="sm:mx-2 my-1 md:mb-0 md:mt-0"
               :to="{ name: 'SiteHome' }">
-            <img src="/public/img/logo.svg" alt="DevDock Logo" class="w-[70%] sm:w-3/4">
+            <img src="/public/svg/logo.svg" alt="DevDock Logo" class="w-[70%] sm:w-3/4">
           </router-link>
         </figure>
 
