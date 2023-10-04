@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import DefaultLayout from '@/layout/DefaultLayout.vue'
 import Home from '@/pages/Home.vue'
+import Portfolio from '@/pages/Portfolio.vue'
 
 const routes = [
   {
@@ -10,12 +11,17 @@ const routes = [
     meta: {
       title: '',
     },
-    redirect: '/home',
+    redirect: { name: 'Home' },
     children: [
       {
-        path: '/home',
+        path: '/',
         component: Home,
         name: 'Home'
+      },
+      {
+        path: '/portfolio',
+        component: Portfolio,
+        name: 'Portfolio'
       }
     ]
   },

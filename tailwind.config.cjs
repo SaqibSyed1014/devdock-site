@@ -17,7 +17,11 @@ module.exports = {
         pink: '#FFA2EA',
         lace: '#FFDEF7',
         water: '#D1F2FD',
-        calamansi: '#FDFFAD'
+        calamansi: '#FDFFAD',
+        'dark-gray': '#889BA0',
+        'light-gray': '#E0E5E6',
+        'accent-gray': '#111111',
+        'base-gray': '#5A6C71',
       },
       backgroundColor: {
         'light': '#F4ECDC',
@@ -43,7 +47,11 @@ module.exports = {
         '18': '70px'
       },
       fontSize: {
-        'extra': '22px'
+        'extra': '22px',
+        '6.2xl': '62px'
+      },
+      borderRadius: {
+        '5xl': '40px'
       }
     },
     container: {

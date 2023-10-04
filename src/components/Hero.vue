@@ -10,7 +10,7 @@
       </h1>
       <div class="pt-10">
         <p class="text-lg lg:text-2xl">
-          Focus only on <span class="underlines-word">productivity</span> now
+          Focus only on <span class="underlined-word">productivity</span> now
         </p>
         <div class="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-8 pt-14">
           <AppButton class="fancy-btn">View Portfolio</AppButton>
@@ -29,21 +29,6 @@ import AppDropdown from "@/core/components/AppDropdown.vue";
 </script>
 
 <style scoped lang="scss">
-.underlines-word{
-  position: relative;
-  padding-right: 10px;
-  &::after{
-    content: '';
-    display: block;
-    position: absolute;
-    left: -20px;
-    bottom: -10px;
-    background-image: url("/public/img/lines.svg");
-    background-repeat: no-repeat;
-    width: 155px;
-    height: 17px;
-  }
-}
 .fancy-btn{
   position: relative;
   &::before{
