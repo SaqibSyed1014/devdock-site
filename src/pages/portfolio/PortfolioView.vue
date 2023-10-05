@@ -2,8 +2,18 @@
   <div class="text-primary py-20 md:py-28">
     <div class="px-1">
       <hr class="border border-light-gray">
-      <div class="container px-3 py-5">
+      <div class="container px-2 md:px-3 py-5">
         <div class="flex flex-wrap items-center gap-3 sm:gap-5">
+          <button
+              class="filter-badge relative flex justify-center rounded-5xl font-medium cursor-pointer px-4 py-2 sm:py-3 sm:px-5"
+              :class="{'active': selectedContentIndex === -1}"
+              @click="selectAllFilters"
+          >
+            <span class="btn-bg" />
+            <span class="btn-content text-sm sm:text-base">
+                All
+              </span>
+          </button>
           <template v-for="(filter, index) in pageFilters" :key="index">
             <button
                 class="filter-badge relative flex justify-center rounded-5xl font-medium cursor-pointer px-4 py-2 sm:py-3 sm:px-5"
@@ -21,8 +31,9 @@
       </div>
       <hr class="border border-light-gray">
     </div>
-    <div class="container pt-8 md:pt-14">
-      <h2 class="text-center text-3xl sm:text-4xl md:text-6.2xl !leading-tight font-semibold">
+    <div class="container">
+      <p class="text-dark-gray text-sm sm:text-base font-medium md:pl-1 pt-3">Portfolio</p>
+      <h2 class="text-center text-3xl sm:text-4xl md:text-6.2xl !leading-tight font-semibold pt-8 md:pt-14">
         {{ mainHeading.startText }}
         <span class="underlined-word">{{ mainHeading.underlined }}</span>
         {{ mainHeading.endText }}
@@ -35,16 +46,16 @@
           >
             <img src="/public/svg/client_logo.svg" alt="Client Logo">
             <div
-                class="project-image border border-dark-gray rounded group-hover:border-dark-gray/0 transition-all my-5"
+                class="project-image border border-dark-gray rounded fancy-hover hover:border-dark-gray/0 transition-all my-3 md:my-5"
             >
               <div class="overflow-hidden">
                 <img src="/public/img/mockup.png" alt="Project Mockup Image">
               </div>
             </div>
-            <p class="text-xl font-medium pb-1.5">
+            <p class="text-base md:text-xl font-medium pb-1 md:pb-1.5">
               {{ content.desc }}
             </p>
-            <span class="text-base text-base-gray hover:text-pink transition cursor-pointer">
+            <span class="text-sm md:text-base text-base-gray hover:text-pink transition cursor-pointer">
               View Case Study
             </span>
           </div>
@@ -52,13 +63,13 @@
 
       <div class="grid grid-cols-1 lg:grid-cols-2 md:gap-5 pt-20 md:pt-14">
         <div class="flex flex-col text-center justify-center sm:px-10">
-          <h4 class="text-4xl font-bold w-3/4 md:w-2/4 mx-auto">
+          <h4 class="text-3xl md:text-4xl font-bold w-3/4 md:w-2/4 mx-auto">
             {{ CTOSection.heading }}
           </h4>
           <div class="py-8">
             <img class="mx-auto" src="/public/svg/curve.svg" alt="Curve Underline">
           </div>
-          <p class="text-xl">{{ CTOSection.text }}</p>
+          <p class="text-base md:text-xl">{{ CTOSection.text }}</p>
           <div>
             <AppButton class="mt-10">Direct Contact</AppButton>
           </div>
@@ -78,6 +89,11 @@ import { mainHeading, CTOSection, pageFilters } from "@/core/constants/portfolio
 let filteredContent = ref(pageFilters?.flatMap(item => item.content))
 let selectedContentIndex = ref(-1)
 
+const selectAllFilters = () => {
+  selectedContentIndex.value = -1
+  filteredContent.value = pageFilters?.flatMap(item => item.content)
+}
+
 const filterContent = (item, index) => {
   selectedContentIndex.value = index
   filteredContent.value = item.content
@@ -92,33 +108,6 @@ const filterContent = (item, index) => {
     width: 100%;
   }
 }
-.project-image{
-  position: relative;
-  z-index: 11;
-  transition: transform .5s cubic-bezier(.19,1,.22,1);
-  &::after{
-    content: '';
-    width: 100%;
-    height: 100%;
-    background-color: #ffa2ea;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    z-index: -1;
-    border-radius: 4px;
-    transform: translate3d(2px, 2px, 0);
-    transition: opacity .5s cubic-bezier(.19,1,.22,1);
-  }
-  &:hover {
-    transform: translate3d(-2px, -2px, 0);
-    &::after {
-      opacity: 1;
-    }
-  }
-}
-
 
 .filter-badge{
   & .btn-bg{

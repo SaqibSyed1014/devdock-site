@@ -1,6 +1,6 @@
 <template>
     <nav
-        class="nav-container w-full items-center h-20 md:h-[90px] flex items-center px-3 z-30"
+        class="nav-container w-full items-center h-20 md:h-[90px] flex items-center px-3 md:px-5 z-30"
         :class="[showMobileMenu ? 'bg-white' : 'bg-sky', isScrollingDown ? 'nav-hidden' : 'nav-fixed']"
     >
       <div class="flex items-center justify-between grow">

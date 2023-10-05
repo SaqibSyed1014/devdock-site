@@ -48,13 +48,7 @@
 <script setup lang="ts">
 import { Icon } from '@iconify/vue';
 import AppButton from "@/core/components/AppButton.vue";
-
-const servicesData = [
-  { title: 'Design Research', desc: 'We understand that every client and project is unique. Our agency takes a personalized approach, tailoring our services to your specific needs and goals. This ensures that the final product aligns perfectly with your vision and objectives.', icon: 'capital.svg', alt: 'Settings Icon' },
-  { title: 'Product Development', desc: 'As a renowned team of expert front-end, backend, and full stack developers, we tackle complex market challenges innovatively, pragmatically, and with a touch of unpredictability.', icon: 'software.svg', alt: 'Software Icon' },
-  { title: 'SEO & Marketing', desc: 'Our experts collaborate with you to define goals and craft a strategy encompassing blogger outreach and cutting-edge content marketing. Our SEO services team can supplement your content optimization, or we can serve as your dedicated outreach squad', icon: 'capital.svg', alt: 'Reels Icon' },
-  { title: 'Life Time Support', desc: 'Even once the development process is complete and your app is ready to launch, our guidance does not stop there. DevDock is here to make sure that you have access to the support required to execute a successful launch.', icon: 'strategy.svg', alt: 'Strategy Icon' }
-]
+import { servicesData } from "@/core/constants/home-view";
 </script>
 
 <style scoped>

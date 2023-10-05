@@ -4,7 +4,7 @@
       <div class="CTO" />
       <div class="flex items-center justify-between flex-wrap lg:flex-nowrap gap-5 relative z-11">
         <div class="flex items-center">
-          <img class="hidden md:block" src="/img/right_arrow.svg" alt="Arrow">
+          <img class="hidden md:block" src="/svg/right_arrow.svg" alt="Arrow">
           <p class="text-center md:text-left text-primary font-medium text-xl sm:text-2xl md:text-[32px] md:pl-[15px]">
             Help us spread the word and sell good vibes. Follow!</p>
         </div>
