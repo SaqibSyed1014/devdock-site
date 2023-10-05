@@ -31,7 +31,7 @@
                       </h3>
                       <span class="i-mdi-arrow-right w-9 h-9 md:w-12 md:h-12 transition group-hover:hidden" />
                     </div>
-                    <p class="text-black text-sm leading-6 md:leading-7 hidden transition group-hover:block">
+                    <p class="text-black text-sm 2xl:text-lg leading-6 md:leading-7 hidden transition group-hover:block">
                       {{ service.desc }}
                     </p>
                   </div>

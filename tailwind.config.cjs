@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        '2xl': '1620px'
+      },
       colors: {
         primary: '#073742',
         secondary: '#BDEDFC',

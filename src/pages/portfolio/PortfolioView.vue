@@ -1,6 +1,6 @@
 <template>
   <div class="text-primary py-20 md:py-28">
-    <div class="px-1">
+    <div class="container px-1">
       <hr class="border border-light-gray">
       <div class="container px-2 md:px-3 py-5">
         <div class="flex flex-wrap items-center gap-3 sm:gap-5">
@@ -10,9 +10,7 @@
               @click="selectAllFilters"
           >
             <span class="btn-bg" />
-            <span class="btn-content text-sm sm:text-base">
-                All
-              </span>
+            <span class="btn-content text-sm sm:text-base 2xl:text-xl">All</span>
           </button>
           <template v-for="(filter, index) in pageFilters" :key="index">
             <button
@@ -21,7 +19,7 @@
                 @click="filterContent(filter, index)"
             >
               <span class="btn-bg" />
-              <span class="btn-content flex items-center gap-2 sm:gap-3 text-sm sm:text-base">
+              <span class="btn-content flex items-center gap-2 sm:gap-3 text-sm sm:text-base 2xl:text-xl">
                 <img :src="`/svg/${filter.svg}`" alt="Badge SVG">
                 {{ filter.label }}
               </span>
@@ -32,30 +30,30 @@
       <hr class="border border-light-gray">
     </div>
     <div class="container">
-      <p class="text-dark-gray text-sm sm:text-base font-medium md:pl-1 pt-3">Portfolio</p>
+      <p class="text-dark-gray text-sm sm:text-base 2xl:text-xl font-medium md:pl-1 pt-3">Portfolio</p>
       <h2 class="text-center text-3xl sm:text-4xl md:text-6.2xl !leading-tight font-semibold pt-8 md:pt-14">
         {{ mainHeading.startText }}
         <span class="underlined-word">{{ mainHeading.underlined }}</span>
         {{ mainHeading.endText }}
       </h2>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-10  pt-14">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-10  pt-14">
           <div
               v-for="(content, i) in filteredContent"
               :key="i" class="group cursor-pointer"
           >
             <img src="/public/svg/client_logo.svg" alt="Client Logo">
             <div
-                class="project-image border border-dark-gray rounded fancy-hover hover:border-dark-gray/0 transition-all my-3 md:my-5"
+                class="project-image fancy-hover border border-dark-gray rounded hover:border-dark-gray/0 transition-all my-3 md:my-5"
             >
               <div class="overflow-hidden">
                 <img src="/public/img/mockup.png" alt="Project Mockup Image">
               </div>
             </div>
-            <p class="text-base md:text-xl font-medium pb-1 md:pb-1.5">
+            <p class="text-base md:text-xl 2xl:text-2xl font-medium pb-1 md:pb-1.5">
               {{ content.desc }}
             </p>
-            <span class="text-sm md:text-base text-base-gray hover:text-pink transition cursor-pointer">
+            <span class="text-sm md:text-base text-base-gray 2xl:text-xl hover:text-pink transition cursor-pointer">
               View Case Study
             </span>
           </div>
@@ -63,13 +61,13 @@
 
       <div class="grid grid-cols-1 lg:grid-cols-2 md:gap-5 pt-20 md:pt-14">
         <div class="flex flex-col text-center justify-center sm:px-10">
-          <h4 class="text-3xl md:text-4xl font-bold w-3/4 md:w-2/4 mx-auto">
+          <h4 class="text-3xl md:text-4xl 2xl:text-5xl font-bold w-3/4 md:w-2/4 mx-auto">
             {{ CTOSection.heading }}
           </h4>
           <div class="py-8">
             <img class="mx-auto" src="/public/svg/curve.svg" alt="Curve Underline">
           </div>
-          <p class="text-base md:text-xl">{{ CTOSection.text }}</p>
+          <p class="text-base md:text-xl 2xl:text-2xl">{{ CTOSection.text }}</p>
           <div>
             <AppButton class="mt-10">Direct Contact</AppButton>
           </div>
@@ -101,6 +99,13 @@ const filterContent = (item, index) => {
 </script>
 
 <style lang="scss" scoped>
+.project-image{
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
 .underlined-word{
   &::after{
     left: 0;

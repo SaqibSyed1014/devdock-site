@@ -38,7 +38,7 @@
       >
         <MenuItem v-for="(option, index) in options" :key="index">
           <div
-              class="menu-option text-gray-400 hover:text-primary transition text-sm hover:bg-transparent cursor-pointer"
+              class="menu-option text-gray-400 hover:text-primary transition text-sm 2xl:text-base hover:bg-transparent cursor-pointer"
               :style="{ '--index': index }"
           >
             {{ option }}

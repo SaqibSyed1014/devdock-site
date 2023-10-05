@@ -1,49 +1,51 @@
 <template>
     <nav
-        class="nav-container w-full items-center h-20 md:h-[90px] flex items-center px-3 md:px-5 z-30"
+        class="nav-container w-full items-center h-20 md:h-[90px] flex items-center z-30"
         :class="[showMobileMenu ? 'bg-white' : 'bg-sky', isScrollingDown ? 'nav-hidden' : 'nav-fixed']"
     >
-      <div class="flex items-center justify-between grow">
-        <figure>
-          <router-link
-              class="sm:mx-2 my-1 md:mb-0 md:mt-0"
-              :to="{ name: 'SiteHome' }">
-            <img src="/public/svg/logo.svg" alt="DevDock Logo" class="w-[70%] sm:w-3/4">
-          </router-link>
-        </figure>
+      <div class="container">
+        <div class="flex items-center justify-between grow">
+          <figure>
+            <router-link
+                class="sm:mx-2 my-1 md:mb-0 md:mt-0"
+                :to="{ name: 'SiteHome' }">
+              <img src="/public/svg/logo.svg" alt="DevDock Logo" class="w-[70%] sm:w-3/4">
+            </router-link>
+          </figure>
 
-        <!-- Collapsible navbar container -->
-        <div class="hidden lg:flex items-center flex-grow basis-[100%] md:basis-auto md:mt-0 mt-2">
-          <ul
-              class="list-style-none mr-auto flex flex-col items-center pl-0 md:mt-1 md:flex-row gap-6 text-[15px] font-medium"
-          >
-            <li>
-              <AppDropdown show-hover-color :options="['Account', 'Settings']">Services</AppDropdown>
-            </li>
-            <li class="cursor-pointer px-4 hover:text-pink transition">
-              <router-link :to="{ name: 'SitePortfolio' }">Portfolio</router-link>
-            </li>
-            <li>
-              <AppDropdown show-hover-color :options="['Account', 'Settings']">Resources</AppDropdown>
-            </li>
-            <li>
-              <AppDropdown show-hover-color :options="['Account', 'Settings']">Company</AppDropdown>
-            </li>
-          </ul>
-        </div>
+          <!-- Collapsible navbar container -->
+          <div class="hidden lg:flex items-center flex-grow basis-[100%] md:basis-auto md:mt-0 mt-2">
+            <ul
+                class="list-style-none mr-auto flex flex-col items-center pl-0 md:mt-1 md:flex-row gap-6 text-[15px] 2xl:text-lg font-medium"
+            >
+              <li>
+                <AppDropdown show-hover-color :options="['Account', 'Settings']">Services</AppDropdown>
+              </li>
+              <li class="cursor-pointer px-4 hover:text-pink transition">
+                <router-link :to="{ name: 'SitePortfolio' }">Portfolio</router-link>
+              </li>
+              <li>
+                <AppDropdown show-hover-color :options="['Account', 'Settings']">Resources</AppDropdown>
+              </li>
+              <li>
+                <AppDropdown show-hover-color :options="['Account', 'Settings']">Company</AppDropdown>
+              </li>
+            </ul>
+          </div>
 
-        <div class="flex items-center gap-3 sm:gap-2 md:gap-5">
-          <AppButton v-if="route.name !== 'SitePortfolio'" secondary class="shrink-0">
-            <router-link :to="{ name: 'SitePortfolio' }">View Portfolio</router-link>
-          </AppButton>
-          <AppButton class="hidden lg:block shrink-0">Direct Contact</AppButton>
-          <!-- Hamburger button for mobile view -->
-          <div class="flex lg:hidden items-center text-primary" @click="showMobileMenu = !showMobileMenu">
-            <span v-if="!showMobileMenu" class="i-solar-hamburger-menu-linear w-9 h-9"/>
-            <span
-                v-else
-                class="i-ph-x w-9 h-9"
-            />
+          <div class="flex items-center gap-3 sm:gap-2 md:gap-5">
+            <AppButton v-if="route.name !== 'SitePortfolio'" secondary class="shrink-0">
+              <router-link :to="{ name: 'SitePortfolio' }">View Portfolio</router-link>
+            </AppButton>
+            <AppButton class="hidden lg:block shrink-0">Direct Contact</AppButton>
+            <!-- Hamburger button for mobile view -->
+            <div class="flex lg:hidden items-center text-primary" @click="showMobileMenu = !showMobileMenu">
+              <span v-if="!showMobileMenu" class="i-solar-hamburger-menu-linear w-9 h-9"/>
+              <span
+                  v-else
+                  class="i-ph-x w-9 h-9"
+              />
+            </div>
           </div>
         </div>
       </div>

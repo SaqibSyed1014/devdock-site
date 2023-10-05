@@ -31,14 +31,18 @@
     <div class="container py-10">
       <div class="grid grid-cols-2 lg:grid-cols-5 gap-16 text-white">
         <div class="col-span-1 lg:col-span-2">
-          <label class="text-[15px]">Email</label>
-          <p class="text-xl md:text-extra font-bold pt-3 pb-6">hello@devdock.com</p>
-          <label class="text-[15px]">Whatsapp</label>
-          <p class="text-xl md:text-extra font-bold pt-3">+92 (331) 4709729</p>
+          <label class="text-[15px] 2xl:text-xl">Email</label>
+          <p class="text-xl 2xl:text-2xl md:text-extra font-bold pt-3 pb-6">
+            hello@devdock.com
+          </p>
+          <label class="text-[15px] 2xl:text-xl">Whatsapp</label>
+          <p class="text-xl 2xl:text-2xl md:text-extra font-bold pt-3">
+            +92 (331) 4709729
+          </p>
         </div>
         <div class="col-span-1">
-          <h5 class="text-xl md:text-extra font-bold pb-6">Company</h5>
-          <div class="flex flex-col gap-3 md:gap-4 text-sm">
+          <h5 class="text-xl 2xl:text-2xl md:text-extra font-bold pb-6">Company</h5>
+          <div class="flex flex-col gap-3 md:gap-4 text-sm 2xl:text-xl">
             <span
                 v-for="link in companyLinks"
                 :key="link"
@@ -49,8 +53,8 @@
           </div>
         </div>
         <div class="col-span-1">
-          <h5 class="text-xl md:text-extra font-bold pb-6">Services</h5>
-          <div class="flex flex-col gap-3 md:gap-4 text-sm">
+          <h5 class="text-xl 2xl:text-2xl md:text-extra font-bold pb-6">Services</h5>
+          <div class="flex flex-col gap-3 md:gap-4 text-sm 2xl:text-xl">
             <span
                 v-for="link in servicesLinks"
                 :key="link"
@@ -59,8 +63,8 @@
           </div>
         </div>
         <div class="col-span-1">
-          <h5 class="text-xl md:text-extra font-bold pb-6">Resources</h5>
-          <div class="flex flex-col gap-3 md:gap-4 text-sm">
+          <h5 class="text-xl 2xl:text-2xl md:text-extra font-bold pb-6">Resources</h5>
+          <div class="flex flex-col gap-3 md:gap-4 text-sm 2xl:text-xl">
             <span
                 v-for="link in resourcesLinks"
                 :key="link"
@@ -76,7 +80,7 @@
 
     <div class="copy-right py-5 md:py-[26px]">
       <div class="container text-center text-white">
-        <div class="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 text-sm">
+        <div class="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 text-sm 2xl:text-base">
           <img src="/public/svg/logo-white.svg" alt="DevDock in White">
           <div>
             <span class="cursor-pointer border-r-2 border-[#1F5346] pr-3 mr-3">Privacy Policy</span>
