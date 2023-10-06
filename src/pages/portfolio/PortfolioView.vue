@@ -1,5 +1,5 @@
 <template>
-  <div class="text-primary py-20 md:py-28">
+  <div class="text-primary py-16 md:py-24 lg:py-28">
     <div class="container px-1">
       <hr class="border border-light-gray">
       <div class="container px-2 md:px-3 py-5">
@@ -37,7 +37,7 @@
         {{ mainHeading.endText }}
       </h2>
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-10  pt-14">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-10 pt-14">
           <div
               v-for="(content, i) in filteredContent"
               :key="i" class="group cursor-pointer"

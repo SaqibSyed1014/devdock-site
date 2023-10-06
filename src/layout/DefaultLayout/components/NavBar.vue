@@ -22,7 +22,7 @@
                 <AppDropdown show-hover-color :options="['Account', 'Settings']">Services</AppDropdown>
               </li>
               <li class="cursor-pointer px-4 hover:text-pink transition">
-                <router-link :to="{ name: 'SitePortfolio' }">Portfolio</router-link>
+                <router-link active-class="text-pink" :to="{ name: 'SitePortfolio' }">Portfolio</router-link>
               </li>
               <li>
                 <AppDropdown show-hover-color :options="['Account', 'Settings']">Resources</AppDropdown>
@@ -34,9 +34,11 @@
           </div>
 
           <div class="flex items-center gap-3 sm:gap-2 md:gap-5">
-            <AppButton v-if="route.name !== 'SitePortfolio'" secondary class="shrink-0">
-              <router-link :to="{ name: 'SitePortfolio' }">View Portfolio</router-link>
-            </AppButton>
+            <router-link :to="{ name: 'SitePortfolio' }" class="shrink-0">
+              <AppButton v-if="route.name !== 'SitePortfolio'" secondary>
+                View Portfolio
+              </AppButton>
+            </router-link>
             <AppButton class="hidden lg:block shrink-0">Direct Contact</AppButton>
             <!-- Hamburger button for mobile view -->
             <div class="flex lg:hidden items-center text-primary" @click="showMobileMenu = !showMobileMenu">

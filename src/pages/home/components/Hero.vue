@@ -13,7 +13,9 @@
           Focus only on <span class="underlined-word">productivity</span> now
         </p>
         <div class="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-8 pt-14">
-          <AppButton class="fancy-btn">View Portfolio</AppButton>
+          <router-link :to="{ name: 'SitePortfolio' }">
+            <AppButton class="fancy-btn">View Portfolio</AppButton>
+          </router-link>
           <AppDropdown show-on-hover :options="['Account', 'Settings']">
             Explore our Gallery
           </AppDropdown>
