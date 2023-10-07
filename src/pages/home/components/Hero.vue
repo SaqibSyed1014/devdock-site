@@ -1,7 +1,9 @@
 <template>
   <header class="bg-sky pb-16 md:pb-20 pt-[155px]">
     <div class="intro-content container text-primary text-center">
-      <h1 class="text-4xl md:text-6xl lg:text-8xl flex flex-row flex-wrap gap-y-2 lg:gap-y-3 items-center justify-center font-semibold">
+      <h1
+          class="text-4xl md:text-6xl lg:text-8xl 2xl:text-9xl flex flex-row flex-wrap gap-y-2 lg:gap-y-3 items-center justify-center font-semibold 2xl:px-32"
+      >
         <span>Get</span>&nbsp;<span>your</span>&nbsp;<span>Personalized</span>
         <img src="/public/img/hire_01.png" alt="Hire 01" width="165" height="190" class="rounded-[100px] shrink-0 hidden lg:block mx-3">
         <img src="/public/img/hire_02.png" alt="Hire 02" width="165" height="190" class="rounded-[100px] shrink-0 hidden lg:block">

@@ -79,6 +79,9 @@
     "watchSyncEffect": true,
     "toValue": true,
     "useSeoMeta": true,
-    "WritableComputedRef": true
+    "WritableComputedRef": true,
+    "ExtractDefaultPropTypes": true,
+    "ExtractPropTypes": true,
+    "ExtractPublicPropTypes": true
   }
 }
