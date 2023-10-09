@@ -3,7 +3,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
       <div>
         <h3 class="text-3xl sm:text-5xl text-center lg:text-left font-medium text-primary !leading-normal">
-          Integrate your trust with
+          {{ trustHeading }}
           <span class="rounded-[100px] bg-primary px-5 text-white">{{ siteName }}</span>
         </h3>
         <div class="grid grid-cols-3 gap-5 pt-9">
@@ -23,5 +23,5 @@
 
 <script setup>
 import { siteName } from "@/core/constants/site-info";
-import { techStack } from "@/core/constants/home-view";
+import { techStack, trustHeading } from "@/core/constants/home-view";
 </script>

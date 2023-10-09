@@ -3,12 +3,11 @@
     <div class="container lg:mb-20">
       <div class="grid grid-rows-2 grid-cols-1 lg:grid-rows-1 lg:grid-cols-2 gap-2 lg:gap-5 text-primary">
         <p class="text-center lg:text-left sm:text-lg 2xl:text-xl">
-          We are a collaborative team. We do offer solid core values and a intention meant to provide solutions, a
-          dream come actual growth for the business.
+          {{ testimonailSection.description }}
         </p>
         <div>
           <p class="sm:text-base 2xl:text-xl pb-6">
-            Loved by clients around the world
+            {{ testimonailSection.text }}
           </p>
           <hr>
           <div class="flex flex-nowrap whitespace-normal overflow-hidden py-6">
@@ -69,7 +68,7 @@
 <script setup>
 import Parallaxy from '@lucien144/vue3-parallaxy';
 import VideoPlayer from '@/core/components/VideoPlayer.vue'
-import { clientLogos } from "@/core/constants/home-view";
+import { testimonailSection, clientLogos } from "@/core/constants/home-view";
 
 const playVideo = ref(false)
 

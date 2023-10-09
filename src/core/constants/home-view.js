@@ -1,5 +1,9 @@
 
-// Testimonials
+// Testimonials Section Constants
+export const testimonailSection = {
+    description: 'We are a collaborative team. We do offer solid core values and a intention meant to provide solutions, a dream come actual growth for the business.',
+    text: 'Loved by clients around the world'
+}
 export const clientLogos = [
     { name: 'shaoke.svg', alt: 'Shaoke' },
     { name: 'commkit.svg', alt: 'Commkit' },
@@ -8,7 +12,8 @@ export const clientLogos = [
     { name: 'firetrust.svg', alt: 'FireTrust' }
 ]
 
-// Trust
+// Trust Section Constants
+export const trustHeading = 'Integrate your trust with'
 export const techStack = [
     { name: 'reactjs.svg', alt: 'Reactjs' },
     { name: 'reactnative.svg', alt: 'React Native' },
@@ -21,6 +26,7 @@ export const techStack = [
 ]
 
 // Services Section Constants
+export const servicesHeading = 'works with Companies and supports startups in four critical ways.'
 export const servicesData = [
     { title: 'Design Research', desc: 'We understand that every client and project is unique. Our agency takes a personalized approach, tailoring our services to your specific needs and goals. This ensures that the final product aligns perfectly with your vision and objectives.', icon: 'capital.svg', alt: 'Settings Icon' },
     { title: 'Product Development', desc: 'As a renowned team of expert front-end, backend, and full stack developers, we tackle complex market challenges innovatively, pragmatically, and with a touch of unpredictability.', icon: 'software.svg', alt: 'Software Icon' },
@@ -72,6 +78,7 @@ export const featuresData = [
 ]
 
 // Review Section Constants
+export const reviewHeading = 'See what our founders are saying!'
 export const userReviews = [
     {
         color: 'calamansi',

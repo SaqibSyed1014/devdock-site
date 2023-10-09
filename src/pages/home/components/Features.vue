@@ -36,7 +36,6 @@
 
 <script setup>
 import { featuresData } from "@/core/constants/home-view";
-
 import { ScrollObserver, valueAtPercentage } from 'aatjs'
 
 onMounted(() => {

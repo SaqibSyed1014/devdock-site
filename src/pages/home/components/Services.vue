@@ -5,8 +5,8 @@
         <div class="w-full max-w-md px-2">
           <img src="/public/svg/arrow.svg" alt="Up Arrow">
           <h2 class="mb-8 text-white text-3xl md:text-5xl">
-            <span class="text-secondary">DevDock</span> works with Companies and
-            supports startups in four critical ways.
+            <span class="text-secondary">{{ siteName }}</span>
+            {{ servicesHeading }}
           </h2>
           <AppButton secondary>Direct Contact</AppButton>
         </div>
@@ -46,8 +46,9 @@
 </template>
 
 <script setup lang="ts">
+import { siteName } from "@/core/constants/site-info";
 import AppButton from "@/core/components/AppButton.vue";
-import { servicesData } from "@/core/constants/home-view";
+import { servicesData, servicesHeading } from "@/core/constants/home-view";
 </script>
 
 <style scoped>
