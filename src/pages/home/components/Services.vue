@@ -46,7 +46,6 @@
 </template>
 
 <script setup lang="ts">
-import { Icon } from '@iconify/vue';
 import AppButton from "@/core/components/AppButton.vue";
 import { servicesData } from "@/core/constants/home-view";
 </script>

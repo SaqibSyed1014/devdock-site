@@ -1,4 +1,24 @@
 
+// Testimonials
+export const clientLogos = [
+    { name: 'shaoke.svg', alt: 'Shaoke' },
+    { name: 'commkit.svg', alt: 'Commkit' },
+    { name: 'memee.svg', alt: 'MeMee' },
+    { name: 'blackburt.svg', alt: 'BlackBurt' },
+    { name: 'firetrust.svg', alt: 'FireTrust' }
+]
+
+// Trust
+export const techStack = [
+    { name: 'reactjs.svg', alt: 'Reactjs' },
+    { name: 'reactnative.svg', alt: 'React Native' },
+    { name: 'nodejs.svg', alt: 'Nodejs' },
+    { name: 'php.svg', alt: 'PHP' },
+    { name: 'vuejs.svg', alt: 'Vuejs' },
+    { name: 'flutter.svg', alt: 'Flutter' },
+    { name: 'swift.svg', alt: 'Swift' },
+    { name: 'tailwind.svg', alt: 'Tailwind CSS' },
+]
 
 // Services Section Constants
 export const servicesData = [

@@ -69,15 +69,9 @@
 <script setup>
 import Parallaxy from '@lucien144/vue3-parallaxy';
 import VideoPlayer from '@/core/components/VideoPlayer.vue'
+import { clientLogos } from "@/core/constants/home-view";
 
 const playVideo = ref(false)
-const clientLogos = [
-  { name: 'shaoke.svg', alt: 'Shaoke' },
-  { name: 'commkit.svg', alt: 'Commkit' },
-  { name: 'memee.svg', alt: 'MeMee' },
-  { name: 'blackburt.svg', alt: 'BlackBurt' },
-  { name: 'firetrust.svg', alt: 'FireTrust' }
-]
 
 watch(playVideo, (val) => {
   if (val) document.body.style.overflow = 'hidden'

@@ -9,7 +9,7 @@
             <router-link
                 class="sm:mx-2 my-1 md:mb-0 md:mt-0"
                 :to="{ name: 'SiteHome' }">
-              <img src="/public/svg/logo.svg" alt="DevDock Logo" class="w-[70%] sm:w-3/4">
+              <img :src="logoUrl" alt="DevDock Logo" class="w-[70%] sm:w-3/4">
             </router-link>
           </figure>
 
@@ -123,13 +123,13 @@ import AppButton from '@/core/components/AppButton.vue'
 import AppDropdown from "@/core/components/AppDropdown.vue"
 import VideoPlayer from '@/core/components/VideoPlayer.vue'
 import { useRoute } from 'vue-router'
-
+import { logoUrl } from "@/core/constants/site-info";
+import { menuLinks } from "@/core/constants/common";
 
 let showMobileMenu = ref(false)
 let playDemoVideo = ref(false)
 const route = useRoute()
 
-// Variables to track scroll position
 const scrollY = ref(window.scrollY);
 const isScrollingDown = ref(false);
 
@@ -137,7 +137,6 @@ watch(route, () => {
   if (showMobileMenu.value) showMobileMenu.value = false
 })
 
-// Function to handle scroll event
 const handleScroll = () => {
   if (!showMobileMenu.value && window.scrollY >= 450) {
     isScrollingDown.value = window.scrollY > scrollY.value;
@@ -145,52 +144,14 @@ const handleScroll = () => {
   }
 };
 
-// Attach and remove scroll event listeners
-onMounted(() => {
-  window.addEventListener('scroll', handleScroll);
-});
+onMounted(() => window.addEventListener('scroll', handleScroll))
 
-onBeforeUnmount(() => {
-  window.removeEventListener('scroll', handleScroll);
-})
+onBeforeUnmount(() => window.removeEventListener('scroll', handleScroll))
 
 watch(showMobileMenu, (val) => {
   if (val) document.body.style.overflow = 'hidden'
   else document.body.style.overflow = 'auto'
 })
-
-const menuLinks = [
-  {
-    label: 'Services',
-    hasSubLinks: true,
-    subLinks: [
-      { label: 'Account', pathName: 'SiteHome'  },
-      { label: 'Settings', pathName: 'SiteHome'  }
-    ]
-  },
-  {
-    label: 'Portfolio',
-    pathName: 'SitePortfolio',
-    hasSubLinks: false,
-    subLinks: []
-  },
-  {
-    label: 'Resources',
-    hasSubLinks: true,
-    subLinks: [
-      { label: 'Account', pathName: 'SiteHome'  },
-      { label: 'Settings', pathName: 'SiteHome'  }
-    ]
-  },
-  {
-    label: 'Company',
-    hasSubLinks: true,
-    subLinks: [
-      { label: 'Account', pathName: 'SiteHome'  },
-      { label: 'Settings', pathName: 'SiteHome'  }
-    ]
-  }
-]
 </script>
 
 <style scoped lang="scss">

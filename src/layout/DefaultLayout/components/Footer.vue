@@ -6,7 +6,8 @@
         <div class="flex items-center">
           <img class="hidden md:block" src="/svg/right_arrow.svg" alt="Arrow">
           <p class="text-center md:text-left text-primary font-medium text-xl sm:text-2xl md:text-[32px] md:pl-[15px]">
-            Help us spread the word and sell good vibes. Follow!</p>
+            {{ footerBannerHeading }}
+          </p>
         </div>
         <div class="flex mx-auto lg:mr-0 gap-4 text-primary">
           <div class="flex justify-center items-center rounded bg-white cursor-pointer w-10 h-10">
@@ -33,11 +34,11 @@
         <div class="col-span-1 lg:col-span-2">
           <label class="text-[15px] 2xl:text-xl">Email</label>
           <p class="text-xl 2xl:text-2xl md:text-extra font-bold pt-3 pb-6">
-            hello@devdock.com
+            {{ contactEmail }}
           </p>
           <label class="text-[15px] 2xl:text-xl">Whatsapp</label>
           <p class="text-xl 2xl:text-2xl md:text-extra font-bold pt-3">
-            +92 (331) 4709729
+            {{ contactNumber }}
           </p>
         </div>
         <div class="col-span-1">
@@ -73,7 +74,6 @@
           </div>
         </div>
       </div>
-
     </div>
 
     <hr class="border-t border-[#7EABA0]">
@@ -86,28 +86,25 @@
             <span class="cursor-pointer border-r-2 border-[#1F5346] pr-3 mr-3">Privacy Policy</span>
             <span class="cursor-pointer">Terms of Use</span>
           </div>
-          <span>© Copyright {{ currentDate.getFullYear() }} ConvrtX. All Rights Reserved.</span></div>
+          <span>© Copyright {{ currentDate.getFullYear() }} {{ siteName }}. All Rights Reserved.</span></div>
       </div>
     </div>
   </footer>
 </template>
 
 <script setup lang="ts">
-import { Icon } from '@iconify/vue';
-const companyLinks = ['About', 'Hire Us', 'Contact Us']
-const servicesLinks = ['Web Development', 'UI/UX', 'MVP Design', 'All Services']
-const resourcesLinks = ['Blog', 'Media Kit', 'All Time Reviews', 'Leave a review on Trust Pilot']
+import { siteName, contactEmail, contactNumber } from "@/core/constants/site-info"
+import {
+  footerBannerHeading,
+  companyLinks,
+  servicesLinks,
+  resourcesLinks
+} from "@/core/constants/common"
 
 const currentDate = new Date()
 </script>
 
 <style scoped lang="scss">
-.footer-banner{
-  /*background: url("/public/img/boxes_bg.png"), lightgray 0% 0% / 100px 100px repeat;*/
-  /*background-image: url("/public/img/boxes_bg.png");*/
-  /*background-repeat: no-repeat;*/
-  /*background-position: 100% 100%;*/
-}
 .CTO{
   width: 100%;
   height: 100%;
