@@ -18,6 +18,7 @@ module.exports = {
         secondary: '#BDEDFC',
         sky: '#EBFAFE',
         pink: '#FFA2EA',
+        orange: '#FF9256',
         lace: '#FFDEF7',
         water: '#D1F2FD',
         calamansi: '#FDFFAD',
@@ -68,7 +69,7 @@ module.exports = {
     require('@tailwindcss/forms'),
     iconsPlugin({
       // Collections: https://icones.js.org/
-      collections: getIconCollections(['mdi', 'ri', 'ph', 'solar']),
+      collections: getIconCollections(['mdi', 'ri', 'ph', 'bi', 'icon-park-outline', 'carbon', 'solar']),
     }),
   ],
 }

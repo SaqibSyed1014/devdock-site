@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import DefaultLayout from '@/layout/DefaultLayout/DefaultLayout.vue'
 import Home from '@/pages/home/HomeView.vue'
 import Portfolio from '@/pages/portfolio/PortfolioView.vue'
+import CaseStudy from '@/pages/CaseStudy/index.vue'
 
 const routes = [
   {
@@ -23,6 +24,11 @@ const routes = [
         path: '/portfolio',
         component: Portfolio,
         name: 'SitePortfolio'
+      },
+      {
+        path: '/case-study',
+        component: CaseStudy,
+        name: 'CaseStudy'
       }
     ]
   },
