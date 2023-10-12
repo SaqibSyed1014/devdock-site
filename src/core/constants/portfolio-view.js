@@ -86,10 +86,10 @@ export const pageFilters = [
     }
 ]
 
-const articleOne = {
-    heading: '',
-    text: ''
-}
+// const articleOne = {
+//     heading: '',
+//     text: ''
+// }
 
 export const highlightedText = 'Prioritize'
 export const pointsHeading = 'what truly counts; dismiss the unnecessary distractions and noise.'

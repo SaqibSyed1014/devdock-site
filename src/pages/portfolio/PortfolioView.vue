@@ -38,26 +38,14 @@
       </h2>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-10 pt-14">
-          <div
+          <template
               v-for="(content, i) in filteredContent"
-              :key="i" class="group cursor-pointer"
-          >
-            <img src="/public/svg/client_logo.svg" alt="Client Logo">
-            <div
-                class="project-image fancy-hover border border-dark-gray rounded hover:border-dark-gray/0 transition-all my-3 md:my-5"
-            >
-              <div class="overflow-hidden">
-                <img src="/public/img/mockup.png" alt="Project Mockup Image">
-              </div>
-            </div>
-            <p class="text-base md:text-xl 2xl:text-2xl font-medium pb-1 md:pb-1.5">
-              {{ content.desc }}
-            </p>
-            <span class="text-sm md:text-base text-base-gray 2xl:text-xl hover:text-pink transition cursor-pointer">
-              View Case Study
-            </span>
-          </div>
-        </div>
+              :key="i">
+            <AppPortfolioCard
+                :content="content"
+            />
+          </template>
+      </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 md:gap-5 pt-20 md:pt-14">
         <div class="flex flex-col text-center justify-center sm:px-10">
@@ -82,6 +70,7 @@
 
 <script setup>
 import AppButton from "@/core/components/AppButton.vue";
+import AppPortfolioCard from "@/core/components/AppPortfolioCard.vue";
 import { mainHeading, CTOSection, pageFilters } from "@/core/constants/portfolio-view";
 
 let filteredContent = ref(pageFilters?.flatMap(item => item.content))

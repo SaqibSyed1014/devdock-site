@@ -33,17 +33,17 @@
   </header>
 
   <div class="container py-10 md:py-20">
-    <div class="grid lg:grid-cols-3 gap-3 md:gap-10">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-3 md:gap-10">
       <div class="col-span-1 font-semibold">
         <small class="text-orange text-sm">ClIENT & BUSINESS CHALLENGE</small>
         <h5 class="text-primary text-3xl md:text-5xl md:leading-[64px]">
           “Connecting dots between all areas of life”
         </h5>
       </div>
-      <div class="col-span-2 lg:pl-14">
-        <p class="py-5">
-          Our client is a startup company based in the USA that improves the lives of
-          individuals with work-life integration.
+      <div class="col-span-2 lg:pl-14 lg:text-lg">
+        <p class="text-primary py-5">
+          <b>Our client is a startup company based in the USA that improves the lives of
+            individuals with work-life integration.</b>
         </p>
         <p>
           As a start-up, the client faced the difficult challenge of building a viable life
@@ -61,7 +61,7 @@
 
   <div class="bg-sky">
     <div class="container py-10 md:py-20">
-      <div class="grid lg:grid-cols-3 gap-3 md:gap-10">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-3 md:gap-10">
         <div class="col-span-1 font-semibold">
           <small class="text-orange text-sm">PROJECT DESCRIPTION</small>
           <h5 class="text-primary text-3xl md:text-5xl md:leading-[64px]">
@@ -70,7 +70,7 @@
             chaos into order”
           </h5>
         </div>
-        <div class="col-span-2 lg:pl-14">
+        <div class="col-span-2 lg:pl-14 lg:text-lg">
           <p class="py-5">
             The client collaborated with our team which were fully responsible for creating a
             viable product within a tight deadline. The main objectives of developing a web
@@ -104,12 +104,113 @@
         :cards-data="caseStudyPoints"
     />
   </div>
+
+  <div class="container py-10 md:py-20">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-3 md:gap-10">
+      <div class="col-span-1 font-semibold">
+        <small class="text-orange text-sm">Proposed changes</small>
+        <h5 class="text-primary text-3xl md:text-5xl md:leading-[64px]">
+          “How We Address the Solution”
+        </h5>
+      </div>
+      <div class="col-span-2 lg:pl-14 lg:text-lg">
+        <p class="py-5">
+          <strong>Our client is a startup company based in the USA that improves the lives of
+            individuals with work-life integration.</strong>
+        </p>
+        <p class="pb-8">The project solution involves a complete redesign of the product's home page and dashboard, focusing on
+          modern design, responsive layout, and intuitive user experience.</p>
+
+        <p>Overall, the project solution completely redesigned the product's home page and dashboard, focusing on
+          modern design, responsive layout, and intuitive user experience. The new design reflects the brand's values
+          and gives a feel of tarot reading while providing e-commerce functionality and a complete backend/admin
+          dashboard. In addition, the growth-driven design approach ensures that the website remains relevant and
+          effective in the future.</p>
+
+        <div class="pt-8">
+          <b class="text-2xl">Technology Stack</b>
+          <div class="flex items-center flex-wrap gap-5 py-5">
+            <div v-for="(stack, index) in stacks" :key="index" class="text-center">
+              <div class="w-14 h-14 bg-sky grid place-items-center p-2">
+                <img :src="`/img/stack/${stack.image}`" alt="Image">
+              </div>
+              <label class="text-xs">{{ stack.name }}</label>
+            </div>
+          </div>
+        </div>
+
+        <b class="text-2xl">Check this project:</b><br>
+        <AppButton class="my-5">
+          <span class="i-mdi-web w-5 h-5 mr-2" />
+          Web Url
+        </AppButton>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-sky mb-16 xss:mb-32 sm:mb-44 lg:mb-56 xl:mb-80">
+    <div class="container py-20 sm:py-32 md:py-40 lg:py-56 relative">
+      <div class="w-full mx-auto absolute top-1/3 md:top-1/4 left-1/2 -translate-x-2/4 px-5 md:px-0">
+        <img src="/img/template.png" alt="Case Study Image">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="grid grid-cols-1 lg:grid-cols-2 md:gap-5 pt-20">
+      <div class="flex flex-col text-center justify-center sm:px-10">
+        <h4 class="text-3xl md:text-4xl 2xl:text-5xl font-bold w-3/4 md:w-2/4 mx-auto">
+          Ready to Elevate Your Project? Let's Talk!
+        </h4>
+        <div class="py-8">
+          <img class="mx-auto" src="/public/svg/curve.svg" alt="Curve Underline">
+        </div>
+        <p class="text-base md:text-xl 2xl:text-2xl">Our experienced team is ready to listen to your needs, provide
+          valuable insights, and tailor a customized solution that perfectly fits your goals.</p>
+        <div>
+          <AppButton class="mt-10">Direct Contact</AppButton>
+        </div>
+      </div>
+      <div>
+        <img src="/public/img/meeting.png" alt="Client Meeting">
+      </div>
+    </div>
+
+    <div class="py-10 md:py-28">
+      <h3 class="text-primary text-4xl md:text-6xl font-semibold text-center">
+        Explore Similar Endeavors
+      </h3>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-10 pt-20">
+        <template
+            v-for="(content, i) in pageFilters[1].content"
+            :key="i"
+        >
+          <AppPortfolioCard
+              :content="content"
+          />
+        </template>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script setup>
 import AppVideoPreview from "@/core/components/AppVideoPreview.vue";
 import SectionWithFourBoxes from "@/core/components/SectionWithFourBoxes.vue"
+import AppPortfolioCard from "@/core/components/AppPortfolioCard.vue";
 import { highlightedText, pointsHeading, caseStudyPoints } from "@/core/constants/portfolio-view";
+import { pageFilters } from "@/core/constants/portfolio-view";
+import AppButton from "@/core/components/AppButton.vue";
+
+const stacks = [
+  { name: 'PHP', image: 'php.svg' },
+  { name: 'Flutter', image: 'flutter.svg' },
+  { name: 'Reactjs', image: 'reactjs.svg' },
+  { name: 'Swift', image: 'swift.svg' },
+  { name: 'Vuejs', image: 'vuejs.svg' },
+  { name: 'Nodejs', image: 'nodejs.svg' },
+]
 </script>
 
 <style scoped>

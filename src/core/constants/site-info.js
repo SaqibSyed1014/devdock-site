@@ -1,6 +1,6 @@
 export const siteName = 'Dev Dock'
 
-export const logoUrl = '/public/svg/logo.svg'
+export const logoUrl = '/svg/logo.svg'
 
 export const contactEmail = 'hello@devdock.com'
 

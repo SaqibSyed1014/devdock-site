@@ -8,6 +8,7 @@
     "PropType": true,
     "Ref": true,
     "VNode": true,
+    "WritableComputedRef": true,
     "acceptHMRUpdate": true,
     "computed": true,
     "createApp": true,
@@ -62,6 +63,7 @@
     "toRaw": true,
     "toRef": true,
     "toRefs": true,
+    "toValue": true,
     "triggerRef": true,
     "unref": true,
     "useAttrs": true,
@@ -71,14 +73,12 @@
     "useLink": true,
     "useRoute": true,
     "useRouter": true,
+    "useSeoMeta": true,
     "useSlots": true,
     "useStore": true,
     "watch": true,
     "watchEffect": true,
     "watchPostEffect": true,
-    "watchSyncEffect": true,
-    "toValue": true,
-    "useSeoMeta": true,
-    "WritableComputedRef": true
+    "watchSyncEffect": true
   }
 }

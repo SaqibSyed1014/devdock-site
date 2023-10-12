@@ -5,7 +5,7 @@
       class="inline-block rounded py-3 sm:py-3.5 px-4 md:px-[22px] 2xl:px-7 text-sm 2xl:text-lg font-medium leading-normal"
   >
     <span class="btn-bg" />
-    <span class="btn-label">
+    <span class="btn-label flex justify-center items-center">
       <slot/>
     </span>
   </button>
@@ -27,7 +27,6 @@ button{
   position: relative;
 
   .btn-label{
-    display: inline-block;
     isolation: isolate;
     transition: transform .5s cubic-bezier(.19,1,.22,1);
   }
