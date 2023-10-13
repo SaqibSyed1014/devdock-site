@@ -148,13 +148,7 @@
     </div>
   </div>
 
-  <div class="bg-sky mb-16 xss:mb-32 sm:mb-44 lg:mb-56 xl:mb-80">
-    <div class="container py-20 sm:py-32 md:py-40 lg:py-56 relative">
-      <div class="w-full mx-auto absolute top-1/3 md:top-1/4 left-1/2 -translate-x-2/4 px-5 md:px-0">
-        <img src="/img/template.png" alt="Case Study Image">
-      </div>
-    </div>
-  </div>
+  <CaseStudySlider />
 
   <div class="container">
     <div class="grid grid-cols-1 lg:grid-cols-2 md:gap-5 pt-20">
@@ -197,11 +191,12 @@
 
 <script setup>
 import AppVideoPreview from "@/core/components/AppVideoPreview.vue";
-import SectionWithFourBoxes from "@/core/components/SectionWithFourBoxes.vue"
+import SectionWithFourBoxes from "@/core/components/SectionWithFourBoxes.vue";
 import AppPortfolioCard from "@/core/components/AppPortfolioCard.vue";
 import { highlightedText, pointsHeading, caseStudyPoints } from "@/core/constants/portfolio-view";
 import { pageFilters } from "@/core/constants/portfolio-view";
 import AppButton from "@/core/components/AppButton.vue";
+import CaseStudySlider from "@/pages/CaseStudy/components/CaseStudySlider.vue";
 
 const stacks = [
   { name: 'PHP', image: 'php.svg' },
