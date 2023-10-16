@@ -13,18 +13,18 @@
             >
               <SwiperSlide>
                 <AppImageComparison
-                    before-image="/img/template-BW.png"
-                    after-image="/img/template.png"
+                    before-image="/img/template-BW.webp"
+                    after-image="/img/template.webp"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <div class="">
-                  <img src="/img/template.png" alt="Case Study Image">
+                  <img src="/img/template.webp" alt="Case Study Image">
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div class="">
-                  <img src="/img/template.png" alt="Case Study Image">
+                  <img src="/img/template.webp" alt="Case Study Image">
                 </div>
               </SwiperSlide>
             </Swiper>
@@ -52,7 +52,6 @@
 import { Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import AppImageComparison from "@/core/components/AppImageComparison.vue";
-import 'swiper/css';
 import 'swiper/css/bundle'
 
 const modules = [Navigation]

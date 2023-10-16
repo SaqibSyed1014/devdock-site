@@ -112,10 +112,9 @@ main {
 }
 
 .slider-container {
-  display: grid;
-  place-content: center;
   position: relative;
   overflow: hidden;
+  width: 100%;
   --position: 50%;
 }
 

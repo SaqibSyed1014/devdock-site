@@ -61,7 +61,7 @@
           </div>
         </div>
         <div>
-          <img src="/public/img/meeting.png" alt="Client Meeting">
+          <img src="/img/meeting.webp" alt="Client Meeting">
         </div>
       </div>
     </div>

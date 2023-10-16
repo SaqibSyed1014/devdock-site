@@ -112,7 +112,7 @@ const currentDate = new Date()
   top: 0;
   left: 0;
   background-color: #FFDEF7;
-  background-image: url("/img/boxes_bg.png");
+  background-image: url("/img/boxes_bg.webp");
   background-position: 50%;
   background-repeat: repeat;
   background-size: auto 100%;

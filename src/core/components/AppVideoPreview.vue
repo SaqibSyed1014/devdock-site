@@ -2,9 +2,9 @@
   <div class="video-banner px-3 md:px-5">
     <div class="video-container relative cursor-pointer rounded-lg rounded-xl lg:rounded-[40px] overflow-hidden">
       <div class="flex flex-col justify-center">
-        <img class="block lg:hidden" src="/public/img/rocket.png" alt="Rocket">
+        <img fetchpriority="high" class="block lg:hidden" src="/img/rocket.webp" alt="Rocket">
         <Parallaxy class="hidden lg:block" :speed="80" direction="opposite">
-          <img class="parallax-effect" src="/public/img/rocket.png" alt="Rocket">
+          <img fetchpriority="high" class="parallax-effect" src="/img/rocket.webp" alt="Rocket">
         </Parallaxy>
       </div>
       <div class="content-wrapper absolute left-3 md:left-10 top-0 flex flex-col justify-between h-full py-4 md:py-10">

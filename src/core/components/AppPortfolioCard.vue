@@ -8,7 +8,7 @@
           class="project-image fancy-hover border border-dark-gray rounded hover:border-dark-gray/0 transition-all my-3 md:my-5"
       >
         <div class="overflow-hidden">
-          <img src="/public/img/mockup.png" alt="Project Mockup Image">
+          <img src="/img/mockup.webp" alt="Project Mockup Image">
         </div>
       </div>
     </router-link>
