@@ -7,13 +7,15 @@
             <Swiper
                 :slides-per-view="1"
                 :space-between="50"
+                :allow-touch-move="false"
                 :modules="modules"
                 :navigation="swiperOptions.navigation"
             >
               <SwiperSlide>
-                <div class="">
-                  <img src="/img/template.png" alt="Case Study Image">
-                </div>
+                <AppImageComparison
+                    before-image="/img/template-BW.png"
+                    after-image="/img/template.png"
+                />
               </SwiperSlide>
               <SwiperSlide>
                 <div class="">
@@ -49,6 +51,7 @@
 <script setup>
 import { Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/vue';
+import AppImageComparison from "@/core/components/AppImageComparison.vue";
 import 'swiper/css';
 import 'swiper/css/bundle'
 
