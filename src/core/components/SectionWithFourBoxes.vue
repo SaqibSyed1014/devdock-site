@@ -2,7 +2,7 @@
   <section class="section-container bg-primary">
     <div class="grid grid-cols-1 lg:grid-cols-2">
       <div class="flex items-center justify-center py-24 md:py-[149px]">
-        <div class="w-full max-w-md px-2">
+        <div class="w-full lg:w-3/4 px-3 md:px-0 lg:px-8">
           <img src="/svg/arrow.svg" alt="Up Arrow">
           <h3 class="mb-8 text-white text-3xl md:text-5xl">
             <span class="text-secondary">{{ highlightedText }}</span>
