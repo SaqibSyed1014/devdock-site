@@ -9,7 +9,7 @@
             <router-link
                 class="sm:mx-2 my-1 md:mb-0 md:mt-0"
                 :to="{ name: 'SiteHome' }">
-              <img src="/public/svg/logo.svg" alt="DevDock Logo" class="w-[70%] sm:w-3/4">
+              <img :src="logoUrl" alt="DevDock Logo" class="w-[70%] sm:w-3/4">
             </router-link>
           </figure>
 
@@ -22,7 +22,7 @@
                 <AppDropdown show-hover-color :options="['Account', 'Settings']">Services</AppDropdown>
               </li>
               <li class="cursor-pointer px-4 hover:text-pink transition">
-                <router-link :to="{ name: 'SitePortfolio' }">Portfolio</router-link>
+                <router-link active-class="text-pink" :to="{ name: 'SitePortfolio' }">Portfolio</router-link>
               </li>
               <li>
                 <AppDropdown show-hover-color :options="['Account', 'Settings']">Resources</AppDropdown>
@@ -34,9 +34,11 @@
           </div>
 
           <div class="flex items-center gap-3 sm:gap-2 md:gap-5">
-            <AppButton v-if="route.name !== 'SitePortfolio'" secondary class="shrink-0">
-              <router-link :to="{ name: 'SitePortfolio' }">View Portfolio</router-link>
-            </AppButton>
+            <router-link :to="{ name: 'SitePortfolio' }" class="shrink-0">
+              <AppButton v-if="route.name !== 'SitePortfolio'" secondary>
+                View Portfolio
+              </AppButton>
+            </router-link>
             <AppButton class="hidden lg:block shrink-0">Direct Contact</AppButton>
             <!-- Hamburger button for mobile view -->
             <div class="flex lg:hidden items-center text-primary" @click="showMobileMenu = !showMobileMenu">
@@ -92,7 +94,7 @@
 
             <div class="nav-image transition relative pt-3 mb-40">
               <div class="nav-image-container overflow-hidden rounded-2xl">
-                <img src="/public/img/rocket.png" alt="Rocket" :class="[showMobileMenu? 'zoom-in':'zoom-out']">
+                <img src="/public/img/rocket.webp" alt="Rocket" :class="[showMobileMenu? 'zoom-in':'zoom-out']">
               </div>
               <div class="absolute top-[50%] left-[50%] -translate-y-2/4 -translate-x-2/4">
                 <button
@@ -121,13 +123,13 @@ import AppButton from '@/core/components/AppButton.vue'
 import AppDropdown from "@/core/components/AppDropdown.vue"
 import VideoPlayer from '@/core/components/VideoPlayer.vue'
 import { useRoute } from 'vue-router'
-
+import { logoUrl } from "@/core/constants/site-info";
+import { menuLinks } from "@/core/constants/common";
 
 let showMobileMenu = ref(false)
 let playDemoVideo = ref(false)
 const route = useRoute()
 
-// Variables to track scroll position
 const scrollY = ref(window.scrollY);
 const isScrollingDown = ref(false);
 
@@ -135,7 +137,6 @@ watch(route, () => {
   if (showMobileMenu.value) showMobileMenu.value = false
 })
 
-// Function to handle scroll event
 const handleScroll = () => {
   if (!showMobileMenu.value && window.scrollY >= 450) {
     isScrollingDown.value = window.scrollY > scrollY.value;
@@ -143,57 +144,19 @@ const handleScroll = () => {
   }
 };
 
-// Attach and remove scroll event listeners
-onMounted(() => {
-  window.addEventListener('scroll', handleScroll);
-});
+onMounted(() => window.addEventListener('scroll', handleScroll))
 
-onBeforeUnmount(() => {
-  window.removeEventListener('scroll', handleScroll);
-})
+onBeforeUnmount(() => window.removeEventListener('scroll', handleScroll))
 
 watch(showMobileMenu, (val) => {
   if (val) document.body.style.overflow = 'hidden'
   else document.body.style.overflow = 'auto'
 })
-
-const menuLinks = [
-  {
-    label: 'Services',
-    hasSubLinks: true,
-    subLinks: [
-      { label: 'Account', pathName: 'SiteHome'  },
-      { label: 'Settings', pathName: 'SiteHome'  }
-    ]
-  },
-  {
-    label: 'Portfolio',
-    pathName: 'SitePortfolio',
-    hasSubLinks: false,
-    subLinks: []
-  },
-  {
-    label: 'Resources',
-    hasSubLinks: true,
-    subLinks: [
-      { label: 'Account', pathName: 'SiteHome'  },
-      { label: 'Settings', pathName: 'SiteHome'  }
-    ]
-  },
-  {
-    label: 'Company',
-    hasSubLinks: true,
-    subLinks: [
-      { label: 'Account', pathName: 'SiteHome'  },
-      { label: 'Settings', pathName: 'SiteHome'  }
-    ]
-  }
-]
 </script>
 
 <style scoped lang="scss">
 nav{
-  font-family: Inter;
+  font-family: Inter, sans-serif;
 }
 .pushed-up {
   transform: translateY(-100%);

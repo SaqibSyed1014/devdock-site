@@ -36,11 +36,9 @@
 
 <script setup>
 import { featuresData } from "@/core/constants/home-view";
-
 import { ScrollObserver, valueAtPercentage } from 'aatjs'
 
 onMounted(() => {
-
   const cardsContainer = document.querySelector('.feature-cards')
   const cards = document.querySelectorAll('.feature-card')
   cardsContainer?.style.setProperty('--cards-count', cards.length)
@@ -66,24 +64,6 @@ onMounted(() => {
       })
     })
   })
-
-
-  // Add an event listener to watch for scroll events
-  // Apply the scale transformation to the element
-
-  // ScrollTrigger.create({
-  //   trigger: '.blue-box',
-  //   start: 'top bottom', // Adjust the trigger start position as needed
-  //   end: 'bottom bottom', // Adjust the trigger end position as needed
-  //   scrub: true, // Enables scrubbing for smooth scrolling
-  //   markers: true,
-  //   onUpdate: (self) => {
-  //     const progress = self.progress;
-  //     const scaleFactor = 1 - progress * 0.2; // Adjust the factor as needed
-  //     tl.to(elementToAnimate.value, { scale: scaleFactor });
-  //   },
-  //   toggleClass: 'scrolling-up', // Add a class when scrolling up
-  // });
 });
 </script>
 
