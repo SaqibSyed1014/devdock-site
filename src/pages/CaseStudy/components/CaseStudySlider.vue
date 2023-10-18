@@ -18,14 +18,16 @@
                 />
               </SwiperSlide>
               <SwiperSlide>
-                <div class="">
-                  <img src="/img/template.webp" alt="Case Study Image">
-                </div>
+                <AppImageComparison
+                    before-image="/img/template-BW.webp"
+                    after-image="/img/template.webp"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <div class="">
-                  <img src="/img/template.webp" alt="Case Study Image">
-                </div>
+                <AppImageComparison
+                    before-image="/img/template-BW.webp"
+                    after-image="/img/template.webp"
+                />
               </SwiperSlide>
             </Swiper>
 

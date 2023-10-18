@@ -8,7 +8,7 @@
         <img src="/img/hire_01.webp" alt="Hire 01" width="165" height="190" class="rounded-[100px] shrink-0 hidden lg:block mx-3">
         <img src="/img/hire_02.webp" alt="Hire 02" width="165" height="190" class="rounded-[100px] shrink-0 hidden lg:block">
         &nbsp;<span>Development</span>&nbsp;<span>Services</span>&nbsp; <span>Under</span>&nbsp;<span>1 Roof</span>&nbsp;
-        <img src="/img/hand.png" alt="Hand" class="w-[20%] md:w-2/12 rounded-[100px] shrink-0">
+        <img src="/svg/connect_hand.svg" alt="Hand" class="w-[20%] md:w-2/12 rounded-[100px] shrink-0">
       </h1>
       <div class="pt-10">
         <p class="text-lg lg:text-2xl">
