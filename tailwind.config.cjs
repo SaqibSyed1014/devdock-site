@@ -57,7 +57,8 @@ module.exports = {
         '6.2xl': '62px'
       },
       borderRadius: {
-        '5xl': '40px'
+        '5xl': '40px',
+        'curved': '100px'
       }
     },
     container: {
