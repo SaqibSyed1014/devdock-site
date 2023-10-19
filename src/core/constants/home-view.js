@@ -83,7 +83,7 @@ export const userReviews = [
     {
         color: 'calamansi',
         name: 'hen (Stone) Shi',
-        avatar: 'shaoke_ceo.png',
+        avatar: 'shaoke_ceo.webp',
         desc: 'Shaoke Logistics - CEO',
         logo: 'shaoke.svg',
         review: 'I am shocked that dev dock process is super simple, and he provides proper results even though my internee manager has no problem understanding it.'
@@ -91,7 +91,7 @@ export const userReviews = [
     {
         color: 'lace',
         name: 'Hammad Afridi',
-        avatar: 'commkit_ceo.png',
+        avatar: 'commkit_ceo.webp',
         desc: 'Manager at Commkit',
         logo: 'commkit.svg',
         review: 'Very professional. Respond well on the needs of the client. Efficient and reliable in delivering output.'
@@ -99,7 +99,7 @@ export const userReviews = [
     {
         color: 'water',
         name: 'Micheal McNair',
-        avatar: 'spotswap_ceo.png',
+        avatar: 'spotswap_ceo.webp',
         desc: 'Founder of SpotSwap',
         logo: 'spotswap.svg',
         review: 'Excellent work on the website coding, fully responsive and was very co operative in terms of making further changes after the first revision. Will be working soon again.'

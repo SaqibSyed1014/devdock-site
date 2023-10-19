@@ -26,8 +26,8 @@
       </div>
     </div>
     <AppVideoPreview
-        :show-btn="false"
-        :show-preview-heading="false"
+        :show-btn="true"
+        :show-preview-heading="true"
     />
   </section>
 </template>

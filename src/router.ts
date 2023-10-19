@@ -4,6 +4,7 @@ import DefaultLayout from '@/layout/DefaultLayout/DefaultLayout.vue'
 import Home from '@/pages/home/HomeView.vue'
 import Portfolio from '@/pages/portfolio/PortfolioView.vue'
 import CaseStudy from '@/pages/CaseStudy/index.vue'
+import ContactUs from '@/pages/ContactUs/index.vue'
 
 const routes = [
   {
@@ -29,6 +30,11 @@ const routes = [
         path: '/case-study',
         component: CaseStudy,
         name: 'CaseStudy'
+      },
+      {
+        path: '/contact-us',
+        component: ContactUs,
+        name: 'ContactUs'
       }
     ]
   },

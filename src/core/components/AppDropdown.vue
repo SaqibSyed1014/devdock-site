@@ -37,11 +37,20 @@
           class="absolute flex flex-col gap-1 z-[100] bg-white w-full overflow-hidden left-0 px-3 pb-3 pt-2 origin-top-right rounded-b border-[1px] border-t-0 focus:outline-none"
       >
         <MenuItem v-for="(option, index) in options" :key="index">
+
           <div
               class="menu-option text-gray-400 hover:text-primary transition text-sm 2xl:text-base hover:bg-transparent cursor-pointer"
               :style="{ '--index': index }"
           >
-            {{ option }}
+            <router-link
+                v-if="option?.pathName"
+                :to="{ name: option.pathName }"
+                active-class="text-pink"
+            >
+              {{ option?.label }}
+            </router-link>
+            <span v-else>{{ option?.label }}</span>
+
           </div>
         </MenuItem>
       </MenuItems>
@@ -51,7 +60,7 @@
 
 <script setup lang="ts">
 import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
-import {defineProps} from "vue";
+
 const props = defineProps({
   options: {
     type: Array,

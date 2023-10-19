@@ -18,17 +18,21 @@
             <ul
                 class="list-style-none mr-auto flex flex-col items-center pl-0 md:mt-1 md:flex-row gap-6 text-[15px] 2xl:text-lg font-medium"
             >
-              <li>
-                <AppDropdown show-hover-color :options="['Account', 'Settings']">Services</AppDropdown>
-              </li>
-              <li class="cursor-pointer px-4 hover:text-pink transition">
-                <router-link active-class="text-pink" :to="{ name: 'SitePortfolio' }">Portfolio</router-link>
-              </li>
-              <li>
-                <AppDropdown show-hover-color :options="['Account', 'Settings']">Resources</AppDropdown>
-              </li>
-              <li>
-                <AppDropdown show-hover-color :options="['Account', 'Settings']">Company</AppDropdown>
+              <li v-for="(link, index) in menuLinks" :key="index">
+                <AppDropdown
+                    v-if="link.hasSubLinks"
+                    show-hover-color
+                    :options="link.subLinks"
+                >
+                  {{ link.label }}
+                </AppDropdown>
+                <router-link
+                    v-else
+                    active-class="text-pink"
+                    :to="{ name: link.pathName }"
+                >
+                  {{ link.label }}
+                </router-link>
               </li>
             </ul>
           </div>
