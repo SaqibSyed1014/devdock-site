@@ -4,22 +4,22 @@
       <h1
           class="hero-message hidden lg:flex text-7xl 2xl:text-8xl gap-3 font-semibold 2xl:px-40"
       >
-        <span class="flex items-center">
+        <span class="flex items-center slide-in-text" :style="{ '--delay': 1.5 }">
           <span>Get your Personalized</span>
           <img src="/img/hire_01.webp" alt="Hire 01" width="165" height="190" class="rounded-curved ml-4">
         </span>
-        <span>
-          <img src="/img/hire_02.webp" alt="Hire 02" width="165" height="90" class="rounded-curved">
+        <span class="flex items-center slide-in-text" :style="{ '--delay': 2 }">
+          <img src="/img/hire_02.webp" alt="Hire 02" width="165" height="90" class="rounded-curved mr-4">
           Development Services
         </span>
-        <span>
+        <span class="flex items-center slide-in-text" :style="{ '--delay': 2.3 }">
           Under 1 Roof
           <img src="/svg/connect_hand.svg" alt="Hand" width="165" height="190" class="ml-3">
         </span>
       </h1>
       <h1 class="block lg:hidden text-4xl md:text-6xl font-semibold">
         Get your Personalized Development Services Under 1 Roof
-        <img src="/svg/connect_hand.svg" alt="Hand" class="inline-block w-1/4">
+        <img src="/svg/connect_hand.svg" alt="Hand" class="inline-block align-bottom w-1/4 xss:w-2/12">
       </h1>
       <div class="pt-10">
         <p class="text-lg lg:text-2xl">
@@ -44,6 +44,11 @@ import AppDropdown from "@/core/components/AppDropdown.vue";
 </script>
 
 <style scoped lang="scss">
+.slide-in-text{
+  animation: slideIn calc(var(--delay)*.65s) cubic-bezier(.215,.61,.355,1),
+  shadowSlideOut calc(var(--delay)*.65s) cubic-bezier(.215,.61,.355,1);
+}
+
 .hero-message{
   flex-wrap: wrap;
   align-items: center;

@@ -1,22 +1,20 @@
 <template>
     <nav
-        class="nav-container w-full items-center h-20 md:h-[90px] flex items-center z-30"
+        class="nav-container w-full h-20 md:h-[90px] flex items-center z-30"
         :class="[showMobileMenu ? 'bg-white' : 'bg-sky', isScrollingDown ? 'nav-hidden' : 'nav-fixed']"
     >
       <div class="container">
-        <div class="flex items-center justify-between grow">
-          <figure>
+        <div class="flex items-center justify-between">
             <router-link
-                class="sm:mx-2 my-1 md:mb-0 md:mt-0"
+                class="my-1 md:mb-0 md:mt-0"
                 :to="{ name: 'SiteHome' }">
-              <img :src="logoUrl" alt="DevDock Logo" class="w-[70%] sm:w-3/4">
+              <img :src="logoUrl" alt="DevDock Logo">
             </router-link>
-          </figure>
 
           <!-- Collapsible navbar container -->
-          <div class="hidden lg:flex items-center flex-grow basis-[100%] md:basis-auto md:mt-0 mt-2">
+          <div class="hidden lg:flex items-center flex-grow basis-[100%] md:basis-auto md:mt-0 mt-2 ml-5 xl:ml-10">
             <ul
-                class="list-style-none mr-auto flex flex-col items-center pl-0 md:mt-1 md:flex-row gap-6 text-[15px] 2xl:text-lg font-medium"
+                class="list-style-none mr-auto flex flex-col items-center pl-0 mt-1 md:flex-row gap-3 xl:gap-5 text-base 2xl:text-lg font-medium"
             >
               <li v-for="(link, index) in menuLinks" :key="index">
                 <AppDropdown
@@ -29,6 +27,7 @@
                 <router-link
                     v-else
                     active-class="text-pink"
+                    class="px-3"
                     :to="{ name: link.pathName }"
                 >
                   {{ link.label }}

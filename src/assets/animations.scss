@@ -33,6 +33,32 @@
   }
 }
 
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    text-shadow: -17px 2px 0 #ffa2ea;
+    transform: translateX(100px)
+  }
+
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 #ffa2ea;
+    transform: translateX(0)
+  }
+}
+
+@keyframes shadowSlideOut {
+  0% {
+    opacity: 0;
+    text-shadow: -50px 2px 0 #ffa2ea;
+  }
+
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 #ffa2ea;
+  }
+}
+
 .fade-enter-active,
 .fade-leave-active {
   transition: all .4s cubic-bezier(.19,1,.22,1) .1s;

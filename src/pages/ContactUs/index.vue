@@ -48,13 +48,14 @@ import AppButton from "@/core/components/AppButton.vue";
           </p>
           <strong class="follow-prompt text-xl pt-5">Follow Us!</strong>
 
-          <div class="social-links flex items-center gap-5 pt-3">
+          <div class="social-links flex items-center gap-5 pb-5 pt-3">
             <span class="i-mdi-twitter w-6 h-6" />
             <span class="i-uil-facebook w-6 h-6" />
             <span class="i-mdi-linkedin w-6 h-6" />
             <span class="i-uil-instagram w-6 h-6" />
           </div>
 
+          <strong class="text-xl">Our Experts</strong>
           <div class="team-members flex flex-wrap items-center gap-5 pt-6">
             <template v-for="(member, index) in teamMembers" :key="index">
               <AppAvatar
