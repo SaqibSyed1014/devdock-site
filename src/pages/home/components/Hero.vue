@@ -2,13 +2,24 @@
   <header class="bg-sky pb-16 md:pb-20 pt-[155px]">
     <div class="intro-content container text-primary text-center">
       <h1
-          class="text-4xl md:text-6xl lg:text-8xl 2xl:text-9xl flex flex-row flex-wrap gap-y-2 lg:gap-y-3 items-center justify-center font-semibold 2xl:px-32"
+          class="hero-message hidden lg:flex text-7xl 2xl:text-8xl gap-3 font-semibold 2xl:px-40"
       >
-        <span>Get</span>&nbsp;<span>your</span>&nbsp;<span>Personalized</span>
-        <img src="/img/hire_01.webp" alt="Hire 01" width="165" height="190" class="rounded-[100px] shrink-0 hidden lg:block mx-3">
-        <img src="/img/hire_02.webp" alt="Hire 02" width="165" height="190" class="rounded-[100px] shrink-0 hidden lg:block">
-        &nbsp;<span>Development</span>&nbsp;<span>Services</span>&nbsp; <span>Under</span>&nbsp;<span>1 Roof</span>&nbsp;
-        <img src="/svg/connect_hand.svg" alt="Hand" class="w-[20%] md:w-2/12 rounded-[100px] shrink-0">
+        <span class="flex items-center">
+          <span>Get your Personalized</span>
+          <img src="/img/hire_01.webp" alt="Hire 01" width="165" height="190" class="rounded-curved ml-4">
+        </span>
+        <span>
+          <img src="/img/hire_02.webp" alt="Hire 02" width="165" height="90" class="rounded-curved">
+          Development Services
+        </span>
+        <span>
+          Under 1 Roof
+          <img src="/svg/connect_hand.svg" alt="Hand" width="165" height="190" class="ml-3">
+        </span>
+      </h1>
+      <h1 class="block lg:hidden text-4xl md:text-6xl font-semibold">
+        Get your Personalized Development Services Under 1 Roof
+        <img src="/svg/connect_hand.svg" alt="Hand" class="inline-block w-1/4">
       </h1>
       <div class="pt-10">
         <p class="text-lg lg:text-2xl">
@@ -33,6 +44,15 @@ import AppDropdown from "@/core/components/AppDropdown.vue";
 </script>
 
 <style scoped lang="scss">
+.hero-message{
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  img{
+    display: inline-block;
+    flex-shrink: 0;
+  }
+}
 .fancy-btn{
   position: relative;
   &::before{
