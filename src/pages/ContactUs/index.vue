@@ -36,9 +36,9 @@ import AppButton from "@/core/components/AppButton.vue";
         <h1 class="block md:hidden text-3xl sm:text-4xl font-semibold">
           {{ sectionData.heading[0] }} {{ sectionData.heading[1] }}
         </h1>
-        <div class="text-md md:text-lg py-3">
+        <div class="text-md md:text-lg 2xl:text-xl py-3">
           <p class="pb-5">{{ sectionData.text }}</p>
-          <strong class="text-xl">Address</strong>
+          <strong class="text-xl 2xl:text-2xl">Address</strong>
           <address class="py-3 not-italic">
             {{ sectionData.address }}
           </address>
@@ -46,16 +46,16 @@ import AppButton from "@/core/components/AppButton.vue";
             Say👋 at
             <a :href="`mail:${contactEmail}`">{{ contactEmail }}</a>
           </p>
-          <strong class="follow-prompt text-xl pt-5">Follow Us!</strong>
+          <strong class="follow-prompt text-xl 2xl:text-2xl pt-5">Follow Us!</strong>
 
           <div class="social-links flex items-center gap-5 pb-5 pt-3">
-            <span class="i-mdi-twitter w-6 h-6" />
-            <span class="i-uil-facebook w-6 h-6" />
-            <span class="i-mdi-linkedin w-6 h-6" />
-            <span class="i-uil-instagram w-6 h-6" />
+            <span class="i-mdi-twitter w-6 h-6 2xl:w-10 2xl:h-10" />
+            <span class="i-uil-facebook w-6 h-6 2xl:w-10 2xl:h-10" />
+            <span class="i-mdi-linkedin w-6 h-6 2xl:w-10 2xl:h-10" />
+            <span class="i-uil-instagram w-6 h-6 2xl:w-10 2xl:h-10" />
           </div>
 
-          <strong class="text-xl">Our Experts</strong>
+          <strong class="text-xl 2xl:text-2xl">Our Experts</strong>
           <div class="team-members flex flex-wrap items-center gap-5 pt-6">
             <template v-for="(member, index) in teamMembers" :key="index">
               <AppAvatar
@@ -75,10 +75,10 @@ import AppButton from "@/core/components/AppButton.vue";
           </Parallaxy>
 
           <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-3/4 text-white text-center">
-            <h3 class="uppercase text-3xl md:text-5xl font-semibold">
+            <h3 class="uppercase text-3xl 2xl:text-4xl md:text-5xl font-semibold">
               {{ sectionData.asideSection.heading }}
             </h3>
-            <p class="text-lg md:text-xl pb-8">
+            <p class="text-lg md:text-xl 2xl:text-2xl pb-8">
               {{ sectionData.asideSection.text }}
             </p>
             <AppButton>Direct Contact</AppButton>
