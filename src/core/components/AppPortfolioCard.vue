@@ -13,7 +13,7 @@
       </div>
     </router-link>
 
-    <p class="text-base md:text-xl 2xl:text-2xl font-medium pb-1 md:pb-1.5">
+    <p class="description-text text-base md:text-xl 2xl:text-2xl font-medium pb-1 md:pb-1.5">
       {{ content.desc }}
     </p>
     <span
@@ -36,5 +36,10 @@ defineProps({
 </script>
 
 <style scoped>
-
+.description-text{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 </style>

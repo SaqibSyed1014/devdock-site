@@ -1,7 +1,7 @@
 <template>
   <section class="container pb-10">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-      <div>
+      <div class="flex flex-col justify-center">
         <h3 class="text-3xl sm:text-5xl text-center lg:text-left font-medium text-primary !leading-normal">
           {{ trustHeading }}
           <span class="rounded-[100px] bg-primary px-5 text-white">{{ siteName }}</span>
@@ -14,14 +14,14 @@
       </div>
       <div>
         <div class="w-3/4 lg:w-full mx-auto">
-          <img src="/public/img/deal.png" alt="Deal">
+          <img src="/public/img/deal.png" alt="Deal" class="mx-auto align-top">
         </div>
       </div>
     </div>
   </section>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { siteName } from "@/core/constants/site-info";
 import { techStack, trustHeading } from "@/core/constants/home-view";
 </script>

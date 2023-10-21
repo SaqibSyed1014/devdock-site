@@ -12,15 +12,15 @@
              alt="Company CEO"
         >
         <figcaption class="space-y-0.5 text-black">
-          <div class="text-[17px] font-medium text-[#212529]">
+          <div class="text-[17px] 2xl:text-xl font-medium text-[#212529]">
             {{ userName }}
           </div>
-          <div class="text-[15px] opacity-5">
+          <div class="text-[15px] 2xl:text-lg opacity-5">
             {{ userDesc || 'N/A' }}
           </div>
         </figcaption>
       </figure>
-      <blockquote class="text-sm sm:text-base pt-9 lg:pt-[50px] mx-auto mb-4">
+      <blockquote class="text-sm sm:text-base 2xl:text-xl pt-9 lg:pt-[50px] mx-auto mb-4">
         <p>“{{ reviews || 'N/A' }}”</p>
       </blockquote>
     </div>

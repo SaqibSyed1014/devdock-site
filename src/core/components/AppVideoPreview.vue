@@ -74,6 +74,8 @@ watch(playVideo, (val) => {
 <style lang="scss" scoped>
 .video-banner{
   img.parallax-effect{
+    width: 100%;
+    height: 100%;
     transform: scale(1.14);
     transition: transform .95s cubic-bezier(.25,.46,.45,.94);
   }

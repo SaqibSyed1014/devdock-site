@@ -37,7 +37,7 @@ html{
     display: block;
     z-index: -1;
     border-radius: inherit;
-    transform: translate3d(2px, 2px, 0);
+    transform: translate3d(4px, 4px, 0);
     transition: opacity .5s cubic-bezier(.19,1,.22,1);
   }
   &:hover {
