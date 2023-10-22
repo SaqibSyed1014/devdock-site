@@ -1,5 +1,4 @@
 <script setup>
-import { Smoothie } from "vue-smoothie";
 </script>
 
 <template>
