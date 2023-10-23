@@ -70,7 +70,7 @@ import AppButton from "@/core/components/AppButton.vue";
       </div>
       <div class="contact-banner">
         <div class="relative rounded-[10px] overflow-hidden mx-auto">
-          <Parallaxy :speed="80" direction="opposite">
+          <Parallaxy :speed="90" direction="opposite">
             <img fetchpriority="high" class="parallax-effect" src="/img/rocket-portrait.webp" alt="Rocket">
           </Parallaxy>
 
@@ -78,7 +78,7 @@ import AppButton from "@/core/components/AppButton.vue";
             <h3 class="uppercase text-3xl 2xl:text-4xl md:text-5xl font-semibold">
               {{ sectionData.asideSection.heading }}
             </h3>
-            <p class="text-lg md:text-xl 2xl:text-2xl pb-8">
+            <p class="text-base md:text-xl 2xl:text-2xl pb-8">
               {{ sectionData.asideSection.text }}
             </p>
             <AppButton>Direct Contact</AppButton>
@@ -114,10 +114,11 @@ import AppButton from "@/core/components/AppButton.vue";
   }
 }
 img.parallax-effect{
-  transform: scale(1.14);
+  margin: auto;
+  transform: scale(1.2);
   transition: transform .95s cubic-bezier(.25,.46,.45,.94);
   &:hover{
-    transform: scale(1.2);
+    transform: scale(1.3);
   }
 }
 .social-links span{

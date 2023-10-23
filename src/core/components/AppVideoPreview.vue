@@ -1,9 +1,9 @@
 <template>
   <div class="video-banner px-3 md:px-5">
-    <div class="video-container relative cursor-pointer rounded-lg rounded-xl lg:rounded-[40px] overflow-hidden">
+    <div class="video-container relative cursor-pointer rounded-lg lg:rounded-[40px] overflow-hidden">
       <div class="flex flex-col justify-center">
         <img fetchpriority="high" class="block lg:hidden" src="/img/rocket.webp" alt="Rocket">
-        <Parallaxy class="hidden lg:block" :speed="80" direction="opposite">
+        <Parallaxy class="hidden lg:block" :speed="90" direction="opposite">
           <img fetchpriority="high" class="parallax-effect" src="/img/rocket.webp" alt="Rocket">
         </Parallaxy>
       </div>
@@ -76,11 +76,11 @@ watch(playVideo, (val) => {
   img.parallax-effect{
     width: 100%;
     height: 100%;
-    transform: scale(1.14);
+    transform: scale(1.24);
     transition: transform .95s cubic-bezier(.25,.46,.45,.94);
   }
   .video-container:hover img.parallax-effect{
-    transform: scale(1.2);
+    transform: scale(1.35);
   }
   button{
     transition: transform .7s cubic-bezier(.25,.46,.45,.94);
