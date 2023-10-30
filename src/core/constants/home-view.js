@@ -1,3 +1,8 @@
+// Hero Section Constants
+export const galleryOptions = [
+    { label: 'Account', pathName: 'SitePortfolio' },
+    { label: 'Settings', pathName: 'SitePortfolio' },
+]
 
 // Testimonials Section Constants
 export const testimonailSection = {

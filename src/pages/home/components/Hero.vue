@@ -29,7 +29,10 @@
           <router-link :to="{ name: 'SitePortfolio' }">
             <AppButton class="fancy-btn">View Portfolio</AppButton>
           </router-link>
-          <AppDropdown show-on-hover :options="['Account', 'Settings']">
+          <AppDropdown
+              show-on-hover
+              :options="galleryOptions"
+          >
             Explore our Gallery
           </AppDropdown>
         </div>
@@ -41,6 +44,7 @@
 <script setup lang="ts">
 import AppButton from "@/core/components/AppButton.vue";
 import AppDropdown from "@/core/components/AppDropdown.vue";
+import { galleryOptions } from "@/core/constants/home-view.js"
 </script>
 
 <style scoped lang="scss">

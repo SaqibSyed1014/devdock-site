@@ -7,7 +7,7 @@
       @mouseleave="showOnHover ? menuOpen = false : null"
       @click.stop="showOnHover ? null : menuOpen = !menuOpen"
   >
-    <div class="py-2.5 pl-3 pr-5" :class="[applyStyles]">
+    <div class="py-2.5 pl-3 pr-5" :class="[applyStyles(open)]">
       <MenuButton
           class="group flex items-center whitespace-nowrap text-base-white transition-colors duration-200 font-medium"
           :class="{ 'hover:text-pink': showHoverColor }"
@@ -32,12 +32,15 @@
         </span>
       </MenuButton>
       <MenuItems
-          v-show="menuOpen ?? open"
-          :static="true"
+          v-show="menuOpen"
+          :static="menuOpen"
           class="absolute flex flex-col gap-1 z-[100] bg-white w-full overflow-hidden left-0 px-3 pb-3 pt-2 origin-top-right rounded-b border-[1px] border-t-0 focus:outline-none"
       >
-        <MenuItem v-for="(option, index) in options" :key="index">
-
+        <MenuItem
+            v-for="(option, index) in options"
+            :key="index"
+            v-slot="{ close }"
+        >
           <div
               class="menu-option text-gray-400 hover:text-primary transition text-sm 2xl:text-base hover:bg-transparent cursor-pointer"
               :style="{ '--index': index }"
@@ -46,11 +49,11 @@
                 v-if="option?.pathName"
                 :to="{ name: option.pathName }"
                 active-class="text-pink"
+                @click="close"
             >
               {{ option?.label }}
             </router-link>
             <span v-else>{{ option?.label }}</span>
-
           </div>
         </MenuItem>
       </MenuItems>
@@ -78,12 +81,13 @@ const props = defineProps({
 
 const menuOpen = ref(false);
 
-const applyStyles = computed(() => {
+const applyStyles = (open :boolean) => {
+  if (!props.showOnHover) menuOpen.value = open
   let styles= 'bg-white outline outline-1 outline-slate-200 rounded-t'
   if (props.showOnHover && menuOpen.value) return styles
   if (menuOpen.value) return styles
   else return ''
-})
+}
 </script>
 
 <style scoped>
