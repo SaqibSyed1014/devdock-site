@@ -4,7 +4,10 @@
       {{ reviewHeading }}
     </h3>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-8 pb-16">
-      <template v-for="(info, index) in userReviews" :key="index">
+      <template
+          v-for="info in userReviews"
+          :key="info.name"
+      >
         <UserCard
             :color="info.color"
             :user-name="info.name"
@@ -24,9 +27,5 @@
 <script lang="ts" setup>
 import UserCard from "@/core/components/UserCard.vue";
 import AppButton from "@/core/components/AppButton.vue";
-import { reviewHeading, userReviews } from "@/core/constants/home-view";
+import { reviewHeading, userReviews } from "@/core/constants/home-view.ts";
 </script>
-
-<style scoped>
-
-</style>

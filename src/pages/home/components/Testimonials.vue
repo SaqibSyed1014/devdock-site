@@ -34,7 +34,7 @@
 
 <script setup lang="ts">
 import AppVideoPreview from "@/core/components/AppVideoPreview.vue";
-import { testimonailSection, clientLogos } from "@/core/constants/home-view";
+import { testimonailSection, clientLogos } from "@/core/constants/home-view.ts";
 </script>
 
 <style scoped lang="scss">

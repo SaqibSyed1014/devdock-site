@@ -30,17 +30,11 @@
   </transition>
 </template>
 
-<script setup>
-defineProps({
-  vidSource: {
-    type: String,
-    required: true
-  },
-  display: {
-    type: Boolean,
-    default: false
-  },
-})
+<script setup lang="ts">
+defineProps<{
+  vidSource: string;
+  display: boolean
+}>();
 defineEmits(['update:display'])
 </script>
 

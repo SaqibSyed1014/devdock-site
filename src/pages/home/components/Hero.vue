@@ -44,7 +44,7 @@
 <script setup lang="ts">
 import AppButton from "@/core/components/AppButton.vue";
 import AppDropdown from "@/core/components/AppDropdown.vue";
-import { galleryOptions } from "@/core/constants/home-view.js"
+import { galleryOptions } from "@/core/constants/home-view.ts"
 </script>
 
 <style scoped lang="scss">

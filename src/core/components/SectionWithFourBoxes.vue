@@ -45,29 +45,14 @@
   </section>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import AppButton from "@/core/components/AppButton.vue";
+import { CardsContent } from "@/core/types/components.ts";
 
-defineProps({
-  showBtn: {
-    type: Boolean,
-    required: true
-  },
-  highlightedText: {
-    type: String,
-    required: true
-  },
-  headingText: {
-    type: String,
-    required: true
-  },
-  cardsData: {
-    type: Array,
-    required: true
-  }
-})
+defineProps<{
+  showBtn: boolean;
+  highlightedText: string;
+  headingText: string;
+  cardsData: Array<CardsContent>
+}>()
 </script>
-
-<style scoped>
-
-</style>

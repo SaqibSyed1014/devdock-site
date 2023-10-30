@@ -28,28 +28,14 @@
 </template>
 
 <script setup lang="ts">
-import {defineProps} from "vue";
-
-defineProps({
-  color: {
-    type: String,
-    required: true
-  },
-  userName: {
-    type: String,
-    required: true
-  },
-  avatar: {
-    type: String,
-    required: true
-  },
-  logo: {
-    type: String,
-    required: true
-  },
-  userDesc: { type: String },
-  reviews: { type: String }
-})
+defineProps<{
+  color: string,
+  userName: string,
+  avatar: string,
+  logo: string,
+  userDesc?: string,
+  reviews?: string
+}>()
 </script>
 
 <style scoped>

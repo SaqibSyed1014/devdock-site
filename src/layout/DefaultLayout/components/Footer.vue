@@ -93,13 +93,13 @@
 </template>
 
 <script setup lang="ts">
-import { siteName, contactEmail, contactNumber } from "@/core/constants/site-info"
+import { siteName, contactEmail, contactNumber } from "@/core/constants/site-info.ts"
 import {
   footerBannerHeading,
   companyLinks,
   servicesLinks,
   resourcesLinks
-} from "@/core/constants/common"
+} from "@/core/constants/common.ts"
 
 const currentDate = new Date()
 </script>

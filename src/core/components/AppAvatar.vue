@@ -1,23 +1,10 @@
 <script setup lang="ts">
-defineProps({
-  userImage: {
-    type: String,
-    required: true
-  },
-  userName: {
-    type: String,
-    required: true
-  },
-  role: {
-    type: String,
-    required: true
-  },
-  bgColor: {
-    type: String,
-    required: true,
-    default: 'orange'
-  }
-})
+defineProps<{
+  userImage: string;
+  userName: string;
+  role: string;
+  bgColor: string;
+}>()
 </script>
 
 <template>

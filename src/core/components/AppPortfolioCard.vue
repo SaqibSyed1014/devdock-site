@@ -1,8 +1,7 @@
 <template>
   <div class="group cursor-pointer"
   >
-
-      <img src="/svg/client_logo.svg" alt="Client Logo">
+    <img src="/svg/client_logo.svg" alt="Client Logo">
     <router-link :to="{ name: 'CaseStudy' }">
       <div
           class="project-image fancy-hover border border-dark-gray rounded hover:border-dark-gray/0 transition-all my-3 md:my-5"
@@ -26,13 +25,12 @@
   </div>
 </template>
 
-<script setup>
-defineProps({
-  content: {
-    type: Object,
-    required: true
-  }
-})
+<script setup lang="ts">
+import { PortfolioCard } from "@/core/types/components";
+
+defineProps<{
+  content: PortfolioCard;
+}>();
 </script>
 
 <style scoped>

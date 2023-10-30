@@ -34,7 +34,7 @@
   </section>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import { featuresData } from "@/core/constants/home-view";
 import { ScrollObserver, valueAtPercentage } from 'aatjs'
 

@@ -88,20 +88,17 @@
   </main>
 </template>
 
-<script setup>
-defineProps({
-  beforeImage: {
-    type: String,
-    required: true
-  },
-  afterImage: {
-    type: String,
-    required: true
+<script setup lang="ts">
+defineProps<{
+  beforeImage: string;
+  afterImage: string;
+}>()
+
+const sliderContainer = ref(null)
+const updateSliderView = ($event :Event) => {
+  if (sliderContainer.value) {
+    sliderContainer.value.style.setProperty('--position', `${$event?.target?.value}%`);
   }
-})
-const sliderContainer= ref(null)
-const updateSliderView = ($event) => {
-  sliderContainer.value.style.setProperty('--position', `${$event.target.value}%`);
 }
 </script>
 

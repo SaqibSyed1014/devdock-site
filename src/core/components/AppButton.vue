@@ -12,20 +12,17 @@
 </template>
 
 <script setup lang="ts">
-import {defineProps} from "vue";
-
-defineProps({
-  secondary: {
+defineProps<{
+  secondary?: {
     type: Boolean,
-    default: false
-  }
-})
+    default: false,
+  };
+}>()
 </script>
 
 <style scoped lang="scss">
 button{
   position: relative;
-
   .btn-label{
     isolation: isolate;
     transition: transform .5s cubic-bezier(.19,1,.22,1);

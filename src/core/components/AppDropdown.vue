@@ -64,22 +64,13 @@
 <script setup lang="ts">
 import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
 
-const props = defineProps({
-  options: {
-    type: Array,
-    required: true
-  },
-  showOnHover: {
-    type: Boolean,
-    required: false
-  },
-  showHoverColor: {
-    type: Boolean,
-    required: false
-  }
-})
+const props = defineProps<{
+  options: Array<any>;
+  showOnHover?: boolean;
+  showHoverColor?: boolean,
+}>();
 
-const menuOpen = ref(false);
+const menuOpen = ref<boolean>(false);
 
 const applyStyles = (open :boolean) => {
   if (!props.showOnHover) menuOpen.value = open
