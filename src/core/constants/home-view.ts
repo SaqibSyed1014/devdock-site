@@ -5,10 +5,12 @@ export const galleryOptions = [
 ]
 
 // Testimonials Section Constants
-export const testimonailSection = {
+export const testimonialSection = {
     description: 'We are a collaborative team. We do offer solid core values and a intention meant to provide solutions, a dream come actual growth for the business.',
-    text: 'Loved by clients around the world'
+    text: 'Loved by clients around the world',
+    bannerBtnText: 'Get the boost effect',
 }
+
 export const clientLogos = [
     { name: 'shaoke.svg', alt: 'Shaoke' },
     { name: 'commkit.svg', alt: 'Commkit' },

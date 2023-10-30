@@ -11,13 +11,13 @@
   </button>
 </template>
 
-<script setup lang="ts">
-defineProps<{
-  secondary?: {
+<script setup>
+defineProps({
+  secondary: {
     type: Boolean,
     default: false,
-  };
-}>()
+  }
+})
 </script>
 
 <style scoped lang="scss">

@@ -14,7 +14,7 @@
               class="rounded-full bg-secondary text-primary py-1 sm:py-2 lg:py-2.5 px-6 sm:px-7 md:px-9 lg:px-11 text-xs sm:text-sm md:text-base w-fit font-medium"
               :class="[playVideo ? 'fade-out' : 'fade-in']"
           >
-            Get the full effect
+            {{ btnText }}
           </button>
         </div>
         <div>
@@ -52,6 +52,10 @@ defineProps({
   showBtn: {
     type: Boolean,
     required: true
+  },
+  btnText: {
+    type: String,
+    default: 'Get the boost effect'
   },
   showPreviewHeading: {
     type: Boolean,

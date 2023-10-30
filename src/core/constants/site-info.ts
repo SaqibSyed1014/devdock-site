@@ -1,7 +1,7 @@
-export const siteName = 'Dev Dock'
+export const siteName :string = 'DevDock'
 
-export const logoUrl = '/svg/logo.svg'
+export const logoUrl :string = '/svg/logo.svg'
 
-export const contactEmail = 'info@devdock.tech'
+export const contactEmail :string = 'info@devdock.tech'
 
-export const contactNumber = '+92 (331) 4709729'
+export const contactNumber :string = '+92 (331) 4709729'
