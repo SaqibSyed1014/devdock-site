@@ -6,11 +6,11 @@
   <div class="container bg-sky py-10 md:py-20">
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-3 md:gap-10">
       <div class="col-span-1">
-        <h5 class="text-primary text-3xl md:text-5xl font-semibold md:leading-[64px] pb-10">
+        <h5 class="text-primary text-3xl md:text-5xl font-semibold md:leading-[64px] lg:pb-10">
           Boost business growth with exceptional UIUX Design
         </h5>
 
-        <div class="bg-orange rounded-t-[40px] px-3 pt-1">
+        <div class="bg-orange rounded-t-[40px] px-3 pt-1 hidden lg:block">
           <img src="/img/services/uiux/discover_image.webp" alt="Mobile Image">
         </div>
       </div>
@@ -24,6 +24,10 @@
           <li>We invite you to step into the future of design and engagement with our UI/UX design services. By partnering with DevDock, you're not only embracing the latest trends but also shaping the future of user interactions and visual aesthetics in the digital world.</li>
           <li>It's not just about creating a visually appealing interface; it's about ensuring that every user interaction leads to a positive outcome, ultimately contributing to your business's growth and prosperity.</li>
         </ul>
+
+        <div class="bg-orange rounded-t-[40px] px-3 pt-1 block lg:hidden mt-10">
+          <img src="/img/services/uiux/discover_image.webp" alt="Mobile Image">
+        </div>
       </div>
     </div>
   </div>
