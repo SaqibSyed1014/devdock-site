@@ -18,33 +18,34 @@ import {servicesDetails} from "@/core/constants/services.ts";
       <div class="grid-container">
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           <template v-for="(data, index) in servicesDetails.details" :key="index">
-            <div
-                class="group border-2 border-b-0 border-x-0 sm:border-x-2 sm:border-r-0 border-white border-opacity-50 cursor-pointer transition hover:bg-secondary"
-            >
-              <div class="flex items-center h-72 sm:h-[400px] px-3 sm:px-7 md:px-[21px]">
-                <div class="text-white flex-1">
+            <router-link :to="{ name: data?.path }">
+              <div
+                  class="group border-2 border-b-0 border-x-0 sm:border-x-2 sm:border-r-0 border-white border-opacity-50 cursor-pointer transition hover:bg-secondary"
+              >
+                <div class="flex items-center h-72 sm:h-[400px] px-3 sm:px-7 md:px-[21px]">
+                  <div class="text-white flex-1">
                   <span class="text-4xl md:text-[53px] transition group-hover:text-primary opacity-2">
                     {{ `${index + 1}.` }}
                   </span>
-                  <div class="pt-10 transition group-hover:pt-10">
-                    <img class="group-hover:hidden" :src="`/svg/${data.icon}`" :alt="data.alt">
-                    <div class="flex gap-3 xl:gap-8 justify-between items-center pt-5">
-                      <h3 class="text-2xl sm:text-2xl md:text-2xl xl:text-3xl font-medium sm:pr-5 transition group-hover:text-black group-hover:mb-2">
-                        {{ data.title }}
-                      </h3>
-                      <span class="i-mdi-arrow-right w-9 h-9 md:w-12 md:h-12 transition group-hover:hidden" />
+                    <div class="pt-10 transition group-hover:pt-10">
+                      <img class="group-hover:hidden" :src="`/svg/${data.icon}`" :alt="data.alt">
+                      <div class="flex gap-3 xl:gap-8 justify-between items-center pt-5">
+                        <h3 class="text-2xl sm:text-2xl md:text-2xl xl:text-3xl font-medium sm:pr-5 transition group-hover:text-black group-hover:mb-2">
+                          {{ data.title }}
+                        </h3>
+                        <span class="i-mdi-arrow-right w-9 h-9 md:w-12 md:h-12 transition group-hover:hidden"/>
+                      </div>
+                      <p class="text-black text-sm 2xl:text-lg leading-6 md:leading-7 hidden transition group-hover:block">
+                        {{ data.desc }}
+                      </p>
                     </div>
-                    <p class="text-black text-sm 2xl:text-lg leading-6 md:leading-7 hidden transition group-hover:block">
-                      {{ data.desc }}
-                    </p>
                   </div>
                 </div>
               </div>
-            </div>
+            </router-link>
           </template>
         </div>
       </div>
     </div>
   </section>
-
 </template>

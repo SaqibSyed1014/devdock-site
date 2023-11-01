@@ -20,8 +20,14 @@
                     v-if="link.hasSubLinks"
                     show-hover-color
                     :options="link.subLinks"
+                    :show-on-hover="index === 0"
                 >
-                  {{ link.label }}
+                  <template v-if="link?.pathName">
+                    <router-link :to="{ name: link.pathName }">{{ link.label }}</router-link>
+                  </template>
+                  <template v-else>
+                    {{ link.label }}
+                  </template>
                 </AppDropdown>
                 <router-link
                     v-else
@@ -73,9 +79,11 @@
                     class="menu-labels transition text-primary font-medium text-lg mb-3"
                     :style="{ '--index': index }"
                 >
-                  <template v-if="link.hasSubLinks">{{ link.label }}</template>
+                  <template v-if="link?.pathName">
+                    <router-link :to="{ name: link.pathName }">{{ link.label }}</router-link>
+                  </template>
                   <template v-else>
-                    <router-link :to="{ name: link.pathName}">{{ link.label }}</router-link>
+                    {{ link.label }}
                   </template>
                 </p>
                 <ul

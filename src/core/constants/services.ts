@@ -12,7 +12,8 @@ export const servicesDetails = {
             title: 'UI/UX Design',
             desc: 'We understand that every client and project is unique. Our agency takes a personalized approach, tailoring our services to your specific needs and goals. This ensures that the final product aligns perfectly with your vision and objectives.',
             icon: 'capital.svg',
-            alt: 'Settings Icon'
+            alt: 'Settings Icon',
+            path: 'SiteServiceDetails'
         },
         {
             title: 'Website Development',

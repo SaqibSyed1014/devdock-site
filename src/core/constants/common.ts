@@ -1,6 +1,7 @@
 export const menuLinks = [
     {
         label: 'Services',
+        pathName: 'SiteServices',
         hasSubLinks: true,
         subLinks: [
             {
