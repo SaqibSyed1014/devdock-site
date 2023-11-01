@@ -12,7 +12,7 @@
       </div>
     </router-link>
 
-    <p class="description-text text-base md:text-xl 2xl:text-2xl font-medium pb-1 md:pb-1.5">
+    <p class="description-text text-base md:text-xl 2xl:text-2xl text-primary font-medium pb-1 md:pb-1.5">
       {{ content.desc }}
     </p>
     <span

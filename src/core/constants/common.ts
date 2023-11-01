@@ -4,12 +4,8 @@ export const menuLinks = [
         hasSubLinks: true,
         subLinks: [
             {
-                label: 'Services',
-                pathName: 'SiteServices'
-            },
-            {
-                label: 'Settings',
-                pathName: 'SiteServices'
+                label: 'UI/UX',
+                pathName: 'SiteServiceDetails'
             }
         ]
     },

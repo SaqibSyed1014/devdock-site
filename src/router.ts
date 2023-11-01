@@ -6,6 +6,7 @@ import Portfolio from '@/pages/Portfolio/PortfolioView.vue'
 import CaseStudy from '@/pages/CaseStudy/index.vue'
 import ContactUs from '@/pages/ContactUs/index.vue'
 import Services from '@/pages/Services/index.vue'
+import ServiceDetails from '@/pages/ServicesDetails/index.vue'
 
 const routes = [
   {
@@ -41,6 +42,11 @@ const routes = [
         path: '/services',
         component: Services,
         name: 'SiteServices'
+      },
+      {
+        path: '/service/uiux',
+        component: ServiceDetails,
+        name: 'SiteServiceDetails'
       }
     ]
   },

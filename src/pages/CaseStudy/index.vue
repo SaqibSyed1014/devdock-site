@@ -100,8 +100,11 @@
     <SectionWithFourBoxes
         :highlighted-text="highlightedText"
         :heading-text="pointsHeading"
+        heading-position="center"
+        :show-image="false"
         :show-btn="false"
         :cards-data="caseStudyPoints"
+        full-span-cell="none"
     />
   </div>
 
@@ -191,7 +194,7 @@
 
 <script setup>
 import AppVideoPreview from "@/core/components/AppVideoPreview.vue";
-import SectionWithFourBoxes from "@/core/components/SectionWithFourBoxes.vue";
+import SectionWithFourBoxes from "@/core/components/SectionDetailsInGrid.vue";
 import AppPortfolioCard from "@/core/components/AppPortfolioCard.vue";
 import { highlightedText, pointsHeading, caseStudyPoints } from "@/core/constants/portfolio-view";
 import { pageFilters } from "@/core/constants/portfolio-view";

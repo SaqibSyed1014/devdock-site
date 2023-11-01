@@ -11,7 +11,6 @@
               <img :src="logoUrl" alt="DevDock Logo">
             </router-link>
 
-          <!-- Collapsible navbar container -->
           <div class="hidden lg:flex items-center flex-grow basis-[100%] md:basis-auto md:mt-0 mt-2 ml-5 xl:ml-10">
             <ul
                 class="list-style-none mr-auto flex flex-col items-center pl-0 mt-1 md:flex-row gap-3 xl:gap-5 text-base 2xl:text-lg font-medium"
@@ -59,7 +58,7 @@
     <!-- Mobile Navbar -->
     <div
         v-show="showMobileMenu"
-        class="mobile-nav fixed w-full h-screen overflow-hidden top-20 overflow-hidden left-0 z-20"
+        class="mobile-nav fixed w-full h-screen overflow-hidden top-20 left-0 z-20"
     >
       <div class="bg-wrapper bg-white absolute top-0 left-0 h-full w-full" />
       <div class="mobile-nav-wrapper relative h-full">

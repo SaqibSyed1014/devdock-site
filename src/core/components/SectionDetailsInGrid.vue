@@ -1,10 +1,16 @@
 <template>
   <section class="section-container bg-primary">
     <div class="grid grid-cols-1 lg:grid-cols-2">
-      <div class="flex items-center justify-center py-24 md:py-[149px]">
+      <div
+          class="flex justify-center py-24 md:py-[149px]"
+          :class="[headingVerticalPosition]"
+      >
         <div class="w-full lg:w-3/4 px-3 md:px-0 lg:px-8">
-          <img src="/svg/arrow.svg" alt="Up Arrow">
-          <h3 class="mb-8 text-white text-3xl md:text-5xl">
+          <img v-if="showImage" src="/svg/arrow.svg" alt="Up Arrow">
+          <h3
+              class="text-white text-3xl md:text-5xl"
+              :class="{'mb-8': showBtn}"
+          >
             <span class="text-secondary">{{ highlightedText }}</span>
             {{ headingText }}
           </h3>
@@ -16,7 +22,10 @@
           <template v-for="(data, index) in cardsData" :key="index">
             <div
                 class="group border-2 border-b-0 border-x-0 sm:border-x-2 border-white border-opacity-50 cursor-pointer transition hover:bg-secondary"
-                :class="[index % 2 === 0 ? 'sm:border-r-0':'']"
+                :class="{
+                    'sm:border-r-0': index % 2 === 0,
+                    'sm:col-span-2': index + 1 === fullSpanCell
+                }"
             >
               <div class="flex items-center h-72 sm:h-[400px] px-3 sm:px-7 md:px-[21px]">
                 <div class="text-white flex-1">
@@ -49,10 +58,19 @@
 import AppButton from "@/core/components/AppButton.vue";
 import { CardsContent } from "@/core/types/components.ts";
 
-defineProps<{
+const props = defineProps<{
   showBtn: boolean;
+  showImage: boolean;
   highlightedText: string;
   headingText: string;
-  cardsData: Array<CardsContent>
+  headingPosition: string;
+  cardsData: Array<CardsContent>;
+  fullSpanCell?: number;
 }>()
+
+const headingVerticalPosition = computed(() => {
+  if (props.headingPosition === 'top') return 'items-start'
+  else if (props.headingPosition === 'center') return 'items-center'
+  else if (props.headingPosition === 'bottom') return 'items-end'
+})
 </script>
