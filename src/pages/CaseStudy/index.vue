@@ -192,7 +192,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import AppVideoPreview from "@/core/components/AppVideoPreview.vue";
 import SectionWithFourBoxes from "@/core/components/SectionDetailsInGrid.vue";
 import AppPortfolioCard from "@/core/components/AppPortfolioCard.vue";

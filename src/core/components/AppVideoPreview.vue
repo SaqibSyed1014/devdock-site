@@ -44,7 +44,7 @@
   />
 </template>
 
-<script setup>
+<script setup lang="ts">
 import Parallaxy from '@lucien144/vue3-parallaxy'; // doesn't support TS
 import VideoPlayer from '@/core/components/VideoPlayer.vue'
 

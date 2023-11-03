@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { sectionData, teamMembers } from '@/core/constants/contact-us'
 import { contactEmail } from '@/core/constants/site-info'
 import AppAvatar from "@/core/components/AppAvatar.vue";

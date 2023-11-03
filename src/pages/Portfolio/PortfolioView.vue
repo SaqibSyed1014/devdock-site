@@ -68,7 +68,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import AppButton from "@/core/components/AppButton.vue";
 import AppPortfolioCard from "@/core/components/AppPortfolioCard.vue";
 import { mainHeading, CTOSection, pageFilters } from "@/core/constants/portfolio-view";
