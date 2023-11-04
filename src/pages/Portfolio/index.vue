@@ -1,3 +1,23 @@
+<script setup>
+import {ref} from 'vue'
+import AppButton from "@/core/components/AppButton.vue";
+import AppPortfolioCard from "@/core/components/AppPortfolioCard.vue";
+import { mainHeading, CTOSection, pageFilters } from "@/core/constants/portfolio-view.ts";
+
+let filteredContent = ref(pageFilters?.flatMap(item => item.content))
+let selectedContentIndex = ref(-1)
+
+const selectAllFilters = () => {
+  selectedContentIndex.value = -1
+  filteredContent.value = pageFilters?.flatMap(item => item.content)
+}
+
+const filterContent = (item, index) => {
+  selectedContentIndex.value = index
+  filteredContent.value = item.content
+}
+</script>
+
 <template>
   <div class="text-primary py-16 md:py-24 lg:py-28">
     <div class="container px-1">
@@ -68,24 +88,6 @@
   </div>
 </template>
 
-<script setup lang="ts">
-import AppButton from "@/core/components/AppButton.vue";
-import AppPortfolioCard from "@/core/components/AppPortfolioCard.vue";
-import { mainHeading, CTOSection, pageFilters } from "@/core/constants/portfolio-view";
-
-let filteredContent = ref(pageFilters?.flatMap(item => item.content))
-let selectedContentIndex = ref(-1)
-
-const selectAllFilters = () => {
-  selectedContentIndex.value = -1
-  filteredContent.value = pageFilters?.flatMap(item => item.content)
-}
-
-const filterContent = (item, index) => {
-  selectedContentIndex.value = index
-  filteredContent.value = item.content
-}
-</script>
 
 <style lang="scss" scoped>
 .project-image{

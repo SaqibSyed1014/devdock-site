@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import DefaultLayout from '@/layout/DefaultLayout/DefaultLayout.vue'
 import Home from '@/pages/home/index.vue'
-import Portfolio from '@/pages/Portfolio/PortfolioView.vue'
+import Portfolio from '@/pages/Portfolio/index.vue'
 import CaseStudy from '@/pages/CaseStudy/index.vue'
 import ContactUs from '@/pages/ContactUs/index.vue'
 import Services from '@/pages/Services/index.vue'

@@ -3,7 +3,7 @@ import { createPinia } from 'pinia'
 import { createApp } from 'vue'
 import App from './App.vue'
 import './assets/index.scss'
-import router from './router'
+import router from './router.js'
 // plugins
 import './core/plugins/smooth-scroll'
 
