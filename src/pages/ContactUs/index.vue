@@ -57,12 +57,14 @@ import AppButton from "@/core/components/AppButton.vue";
 
           <strong class="text-xl 2xl:text-2xl">Our Experts</strong>
           <div class="team-members flex flex-wrap items-center gap-5 pt-6">
-            <template v-for="(member, index) in teamMembers" :key="index">
+            <template v-for="member in teamMembers">
               <AppAvatar
                   :user-name="member.name"
                   :role="member.designation"
                   :user-image="member.image"
                   :bg-color="member.bgColor"
+                  :hover-disabled="false"
+                  size="md"
               />
             </template>
           </div>

@@ -104,7 +104,6 @@
         :show-image="false"
         :show-btn="false"
         :cards-data="caseStudyPoints"
-        full-span-cell="none"
     />
   </div>
 

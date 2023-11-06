@@ -7,6 +7,7 @@ import CaseStudy from '@/pages/CaseStudy/index.vue'
 import ContactUs from '@/pages/ContactUs/index.vue'
 import Services from '@/pages/Services/index.vue'
 import ServiceDetails from '@/pages/ServicesDetails/index.vue'
+import AboutUs from '@/pages/AboutUs/index.vue'
 
 const routes = [
   {
@@ -24,7 +25,7 @@ const routes = [
         name: 'SiteHome'
       },
       {
-        path: '/Portfolio',
+        path: '/portfolio',
         component: Portfolio,
         name: 'SitePortfolio'
       },
@@ -47,6 +48,11 @@ const routes = [
         path: '/service/uiux',
         component: ServiceDetails,
         name: 'SiteServiceDetails'
+      },
+      {
+        path: '/about-us',
+        component: AboutUs,
+        name: 'AboutUs'
       }
     ]
   },

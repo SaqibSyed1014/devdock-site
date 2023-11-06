@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-sky mb-7 sm:mb-12 lg:mb-20">
+  <div class="bg-sky pb-7 sm:pb-12 lg:pb-20">
     <AppVideoPreview
         :show-btn="showBannerButton"
         :btn-text="bannerBtnText"

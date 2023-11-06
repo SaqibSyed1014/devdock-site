@@ -4,14 +4,27 @@ defineProps<{
   userName: string;
   role: string;
   bgColor: string;
+  size: string;
+  hoverDisabled: boolean
 }>()
 </script>
 
 <template>
-  <div class="user-avatar group w-32 h-44 xss:w-36 xss:h-48 rounded-full overflow-hidden" :style="{ backgroundColor: bgColor }">
+  <div class="user-avatar group w-36 h-48 rounded-full overflow-hidden"
+       :class="{ 'md:w-32 md:h-44': size === 'md', 'lg:w-44 lg:h-60': size === 'lg' }"
+       :style="{ backgroundColor: bgColor }"
+  >
     <figure>
-      <img class="user-avatar-image group-hover:scale-125 transition duration-500" :src="userImage" :alt="userName">
-      <figcaption class="user-avatar-details text-white text-sm w-full mx-auto group-hover:!bottom-4 group-hover:!opacity-10 transition-all duration-500">
+      <img
+          class="user-avatar-image transition duration-500"
+          :class="[ hoverDisabled ? 'scale-125' : 'group-hover:scale-125' ]"
+          :src="userImage"
+          :alt="userName"
+      >
+      <figcaption
+          class="user-avatar-details text-white text-sm w-full mx-auto transition-all duration-500"
+          :class="[ hoverDisabled ? '!bottom-4 !opacity-10' : 'group-hover:!bottom-4 group-hover:!opacity-10' ]"
+      >
         <strong>
           <span class="bg-primary">{{ userName }}</span><br>
           <span class="bg-primary">{{ role }}</span>

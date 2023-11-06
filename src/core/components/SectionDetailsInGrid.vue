@@ -2,19 +2,18 @@
   <section class="section-container bg-primary">
     <div class="grid grid-cols-1 lg:grid-cols-2">
       <div
-          class="flex justify-center py-24 md:py-[149px]"
+          class="flex justify-center px-1 md:px-3 lg:px-0 py-24 md:py-[149px]"
           :class="[headingVerticalPosition]"
       >
         <div class="w-full lg:w-3/4 px-3 md:px-0 lg:px-8">
           <img v-if="showImage" src="/svg/arrow.svg" alt="Up Arrow">
-          <h3
-              class="text-white text-3xl md:text-5xl"
-              :class="{'mb-8': showBtn}"
-          >
+          <h3 class="text-white text-3xl md:text-5xl">
             <span class="text-secondary">{{ highlightedText }}</span>
             {{ headingText }}
           </h3>
-          <AppButton v-if="showBtn" secondary>Direct Contact</AppButton>
+          <AppButton v-if="showBtn" secondary class="mt-8">
+            Direct Contact
+          </AppButton>
         </div>
       </div>
       <div class="grid-container">

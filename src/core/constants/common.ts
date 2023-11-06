@@ -17,21 +17,13 @@ export const menuLinks = [
         subLinks: []
     },
     {
-        label: 'Resources',
-        hasSubLinks: true,
-        subLinks: [
-            {
-                label: 'Account',
-            },
-            {
-                label: 'Settings',
-            }
-        ]
-    },
-    {
         label: 'Company',
         hasSubLinks: true,
         subLinks: [
+            {
+                label: 'About Us',
+                pathName: 'AboutUs'
+            },
             {
                 label: 'Contact Us',
                 pathName: 'ContactUs'
