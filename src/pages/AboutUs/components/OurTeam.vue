@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import AppAvatar from "@/core/components/AppAvatar.vue";
-import {teamMembers} from "@/core/constants/contact-us.ts";
+import pageData from "@/core/constants/about-us.json";
+import { teamMembers } from "@/core/constants/contact-us.ts";
+
+const teamSectionData = pageData.teamSectionContent
 </script>
 
 <template>
@@ -8,12 +11,11 @@ import {teamMembers} from "@/core/constants/contact-us.ts";
     <div class="grid grid-cols-1 lg:grid-cols-3 justify-between gap-10">
       <div class="lg:col-span-1 font-semibold">
         <h3 class="text-primary text-3xl md:text-5xl md:leading-[64px]">
-          Meet Our Team
+          {{ teamSectionData.heading }}
         </h3>
       </div>
       <div class="lg:col-span-2">
         <div class="team-members grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 items-center gap-x-5 gap-y-10 pt-6">
-
           <template v-for="member in teamMembers">
             <AppAvatar
                 :user-name="member.name"
@@ -30,7 +32,3 @@ import {teamMembers} from "@/core/constants/contact-us.ts";
   </div>
 
 </template>
-
-<style scoped lang="scss">
-
-</style>

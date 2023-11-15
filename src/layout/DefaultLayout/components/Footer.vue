@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-primary pt-14">
-    <div class="footer-banner relative rounded-[10px] relative overflow-hidden py-4 px-4 md:px-7 mx-3 sm:mx-10">
+    <div class="footer-banner relative rounded-[10px] overflow-hidden py-4 px-4 md:px-7 mx-3 sm:mx-10">
       <div class="CTO" />
       <div class="flex items-center justify-between flex-wrap lg:flex-nowrap gap-5 relative z-11">
         <div class="flex items-center">

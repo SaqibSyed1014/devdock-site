@@ -1,15 +1,18 @@
 <template>
   <section class="container">
     <h3 class="text-center text-3xl sm:text-5xl font-medium pt-20 pb-16 sm:py-[100px] w-full lg:w-3/4 mx-auto">
-      4 <span class="text-pink">Reasons</span>, Why You Should Use DevDock to Build Product
+      {{ featuresCardContent.totalReasons }}
+       <span class="text-pink">
+         {{ featuresCardContent.highlighted }}
+       </span>
+      {{ featuresCardContent.heading }}
     </h3>
 
     <div class="feature-cards">
-      <template v-for="(feature, index) in featuresData" :key="index">
+      <template v-for="(feature, index) in featuresCardContent.features" :key="index">
         <div class="feature-card sticky top-0">
           <div class="feature-card-inner">
-            <div
-                class="rounded-[10px] text-center pt-20 pb-14 mb-3 bg-primary"
+            <div class="rounded-[10px] text-center pt-20 pb-14 mb-3 bg-primary"
                 :class="[feature.darkText?'text-primary':'text-white']"
                 :style="{background: feature.color}">
               <div class="sm:w-3/4 mx-auto px-3">
@@ -18,10 +21,14 @@
                   <span
                       class="rounded-[100px] px-5 uppercase"
                       :class="[feature.darkText?'bg-primary text-white':'bg-white text-primary']"
-                  >{{ feature.highlightedText }}</span>
+                  >
+                    {{ feature.highlightedText }}
+                  </span>
                   {{ feature.endText }}
                 </h4>
-                <p class="text-sm sm:text-lg sm:w-3/4 mx-auto leading-relaxed sm:leading-7">{{ feature.desc }}</p>
+                <p class="text-sm sm:text-lg sm:w-3/4 mx-auto leading-relaxed sm:leading-7">
+                  {{ feature.desc }}
+                </p>
                 <figure class="w-3/4 md:w-2/4 mx-auto px-3 pt-7">
                   <img class="mx-auto" :src="`/svg/${feature.image}`" :alt="feature.alt">
                 </figure>
@@ -35,7 +42,7 @@
 </template>
 
 <script setup>
-import { featuresData } from "@/core/constants/home-view";
+import { featuresCardContent } from "@/core/constants/common";
 import { ScrollObserver, valueAtPercentage } from 'aatjs'
 
 onMounted(() => {

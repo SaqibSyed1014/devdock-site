@@ -1,0 +1,80 @@
+{
+  "heroSectionContent": {
+    "heading": "We’re empowering businesses by making development accessible",
+    "text": "Let’s Get To Know Each Other! Here Is Our Story.",
+    "ourMission": {
+      "label": "Our mission",
+      "heading": "We are mature and passionate about what we do",
+      "text": "At DevDock, we are mature and passionate about helping our clients achieve their business goals. We leverage our deep industry knowledge and experience to deliver innovative and customized development solutions that help our clients succeed.",
+      "startUp": {
+        "startYear": 2017,
+        "icon": "/svg/curve_up.svg",
+        "label": "DevDock Started as single minded freelancers"
+      },
+      "team": {
+        "teamMembers": "30+",
+        "icon": "/svg/round_curve.svg",
+        "label": "Team members working together"
+      },
+      "image": "/img/team/founders.webp",
+      "alt": "DevDock's Founders",
+      "caption": "Abdul Wahab, Fahad Ibrahim, & Waleed Butt, Founders of DevDock"
+    }
+  },
+  "originStoryContent": {
+    "heading": "Discover Our Story",
+    "content": [
+      "DevDock journey has been characterized by innovation, continuous learning, and an unyielding commitment to excellence. We have honed our expertise over the years and have become a trusted partner for our clients, providing a wide range of services that span UI/UX design, website development, WordPress customization, full-stack development, app store optimization, search engine optimization, logo and branding, hybrid application development, SaaS solutions, MVP design and development, iOS application development, and custom widgets design.",
+      "At DevDock, we understand the fast-paced, ever-evolving digital landscape, and we are here to navigate it with you. Our goal is to help your business thrive and succeed in this dynamic environment. We're not just a service provider; we're your partners in growth and innovation.",
+      "We are a team of dedicated professionals who are passionate about what they do. Our core values revolve around creativity, collaboration, and a relentless pursuit of perfection. We take pride in delivering exceptional results tailored to your specific needs. We are very choosy in our clients so that we deliver exceptional quality and bring results."
+    ]
+  },
+  "coreValuesContent": {
+    "highlightedText": "Our Core Values",
+    "heading": "That Drive Our Brand Forward",
+    "details": [
+      {
+        "title": "Client Value",
+        "desc": "We are committed to going above and beyond to surpass our clients' expectations. Our primary goal is to deliver tangible and positive outcomes that make a real difference to their businesses.",
+        "icon": "capital.svg",
+        "alt": "Settings Icon"
+      },
+      {
+        "title": "People Driven",
+        "desc": "At our core, we are a company that values people. We prioritize the well-being of our employees, customers, and the communities we serve. By placing people at the center of everything we do, we create a strong foundation for success.",
+        "icon": "software.svg",
+        "alt": "Software Icon"
+      },
+      {
+        "title": "Integrity",
+        "desc": "Integrity is a non-negotiable principle for us. We hold honesty, transparency, and ethical behavior in the highest regard. Maintaining unwavering integrity fosters trust not only with our employees but also with all our stakeholders.",
+        "icon": "capital.svg",
+        "alt": "Settings Icon"
+      },
+      {
+        "title": "Accountability",
+        "desc": "We believe in being accountable for our actions and the results we achieve. Taking responsibility is a fundamental part of our company culture, and we ensure that both our team and individual employees are held accountable for their performance.",
+        "icon": "software.svg",
+        "alt": "Software Icon"
+      }
+    ]
+  },
+  "teamSectionContent": {
+    "heading": "Meet Our Team"
+  },
+  "offerSolutionsContent": {
+    "heading": "We offer solutions for",
+    "targetClients": [
+      "startups",
+      "small businesses",
+      "ecommerce",
+      "Ed-Tech",
+      "LMS",
+      "Dashboards",
+      "Call center",
+      "HVAC",
+      "Local businesses",
+      "Social Media"
+    ]
+  }
+}
