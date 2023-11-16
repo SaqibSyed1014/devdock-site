@@ -1,5 +1,7 @@
-<script setup lang="ts">
-import {servicesDetails} from "@/core/constants/services.ts";
+<script setup>
+import pageData from "@/core/constants/services.json"
+
+const serviceVertices = pageData.vertices
 </script>
 
 <template>
@@ -8,16 +10,16 @@ import {servicesDetails} from "@/core/constants/services.ts";
       <div class="flex items-center justify-center py-24 md:py-36">
         <div class="w-full lg:w-3/4 px-3 md:px-0 lg:px-8 text-center">
           <h3 class="mb-5 md:mb-8 text-3xl md:text-5xl font-bold text-secondary">
-            {{ servicesDetails.heading }}
+            {{ serviceVertices.heading }}
           </h3>
           <p class="text-base sm:text-lg md:text-2xl text-white">
-            {{ servicesDetails.text }}
+            {{ serviceVertices.text }}
           </p>
         </div>
       </div>
       <div class="grid-container">
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          <template v-for="(data, index) in servicesDetails.details" :key="index">
+          <template v-for="(data, index) in serviceVertices.services" :key="index">
             <div
                 class="group border-2 border-b-0 border-x-0 sm:border-x-2 sm:border-r-0 border-white border-opacity-50 cursor-pointer transition hover:bg-secondary"
             >
@@ -39,7 +41,10 @@ import {servicesDetails} from "@/core/constants/services.ts";
                     </p>
 
                     <span class="text-black text-sm hidden transition group-hover:block hover:underline">
-                      <router-link :to="{ name: data?.path }" class="flex justify-end items-center gap-3">
+                      <router-link
+                          :to="{ name: 'SiteServiceDetails', params: { title: data.id } }"
+                          class="flex justify-end items-center gap-3"
+                      >
                         Read More <span class="i-gg-arrow-right w-5 h-5" />
                       </router-link>
                     </span>

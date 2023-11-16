@@ -45,7 +45,7 @@ const routes = [
         name: 'SiteServices'
       },
       {
-        path: '/service/uiux',
+        path: '/service/:title?',
         component: ServiceDetails,
         name: 'SiteServiceDetails'
       },

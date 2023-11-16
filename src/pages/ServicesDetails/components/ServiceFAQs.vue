@@ -1,7 +1,9 @@
 <template>
   <section class="service-faqs container pb-20 text-primary">
     <div>
-      <h2 class="text-2xl md:text-3xl font-semibold inline-block">UIUX Design FAQs</h2>
+      <h2 class="text-2xl md:text-3xl font-semibold inline-block">
+        {{ serviceFaqs.heading }}
+      </h2>
       <div class="grid md:grid-cols-2 md:gap-x-20 pt-10">
         <div class="col-span-1">
           <div v-for="(item, index) in firstColItems" :key="index">
@@ -44,10 +46,19 @@
 </template>
 
 <script setup>
-import { singleServiceDetails } from "@/core/constants/services";
+const props = defineProps({
+  serviceFaqs: {
+    type: Object,
+    required: true
+  }
+})
+const firstColItems = ref([]);
+const secondColItems = ref([]);
 
-const firstColItems = ref(singleServiceDetails.uiux.faqs.firstCol);
-const secondColItems = ref(singleServiceDetails.uiux.faqs.secondCol);
+props.serviceFaqs?.list.forEach((faq, index) => {
+  if (index < 4) firstColItems.value.push(faq)
+  else secondColItems.value.push(faq)
+})
 
 const isOpen = ref([
   Array(firstColItems.value.length).fill(false),
