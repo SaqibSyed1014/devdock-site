@@ -81,7 +81,7 @@
     <div class="copy-right py-5 md:py-[26px]">
       <div class="container text-center text-white">
         <div class="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 text-sm 2xl:text-lg">
-          <img src="/public/svg/logo-white.svg" alt="DevDock in White">
+          <img src="/public/svg/logo-white.svg" alt="DevDock">
           <div>
             <span class="cursor-pointer border-r-2 border-[#1F5346] pr-3 mr-3">Privacy Policy</span>
             <span class="cursor-pointer">Terms of Use</span>

@@ -6,10 +6,10 @@
       >
         <span class="flex items-center slide-in-text" :style="{ '--delay': 1.5 }">
           <span>Get your Personalized</span>
-          <img src="/img/hire_01.webp" alt="Hire 01" width="165" height="190" class="rounded-curved ml-4">
+          <img src="/img/hire_01.webp" alt="Software Development Services" width="165" height="190" class="rounded-curved ml-4">
         </span>
         <span class="flex items-center slide-in-text" :style="{ '--delay': 2 }">
-          <img src="/img/hire_02.webp" alt="Hire 02" width="165" height="90" class="rounded-curved mr-4">
+          <img src="/img/hire_02.webp" alt="Personalized" width="165" height="90" class="rounded-curved mr-4">
           Development Services
         </span>
         <span class="flex items-center slide-in-text" :style="{ '--delay': 2.3 }">

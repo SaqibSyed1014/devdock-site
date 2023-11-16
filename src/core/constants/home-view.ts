@@ -12,7 +12,7 @@ export const testimonialSection = {
 }
 
 export const clientLogos = [
-    { name: 'shaoke.svg', alt: 'Shaoke' },
+    { name: 'shaoke.svg', alt: 'SHAOKE' },
     { name: 'commkit.svg', alt: 'Commkit' },
     { name: 'memee.svg', alt: 'MeMee' },
     { name: 'blackburt.svg', alt: 'BlackBurt' },
@@ -22,9 +22,9 @@ export const clientLogos = [
 // Trust Section Constants
 export const trustHeading = 'Integrate your trust with'
 export const techStack = [
-    { name: 'reactjs.svg', alt: 'Reactjs' },
+    { name: 'reactjs.svg', alt: 'React Js Development Services and Company' },
     { name: 'reactnative.svg', alt: 'React Native' },
-    { name: 'nodejs.svg', alt: 'Nodejs' },
+    { name: 'nodejs.svg', alt: 'Node JS' },
     { name: 'php.svg', alt: 'PHP' },
     { name: 'vuejs.svg', alt: 'Vuejs' },
     { name: 'flutter.svg', alt: 'Flutter' },

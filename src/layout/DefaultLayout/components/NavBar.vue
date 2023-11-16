@@ -8,7 +8,7 @@
             <router-link
                 class="my-1 md:mb-0 md:mt-0"
                 :to="{ name: 'SiteHome' }">
-              <img :src="logoUrl" alt="DevDock Logo">
+              <img :src="logoUrl" alt="DevDock">
             </router-link>
 
           <div class="hidden lg:flex items-center flex-grow basis-[100%] md:basis-auto md:mt-0 mt-2 ml-5 xl:ml-10">

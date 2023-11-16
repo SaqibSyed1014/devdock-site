@@ -17,12 +17,7 @@ const reviewsData = pageData.clientReviews
           :key="index"
       >
         <UserCard
-            :color="review.color"
-            :user-name="review.name"
-            :avatar="review.avatar"
-            :user-desc="review.desc"
-            :logo="review.logo"
-            :reviews="review.review"
+            :details="review"
         />
       </template>
     </div>
