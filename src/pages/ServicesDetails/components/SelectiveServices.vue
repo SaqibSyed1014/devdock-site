@@ -20,9 +20,9 @@ defineProps({
           <div class="service-card rounded-[20px] px-6 py-12 bg-pink">
             <div class="flex flex-col gap-16 md:gap-24 justify-between h-full">
               <div>
-                <h4 class="font-bold text-xl md:text-2xl">
+                <h3 class="font-bold text-xl md:text-2xl">
                   {{ selectedServices.list[0].title }}
-                </h4>
+                </h3>
                 <p class="pt-6">{{ selectedServices.list[0].description }}</p>
               </div>
               <div class="flex flex-wrap gap-9">
@@ -35,9 +35,9 @@ defineProps({
           <div class="service-card rounded-[20px] px-6 py-12 bg-yellow">
             <div class="flex flex-col gap-16 md:gap-24 justify-between h-full">
               <div>
-                <h4 class="font-bold text-xl md:text-2xl">
+                <h3 class="font-bold text-xl md:text-2xl">
                   {{ selectedServices.list[1].title }}
-                </h4>
+                </h3>
                 <p class="pt-6">{{ selectedServices.list[1].description }}</p>
               </div>
             <div class="flex flex-wrap gap-9">
@@ -50,9 +50,9 @@ defineProps({
           <div class="service-card rounded-[20px] px-6 py-12 bg-green">
             <div class="flex flex-col gap-16 md:gap-24 justify-between h-full">
               <div>
-                <h4 class="font-bold text-xl md:text-2xl">
+                <h3 class="font-bold text-xl md:text-2xl">
                   {{ selectedServices.list[2].title }}
-                </h4>
+                </h3>
                 <p class="pt-6">{{ selectedServices.list[2].description }}</p></div>
                 <div class="flex flex-wrap gap-9">
                   <template v-for="stack in selectedServices.list[2].stack">
@@ -64,9 +64,9 @@ defineProps({
           <div class="service-card rounded-[20px] px-6 py-12 bg-orange">
             <div class="flex flex-col gap-16 md:gap-24 justify-between h-full">
               <div>
-                <h4 class="font-bold text-xl md:text-2xl">
+                <h3 class="font-bold text-xl md:text-2xl">
                  {{ selectedServices.list[3].title }}
-                </h4>
+                </h3>
                 <p class="pt-6">{{ selectedServices.list[3].description }}</p>
               </div>
               <div class="flex flex-wrap gap-5">

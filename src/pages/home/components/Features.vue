@@ -1,12 +1,12 @@
 <template>
   <section class="container">
-    <h3 class="text-center text-3xl sm:text-5xl font-medium pt-20 pb-16 sm:py-[100px] w-full lg:w-3/4 mx-auto">
+    <h2 class="text-center text-3xl sm:text-5xl font-medium pt-20 pb-16 sm:py-[100px] w-full lg:w-3/4 mx-auto">
       {{ featuresCardContent.totalReasons }}
        <span class="text-pink">
          {{ featuresCardContent.highlighted }}
        </span>
       {{ featuresCardContent.heading }}
-    </h3>
+    </h2>
 
     <div class="feature-cards">
       <template v-for="(feature, index) in featuresCardContent.features" :key="index">
@@ -16,7 +16,7 @@
                 :class="[feature.darkText?'text-primary':'text-white']"
                 :style="{background: feature.color}">
               <div class="sm:w-3/4 mx-auto px-3">
-                <h4 class="text-2xl sm:text-4xl font-medium pb-6">
+                <h3 class="text-2xl sm:text-4xl font-medium pb-6">
                   {{ feature.startText }}
                   <span
                       class="rounded-[100px] px-5 uppercase"
@@ -25,7 +25,7 @@
                     {{ feature.highlightedText }}
                   </span>
                   {{ feature.endText }}
-                </h4>
+                </h3>
                 <p class="text-sm sm:text-lg sm:w-3/4 mx-auto leading-relaxed sm:leading-7">
                   {{ feature.desc }}
                 </p>

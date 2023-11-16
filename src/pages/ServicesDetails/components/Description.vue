@@ -11,9 +11,9 @@ defineProps({
   <div class="container bg-sky py-10 md:py-20">
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-3 md:gap-10">
       <div class="col-span-1">
-        <h5 class="text-primary text-3xl md:text-5xl font-semibold md:leading-[64px] lg:pb-10">
+        <h2 class="text-primary text-3xl md:text-5xl font-semibold md:leading-[64px] lg:pb-10">
           {{ serviceDescription.heading }}
-        </h5>
+        </h2>
 
         <div class="bg-orange rounded-t-[40px] px-3 pt-1 hidden lg:block">
           <img src="/img/services/uiux/discover_image.webp" alt="Mobile Image">

@@ -6,9 +6,9 @@
           {{ testimonialSection.description }}
         </p>
         <div>
-          <p class="sm:text-base 2xl:text-xl pb-6">
+          <h2 class="sm:text-base 2xl:text-xl pb-6">
             {{ testimonialSection.text }}
-          </p>
+          </h2>
           <hr>
           <div class="flex flex-nowrap whitespace-normal overflow-hidden py-6">
             <div class="flex justify-around items-center horizontal-slider">

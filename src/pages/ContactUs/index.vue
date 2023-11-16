@@ -38,7 +38,7 @@ import AppButton from "@/core/components/AppButton.vue";
         </h1>
         <div class="text-md md:text-lg 2xl:text-xl py-3">
           <p class="pb-5">{{ sectionData.text }}</p>
-          <strong class="text-xl 2xl:text-2xl">Address</strong>
+          <h2 class="font-bold text-xl 2xl:text-2xl">Address</h2>
           <address class="py-3 not-italic">
             {{ sectionData.address }}
           </address>
@@ -46,7 +46,7 @@ import AppButton from "@/core/components/AppButton.vue";
             Say👋 at
             <a :href="`mail:${contactEmail}`">{{ contactEmail }}</a>
           </p>
-          <strong class="follow-prompt text-xl 2xl:text-2xl pt-5">Follow Us!</strong>
+          <h2 class="follow-prompt font-bold text-xl 2xl:text-2xl pt-5">Follow Us!</h2>
 
           <div class="social-links flex items-center gap-5 pb-5 pt-3">
             <span class="i-mdi-twitter w-6 h-6 2xl:w-10 2xl:h-10" />
@@ -55,7 +55,7 @@ import AppButton from "@/core/components/AppButton.vue";
             <span class="i-uil-instagram w-6 h-6 2xl:w-10 2xl:h-10" />
           </div>
 
-          <strong class="text-xl 2xl:text-2xl">Our Experts</strong>
+          <h2 class="font-bold text-xl 2xl:text-2xl">Our Experts</h2>
           <div class="team-members flex flex-wrap items-center gap-5 pt-6">
             <template v-for="member in teamMembers">
               <AppAvatar

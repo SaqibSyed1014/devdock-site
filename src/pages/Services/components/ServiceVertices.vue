@@ -9,9 +9,9 @@ const serviceVertices = pageData.vertices
     <div class="grid grid-cols-1">
       <div class="flex items-center justify-center py-24 md:py-36">
         <div class="w-full lg:w-3/4 px-3 md:px-0 lg:px-8 text-center">
-          <h3 class="mb-5 md:mb-8 text-3xl md:text-5xl font-bold text-secondary">
+          <h2 class="mb-5 md:mb-8 text-3xl md:text-5xl font-bold text-secondary">
             {{ serviceVertices.heading }}
-          </h3>
+          </h2>
           <p class="text-base sm:text-lg md:text-2xl text-white">
             {{ serviceVertices.text }}
           </p>

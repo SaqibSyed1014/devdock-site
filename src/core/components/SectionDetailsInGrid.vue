@@ -7,10 +7,10 @@
       >
         <div class="w-full lg:w-3/4 px-3 md:px-0 lg:px-8">
           <img v-if="showImage" src="/svg/arrow.svg" alt="Up Arrow">
-          <h3 class="text-white text-3xl md:text-5xl">
+          <h2 class="text-white text-3xl md:text-5xl">
             <span class="text-secondary">{{ highlightedText }}</span>
             {{ headingText }}
-          </h3>
+          </h2>
           <AppButton v-if="showBtn" secondary class="mt-8">
             Direct Contact
           </AppButton>

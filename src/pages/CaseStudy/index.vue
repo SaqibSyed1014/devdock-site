@@ -179,7 +179,7 @@
 
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-10 pt-20">
         <template
-            v-for="(content, i) in pageFilters[1].content"
+            v-for="(content, i) in portfolioFilters[1].content"
             :key="i"
         >
           <AppPortfolioCard
@@ -196,9 +196,11 @@ import AppVideoPreview from "@/core/components/AppVideoPreview.vue";
 import SectionWithFourBoxes from "@/core/components/SectionDetailsInGrid.vue";
 import AppPortfolioCard from "@/core/components/AppPortfolioCard.vue";
 import { highlightedText, pointsHeading, caseStudyPoints } from "@/core/constants/portfolio-view";
-import { pageFilters } from "@/core/constants/portfolio-view";
+import portfolioPageData from "@/core/constants/portfolio.json"
 import AppButton from "@/core/components/AppButton.vue";
 import CaseStudySlider from "@/pages/CaseStudy/components/CaseStudySlider.vue";
+
+const portfolioFilters = portfolioPageData.portfolioFilters
 
 const stacks = [
   { name: 'PHP', image: 'php.svg' },

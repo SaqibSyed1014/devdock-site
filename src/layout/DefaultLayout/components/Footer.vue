@@ -42,7 +42,7 @@
           </p>
         </div>
         <div class="col-span-1">
-          <h5 class="text-xl 2xl:text-2xl md:text-extra font-bold pb-6">Company</h5>
+          <h2 class="text-xl 2xl:text-2xl md:text-extra font-bold pb-6">Company</h2>
           <div class="flex flex-col gap-3 md:gap-4 text-sm 2xl:text-xl">
             <span
                 v-for="link in companyLinks"
@@ -54,7 +54,7 @@
           </div>
         </div>
         <div class="col-span-1">
-          <h5 class="text-xl 2xl:text-2xl md:text-extra font-bold pb-6">Services</h5>
+          <h2 class="text-xl 2xl:text-2xl md:text-extra font-bold pb-6">Services</h2>
           <div class="flex flex-col gap-3 md:gap-4 text-sm 2xl:text-xl">
             <span
                 v-for="link in servicesLinks"
@@ -64,7 +64,7 @@
           </div>
         </div>
         <div class="col-span-1">
-          <h5 class="text-xl 2xl:text-2xl md:text-extra font-bold pb-6">Resources</h5>
+          <h2 class="text-xl 2xl:text-2xl md:text-extra font-bold pb-6">Resources</h2>
           <div class="flex flex-col gap-3 md:gap-4 text-sm 2xl:text-xl">
             <span
                 v-for="link in resourcesLinks"
