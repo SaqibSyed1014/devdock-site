@@ -1,6 +1,6 @@
 <template>
   <div class="bg-sky mb-16 xss:mb-32 sm:mb-44 lg:mb-56 xl:mb-80 2xl:mb-96">
-    <div class="relative container py-20 sm:py-32 md:py-40 lg:py-56 2xl:py-80 relative">
+    <div class="relative container py-20 sm:py-32 md:py-40 lg:py-56 2xl:py-80">
       <div class="">
         <div class="w-full mx-auto absolute top-1/3 md:top-1/4 left-1/2 -translate-x-2/4 px-4 md:px-0">
           <div class="">

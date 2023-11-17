@@ -64,9 +64,9 @@
   },
   "offerSolutionsContent": {
     "heading": "We offer solutions for",
-    "targetClients": [
+    "businesses": [
       "startups",
-      "small businesses",
+      "small-businesses",
       "ecommerce",
       "Ed-Tech",
       "LMS",

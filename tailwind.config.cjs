@@ -30,6 +30,7 @@ module.exports = {
         'light-gray': '#E0E5E6',
         'accent-gray': '#111111',
         'base-gray': '#5A6C71',
+        'accent-light-gray': '#6B738A'
       },
       backgroundColor: {
         'light': '#F4ECDC',
