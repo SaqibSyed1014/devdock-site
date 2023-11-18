@@ -26,7 +26,7 @@
           Focus only on <span class="underlined-word">productivity</span> now
         </p>
         <div class="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-8 pt-14">
-          <router-link :to="{ name: 'SitePortfolio' }">
+          <router-link :to="{ name: 'DevDockPortfolio' }">
             <AppButton class="fancy-btn">View Portfolio</AppButton>
           </router-link>
           <AppDropdown

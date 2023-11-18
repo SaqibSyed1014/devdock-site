@@ -47,7 +47,7 @@
           >
             <router-link
                 v-if="option?.pathName"
-                :to="{ name: option.pathName }"
+                :to="{ name: option.pathName, params: option?.param }"
                 active-class="text-pink"
                 @click="close"
             >

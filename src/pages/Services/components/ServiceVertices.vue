@@ -42,7 +42,7 @@ const serviceVertices = pageData.vertices
 
                     <span class="text-black text-sm hidden transition group-hover:block hover:underline">
                       <router-link
-                          :to="{ name: 'SiteServiceDetails', params: { title: data.id } }"
+                          :to="{ name: 'DevDockServiceDetails', params: { title: data.id } }"
                           class="flex justify-end items-center gap-3"
                       >
                         Read More <span class="i-gg-arrow-right w-5 h-5" />

@@ -7,7 +7,7 @@
         <div class="flex items-center justify-between">
             <router-link
                 class="my-1 md:mb-0 md:mt-0"
-                :to="{ name: 'SiteHome' }">
+                :to="{ name: 'DevDockHome' }">
               <img :src="logoUrl" alt="DevDock">
             </router-link>
 
@@ -42,8 +42,8 @@
           </div>
 
           <div class="flex items-center gap-3 sm:gap-2 md:gap-5">
-            <router-link :to="{ name: 'SitePortfolio' }" class="shrink-0">
-              <AppButton v-if="route.name !== 'SitePortfolio'" secondary>
+            <router-link :to="{ name: 'DevDockPortfolio' }" class="shrink-0">
+              <AppButton v-if="route.name !== 'DevDockPortfolio'" secondary>
                 View Portfolio
               </AppButton>
             </router-link>

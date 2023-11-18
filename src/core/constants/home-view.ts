@@ -1,7 +1,7 @@
 // Hero Section Constants
 export const galleryOptions = [
-    { label: 'Account', pathName: 'SitePortfolio' },
-    { label: 'Settings', pathName: 'SitePortfolio' },
+    { label: 'Account', pathName: 'DevDockPortfolio' },
+    { label: 'Settings', pathName: 'DevDockPortfolio' },
 ]
 
 // Testimonials Section Constants

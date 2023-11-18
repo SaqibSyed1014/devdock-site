@@ -11,8 +11,7 @@
         "title": "UI/UX Design",
         "desc": "Elevate user experiences with our expert UI/UX design services. We craft visually captivating and user-friendly interfaces that captivate users, ensuring satisfaction beyond compare.",
         "icon": "capital.svg",
-        "alt": "Settings Icon",
-        "path": "SiteServiceDetails"
+        "alt": "Settings Icon"
       },
       {
         "id": "web-development",
@@ -248,35 +247,35 @@
       "list": [
         {
           "title": "Can I see your designers' portfolios?",
-          "content": "The work of our talented designers is displayed with great pride. You can examine their portfolio to get a feel for their abilities, expertise, and writing style. If you are interested in viewing the work of our designers, please get in touch with us."
+          "content": "The work of our talented designers is displayed with great pride. You can examine their portfolio to get a feel for their abilities, expertise, and writing style. If you are interested in viewing the work of our designers, check out our portfolio page here -> (Portfolio)."
         },
         {
           "title": "Why are UX services important?",
-          "content": "The ux design services are essential since they guarantee that your product is simple to use and satisfies the requirements of your intended market. User happiness, loyalty, and conversions are all boosted by UX that's been well built."
+          "content": "UX design services play a crucial role in ensuring your product meets your target market's needs seamlessly. A well-crafted UX not only simplifies usage but also enhances user satisfaction, loyalty, and conversion rates. It serves as a fundamental element for unlocking unparalleled success for your product."
         },
         {
-          "title": "How UI Services Can Help Your Product?",
-          "content": "Through our ui ux design services, we can make your product more visually appealing and user-friendly. An engaging user interface (UI) can increase engagement, build trust in the brand, and win new customers."
+          "title": "How can UI services help your product?",
+          "content": "Through our UX/UI design services, we can make your product more visually appealing and user-friendly. An engaging user interface (UI) can increase engagement, build trust in the brand, and win new customers."
         },
         {
           "title": "Which files will be delivered for the UI/UX design work?",
-          "content": "To facilitate seamless development, we provide our clients with design files in widely used formats like Sketch, Adobe XD, Figma, and Photoshop. These files comprehensively encapsulate essential design elements, including mockups and wireframes."
+          "content": "We provide our clients with design files in widely used formats like Sketch, Figma, and Photoshop to facilitate seamless development. These files comprehensively encapsulate essential design elements, including style guides, branding, design systems, mockups, and wireframes."
         },
         {
-          "title": "How are DevDock Solutions designers different?",
-          "content": "Our designers have extensive experience and are devoted to learning about your company and its customers. They put an emphasis on teamwork, originality, and a customer-first mentality to develop innovative solutions that meet your specific needs. Our ui/ux design services are among the best available."
+          "title": "How are DevDock designers different?",
+          "content": "Our designers have extensive experience and are devoted to learning about your company and its customers. They emphasized teamwork, originality, and a user-centered approach to develop innovative solutions that meet your needs. Our UX/UI design services are among the best available."
         },
         {
-          "title": "How long does a UX project take?",
-          "content": "The duration of a UX project is tailored to its complexity and scope. While a straightforward project might take a few weeks to complete, more intricate undertakings could span several months. We meticulously craft project timelines that align with your specific requirements."
+          "title": "How long does a UX/UI project take?",
+          "content": "The duration of a UX/UI project is tailored to its complexity and scope. While regular projects take a week or two, more specific and complex products like SaaS could span several weeks. Count on us to meet precise deadlines without fail every time."
         },
         {
           "title": "How do you handle revisions and feedback during the design process?",
-          "content": "Prizing your input, we embrace revisions to ensure the design flawlessly aligns with your vision. Our meticulous iterative design process incorporates regular check-ins and feedback sessions, keeping you intimately involved and informed throughout the journey."
+          "content": "Your valuable input drives us to stay updated on progress, share feedback, and shape outcomes through regular, collaborative meetings."
         },
         {
           "title": "How do you ensure your designs are accessible to all users?",
-          "content": "Devdock is a premier UI/UX design services company dedicated to crafting inclusive designs. We adhere to industry-leading accessibility practices and standards, such as WCAG guidelines, to guarantee that our designs are accessible to individuals with disabilities. We conduct thorough accessibility testing and implement necessary adjustments to ensure compliance."
+          "content": "We adhere to industry-leading accessibility practices and standards, such as WCAG2.2 guidelines, to guarantee that our designs are accessible to individuals with disabilities. We conduct thorough accessibility testing and implement necessary adjustments to ensure compliance."
         }
       ]
     }
@@ -435,19 +434,19 @@
       "list": [
         {
           "title": "How does outsourcing to a web development company work?",
-          "content": "Entrust your web development project to DevDock Solutions, where a team of experienced professionals will handle every aspect of your project, from crafting a visually appealing design to writing clean, efficient code."
+          "content": "Entrust your web development project to DevDock, where a team of experienced professionals will handle every aspect of your project, from crafting a visually appealing design to writing clean, efficient code."
         },
         {
           "title": "Can I hire a web developer on a full-time basis?",
-          "content": "Yes, you can hire a web developer on a full-time basis. Many web development companies, including DevDock, offer dedicated developer hiring options for continuous support and project development."
+          "content": "Yes, you can hire a web developer on a full-time basis. It's better than hiring an individual developer as we back up our clients and provide the best development services, including design enhancements and SEO."
         },
         {
-          "title": "Will DevDock Solutions do custom web development work?",
-          "content": "Absolutely, you can secure the services of a skilled web developer on a full-time basis. Numerous web development firms, including DevDock, provide dedicated developer hiring solutions for ongoing support and project development."
+          "title": "Will DevDock do custom web development work?",
+          "content": "Certainly! DevDock specializes in custom web development, offering a skilled team dedicated to bringing your unique vision to life. We excel in crafting bespoke websites and tailored web applications, ensuring a collaborative process that prioritizes your goals. Choose DevDock for a partner committed to turning your ideas into extraordinary digital solutions."
         },
         {
-          "title": "What does the DevDock Solutions research process involve?",
-          "content": "At DevDocks, we embark on a thorough research journey, meticulously analyzing your business, industry, and competitors. This deep dive empowers us to craft a strategic roadmap for your web development project, guaranteeing seamless alignment with your objectives."
+          "title": "What does the DevDock research process involve?",
+          "content": "At DevDocks, we conduct thorough research, including competitor analysis, functionalities and modules of competitors' products, and user needs with the latest trends. This deep dive empowers us to craft a strategic roadmap for your web development project, guaranteeing seamless alignment with your objectives."
         },
         {
           "title": "How can I optimize a web app for SEO?",
@@ -455,15 +454,15 @@
         },
         {
           "title": "How long does a web development project take to complete from start to finish?",
-          "content": "The time it takes to complete a web development project depends on its complexity, ranging from a few days to several months. DevDock delivers realistic timelines tailored to your project's unique scope and objectives."
+          "content": "The duration of a web development project is tailored to its complexity and scope. While regular projects take a week or two, more specific and complex products like SaaS could span several weeks. Count on us to meet precise deadlines without fail every time."
         },
         {
           "title": "How do you prepare before partnering with a web development company?",
-          "content": "Embark on your web development journey with clarity and confidence. Before selecting a partner, establish your project's goals, budget, and timeline. Craft a comprehensive project brief and maintain open communication to foster a successful collaboration. DevDock Solutions is your trusted guide throughout this process."
+          "content": "Embark on your web development journey with clarity and confidence. Before selecting a partner, establish your project's goals, budget, and timeline. Craft a comprehensive project brief and maintain open communication to foster a successful collaboration. DevDock is your trusted guide throughout this process."
         },
         {
-          "title": "What are the different types of web development companies? ",
-          "content": "The world of web development offers a diverse range of companies, each specializing in specific areas to cater to unique project needs. From general web development firms to e-commerce specialists, WordPress website development experts, and agencies adept at responsive web design, the choice is yours."
+          "title": "What are the different types of web development services DevDock provides?",
+          "content": "Unlock the full potential of your online presence with DevDock's comprehensive web development services. We specialize in custom web development, e-commerce solutions, WordPress expertise, and responsive web design. Choose DevDock to transform your vision into a compelling online reality with our expertise."
         }
       ]
     }
@@ -625,19 +624,19 @@
           "content": "At DevDock Solutions, our team of seasoned Android app developers is ready to transform your vision into reality. We meticulously handle every stage of your project, from crafting an aesthetically pleasing design to writing clean, efficient code."
         },
         {
-          "title": "Can I hire an Android app developer on a full-time basis?",
-          "content": "Numerous Android app development companies, like DevDock, provide dedicated developer hiring solutions. These dedicated developers offer continuous support and project development expertise, ensuring your app's success."
+          "title": "Can I hire an android app developer on a full-time basis?",
+          "content": "Yes, you can hire an android app developer on a full-time basis. It's better than hiring an individual developer as we back up our clients and provide the best development services, including design enhancements and ASO."
         },
         {
-          "title": "Will DevDock Solutions do custom Android App development work?",
-          "content": "Absolutely, you can secure the services of a skilled Android Appdeveloper on a full-time basis. Numerous Android App development firms, including DevDock, provide dedicated developer hiring solutions for ongoing support and project development.\n"
+          "title": " Will DevDock do custom Android App development work?",
+          "content": "Certainly! DevDock specializes in custom Android App development, offering a skilled team dedicated to bringing your unique vision to life. We excel in crafting bespoke Android App, ensuring a collaborative process that prioritizes your goals. Choose DevDock for a partner committed to turning your ideas into extraordinary digital solutions."
         },
         {
-          "title": "What does the DevDock Solutions research process involve?",
-          "content": "Many Android app development companies, like DevDock, offer dedicated developer hiring solutions. These dedicated developers provide comprehensive support and project development expertise, ensuring your app's success."
+          "title": "What does the DevDock research process involve?",
+          "content": "At DevDocks, we conduct thorough research, including competitor analysis, functionalities and modules of competitors' products, and user needs with the latest trends. This deep dive empowers us to craft a strategic roadmap for your Android App development  project, guaranteeing seamless alignment with your objectives."
         },
         {
-          "title": "How can I optimize an Android app for ASO?",
+          "title": "How can I optimize an Android app for the App Store?",
           "content": "DevDock empowers you to elevate your Android app's ASO ranking through strategic SEO tactics, including in-depth keyword research, captivating content creation, and seamless optimization. Partner with DevDock and watch your app rise to the top."
         },
         {
@@ -646,11 +645,11 @@
         },
         {
           "title": "How do you prepare before partnering with an Android App development company?",
-          "content": "Embark on your Android app development journey with clarity and confidence. Before selecting a partner, establish your project's goals, budget, and timeline. Craft a comprehensive project brief and maintain open communication to foster a successful collaboration. DevDock Solutions is your trusted guide throughout this process."
+          "content": "Embark on your Android app development journey with clarity and confidence. Before selecting a partner, establish your project's goals, budget, and timeline. Craft a comprehensive project brief and maintain open communication to foster a successful collaboration. DevDock is your trusted guide throughout this process."
         },
         {
-          "title": "What are the different types of Android App development companies?",
-          "content": "The world of Android app development offers a diverse range of companies, each specializing in specific areas to cater to unique project needs. From general Android app development firms to e-commerce specialists, WordPress website development experts, and agencies adept at responsive Android app design, the choice is yours."
+          "title": "What are the different types of Android App development services DevDock provides?",
+          "content": "Unlock the full potential of your online presence with DevDock's comprehensive Android App development services. We specialize in custom Android app development firms to e-commerce app development specialists, Choose DevDock to transform your vision into a compelling online reality with our expertise."
         }
       ]
     }
@@ -946,7 +945,7 @@
           "alt": "Software Icon"
         },
         {
-          "title": "Writing Engaging\nContent",
+          "title": "Writing Engaging Content",
           "desc": "Captivating and effective content is paramount to app success. We craft engaging and persuasive content that resonates with your target audience and entices them to download and engage with your app.",
           "icon": "capital.svg",
           "alt": "Settings Icon"

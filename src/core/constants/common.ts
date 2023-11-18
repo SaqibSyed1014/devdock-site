@@ -1,18 +1,21 @@
+import servicesData from "@/core/constants/services.json";
+
+const servicesList = servicesData.vertices.services.map((service) => ({
+    label: service.title,
+    pathName: 'DevDockServiceDetails',
+    param: { title: service.id }
+}))
+
 export const menuLinks = [
     {
         label: 'Services',
-        pathName: 'SiteServices',
+        pathName: 'DevDockServices',
         hasSubLinks: true,
-        subLinks: [
-            {
-                label: 'UI/UX',
-                pathName: 'SiteServiceDetails'
-            }
-        ]
+        subLinks: servicesList
     },
     {
         label: 'Portfolio',
-        pathName: 'SitePortfolio',
+        pathName: 'DevDockPortfolio',
         hasSubLinks: false,
         subLinks: []
     },
@@ -22,11 +25,11 @@ export const menuLinks = [
         subLinks: [
             {
                 label: 'About Us',
-                pathName: 'AboutUs'
+                pathName: 'DevDockAboutUs'
             },
             {
                 label: 'Contact Us',
-                pathName: 'ContactUs'
+                pathName: 'DevDockContactUs'
             }
         ]
     }

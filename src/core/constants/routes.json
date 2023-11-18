@@ -1,0 +1,122 @@
+{
+  "Home": {
+    "name": "DevDockHome",
+    "path": "/",
+    "meta": {
+      "title": "DevDock | Software Design and Development Company",
+      "description": "Elevate your web and app projects with DevDock, the leading software design and development company. Crafting excellence in every line of code",
+      "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Redesign, UX Audit"
+    }
+  },
+  "CaseStudy": {
+    "name": "DevDockCaseStudy",
+    "path": "/case-study",
+    "meta": {
+      "title": "DevDock | Software Design and Development Company",
+      "description": "Elevate your web and app projects with DevDock, the leading software design and development company. Crafting excellence in every line of code",
+      "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Redesign, UX Audit"
+    }
+  },
+  "Portfolio": {
+    "name": "DevDockPortfolio",
+    "path": "/portfolio",
+    "meta": {
+      "title": "DevDock Portfolio | Software Design and Development Company",
+      "description": "Explore DevDock portfolio – a showcase of our exceptional web, app, and software development and designed projects. Witness innovation in action.",
+      "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO"
+    }
+  },
+  "Services": {
+    "name": "DevDockServices",
+    "path": "/services",
+    "meta": {
+      "title": "DevDock Services | Software Design and Development Company",
+      "description": "DevDock Services - Your gateway to tailored web, app, and software development and design solutions. Explore our offerings and let's shape your digital success.",
+      "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO"
+    }
+  },
+  "Service": {
+    "name": "DevDockServiceDetails",
+    "path": "/service/:title?",
+    "meta": {
+      "ui-ux": {
+        "title": "User-Friendly UI UX Design Services | DevDock",
+        "description": "Elevate user experiences with DevDock's top-notch UI/UX services. Boost engagement and conversions – explore our expertise today!",
+        "keywords": "UI Design, UX Design, User Interface, User Experience, Web Design Services, Mobile App Design, Interaction Design, Graphic Design, Wireframing, Prototyping, Usability Testing, Information Architecture, User-Centered Design, Visual Design, User Research"
+      },
+      "web-development": {
+        "title": "Custom Web Development Services | DevDock",
+        "description": "Maximize your online presence with DevDock's web development services. Elevate your website to new heights. Get started now!",
+        "keywords": "Web Development, Website Design, Front-End Development, Back-End Development, Full-Stack Development, Responsive Design, E-Commerce, Content Management System, Custom Web Solutions, Web Application Development, HTML, CSS, JavaScript, PHP, Python, Ruby on Rails, Node.js"
+      },
+      "android-app-development": {
+        "title": "Custom Android App Development Services | DevDock",
+        "description": "Unlock the full potential of your business with DevDock's Android app development service. Create an app that stands out – contact us today!",
+        "keywords": "Android App Development, Mobile App Development, Android Application Development, App Design, App Programming, Java, Kotlin, Android Studio, App Testing, UI/UX Design, Mobile App Services, App Development Company, Native App Development, Cross-Platform App Development, Mobile App Developers, Custom Android Apps"
+      },
+      "full-stack-development": {
+        "title": "Custom Android App Development Services | DevDock",
+        "description": "Unlock the full potential of your business with DevDock's Android app development service. Create an app that stands out – contact us today!",
+        "keywords": "Android App Development, Mobile App Development, Android Application Development, App Design, App Programming, Java, Kotlin, Android Studio, App Testing, UI/UX Design, Mobile App Services, App Development Company, Native App Development, Cross-Platform App Development, Mobile App Developers, Custom Android Apps"
+      },
+      "app-store-optimization": {
+        "title": "Custom Android App Development Services | DevDock",
+        "description": "Unlock the full potential of your business with DevDock's Android app development service. Create an app that stands out – contact us today!",
+        "keywords": "Android App Development, Mobile App Development, Android Application Development, App Design, App Programming, Java, Kotlin, Android Studio, App Testing, UI/UX Design, Mobile App Services, App Development Company, Native App Development, Cross-Platform App Development, Mobile App Developers, Custom Android Apps"
+      },
+      "search-engine-optimization": {
+        "title": "Search Engine Optimization Services | DevDock",
+        "description": "Enhance your online presence with DevDock's Search Engine Optimization service. Skyrocket your website's visibility and reach – contact us today!",
+        "keywords": "Search Engine Optimization, SEO Services, Organic Traffic, Keyword Research, On-Page SEO, Off-Page SEO, SEO Strategy, Link Building, Content Optimization, SEO Experts, SEO Agency, Website Ranking, SEO Techniques, SEO Company, SEO Audits, Local SEO."
+      },
+      "logo-&-branding": {
+        "title": "Logo & Branding Services | DevDock",
+        "description": "Transform your brand's identity with DevDock's Logo & Branding service. Craft a memorable image – take the first step now!",
+        "keywords": "Logo Design, Branding Services, Brand Identity, Logo Creation, Graphic Design, Brand Development, Brand Strategy, Corporate Branding, Visual Identity, Logo Designers, Creative Branding, Logo Redesign, Logo Branding Company, Logo and Branding Agency, Professional Logo Design"
+      },
+      "hybrid-application": {
+        "title": "Hybrid Application Development Services | DevDock",
+        "description": "Unleash the potential of your app with DevDock's Hybrid Application Development service. Reach more platforms with a single solution – explore now!",
+        "keywords": "Hybrid App Development, Cross-Platform Apps, Mobile App Development, Hybrid App Frameworks, React Native, Flutter, Xamarin, Cross-Platform Development, Hybrid App Developers, App Development Services, Multi-Platform Apps, Mobile App Design, Hybrid App Solutions, Cross-Platform App Development, Hybrid App Development Company"
+      },
+      "saas-development": {
+        "title": "SaaS Development Services | DevDock",
+        "description": "Elevate your business with DevDock's SaaS Development Service. Harness the power of scalable and efficient software – get started today!",
+        "keywords": "SaaS Development, Software as a Service, SaaS Solutions, Cloud Software, SaaS Application Development, SaaS Platform, SaaS Development Company, Custom SaaS Development, SaaS Product Development, SaaS Deployment, SaaS Integration, SaaS Software Development, SaaS Development Services, SaaS Application Design, SaaS Development Experts"
+      },
+      "mvp-design-&-development": {
+        "title": "MVP Development Services | DevDock",
+        "description": "Kickstart your project with DevDock's MVP Development Service. Turn your idea into a working prototype – start building your success today!",
+        "keywords": "MVP Development, Minimum Viable Product, MVP Services, Product Prototype, Rapid Prototyping, MVP Development Company, MVP App Development, MVP Strategy, MVP Design, MVP Testing, Lean Startup, MVP Development Process, MVP Software, MVP Developers, MVP Consultation, MVP Launch"
+      },
+      "ios-application-development": {
+        "title": "Custom iOS App Development Services | DevDock",
+        "description": "Unlock the Apple ecosystem with DevDock's iOS App Development Service. Craft exceptional apps for iPhone and iPad – take your first step now!",
+        "keywords": "iOS App Development, iPhone App Development, iOS Application Development, iOS App Developers, Swift, Objective-C, Xcode, iOS App Design, Mobile App Development, iOS Development Services, iOS App Development Company, Custom iOS Apps, App Store Deployment, iOS App Programming, iOS App Development Experts"
+      },
+      "custom-widget-design": {
+        "title": "Custom Widget Development Services | DevDock",
+        "description": "Enhance your software with DevDock's Custom Widget Development Service. Tailor-made widgets for a unique user experience – get started today!",
+        "keywords": "Custom Widget Development, Widget Design, Widget Programming, Widget Development Services, Custom Widget Creation, UI Widgets, Interactive Widgets, Widget Implementation, Widget Designers, Custom Widget Development Company, Web Widget Development, Mobile Widget Development, Custom Widget Solutions, Widget Development Experts, Widget Integration"
+      }
+    }
+  },
+  "ContactUs": {
+    "name": "DevDockContactUs",
+    "path": "/contact-us",
+    "meta": {
+      "title": "DevDock Contact | Software Design and Development Company ",
+      "description": "Get in touch with DevDock – your bridge to innovative web, app, and software development and design solutions. Reach out and let's start building together.",
+      "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO"
+    }
+  },
+  "AboutUs": {
+    "name": "DevDockAboutUs",
+    "path": "/about-us",
+    "meta": {
+      "title": "DevDock  About Us | Software Design and Development Company ",
+      "description": "DevDock: Your one-stop solution for UI/UX, web and app development, SEO, branding, and custom widgets. Let's innovate together!",
+      "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO"
+    }
+  }
+}

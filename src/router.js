@@ -8,6 +8,8 @@ import ContactUs from '@/pages/ContactUs/index.vue'
 import Services from '@/pages/Services/index.vue'
 import ServiceDetails from '@/pages/ServicesDetails/index.vue'
 import AboutUs from '@/pages/AboutUs/index.vue'
+import routesData from "@/core/constants/routes.json"
+const routesMeta = routesData
 
 const routes = [
   {
@@ -17,42 +19,35 @@ const routes = [
     meta: {
       title: '',
     },
-    redirect: { name: 'SiteHome' },
+    redirect: { name: 'DevDockHome' },
     children: [
       {
-        path: '/',
+        ...routesMeta.Home,
         component: Home,
-        name: 'SiteHome'
       },
       {
-        path: '/portfolio',
+        ...routesMeta.Portfolio,
         component: Portfolio,
-        name: 'SitePortfolio'
       },
       {
-        path: '/case-study',
+        ...routesMeta.CaseStudy,
         component: CaseStudy,
-        name: 'CaseStudy'
       },
       {
-        path: '/contact-us',
+        ...routesMeta.ContactUs,
         component: ContactUs,
-        name: 'ContactUs'
       },
       {
-        path: '/services',
+        ...routesMeta.Services,
         component: Services,
-        name: 'SiteServices'
       },
       {
-        path: '/service/:title?',
+        ...routesMeta.Service,
         component: ServiceDetails,
-        name: 'SiteServiceDetails'
       },
       {
-        path: '/about-us',
+        ...routesMeta.AboutUs,
         component: AboutUs,
-        name: 'AboutUs'
       }
     ]
   },
@@ -64,6 +59,19 @@ const router = createRouter({
   scrollBehavior() {
     return { top: 0 }
   },
+})
+
+router.beforeEach((to) => {
+  const { params } = to
+  let { title, description, keywords } = to.meta
+  if (to.meta[params?.title]) {
+    title = to.meta[params?.title].title
+    description = to.meta[params?.title].description
+    keywords = to.meta[params?.title].keywords
+  }
+  document.title = title
+  document.querySelector('meta[name="description"]').setAttribute('content', description)
+  document.querySelector('meta[name="keywords"]').setAttribute('content', keywords)
 })
 
 export default router
