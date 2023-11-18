@@ -118,5 +118,23 @@
       "description": "DevDock: Your one-stop solution for UI/UX, web and app development, SEO, branding, and custom widgets. Let's innovate together!",
       "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO"
     }
+  },
+  "TermsAndCondition": {
+    "name": "DevDockTermsAndConditions",
+    "path": "/terms-&-conditions",
+    "meta": {
+      "title": "DevDock  About Us | Software Design and Development Company ",
+      "description": "DevDock: Your one-stop solution for UI/UX, web and app development, SEO, branding, and custom widgets. Let's innovate together!",
+      "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO"
+    }
+  },
+  "PrivacyPolicy": {
+    "name": "DevDockPrivacyPolicy",
+    "path": "/privacy-policy",
+    "meta": {
+      "title": "DevDock  About Us | Software Design and Development Company ",
+      "description": "DevDock: Your one-stop solution for UI/UX, web and app development, SEO, branding, and custom widgets. Let's innovate together!",
+      "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO"
+    }
   }
 }

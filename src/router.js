@@ -8,6 +8,8 @@ import ContactUs from '@/pages/ContactUs/index.vue'
 import Services from '@/pages/Services/index.vue'
 import ServiceDetails from '@/pages/ServicesDetails/index.vue'
 import AboutUs from '@/pages/AboutUs/index.vue'
+import TermsAndConditions from "@/pages/TermsAndConditions/index.vue"
+import PrivacyPolicy from "@/pages/PrivacyPolicy/index.vue"
 import routesData from "@/core/constants/routes.json"
 const routesMeta = routesData
 
@@ -48,6 +50,14 @@ const routes = [
       {
         ...routesMeta.AboutUs,
         component: AboutUs,
+      },
+      {
+        ...routesMeta.TermsAndCondition,
+        component: TermsAndConditions,
+      },
+      {
+        ...routesMeta.PrivacyPolicy,
+        component: PrivacyPolicy,
       }
     ]
   },
