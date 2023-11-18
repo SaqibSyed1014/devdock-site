@@ -34,7 +34,7 @@
       <MenuItems
           v-show="menuOpen"
           :static="menuOpen"
-          class="absolute flex flex-col gap-1 z-[100] bg-white w-full overflow-hidden left-0 px-3 pb-3 pt-2 origin-top-right rounded-b border-[1px] border-t-0 focus:outline-none"
+          class="dropdown-menu absolute flex flex-col gap-2 z-[100] bg-white w-full overflow-hidden left-0 px-3 pb-3 pt-2 origin-top-right rounded-b border-[1px] border-t-0 focus:outline-none"
       >
         <MenuItem
             v-for="(option, index) in options"
@@ -86,5 +86,9 @@ const applyStyles = (open :boolean) => {
   opacity: 0;
   animation: linkListNavItem .4s calc(var(--index)*50ms) cubic-bezier(.19,1,.22,1) forwards;
   transition-delay: calc(var(--index)*50ms);
+}
+.dropdown-menu{
+  max-height: 300px;
+  overflow-y: auto;
 }
 </style>

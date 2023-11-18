@@ -35,12 +35,6 @@ export const menuLinks = [
     }
 ]
 
-export const footerBannerHeading = 'Help us spread the word and sell good vibes. Follow!'
-
-export const companyLinks = ['About', 'Hire Us', 'Contact Us']
-export const servicesLinks = ['Web Development', 'UI/UX', 'MVP Design', 'All Services']
-export const resourcesLinks = ['Blog', 'Media Kit', 'All Time Reviews', 'Leave a review on Trust Pilot']
-
 export const headingImages = [
     {
         src: '/svg/connect_hand.svg',

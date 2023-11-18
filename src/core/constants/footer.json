@@ -1,0 +1,67 @@
+{
+  "footerContent": {
+    "bannerHeading": "Help us spread the word and sell good vibes. Follow!",
+    "footerLinks": [
+        {
+          "heading": "Company",
+          "links": [
+            {
+              "label": "About",
+              "path": "/about-us"
+            },
+            {
+              "label": "Hire Us",
+              "path": "",
+              "icon": "i-ph-arrow-up-right-light"
+            },
+            {
+              "label": "Contact Us",
+              "path": "/contact-us"
+            }
+          ]
+        },
+      {
+        "heading": "Services",
+        "links": [
+          {
+            "label": "Web Development",
+            "path": "/service/web-development"
+          },
+          {
+            "label": "UI/UX",
+            "path": "/service/ui-ux"
+          },
+          {
+            "label": "MVP Design",
+            "path": "/service/mvp-design-&-development"
+          },
+          {
+            "label": "All Services",
+            "path": "/services"
+          }
+        ]
+      },
+      {
+        "heading": "Resources",
+        "links": [
+          {
+            "label": "Blog",
+            "path": ""
+          },
+          {
+            "label": "Media Kit",
+            "path": ""
+          },
+          {
+            "label": "All Time Reviews",
+            "path": ""
+          },
+          {
+            "label": "Leave a review on Trust Pilot",
+            "path": ""
+          }
+        ]
+      }
+    ]
+  }
+}
