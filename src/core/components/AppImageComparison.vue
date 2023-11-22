@@ -1,16 +1,36 @@
+<script setup>
+defineProps({
+  beforeImage: {
+    type: Object,
+    required: true
+  },
+  afterImage: {
+    type: Object,
+    required: true
+  }
+})
+
+const sliderContainer = ref(null)
+const updateSliderView = ($event) => {
+  if (sliderContainer.value) {
+    sliderContainer.value.style.setProperty('--position', `${$event?.target?.value}%`);
+  }
+}
+</script>
+
 <template>
   <main>
     <div ref="sliderContainer" class="slider-container">
       <div class="image-container">
         <img
             class="image-before slider-image"
-            :src="beforeImage"
-            alt="color photo"
+            :src="beforeImage.path"
+            :alt="beforeImage.alt"
         />
         <img
             class="image-after slider-image"
-            :src="afterImage"
-            alt="black and white"
+            :src="afterImage.path"
+            :alt="afterImage.alt"
         />
       </div>
       <!-- step="10" -->
@@ -87,20 +107,6 @@
     </div>
   </main>
 </template>
-
-<script setup lang="ts">
-defineProps<{
-  beforeImage: string;
-  afterImage: string;
-}>()
-
-const sliderContainer = ref(null)
-const updateSliderView = ($event :Event) => {
-  if (sliderContainer.value) {
-    sliderContainer.value.style.setProperty('--position', `${$event?.target?.value}%`);
-  }
-}
-</script>
 
 <style scoped lang="scss">
 main {

@@ -2,7 +2,7 @@
   <div class="group cursor-pointer"
   >
     <img src="/svg/client_logo.svg" alt="Client Logo">
-    <router-link :to="{ name: 'DevDockCaseStudy' }">
+    <router-link :to="{ name: 'DevDockCaseStudyDetails' }">
       <div
           class="project-image fancy-hover border border-dark-gray rounded hover:border-dark-gray/0 transition-all my-3 md:my-5"
       >
@@ -18,7 +18,7 @@
     <span
         class="text-sm md:text-base text-base-gray 2xl:text-xl hover:text-pink transition cursor-pointer"
     >
-      <router-link :to="{ name: 'DevDockCaseStudy' }">
+      <router-link :to="{ name: 'DevDockCaseStudyDetails' }">
         View Case Study
       </router-link>
     </span>
