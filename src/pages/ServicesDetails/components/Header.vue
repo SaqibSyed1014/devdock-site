@@ -21,12 +21,26 @@ defineProps({
         </p>
         <AppButton>Direct Contact</AppButton>
         <div class="flex flex-wrap gap-4 md:gap-6 text-sm text-base-gray pt-10">
-          <template v-for="(meta, index) in serviceHeader.meta" :key="index">
             <div class="flex items-center gap-2">
-              <span :class="[meta.icon]" class="w-5 h-5"/>
-              <label>{{ meta.label }}</label>
+              <span class="i-bi-send w-5 h-5"/>
+              <label>{{ serviceHeader.meta[0].label }}</label>
             </div>
-          </template>
+            <div class="flex items-center gap-2">
+              <span class="i-icon-park-outline-new-computer w-5 h-5"/>
+              <label>{{ serviceHeader.meta[1].label }}</label>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="i-ph-squares-four-light w-5 h-5"/>
+              <label>{{ serviceHeader.meta[2].label }}</label>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="i-carbon-tools-alt w-5 h-5"/>
+              <label>{{ serviceHeader.meta[3].label }}</label>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="i-carbon-tools-alt w-5 h-5"/>
+              <label>{{ serviceHeader.meta[4].label }}</label>
+            </div>
         </div>
       </div>
       <div class="col-span-1">

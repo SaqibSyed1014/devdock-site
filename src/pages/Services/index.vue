@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import HeroSection from "@/pages/Services/components/HeroSection.vue";
 import OurClients from "@/pages/home/components/OurClients.vue";
 import HeroBanner from "@/pages/home/components/HeroBanner.vue";

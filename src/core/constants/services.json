@@ -1,10 +1,32 @@
 {
   "headerContent": {
-    "heading": "Get your personalized solution with DevDock!"
+    "heading": "Get Your Personalized Solution With DevDock!",
+    "meta": [
+      {
+        "label": "UI/UX",
+        "icon": "i-bi-send"
+      },
+      {
+        "label": "Web Development",
+        "icon": "i-icon-park-outline-new-computer"
+      },
+      {
+        "label": "Native Applications",
+        "icon": "i-ph-squares-four-light"
+      },
+      {
+        "label": "SEO",
+        "icon": "i-carbon-tools-alt"
+      },
+      {
+        "label": "Social Media Designs",
+        "icon": "i-carbon-tools-alt"
+      }
+    ]
   },
   "vertices": {
     "heading": "OUR CORE CUSTOM SOFTWARE DEVELOPMENT SERVICES",
-    "text": "Our Core Personalized Development Services are designed to empower you on your journey to personal growth and success. At DevDock, we understand that every individual is unique, and that's why we offer tailor-made development solutions to meet your specific needs.",
+    "text": "Our core personalized development services are designed to empower you on your journey to personal growth and success. At DevDock, we understand that every individual is unique, and that's why we offer tailor-made development solutions to meet your specific needs.",
     "services": [
       {
         "id": "ui-ux",
@@ -112,16 +134,16 @@
         },
         {
           "label": "Design System",
-          "icon": "i-carbon-tools-alt"
+          "icon": "i-mdi-account-settings-outline"
         },
         {
           "label": "Web Design",
-          "icon": "i-carbon-tools-alt"
+          "icon": "i-mdi-twitter"
         }
       ]
     },
     "description": {
-      "heading": "Boost business growth with exceptional UIUX Design",
+      "heading": "Boost Business Growth With Exceptional UIUX Design",
       "text": "In today's digital landscape, exceptional UI/UX design is paramount for every business. It shapes users' first impressions, influences engagement, and determines business success. A seamless and intuitive design enhances user satisfaction, retention, and brand loyalty. DevDock a top-tier UI/UX design services company, is committed to providing intuitive design services that not only meet but exceed user expectations, ultimately wowing users and elevating your digital presence.",
       "bullets": [
         "We thoroughly analyze user behavior to gain insights and create engaging, personalized experiences that resonate with your target audience.",
@@ -175,43 +197,43 @@
       "list": [
         {
           "title": "Project Initiation",
-          "desc": "We understand that every client and project is unique. Our agency takes a personalized approach, tailoring our services to your specific needs and goals. This ensures that the final product aligns perfectly with your vision and objectives.",
+          "desc": "The design journey begins with a thorough project initiation, where we understand your goals, objectives, and project scope. This step sets the foundation for a successful UI/UX design process.",
           "icon": "capital.svg",
           "alt": "Settings Icon"
         },
         {
           "title": "Business Analysis",
-          "desc": "We understand that every client and project is unique. Our agency takes a personalized approach, tailoring our services to your specific needs and goals. This ensures that the final product aligns perfectly with your vision and objectives.",
+          "desc": "We delve into your business, understanding its intricacies and unique selling points. This analysis ensures that our design aligns seamlessly with your brand identity and business objectives.",
           "icon": "software.svg",
           "alt": "Software Icon"
         },
         {
           "title": "Customer Journey Mapping",
-          "desc": "We understand that every client and project is unique. Our agency takes a personalized approach, tailoring our services to your specific needs and goals. This ensures that the final product aligns perfectly with your vision and objectives.",
+          "desc": "Crafting a seamless user experience starts with mapping the customer journey. We analyze user interactions, identifying touchpoints to create an intuitive and engaging user flow.",
           "icon": "capital.svg",
           "alt": "Settings Icon"
         },
         {
           "title": "Technical Analysis",
-          "desc": "We understand that every client and project is unique. Our agency takes a personalized approach, tailoring our services to your specific needs and goals. This ensures that the final product aligns perfectly with your vision and objectives.",
+          "desc": "A comprehensive technical analysis is conducted to ensure that the proposed design seamlessly integrates with your technical infrastructure and meets all functional requirements.",
           "icon": "software.svg",
           "alt": "Software Icon"
         },
         {
           "title": "Wireframing & Information Architecture",
-          "desc": "We understand that every client and project is unique. Our agency takes a personalized approach, tailoring our services to your specific needs and goals. This ensures that the final product aligns perfectly with your vision and objectives.",
+          "desc": "We create wireframes that serve as the structural blueprint, outlining the layout and functionality of each screen. Information architecture is meticulously planned to enhance user navigation and understanding.",
           "icon": "capital.svg",
           "alt": "Settings Icon"
         },
         {
           "title": "Sketch of style option",
-          "desc": "We understand that every client and project is unique. Our agency takes a personalized approach, tailoring our services to your specific needs and goals. This ensures that the final product aligns perfectly with your vision and objectives.",
+          "desc": "Multiple style options are sketched, giving you a visual overview of different design directions. This collaborative approach ensures that the final design resonates with your brand aesthetic.",
           "icon": "software.svg",
           "alt": "Software Icon"
         },
         {
           "title": "UI design and development handover",
-          "desc": "We understand that every client and project is unique. Our agency takes a personalized approach, tailoring our services to your specific needs and goals. This ensures that the final product aligns perfectly with your vision and objectives.",
+          "desc": "The final stage involves the detailed UI design and development handover. Our design is translated into a functional, visually appealing user interface, ready for seamless integration into your development process.",
           "icon": "capital.svg",
           "alt": "Settings Icon"
         }
@@ -221,24 +243,19 @@
       "heading": "Our Great Case Studies",
       "list": [
         {
-          "name": "Case Study 01",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 02",
-          "desc": "Spendesk utilizes data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 03",
-          "desc": "Spendesk utilizes Surfe to ensure accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 04",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "cash-crow"
         }
       ]
     },
@@ -286,7 +303,7 @@
       "text": "Empowering businesses with innovative web solutions for revolutionary growth",
       "meta": [
         {
-          "label": "Optimized code",
+          "label": "Optimized Code",
           "icon": "i-bi-send"
         },
         {
@@ -294,7 +311,7 @@
           "icon": "i-icon-park-outline-new-computer"
         },
         {
-          "label": "SEO ready",
+          "label": "SEO Ready",
           "icon": "i-ph-squares-four-light"
         },
         {
@@ -308,7 +325,7 @@
       ]
     },
     "description": {
-      "heading": "Boost business growth with exceptional Website Development Services",
+      "heading": "Boost Business Growth With Exceptional Website Development Services",
       "text": "We're not just any web development company – we're your custom web Developers, dedicated to crafting unique digital experiences. Our expert team of web developers meticulously guides the journey from concept to creation, deploying and maintaining tailored websites and applications that cater to the distinct needs of individuals and organizations. DevDock Website Development Services are here to ensure that you stand out in the crowded virtual landscape.",
       "bullets": [
         "We tailor every website development project to the unique needs and goals of our clients. We create custom solutions that perfectly fit your business",
@@ -368,7 +385,7 @@
         },
         {
           "title": "Competitor Analysis",
-          "desc": "Understanding your competition is crucial. We perform in-depth competitor analysis to gain insights and inspiration, ensuring your website stands out and excels in your industry.",
+          "desc": "Tailored solutions to fuel your online success. We specialize in creating bespoke websites that perfectly align with your unique business needs, ensuring optimal functionality and a seamless user experience.",
           "icon": "software.svg",
           "alt": "Software Icon"
         },
@@ -408,24 +425,19 @@
       "heading": "Our Great Case Studies",
       "list": [
         {
-          "name": "Case Study 01",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 02",
-          "desc": "Spendesk utilizes data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 03",
-          "desc": "Spendesk utilizes Surfe to ensure accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 04",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "cash-crow"
         }
       ]
     },
@@ -469,11 +481,11 @@
   },
   "android-app-development": {
     "header": {
-      "heading": "Go Full Android using Kotlin with DevDock! ",
+      "heading": "Go Full Android Using Kotlin with DevDock! ",
       "text": "Empowering businesses with innovative Android App Development solutions.",
       "meta": [
         {
-          "label": "Optimized code",
+          "label": "Optimized Code",
           "icon": "i-bi-send"
         },
         {
@@ -481,7 +493,7 @@
           "icon": "i-icon-park-outline-new-computer"
         },
         {
-          "label": "SEO ready",
+          "label": "SEO Ready",
           "icon": "i-ph-squares-four-light"
         },
         {
@@ -495,7 +507,7 @@
       ]
     },
     "description": {
-      "heading": "Boost business growth with exceptional Android Development Services",
+      "heading": "Boost Business Growth With Exceptional Android Development Services",
       "text": "Our app development team collaborates to create custom features, streamline processes for a better user experience, analyze usage patterns for mobile optimization, and deliver actionable insights to refine your mobile strategy. Mobile application services help unlock your brand’s full potential and deliver innovative solutions to gain a competitive edge in today’s digital landscape. DevDock Android App Development services are here to ensure that you stand out in the crowded virtual landscape.",
       "bullets": [
         "We help build scalable, user-focused apps that succeed.",
@@ -595,24 +607,19 @@
       "heading": "Our Great Case Studies",
       "list": [
         {
-          "name": "Case Study 01",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 02",
-          "desc": "Spendesk utilizes data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 03",
-          "desc": "Spendesk utilizes Surfe to ensure accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 04",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "cash-crow"
         }
       ]
     },
@@ -656,11 +663,11 @@
   },
   "full-stack-development": {
     "header": {
-      "heading": "Outperform your competition with Full Stack development",
+      "heading": "Outperform Your Competition With Full Stack Development",
       "text": "Empowering businesses with innovative Full Stack development solutions.",
       "meta": [
         {
-          "label": "Optimized code",
+          "label": "Optimized Code",
           "icon": "i-bi-send"
         },
         {
@@ -668,7 +675,7 @@
           "icon": "i-icon-park-outline-new-computer"
         },
         {
-          "label": "SEO ready",
+          "label": "SEO Ready",
           "icon": "i-ph-squares-four-light"
         },
         {
@@ -682,7 +689,7 @@
       ]
     },
     "description": {
-      "heading": "Boost business growth with exceptional Full Stack Development Services",
+      "heading": "Boost Business Growth With Exceptional Full Stack Development Services",
       "text": "Our comprehensive Full Stack Development Services cover a wide spectrum of technologies and platforms, ensuring a one-stop solution for all your software needs. From frontend web development using cutting-edge frameworks to robust backend systems and databases, we've got you covered. At DevDock, we follow industry best practices and stay updated with the latest trends to guarantee that your projects are not only up to date but also optimized for performance and security. We're dedicated to providing you with tailored, cost-effective solutions that give you a competitive edge in the digital landscape",
       "bullets": [
         "Say goodbye to the frustration of managing multiple teams or trying to bridge the communication gap between frontend and backend developers. DevDock offers a cohesive approach that ensures your project runs smoothly from start to finish.",
@@ -781,24 +788,19 @@
       "heading": "Our Great Case Studies",
       "list": [
         {
-          "name": "Case Study 01",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 02",
-          "desc": "Spendesk utilizes data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 03",
-          "desc": "Spendesk utilizes Surfe to ensure accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 04",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "cash-crow"
         }
       ]
     },
@@ -846,7 +848,7 @@
       "text": "Boosting your app downloads and revenue with ASO",
       "meta": [
         {
-          "label": "Optimized code",
+          "label": "Optimized Code",
           "icon": "i-bi-send"
         },
         {
@@ -854,7 +856,7 @@
           "icon": "i-icon-park-outline-new-computer"
         },
         {
-          "label": "SEO ready",
+          "label": "SEO Ready",
           "icon": "i-ph-squares-four-light"
         },
         {
@@ -968,24 +970,19 @@
       "heading": "Our Great Case Studies",
       "list": [
         {
-          "name": "Case Study 01",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 02",
-          "desc": "Spendesk utilizes data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 03",
-          "desc": "Spendesk utilizes Surfe to ensure accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 04",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "cash-crow"
         }
       ]
     },
@@ -1033,7 +1030,7 @@
       "text": "Your Key to Dominating the Search Engines and Winning More Customers",
       "meta": [
         {
-          "label": "Optimized code",
+          "label": "Optimized Code",
           "icon": "i-bi-send"
         },
         {
@@ -1041,7 +1038,7 @@
           "icon": "i-icon-park-outline-new-computer"
         },
         {
-          "label": "SEO ready",
+          "label": "SEO Ready",
           "icon": "i-ph-squares-four-light"
         },
         {
@@ -1055,7 +1052,7 @@
       ]
     },
     "description": {
-      "heading": "Boost business growth with exceptional SEO Services",
+      "heading": "Boost Business Growth With Exceptional SEO Services",
       "text": "In the digital age, having a stunning website is not enough; it needs to be discovered. Our comprehensive SEO solutions are designed to ensure your website achieves top rankings in search engine results, driving organic traffic and increasing your online visibility. DevDock dedicated team of experts keeps pace with the ever-evolving SEO landscape, ensuring your website remains competitive in the search results. We don't just boost your rankings; we enhance your online presence and help you connect with your target audience effectively.",
       "bullets": [
         "We will explore your company's aspirations, both short-term and long-term, to formulate an SEO strategy tailored to your objectives.",
@@ -1155,24 +1152,19 @@
       "heading": "Our Great Case Studies",
       "list": [
         {
-          "name": "Case Study 01",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 02",
-          "desc": "Spendesk utilizes data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 03",
-          "desc": "Spendesk utilizes Surfe to ensure accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 04",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "cash-crow"
         }
       ]
     },
@@ -1220,7 +1212,7 @@
       "text": "Creating a strong brand identity that resonates with your audience",
       "meta": [
         {
-          "label": "Optimized code",
+          "label": "Optimized Code",
           "icon": "i-bi-send"
         },
         {
@@ -1228,7 +1220,7 @@
           "icon": "i-icon-park-outline-new-computer"
         },
         {
-          "label": "SEO ready",
+          "label": "SEO Ready",
           "icon": "i-ph-squares-four-light"
         },
         {
@@ -1242,7 +1234,7 @@
       ]
     },
     "description": {
-      "heading": "Boost business growth with exceptional Logo & Branding Services",
+      "heading": "Boost Business Growth With Exceptional Logo & Branding Services",
       "text": "In today's competitive marketplace, a strong brand is essential for business success. Your brand is what sets you apart from your competitors and tells customers what your business stands for. At Devdock, we offer a comprehensive suite of Logo & Branding Services that can help you create a strong and memorable brand identity that will resonate with your target audience. Our team of experienced designers and branding experts will work with you to understand your business goals and develop a brand identity that is unique, authentic, and visually appealing.",
       "bullets": [
         "Our well-designed logo and strong branding service will help you increase brand awareness and make it easier for potential customers to find you.",
@@ -1265,7 +1257,7 @@
         },
         {
           "title": "Brand Identity Design",
-          "description": "Your brand identity is more than just your logo. It's the overall look and feel of your brand, including your typography, color palette, and imagery. We will work with you to develop a cohesive brand identity that will be used across all of your marketing materials, from your website to your social media pages to your packaging.",
+          "description": "Shape a strong visual identity for your brand with our comprehensive brand identity design services. We ensure consistency across all visual elements, fostering recognition and trust.",
           "stack": [
             "figma.svg",
             "miro.svg"
@@ -1342,24 +1334,19 @@
       "heading": "Our Great Case Studies",
       "list": [
         {
-          "name": "Case Study 01",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 02",
-          "desc": "Spendesk utilizes data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 03",
-          "desc": "Spendesk utilizes Surfe to ensure accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 04",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "cash-crow"
         }
       ]
     },
@@ -1407,7 +1394,7 @@
       "text": "Unifying your app experience across platforms with hybrid development",
       "meta": [
         {
-          "label": "Optimized code",
+          "label": "Optimized Code",
           "icon": "i-bi-send"
         },
         {
@@ -1415,7 +1402,7 @@
           "icon": "i-icon-park-outline-new-computer"
         },
         {
-          "label": "SEO ready",
+          "label": "SEO Ready",
           "icon": "i-ph-squares-four-light"
         },
         {
@@ -1529,24 +1516,19 @@
       "heading": "Our Great Case Studies",
       "list": [
         {
-          "name": "Case Study 01",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 02",
-          "desc": "Spendesk utilizes data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 03",
-          "desc": "Spendesk utilizes Surfe to ensure accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 04",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "cash-crow"
         }
       ]
     },
@@ -1594,7 +1576,7 @@
       "text": "Empowering businesses with innovative SaaS Development solutions.",
       "meta": [
         {
-          "label": "Optimized code",
+          "label": "Optimized Code",
           "icon": "i-bi-send"
         },
         {
@@ -1602,7 +1584,7 @@
           "icon": "i-icon-park-outline-new-computer"
         },
         {
-          "label": "SEO ready",
+          "label": "SEO Ready",
           "icon": "i-ph-squares-four-light"
         },
         {
@@ -1616,7 +1598,7 @@
       ]
     },
     "description": {
-      "heading": "Boost business growth with exceptional SaaS Development Services",
+      "heading": "Boost Business Growth With Exceptional SaaS Development Services",
       "text": "DevDock is a leading SaaS development company with a team of experienced and skilled developers who can create scalable and secure SaaS applications for your business. We have a deep understanding of the SaaS development process and the latest SaaS technologies, and we are committed to providing our clients with the highest quality SaaS development services.",
       "bullets": [
         "SaaS application design: We can help you design your SaaS application from the ground up, ensuring that it meets your specific business needs and requirements. We will work with you to define your user personas, user flows, and overall user experience.",
@@ -1665,7 +1647,7 @@
       ]
     },
     "vertices": {
-      "heading": "Our Hybrid App Development Process",
+      "heading": "Our SaaS Development Process",
       "list": [
         {
           "title": "Requirements Gathering",
@@ -1715,24 +1697,19 @@
       "heading": "Our Great Case Studies",
       "list": [
         {
-          "name": "Case Study 01",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 02",
-          "desc": "Spendesk utilizes data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 03",
-          "desc": "Spendesk utilizes Surfe to ensure accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 04",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "cash-crow"
         }
       ]
     },
@@ -1780,7 +1757,7 @@
       "text": "Transforming business ideas into a reality with our MVP development expertise.",
       "meta": [
         {
-          "label": "Optimized code",
+          "label": "Optimized Code",
           "icon": "i-bi-send"
         },
         {
@@ -1788,7 +1765,7 @@
           "icon": "i-icon-park-outline-new-computer"
         },
         {
-          "label": "SEO ready",
+          "label": "SEO Ready",
           "icon": "i-ph-squares-four-light"
         },
         {
@@ -1802,7 +1779,7 @@
       ]
     },
     "description": {
-      "heading": "Boost business growth with exceptional MVP Development Services",
+      "heading": "Boost Business Growth With Exceptional MVP Development Services",
       "text": "In the dynamic world of technology, where innovative ideas emerge at breakneck speed, time to market is crucial for success. DevDock understands the urgency of transforming your groundbreaking business concept into a tangible reality, and we're here to empower you with our exceptional MVP development services. An MVP, or Minimum Viable Product, is the cornerstone of your business growth strategy. It's the embodiment of your core idea, distilled into a functional product that allows you to gather valuable user feedback, validate your concept, and refine your product roadmap before investing in full-scale development. At DevDock, we don't just build MVPs; we craft masterpieces of innovation.",
       "bullets": [
         "We employ cutting-edge agile methodologies and streamlined processes to deliver your MVP in record time, enabling you to capture market opportunities without delay.",
@@ -1812,7 +1789,7 @@
       ]
     },
     "selectiveServices": {
-      "heading": "The Power-Packed SaaS Development Services",
+      "heading": "The Power-Packed MVP Development Services",
       "list": [
         {
           "title": "MVP Design",
@@ -1852,7 +1829,7 @@
       ]
     },
     "vertices": {
-      "heading": "Our Hybrid App Development Process",
+      "heading": "Our MVP Development Process",
       "list": [
         {
           "title": "Requirements Gathering",
@@ -1902,24 +1879,19 @@
       "heading": "Our Great Case Studies",
       "list": [
         {
-          "name": "Case Study 01",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 02",
-          "desc": "Spendesk utilizes data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 03",
-          "desc": "Spendesk utilizes Surfe to ensure accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 04",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "cash-crow"
         }
       ]
     },
@@ -1967,7 +1939,7 @@
       "text": "Create iOS apps that users love with our engaging and delightful designs.",
       "meta": [
         {
-          "label": "Optimized code",
+          "label": "Optimized Code",
           "icon": "i-bi-send"
         },
         {
@@ -1975,7 +1947,7 @@
           "icon": "i-icon-park-outline-new-computer"
         },
         {
-          "label": "SEO ready",
+          "label": "SEO Ready",
           "icon": "i-ph-squares-four-light"
         },
         {
@@ -1989,7 +1961,7 @@
       ]
     },
     "description": {
-      "heading": "Boost business growth with exceptional iOS App Development Services",
+      "heading": "Boost Business Growth With Exceptional iOS App Development Services",
       "text": "In today's digital world, a well-designed and developed mobile app is essential for businesses of all sizes. With billions of people using smartphones and tablets on a daily basis, apps offer a unique opportunity to connect with customers, drive sales, and build brand awareness. DevDock iOS App Development services are here to ensure that you stand out in the crowded virtual landscape.",
       "bullets": [
         "We work with you to understand your business goals and develop a concept for an app that will help you achieve them.",
@@ -1999,7 +1971,7 @@
       ]
     },
     "selectiveServices": {
-      "heading": "The Power-Packed SaaS Development Services",
+      "heading": "The Power-Packed iOS App Development Services",
       "list": [
         {
           "title": "iOS App Design",
@@ -2039,7 +2011,7 @@
       ]
     },
     "vertices": {
-      "heading": "Our Hybrid App Development Process",
+      "heading": "Our iOS App Development Process",
       "list": [
         {
           "title": "Requirements Gathering",
@@ -2089,24 +2061,19 @@
       "heading": "Our Great Case Studies",
       "list": [
         {
-          "name": "Case Study 01",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 02",
-          "desc": "Spendesk utilizes data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 03",
-          "desc": "Spendesk utilizes Surfe to ensure accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 04",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "cash-crow"
         }
       ]
     },
@@ -2154,7 +2121,7 @@
       "text": "Creating custom widgets to enhance your apps and websites with unique functionality and interactivity",
       "meta": [
         {
-          "label": "Optimized code",
+          "label": "Optimized Code",
           "icon": "i-bi-send"
         },
         {
@@ -2162,7 +2129,7 @@
           "icon": "i-icon-park-outline-new-computer"
         },
         {
-          "label": "SEO ready",
+          "label": "SEO Ready",
           "icon": "i-ph-squares-four-light"
         },
         {
@@ -2176,7 +2143,7 @@
       ]
     },
     "description": {
-      "heading": "Boost business growth with exceptional Widget Development Services",
+      "heading": "Boost Business Growth With Exceptional Widget Development Services",
       "text": "DevDock is a one-stop shop for all your custom widget development needs. We have a team of experienced and skilled developers who can create custom widgets for any platform or device. We understand that every business is unique, so we work closely with our clients to understand their specific needs and develop custom widgets that meet their unique requirements. Whether you need a simple widget to display information on your website or a complex widget to perform specific tasks, DevDock can help you. We have a wide range of experience developing custom widgets for all kinds of businesses, including:",
       "bullets": [
         "Ecommerce widgets: We can develop custom widgets to help you increase sales and improve the customer experience on your ecommerce website. For example, we can develop widgets for product recommendations, product reviews, and shopping carts.",
@@ -2225,7 +2192,7 @@
       ]
     },
     "vertices": {
-      "heading": "Our Hybrid App Development Process",
+      "heading": "Our Widget Development Process",
       "list": [
         {
           "title": "Requirements Gathering",
@@ -2275,24 +2242,19 @@
       "heading": "Our Great Case Studies",
       "list": [
         {
-          "name": "Case Study 01",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 02",
-          "desc": "Spendesk utilizes data remains standardized and accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 03",
-          "desc": "Spendesk utilizes Surfe to ensure accurate within the CRM",
-          "image": ""
-        },
-        {
-          "name": "Case Study 04",
-          "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM",
-          "image": ""
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "cash-crow"
         }
       ]
     },

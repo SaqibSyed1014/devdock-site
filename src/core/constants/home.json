@@ -1,0 +1,62 @@
+{
+  "trustSection": {
+    "heading": "Integrate Your Trust With",
+    "badgeText": "DevDock",
+    "image": {
+      "path": "/img/deal.png",
+      "alt": "Deal"
+    },
+    "techStack": [
+      {
+        "name": "/img/stack/reactjs.svg",
+        "alt": "React Js Development Services and Company",
+        "col": 1
+      },
+      {
+        "name": "/img/stack/reactnative.svg",
+        "alt": "React Native",
+        "col": 1
+      },
+      {
+        "name": "/img/stack/nodejs.svg",
+        "alt": "Node JS",
+        "col": 1
+      },
+      {
+        "name": "/img/stack/php.svg",
+        "alt": "PHP",
+        "col": 1
+      },
+      {
+        "name": "/img/stack/vuejs.svg",
+        "alt": "Vuejs",
+        "col": 1
+      },
+      {
+        "name": "/img/stack/flutter.svg",
+        "alt": "Flutter",
+        "col": 1
+      },
+      {
+        "name": "/img/stack/swift.svg",
+        "alt": "Swift",
+        "col": 1
+      },
+      {
+        "name": "/img/stack/tailwind.svg",
+        "alt": "Tailwind CSS",
+        "col": 2
+      },
+      {
+        "name": "/img/stack/figma.png",
+        "alt": "Figma",
+        "col": 1
+      },
+      {
+        "name": "/img/stack/illustrator.png",
+        "alt": "Adobe Illustrator",
+        "col": 1
+      }
+    ]
+  }
+}

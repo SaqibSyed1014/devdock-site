@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import AppAvatar from "@/core/components/AppAvatar.vue";
 import pageData from "@/core/constants/about-us.json";
-import { teamMembers } from "@/core/constants/contact-us.ts";
+import contactPageData from "@/core/constants/contact-us.json"
 
 const teamSectionData = pageData.teamSectionContent
+const teamData = contactPageData.team
 </script>
 
 <template>
@@ -16,7 +17,7 @@ const teamSectionData = pageData.teamSectionContent
       </div>
       <div class="lg:col-span-2">
         <div class="team-members grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 items-center gap-x-5 gap-y-10 pt-6">
-          <template v-for="member in teamMembers">
+          <template v-for="member in teamData">
             <AppAvatar
                 :user-name="member.name"
                 :role="member.designation"

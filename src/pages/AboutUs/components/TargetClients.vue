@@ -33,7 +33,7 @@ const offerSolutionsData = pageData.offerSolutionsContent
 
 <style scoped lang="scss">
 .horizontal-slider{
-  animation-duration: 25s;
+  animation-duration: 35s;
   animation-iteration-count: infinite;
   animation-name: HSlider;
   animation-play-state: running;

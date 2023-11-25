@@ -59,12 +59,14 @@ const filterContent = (item, index) => {
   </div>
 
   <div class="container">
-    <p class="text-dark-gray text-sm sm:text-base 2xl:text-xl font-medium md:pl-1 pt-3">Portfolio</p>
-    <h1 class="text-center text-3xl sm:text-4xl md:text-6.2xl !leading-tight font-semibold pt-8 md:pt-14">
+    <h1 class="text-dark-gray text-sm sm:text-base 2xl:text-xl font-medium md:pl-1 pt-3">
+      Portfolio
+    </h1>
+    <h2 class="text-center text-3xl sm:text-4xl md:text-6.2xl !leading-tight font-semibold pt-8 md:pt-14">
       {{ headerData.startText }}
       <span class="underlined-word">{{ headerData.underlined }}</span>
       {{ headerData.endText }}
-    </h1>
+    </h2>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4  gap-x-5 gap-y-10 pt-14">
       <template

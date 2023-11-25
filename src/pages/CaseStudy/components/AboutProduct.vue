@@ -14,7 +14,7 @@ defineProps({
         <div class="col-span-1 font-semibold">
           <small class="text-orange text-sm">PROJECT DESCRIPTION</small>
           <h5 class="text-primary text-3xl md:text-5xl md:leading-[64px]">
-            {{ productDescription.heading }}
+            "{{ productDescription.heading }}"
           </h5>
         </div>
         <div class="col-span-2 lg:pl-14 lg:text-lg">

@@ -19,18 +19,6 @@ export const clientLogos = [
     { name: 'firetrust.svg', alt: 'FireTrust' }
 ]
 
-// Trust Section Constants
-export const trustHeading = 'Integrate your trust with'
-export const techStack = [
-    { name: 'reactjs.svg', alt: 'React Js Development Services and Company' },
-    { name: 'reactnative.svg', alt: 'React Native' },
-    { name: 'nodejs.svg', alt: 'Node JS' },
-    { name: 'php.svg', alt: 'PHP' },
-    { name: 'vuejs.svg', alt: 'Vuejs' },
-    { name: 'flutter.svg', alt: 'Flutter' },
-    { name: 'swift.svg', alt: 'Swift' },
-    { name: 'tailwind.svg', alt: 'Tailwind CSS' },
-]
 
 // Services Section Constants
 export const servicesHeading = 'works with Companies and supports startups in four critical ways.'

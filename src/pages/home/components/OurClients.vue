@@ -12,12 +12,12 @@
           <hr>
           <div class="flex flex-nowrap whitespace-normal overflow-hidden py-6">
             <div class="flex justify-around items-center horizontal-slider">
-              <div v-for="(logo, index) in clientLogos" :key="index"  class="px-5">
+              <div v-for="(logo, index) in clientLogos" :key="index"  class="px-5 md:px-8 lg:px-5 xl:px-8">
                 <img :src="`/img/clients/${logo.name}`" :alt="logo.alt">
               </div>
             </div>
             <div class="flex justify-around items-center horizontal-slider">
-              <div v-for="(logo, index) in clientLogos" :key="index" class="px-5">
+              <div v-for="(logo, index) in clientLogos" :key="index" class="px-5 md:px-8 lg:px-5 xl:px-8">
                 <img :src="`/img/clients/${logo.name}`" :alt="logo.alt">
               </div>
             </div>
@@ -34,7 +34,7 @@ import { clientLogos, testimonialSection } from "@/core/constants/home-view.ts";
 
 <style scoped lang="scss">
 .horizontal-slider{
-  animation-duration: 12s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-name: HSlider;
   animation-play-state: running;

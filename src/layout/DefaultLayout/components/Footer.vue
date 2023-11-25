@@ -30,8 +30,8 @@
     </div>
 
     <div class="container py-10">
-      <div class="grid grid-cols-2 lg:grid-cols-5 gap-16 text-white">
-        <div class="col-span-1 lg:col-span-2">
+      <div class="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-7 gap-16 text-white">
+        <div class="col-span-3 sm:col-span-3 md:col-span-3">
           <label class="text-[15px] 2xl:text-xl">Email</label>
           <a
               :href="`mailto:${contactEmail}`"
@@ -41,8 +41,9 @@
           </a>
           <label class="text-[15px] 2xl:text-xl">Whatsapp</label>
           <a
-              :href="`tel:${contactNumber}`"
-             class="block text-xl 2xl:text-2xl md:text-extra font-bold pt-3"
+              href="https://web.whatsapp.com/send/?phone=%2B923314709729&text&type=phone_number&app_absent=0"
+              target="blank"
+              class="block text-xl 2xl:text-2xl md:text-extra font-bold pt-3"
           >
             {{ contactNumber }}
           </a>
@@ -51,7 +52,7 @@
           v-for="(links, i) in footerContent.footerLinks"
           :key="i"
         >
-          <div class="col-span-1">
+          <div class="col-span-2">
             <h2 class="text-xl 2xl:text-2xl md:text-extra font-bold pb-6">
               {{ links.heading }}
             </h2>

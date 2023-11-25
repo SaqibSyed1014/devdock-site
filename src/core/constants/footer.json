@@ -2,24 +2,24 @@
   "footerContent": {
     "bannerHeading": "Help us spread the word and sell good vibes. Follow!",
     "footerLinks": [
-        {
-          "heading": "Company",
-          "links": [
-            {
-              "label": "About",
-              "path": "/about-us"
-            },
-            {
-              "label": "Hire Us",
-              "path": "",
-              "icon": "i-ph-arrow-up-right-light"
-            },
-            {
-              "label": "Contact Us",
-              "path": "/contact-us"
-            }
-          ]
-        },
+      {
+        "heading": "Company",
+        "links": [
+          {
+            "label": "About",
+            "path": "/about-us"
+          },
+          {
+            "label": "Hire Us",
+            "path": "",
+            "icon": "i-ph-arrow-up-right-light"
+          },
+          {
+            "label": "Contact Us",
+            "path": "/contact-us"
+          }
+        ]
+      },
       {
         "heading": "Services",
         "links": [
@@ -38,27 +38,6 @@
           {
             "label": "All Services",
             "path": "/services"
-          }
-        ]
-      },
-      {
-        "heading": "Resources",
-        "links": [
-          {
-            "label": "Blog",
-            "path": ""
-          },
-          {
-            "label": "Media Kit",
-            "path": ""
-          },
-          {
-            "label": "All Time Reviews",
-            "path": ""
-          },
-          {
-            "label": "Leave a review on Trust Pilot",
-            "path": ""
           }
         ]
       }

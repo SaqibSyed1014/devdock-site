@@ -1,0 +1,81 @@
+{
+  "heading": ["Get in Touch", "With Us!"],
+  "headingImages": [
+    {
+      "src": "/svg/connect_hand.svg",
+      "alt": "Connect SVG"
+    },
+    {
+      "src": "/img/hire_01.webp",
+      "alt": "Software Development Services"
+    },
+    {
+      "src": "/img/hire_02.webp",
+      "alt": "Personalized"
+    }
+  ],
+  "text": "We’ll gladly answer any of your questions",
+  "address": "366 block R1 Johar Town 54782, Lahore Pakistan",
+  "banner": {
+    "heading": "Dm Now",
+    "text": "Ask all your questions and discover DevDock services in action! Chat to one of us today.",
+    "image": "/img/rocket-portrait.webp",
+    "alt": "Rocket"
+  },
+  "socialLinks":[
+    {
+      "icon": "i-mdi-twitter",
+      "link": ""
+    },
+    {
+      "icon": "i-uil-facebook",
+      "link": ""
+    },
+    {
+      "icon": "i-mdi-linkedin",
+      "link": ""
+    },
+    {
+      "icon": "i-ri-instagram-fill",
+      "link": ""
+    }
+  ],
+  "team": [
+    {
+      "name": "Abdul Wahab",
+      "designation": "CDO",
+      "image": "/img/team/wahab.webp",
+      "bgColor": "#FFA2EA"
+    },
+    {
+      "name": "Abdul Wahab",
+      "designation": "CDO",
+      "image": "/img/team/wahab.webp",
+      "bgColor": "#D1F2FD"
+    },
+    {
+      "name": "Abdul Wahab",
+      "designation": "CDO",
+      "image": "/img/team/wahab.webp",
+      "bgColor": "#FF9256"
+    },
+    {
+      "name": "Abdul Wahab",
+      "designation": "CDO",
+      "image": "/img/team/wahab.webp",
+      "bgColor": "#FDFFAD"
+    },
+    {
+      "name": "Abdul Wahab",
+      "designation": "CDO",
+      "image": "/img/team/wahab.webp",
+      "bgColor": "#FFDEF7"
+    },
+    {
+      "name": "Abdul Wahab",
+      "designation": "CDO",
+      "image": "/img/team/wahab.webp",
+      "bgColor": "orange"
+    }
+  ]
+}

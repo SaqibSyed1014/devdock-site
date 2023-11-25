@@ -143,6 +143,7 @@ const scrollY = ref(window.scrollY);
 const isScrollingDown = ref(false);
 
 watch(route, () => {
+  isScrollingDown.value = false
   if (showMobileMenu.value) showMobileMenu.value = false
 })
 

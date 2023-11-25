@@ -82,6 +82,8 @@ router.beforeEach((to) => {
   document.title = title
   document.querySelector('meta[name="description"]').setAttribute('content', description)
   document.querySelector('meta[name="keywords"]').setAttribute('content', keywords)
+  document.querySelector('meta[name="keywords"]').setAttribute('content', keywords)
+  document.querySelector('link[rel="canonical"]').setAttribute('href', to.path)
 })
 
 export default router

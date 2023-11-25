@@ -67,7 +67,7 @@ const isOpen = ref([
 const toggleItem = (colIndex, index) => {
   for (let i = 0; i < isOpen.value.length; i++) { // closes other expanded faqs
     for (let j = 0; j < isOpen.value[i].length; j++) {
-      isOpen.value[i][j] = false;
+      if (i !== colIndex || j !== index) isOpen.value[i][j] = false;
     }
   }
   isOpen.value[colIndex][index] = !isOpen.value[colIndex][index]

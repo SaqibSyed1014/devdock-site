@@ -5,20 +5,20 @@
           class="hero-message hidden lg:flex text-7xl 2xl:text-8xl gap-3 font-semibold 2xl:px-40"
       >
         <span class="flex items-center slide-in-text" :style="{ '--delay': 1.5 }">
-          <span>Get your Personalized</span>
+          <span>Get Your Personalized</span>
           <img src="/img/hire_01.webp" alt="Software Development Services" width="165" height="190" class="rounded-curved ml-4">
         </span>
         <span class="flex items-center slide-in-text" :style="{ '--delay': 2 }">
           <img src="/img/hire_02.webp" alt="Personalized" width="165" height="90" class="rounded-curved mr-4">
-          Development Services
+          Software Development
         </span>
         <span class="flex items-center slide-in-text" :style="{ '--delay': 2.3 }">
-          Under 1 Roof
+         Services Under 1 Roof
           <img src="/svg/connect_hand.svg" alt="Hand" width="165" height="190" class="ml-3">
         </span>
       </h1>
       <h1 class="block lg:hidden text-4xl md:text-6xl font-semibold">
-        Get your Personalized Development Services Under 1 Roof
+        Get Your Personalized Software Development Services Under 1 Roof
         <img src="/svg/connect_hand.svg" alt="Hand" class="inline-block align-bottom w-1/4 xss:w-2/12">
       </h1>
       <div class="pt-10">

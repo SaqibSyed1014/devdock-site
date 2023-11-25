@@ -1,11 +1,11 @@
 {
   "heading": {
-    "startText": "Trusted by great teams. ",
+    "startText": "Trusted by Great Teams ",
     "underlined": "Here’s",
     "endText": "Why"
   },
   "ctaSection": {
-    "heading": "FREE Consultation Call to discuss your project",
+    "heading": "Free Consultation Call to Discuss Your Project",
     "text": "Our experienced team is ready to listen to your needs, provide valuable insights, and tailor a customized solution that perfectly fits your goals.",
     "image": "/img/meeting.webp",
     "alt": "Client Meeting"
@@ -15,56 +15,817 @@
       "label": "Landing Pages",
       "svg": "curve_arrow.svg",
       "content": [
-        { "name": "", "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM", "image": "" },
-        { "name": "", "desc": "Lorem Ipsum ensure that data remains standardized and accurate within the CRM", "image": "" },
-        { "name": "", "desc": "Surfe to ensure that data remains accurate within the CRM", "image": "" },
-        { "name": "", "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM", "image": "" }
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Interactive Credit Card App Designed To Help Users",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "the-chef-card"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Search Night Out Places By Location Or By Food",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "whats-happen"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Track The Progress And Manage The Baby Blues",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "mapa-aid"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Sports Betting With Data-Driven Insights",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "livelock"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Order Your Fashion Must-Haves From Couch Comfort",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "lemur"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "The Map That Provide Navigation Even In Popular Places",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "find-app"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "The One-Stop App for all Your Martial Arts Needs",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "fight-roots"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "An App Where Competitions Are Made By Fans For Fans",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "fair-fight-v1"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "An App Where Competitions Are Made By Fans For Fans",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "fair-fight-v2"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Delivery App For Ordering All Sorts of Retail Items",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "easy-n-fast"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Order Stationary, Pet Food, Compost, Coffee With Ease",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "beespatch"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "A Revolutionary Marketplace For Security Professonals",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "assero"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Deliver and Transport Items of All Sizes And Weights",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "speedyssey"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Delivering Fuel To Your Car, Wherever You Need",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "soya"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Find And Book Your Next Favorite Spot For A Night Out",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "rsrv-a-go"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Games Aim To Make Screen Time Productive For Kids",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "learned-app"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Order Health Food From the Comfort of Your Couch",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "fit-shelf"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Fitness App That Transforms The Way You Live",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "its-a-healthy-life"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Logging And Tracking App For Your Vehicle Monitoring",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "my-car-hub"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Tackle Harassment, And Violence that Goes In Public",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "icu"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Level Up The Boring Party With Play Song",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "ear-shotz"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Helping Parents Connecting with Birth Workers",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "digi-doula"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Trip To The Dentist From Comfort Of Your Couch",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "dentist-now"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Finding Date! Pictures Can Deceive, But Ratings Don't Lie!",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "date-up"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Hand-Picked Gifts Tailored For Special Occasions",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "clever-gifts"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Finding The Cannabis Products Suited To Needs",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "plantidote"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Optimizing Progress Of Sales Professionals",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "pause"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "The Study App Built To Bring A Game To College",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "ace-it"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Find The Trails Hund The Treasure Through The Past",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "go-wild"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Find Independent Service Providers Near You",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "hey-active"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Connect To A Personal Trainer Tailored As Per Needs",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "the-fitness-hub"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Discover And Explore Adventure Guides Nation-Wide",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "guided"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Book A Comfortable Car Ride Or Order Food",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "hoppiia"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Connect Music Lovers as individuals or as Couples",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "sound-and-found"
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "Makes Checkout Convenient With Secure Transaction",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Landing Page",
+          "title": "cash-crow"
+        }
       ]
     },
     {
       "label": "SaaS",
       "svg": "stats_up.svg",
       "content": [
-        { "name": "", "desc": "If you are immediately concerned about yourself or a friend, reach out for help.", "image": "" },
-        { "name": "", "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM", "image": "" },
-        { "name": "", "desc": "Spendesk utilizes Surfe to ensure that data remains standardized", "image": "" },
-        { "name": "", "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM", "image": "" },
-        { "name": "", "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM", "image": "" }
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "SaaS",
+          "title": ""
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "SaaS",
+          "title": ""
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "SaaS",
+          "title": ""
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "SaaS",
+          "title": ""
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "SaaS",
+          "title": ""
+        }
       ]
     },
     {
       "label": "MVP",
       "svg": "infinity.svg",
       "content": [
-        { "name": "", "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM", "image": "" },
-        { "name": "", "desc": "If you are immediately concerned about yourself or a friend, reach out for help.", "image": "" },
-        { "name": "", "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM", "image": "" }
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "MVP",
+          "title": ""
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "MVP",
+          "title": ""
+        }
       ]
     },
     {
       "label": "Website Redesign",
       "svg": "curve_arrow.svg",
       "content": [
-        { "name": "", "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM", "image": "" },
-        { "name": "", "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation", "image": "" },
-        { "name": "", "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM", "image": "" }
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Redesign",
+          "title": ""
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Redesign",
+          "title": ""
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Redesign",
+          "title": ""
+        }
       ]
     },
     {
       "label": "Social Media",
       "svg": "stats_up.svg",
       "content": [
-        { "name": "", "desc": "N/A", "image": "" },
-        { "name": "", "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM", "image": "" },
-        { "name": "", "desc": "Spendesk utilizes Surfe to ensure that data remains standardized and accurate within the CRM", "image": "" }
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Social Media",
+          "title": ""
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Social Media",
+          "title": ""
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Social Media",
+          "title": ""
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Social Media",
+          "title": ""
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Social Media",
+          "title": ""
+        }
+
       ]
     },
     {
       "label": "Packaging",
       "svg": "infinity.svg",
       "content": [
-        { "name": "", "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation", "image": "" },
-        { "name": "", "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation", "image": "" }
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Packaging",
+          "title": ""
+        },
+        {
+          "name": "",
+          "tagLine": "",
+          "desc": "",
+          "logo": {
+            "path": "/svg/client_logo.svg",
+            "alt": "Logo"
+          },
+          "image": {
+            "path": "/img/mockup.webp",
+            "alt": "Picture"
+          },
+          "category": "Packaging",
+          "title": ""
+        }
       ]
     }
   ]

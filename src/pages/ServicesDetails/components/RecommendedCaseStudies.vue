@@ -9,7 +9,8 @@ const props = defineProps({
 })
 
 const caseStudyGrid = computed(() => {
-  return `sm:grid-cols-${ props.serviceCaseStudies.list.length/2}`
+  if (props.serviceCaseStudies?.list.length < 2) return 'sm:grid-cols-2'
+  return `sm:grid-cols-${ props.serviceCaseStudies?.list.length/2 }`
 })
 </script>
 
