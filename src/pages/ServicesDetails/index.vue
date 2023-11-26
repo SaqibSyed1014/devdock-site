@@ -9,7 +9,11 @@ import Faqs from "@/pages/ServicesDetails/components/Faqs.vue";
 import pageData from "@/core/constants/services.json"
 
 const route = useRoute()
-const selectedService = pageData[route.params.title]
+let selectedService = ref(pageData[route.params.title])
+
+watch(() => route.params.title, (val) => {
+  selectedService.value = pageData[val]
+})
 </script>
 
 <template>
