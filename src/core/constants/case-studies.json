@@ -56,26 +56,22 @@
         {
           "title": "Monthly Reports",
           "desc": "The app shows you a monthly report that outlines your spending habits and changes in this pattern.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon": "spending"
         },
         {
           "title": "Budgeting Cap",
           "desc": "By setting a cap you are better able to monitor and control your expenditure. ",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon": "budget-cap"
         },
         {
           "title": "Easy Gigs",
           "desc": "The Chef Card app goes beyond traditional grocery solutions by offering a personalized and flexible delivery feature. Tailored to suit your schedule, the app ensures that your groceries are delivered at a time convenient for you.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon": "gigs"
         },
         {
           "title": "360 Degree Solution",
           "desc": "The Chef Card makes planning for grocery trips easier and less frustrating by keeping you in line with your budget. ",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon": "full-rotation"
         }
       ]
     },
@@ -90,33 +86,23 @@
       "techStack": [
           {
             "label": "Figma",
-            "path": "/img/stack/php.svg",
+            "path": "/img/stack/theme/vuejs.png",
             "alt": "Figma"
           },
           {
             "label": "Illustrator",
-            "path": "/img/stack/php.svg",
+            "path": "/img/stack/theme/vueX.png",
             "alt": "Illustrator"
           },
           {
             "label": "Vue Js",
-            "path": "/img/stack/php.svg",
+            "path": "/img/stack/theme/typescript.png",
             "alt": "Vue JS"
           },
           {
             "label": "VueX",
-            "path": "/img/stack/php.svg",
+            "path": "/img/stack/theme/animateCss.png",
             "alt": "VueX"
-          },
-          {
-            "label": "Typescript",
-            "path": "/img/stack/php.svg",
-            "alt": "Typescript"
-          },
-          {
-            "label": "Animate CSS",
-            "path": "/img/stack/php.svg",
-            "alt": "Animate CSS"
           }
         ],
       "url": ""
@@ -210,26 +196,22 @@
         {
           "title": "Business Exposure",
           "desc": "Enhance Nightlife Exploration: What's Happen seeks to enhance and elevate the way individuals explore nightlife by offering a user-friendly interface, location-based searches, and comprehensive event exploration. The app aims to make every night out a memorable and enjoyable experience for its users.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon": "business-canvas"
         },
         {
           "title": "Boost",
           "desc": "The boost feature helps restaurants, bars, and clubs compete with similar businesses by making sure their business is visible above the others on the app.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon": "rocket"
         },
         {
           "title": "Post Happenings",
           "desc": "Establishments can post the latest news and send out a notification regarding their upcoming eventS.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "uploaded-post"
         },
         {
           "title": "Helping Restaurants",
           "desc": "What's Happen allows restaurants to create detailed profiles that include information about their menu, hours of operation, location, and contact information. Restaurants can also upload photos and videos to their profiles to give potential customers a better sense of their establishment",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "provide-food"
         }
       ]
     },
@@ -244,33 +226,23 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
           "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Illustrator"
         },
         {
           "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/typescript.png",
           "alt": "Vue JS"
         },
         {
           "label": "VueX",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
-        },
-        {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -364,26 +336,22 @@
         {
           "title": "Analyze Health",
           "desc": "App uses the data input by users to create visual graphs that concisely show them the pattern of their baby's growth.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "analyze-health"
         },
         {
           "title": "Artificial Intelligence",
           "desc": "The app learns baby habits to help parents learn developmental milestones and record progress.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "artificial-intelligence"
         },
         {
           "title": "Reports",
           "desc": "With a log of the baby's sleep, eating and activity pattern, a report is created that can be shown to pediatricians.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "spending"
         },
         {
           "title": "Baby and Parent Assistant",
           "desc": "MaPa Aid allows parents to track their baby's weight, height, head circumference, and other important growth metrics. This information can help parents identify any potential problems early on and seek help from a healthcare professional if needed.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "parental-guide"
         }
       ]
     },
@@ -398,33 +366,28 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
           "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Illustrator"
         },
         {
           "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Vue JS"
         },
         {
           "label": "VueX",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
         },
         {
           "label": "Typescript",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/typescript.png",
           "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -518,26 +481,22 @@
         {
           "title": "When Worlds Collide",
           "desc": "In the new innovative world of investing, With the number of investors growing more rapidly than ever. Why should all profits not share the same value! Stocks or Sports!",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "rugby-ball-up"
         },
         {
           "title": "Accessible ",
           "desc": "No need to unlock phone, just one glance notifies you of new updates.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "screen-click"
         },
         {
           "title": "Live Networking",
           "desc": "Stay connected with your favorite investors and sports enthusiasts around the world while on the go!",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "world-network"
         },
         {
           "title": "Real-time Investment Insights",
           "desc": "LiveLock is a business that provides users with  . This information can be used to make better investment decisions in both sports and stocks.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "watching-eye"
         }
       ]
     },
@@ -552,33 +511,18 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Figma"
         },
         {
           "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/animateCss.png",
           "alt": "Illustrator"
         },
         {
           "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.svg",
           "alt": "Vue JS"
-        },
-        {
-          "label": "VueX",
-          "path": "/img/stack/php.svg",
-          "alt": "VueX"
-        },
-        {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -672,26 +616,22 @@
         {
           "title": "Designer Bidding",
           "desc": "Designers can bid to win custom project requests.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "designer"
         },
         {
           "title": "Lifestyle Section",
           "desc": "Users can also search for and purchase home services via the app.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "life-style"
         },
         {
           "title": "Discounts",
           "desc": "Lemur offers discounted ad pricing for small and local",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "discount-setting"
         },
         {
           "title": "Fashion Marketplace",
           "desc": "Lemur connects you to multiple designers to narrow down your fashion searches",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "fashion-dress"
         }
       ]
     },
@@ -706,33 +646,23 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
           "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Illustrator"
         },
         {
           "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Vue JS"
         },
         {
           "label": "VueX",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
-        },
-        {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -826,26 +756,22 @@
         {
           "title": "Pick a Genre",
           "desc": "Picking a place, item, or utility you prefer allows the app to suggest places that deal in similar items.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "select-category"
         },
         {
           "title": "Check In",
           "desc": "Check in features notifies the app you are at a location and helps optimize your experience for the duration of your visit.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "checkin"
         },
         {
           "title": "Share Visibility",
           "desc": "Allow your friends and fellow users to be able to see your location.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "opened-eye"
         },
         {
           "title": "Navigation",
           "desc": "Find App helps you connect with friends, navigate complex buildings, find empty parking spots, and discover new places that you'll love",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "circle-navigation"
         }
       ]
     },
@@ -859,34 +785,19 @@
       ],
       "techStack": [
         {
-          "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "label": "Vuejs",
+          "path": "/img/stack/theme/Vuejs.png",
           "alt": "Figma"
         },
         {
-          "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "label": "VueX",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "Illustrator"
         },
         {
-          "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "label": "Figma",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Vue JS"
-        },
-        {
-          "label": "VueX",
-          "path": "/img/stack/php.svg",
-          "alt": "VueX"
-        },
-        {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -980,26 +891,22 @@
         {
           "title": "Track",
           "desc": "Users can sync Fight Roots with their fitness gadget and track their progress against their goals.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "processes"
         },
         {
           "title": "Compete",
           "desc": "Profiles help you research your competitors, and what you are up against.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "ranks"
         },
         {
           "title": "Match",
           "desc": "With users uploading accurate information on their profiles, Fight Roots can match them with the most suitable training space.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "online-match"
         },
         {
           "title": "Martial Arts Lifestyle",
           "desc": "Fight Roots a valuable tool for martial arts practitioners of all skill levels. It can help beginners learn the basics of their martial art, and it can help experienced practitioners refine their technique and improve their performance.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "martial-arts"
         }
       ]
     },
@@ -1014,33 +921,28 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
-          "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "label": "Vuejs",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Illustrator"
         },
         {
-          "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "label": "VueX",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "Vue JS"
         },
         {
-          "label": "VueX",
-          "path": "/img/stack/php.svg",
+          "label": "Animate CSS",
+          "path": "/img/stack/theme/animateCss.png",
           "alt": "VueX"
         },
         {
           "label": "Typescript",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/typescript.png",
           "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -1134,26 +1036,22 @@
         {
           "title": "Online Streaming",
           "desc": "Users can stream competitions directly from the app anytime they like anywhere they are.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "play-video"
         },
         {
           "title": "Pay Per View",
           "desc": "Organizers can take advantage of the pay per view feature when setting up exclusive events.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "dollar-eye"
         },
         {
           "title": "Search Events",
           "desc": "FairFight users can filter their searches and browse for event and announcements they are particularly interested in.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "search-events"
         },
         {
           "title": "All-in-one Platform",
           "desc": "It is an interactive space where users can interact with each other and consume content. It is also a source of income for users, as they can create events and place bets.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "box-group"
         }
       ]
     },
@@ -1168,33 +1066,18 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
-          "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "label": "Vuejs",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Illustrator"
         },
         {
-          "label": "Vue Js",
-          "path": "/img/stack/php.svg",
-          "alt": "Vue JS"
-        },
-        {
-          "label": "VueX",
-          "path": "/img/stack/php.svg",
-          "alt": "VueX"
-        },
-        {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
           "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
+          "path": "/img/stack/theme/animateCss.png",
+          "alt": "Vue JS"
         }
       ],
       "url": ""
@@ -1288,26 +1171,22 @@
         {
           "title": "Online Streaming",
           "desc": "Users can stream competitions directly from the app anytime they like anywhere they are.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "play-video"
         },
         {
           "title": "Pay Per View",
           "desc": "Organisers can take advantage of the pay per view feature when setting up exclusive events.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "dollar-eye"
         },
         {
           "title": "Search Events",
           "desc": "FairFight users can filter their searches and browse for event and announcements they are particularly interested in.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "search-events"
         },
         {
           "title": "All-in-one Platform",
           "desc": "It is an interactive space where users can interact with each other and consume content. It is also a source of income for users, as they can create events and place bets.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "box-group"
         }
       ]
     },
@@ -1321,34 +1200,19 @@
       ],
       "techStack": [
         {
-          "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "label": "Vuejs",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Figma"
         },
         {
-          "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "label": "Vuex",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "Illustrator"
         },
         {
-          "label": "Vue Js",
-          "path": "/img/stack/php.svg",
-          "alt": "Vue JS"
-        },
-        {
-          "label": "VueX",
-          "path": "/img/stack/php.svg",
-          "alt": "VueX"
-        },
-        {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
           "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
+          "path": "/img/stack/theme/animateCss.png",
+          "alt": "Vue JS"
         }
       ],
       "url": ""
@@ -1442,26 +1306,22 @@
         {
           "title": "Large Orders",
           "desc": "You do not have to hire separate catering services for large social gatherings. EasyNFast delivers large orders in the same amount of time.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "package-checking"
         },
         {
           "title": "Budgeting Cap ",
           "desc": "By setting a cap you are better able to monitor and control your expenditure. ",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "budgeting-cap"
         },
         {
           "title": "Order Cannabis",
           "desc": "EasyNFast is the first on-demand delivery service to offer cannabis delivery from a dispensary near you.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "order-cannabis"
         },
         {
           "title": "Fast, Convenient Delivery",
           "desc": "EasyNFast is a one-stop platform for all your retail outlet delivery needs, may they be mechanical tools: alcohol, food, tech items, or any other products sold near you. Just choose before you know it.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "fast-delivery"
         }
       ]
     },
@@ -1476,32 +1336,32 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
           "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Illustrator"
         },
         {
           "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Vue JS"
         },
         {
           "label": "VueX",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
         },
         {
           "label": "Typescript",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/typescript.png",
           "alt": "Typescript"
         },
         {
           "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/animateCss.png",
           "alt": "Animate CSS"
         }
       ],
@@ -1596,26 +1456,22 @@
         {
           "title": "Empowering Communities",
           "desc": "Driving sales, providing jobs in your community whilst lowering our carbon footprint. Buy locally get delivered locally.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "empower"
         },
         {
           "title": "Convenient",
           "desc": "Rate and tip your driver through the app on performance and quality of service.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "time-management"
         },
         {
           "title": "Easy gigs",
           "desc": "Delivered at a time that suits you.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "package-checking"
         },
         {
           "title": "Local Delivery Service",
           "desc": "Beespatch helps local businesses thrive by making online delivery easy and affordable.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "parcel-delivery"
         }
       ]
     },
@@ -1630,33 +1486,23 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
           "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Illustrator"
         },
         {
           "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Vue JS"
         },
         {
           "label": "VueX",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
-        },
-        {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -1750,26 +1596,22 @@
         {
           "title": "Flexibility",
           "desc": "Negotiate the job and terms you prefer as an independent contractor.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "flexibility"
         },
         {
           "title": "More Control",
           "desc": "Accept or reject a proposal after getting in touch with a prospective client.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "control-settings"
         },
         {
           "title": "Network",
           "desc": "Make your own connections as you network with clients who would love you to work for them again",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "people-networking"
         },
         {
           "title": "Find Gig",
           "desc": "Assero is accumulating the market for security personnel and people looking to hire. With ensured hourly market rates, here is your chance to show your profile and skills and reach out to hundreds of prospective clients who may just be looking for someone like you at the very time that is convenient for you.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "gigs"
         }
       ]
     },
@@ -1783,34 +1625,19 @@
       ],
       "techStack": [
         {
-          "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "label": "Illustrator",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Figma"
         },
         {
-          "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "label": "Vue JS",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Illustrator"
         },
         {
-          "label": "Vue Js",
-          "path": "/img/stack/php.svg",
-          "alt": "Vue JS"
-        },
-        {
-          "label": "VueX",
-          "path": "/img/stack/php.svg",
-          "alt": "VueX"
-        },
-        {
           "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
+          "path": "/img/stack/theme/typescript.png",
+          "alt": "Vue JS"
         }
       ],
       "url": ""
@@ -1904,26 +1731,22 @@
         {
           "title": "B2B",
           "desc": "Businesses can put some of their delivery orders' load on the app. Speedyssey will store the items in its warehouse and deliver orders as instructed by the business.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "b2b"
         },
         {
           "title": "Affordable",
           "desc": "Users can view estimates before placing their order.All they have to do is input the size and weight of the item on the app.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "affordable-price"
         },
         {
           "title": "Fast",
           "desc": "Unlike scheduling an order placement, Speedyssey connects you to the nearest partner from your location, thanks to geolocation technology.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "fast-time"
         },
         {
           "title": "Wrapping Up",
           "desc": "Moving and relocating asset can be so tedious and frustrating when it is not professionally handled. We have a structured best practice process, designed to secure and protect your valuables as you move.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "wrapping-up"
         }
       ]
     },
@@ -1938,33 +1761,28 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
-          "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "label": "vuejs",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Illustrator"
         },
         {
-          "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "label": "VueX",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "Vue JS"
         },
         {
-          "label": "VueX",
-          "path": "/img/stack/php.svg",
+          "label": "Animate CSS",
+          "path": "/img/stack/theme/animateCss.png",
           "alt": "VueX"
         },
         {
           "label": "Typescript",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/typescript.png",
           "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -2058,26 +1876,22 @@
         {
           "title": "Competitive Prices",
           "desc": "Soya gets its fuel directly from refineries allowing it to be priced lower than gas stations. Individuals and companies can also sign up for our monthly subscription fees.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "competitive-prices"
         },
         {
           "title": "24 Hour Service",
           "desc": "You can place an order to be delivered at any time of the day.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "247-support"
         },
         {
           "title": "Hazmat Certified",
           "desc": "All Soya fuel truck drivers are certified to drive tanks with hazardous materials.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "certificate"
         },
         {
           "title": "Convenience Service",
           "desc": "Make your day more efficient by eliminating unnecessary tasks from it, such as driving out of your way, or waiting for unreliable fuel providers to deliver.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "convenience"
         }
       ]
     },
@@ -2092,33 +1906,23 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
           "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Illustrator"
         },
         {
           "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Vue JS"
         },
         {
-          "label": "VueX",
-          "path": "/img/stack/php.svg",
-          "alt": "VueX"
-        },
-        {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
           "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
+          "path": "/img/stack/theme/animateCss.png",
+          "alt": "VueX"
         }
       ],
       "url": ""
@@ -2212,26 +2016,22 @@
         {
           "title": "More Visibility",
           "desc": "Up and coming restaurants that are struggling to get the word out get a chance to showcase their business on RSRV-A-Go.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "post-visibility"
         },
         {
           "title": "Compare Venues",
           "desc": "Customers can view prices and menus of each establishment and compare before picking to visit one.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "pin-location"
         },
         {
           "title": "Promote Via Profile",
           "desc": "RSRV-A-Go is a one-stop directory for all your gastronomy and entertainment needs. Whether you have to view prices, operating hours, the menu, or comments on the ambiance, the app has you covered.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "awareness"
         },
         {
           "title": "Ultimate Booking",
           "desc": "Whether you have to view prices, operating hours, the menu, or comments on the ambiance, the RSRV-A-Go has you covered",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "booking-done"
         }
       ]
     },
@@ -2246,33 +2046,23 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Figma"
         },
         {
-          "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "label": "Vue JS",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Illustrator"
         },
         {
-          "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "label": "Typescript",
+          "path": "/img/stack/theme/typescript.png",
           "alt": "Vue JS"
         },
         {
           "label": "VueX",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
-        },
-        {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -2366,26 +2156,22 @@
         {
           "title": "Learning Through Visuals",
           "desc": "Visuals engage and activate the brain, making it easier to learn and remember new concepts. ",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "visuals"
         },
         {
           "title": "Excellent Teaching Environment",
           "desc": "Can be used as homeschool tool and a classroom resource.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "stack"
         },
         {
           "title": "Critical Thinking",
           "desc": "LearnedApp builds for your problem-solving skills by providing tailored lessons and challenges",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "critical-thinking"
         },
         {
           "title": "Fun Learning",
           "desc": "The learning app is far from your textbook tools. It is designed as a game through and through with rewards every time you win.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "fun-learning"
         }
       ]
     },
@@ -2400,33 +2186,23 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
           "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Illustrator"
         },
         {
           "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Vue JS"
         },
         {
           "label": "VueX",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
-        },
-        {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -2520,26 +2296,22 @@
         {
           "title": "Great Side Hustle",
           "desc": "You can work part-time and simply drive around your designated area to earn extra income.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "side-hustle"
         },
         {
           "title": "More Control",
           "desc": "Choose your own hours. You can accept or decline delivery orders according to how many gigs you want to complete.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "controls"
         },
         {
           "title": "Get Paid for Your Commute",
           "desc": "Find yourself driving all the time? Sign up with Fitshelf and make money delivering along the same route.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "get-paid"
         },
         {
           "title": "Creating Opportunities",
           "desc": "Fitshelf is not just helping consumers achieve their fitness goals; it is dedicated to empowering communities and local outlets that deal in nutritious and organic products.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "star-oppurtunity"
         }
       ]
     },
@@ -2554,33 +2326,23 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
-          "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "label": "Vue JS",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Illustrator"
         },
         {
-          "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "label": "VueX",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "Vue JS"
         },
         {
-          "label": "VueX",
-          "path": "/img/stack/php.svg",
-          "alt": "VueX"
-        },
-        {
           "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
+          "path": "/img/stack/theme/typescript.png",
+          "alt": "VueX"
         }
       ],
       "url": ""
@@ -2674,26 +2436,22 @@
         {
           "title": "Virtual",
           "desc": "Work out at home and get easy recipes straight to your phone, and get opportunities to be mentored by the best of the best from all over the world.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "mobile-in-hand"
         },
         {
           "title": "You have Choices",
           "desc": "Opposed to the limitation of your local gym match a personal trainer according to your preference and compatibility.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
-        },
-        {
-          "title": "Planning",
-          "desc": "With the social chat feature encourage each other to do better, and share tried and tested tips.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "list-choice"
         },
         {
           "title": "Be Part of a Community",
           "desc": "Who says you cannot live a healthy lifestyle when you are busy with work and other obligations. With It's a Healthy Life you can plan your work out and health food at any time",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "support"
+        },
+        {
+          "title": "Planning",
+          "desc": "With the social chat feature encourage each other to do better, and share tried and tested tips.",
+          "icon":  "planning"
         }
       ]
     },
@@ -2707,34 +2465,24 @@
       ],
       "techStack": [
         {
-          "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "label": "Illustrator",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Figma"
         },
         {
-          "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "label": "Vue JS",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Illustrator"
         },
         {
-          "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "label": "Figma",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Vue JS"
         },
         {
-          "label": "VueX",
-          "path": "/img/stack/php.svg",
-          "alt": "VueX"
-        },
-        {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
           "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
+          "path": "/img/stack/theme/animateCss.png",
+          "alt": "VueX"
         }
       ],
       "url": ""
@@ -2828,26 +2576,22 @@
         {
           "title": "Find Customers",
           "desc": "Repair shops can connect with a stream of customers and market the services they offer to prospective clients.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "find-customers"
         },
         {
           "title": "Find Repair Shops",
           "desc": "Connect with mechanics and repair shops in your area.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "repair-shop"
         },
         {
           "title": "Pay Via App",
           "desc": "Pay DVLA taxes, and any license and registration fees through the app and save yourself the hassle.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "online-pay"
         },
         {
           "title": "Creating Logs ",
           "desc": "Creating  record of the service history of your car. Compile all of your vehicle information and history in one place.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "log-document"
         }
       ]
     },
@@ -2862,33 +2606,28 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
           "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Illustrator"
         },
         {
           "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Vue JS"
         },
         {
           "label": "VueX",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
         },
         {
           "label": "Typescript",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/typescript.png",
           "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -2982,26 +2721,22 @@
         {
           "title": "Distract",
           "desc": "Approach the situation and create a reason to separate the target and the perpetrator.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "mind-distraction"
         },
         {
           "title": "Direct Action",
           "desc": "Call out the antisocial behavior and ask the perpetrator to STOP.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "action"
         },
         {
           "title": "Delegate",
           "desc": "Make the situation know to an official or ask someone else to help.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "delegate"
         },
         {
           "title": "Delay",
           "desc": "Watch and wait for the situation to pass then check with the person to see if they are okay or require further support.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "time-delay"
         }
       ]
     },
@@ -3015,34 +2750,19 @@
       ],
       "techStack": [
         {
-          "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "label": "Vue JS",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Figma"
         },
         {
-          "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "label": "VueX",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "Illustrator"
         },
         {
-          "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "label": "Illustrator",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Vue JS"
-        },
-        {
-          "label": "VueX",
-          "path": "/img/stack/php.svg",
-          "alt": "VueX"
-        },
-        {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -3136,26 +2856,22 @@
         {
           "title": "Play With Friends",
           "desc": "Connect with your network in a way that they always enjoy your company.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "confetti-fun"
         },
         {
           "title": "Musical Genres",
           "desc": "Got a preference? Pick the genre you want to exclusively listen and play with by always being in control of choosing the artist or song.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "musical-genre"
         },
         {
           "title": "Game Features",
           "desc": "Mix it up with the lifeline option and the drinking game feature where the loser takes a shot.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "music-features"
         },
         {
           "title": "Fun-Filled Experience",
           "desc": "With Earshotz you get to liven up your social gathering and have everyone talking about your soiree for some time to come.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "music-speaker"
         }
       ]
     },
@@ -3170,33 +2886,23 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
-          "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "label": "Vue JS",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Illustrator"
         },
         {
-          "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "label": "VueX",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "Vue JS"
         },
         {
-          "label": "VueX",
-          "path": "/img/stack/php.svg",
-          "alt": "VueX"
-        },
-        {
           "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
+          "path": "/img/stack/theme/typescript.png",
+          "alt": "VueX"
         }
       ],
       "url": ""
@@ -3290,26 +2996,22 @@
         {
           "title": "Post",
           "desc": "Socialize with the DigiDoula community by posting pictures and thoughts.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "write-post"
         },
         {
           "title": "Resources",
           "desc": "Find health news, advice and tips from both parents, and birth workers.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "resources-assets"
         },
         {
           "title": "Search By",
           "desc": "You can search for birth workers suited to your exact needs according to their listed experience and references.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "search-lists"
         },
         {
           "title": "Baby Tracker",
           "desc": "Birth-workers and Parents can both track your newborns feedings, diapers, and sleep.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "tracker"
         }
       ]
     },
@@ -3323,34 +3025,24 @@
       ],
       "techStack": [
         {
-          "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "label": "Vue JS",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Figma"
         },
         {
-          "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "label": "Animate CSS",
+          "path": "/img/stack/theme/animateCss.png",
           "alt": "Illustrator"
         },
         {
-          "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "label": "Figma",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Vue JS"
         },
         {
-          "label": "VueX",
-          "path": "/img/stack/php.svg",
-          "alt": "VueX"
-        },
-        {
           "label": "Typescript",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/typescript.png",
           "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -3444,26 +3136,22 @@
         {
           "title": "Immediate Assistance",
           "desc": "Connect instantly for consultations on emergency care.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "support-assistance"
         },
         {
           "title": "Remote Locations",
           "desc": "Don't have a satisfactory dentist in town? Just download DentistNow and get dentist at comfort of you couch",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "world-location"
         },
         {
           "title": "Cost-Effective",
           "desc": "Online consultation saves time, effort, and fuel money to visit the dentist. Dentists who sign up only have to pay a flat monthly fee.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "provide-money"
         },
         {
           "title": "Efficient Admin",
           "desc": "DentistNow allows you to input your insurance information which is kept confidentially on file and can be retrieved for future sessions.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "settings-admin"
         }
       ]
     },
@@ -3478,33 +3166,23 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
           "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Illustrator"
         },
         {
           "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Vue JS"
         },
         {
           "label": "VueX",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
-        },
-        {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -3598,26 +3276,22 @@
         {
           "title": "No More Catfishing",
           "desc": "The classic catfishing tactic is emotionally draining. DateUp completely eliminates the possibility of someone being the opposite of who they say they are.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "false-identity"
         },
         {
           "title": "It's Safer",
           "desc": "Never worry about what the person you are meeting is going to be like.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "safe-dating"
         },
         {
           "title": "Values You",
           "desc": "DateUp understands that your time and experience is important and that with a dating app you should enjoy both.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "provide-value"
         },
         {
           "title": "Review Your Date",
           "desc": "At the end of every date, you get to rate the other individual out of 5 stars.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "review-date"
         }
       ]
     },
@@ -3631,34 +3305,19 @@
       ],
       "techStack": [
         {
-          "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "label": "Vue JS",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Figma"
         },
         {
-          "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "label": "Figma",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Illustrator"
         },
         {
-          "label": "Vue Js",
-          "path": "/img/stack/php.svg",
-          "alt": "Vue JS"
-        },
-        {
           "label": "VueX",
-          "path": "/img/stack/php.svg",
-          "alt": "VueX"
-        },
-        {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
+          "path": "/img/stack/theme/vueX.png",
+          "alt": "Vue JS"
         }
       ],
       "url": ""
@@ -3752,26 +3411,22 @@
         {
           "title": "One Place Shop",
           "desc": "Why browse store by store when you have a one-stop shop solution.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "gift-giving"
         },
         {
           "title": "No Last Minute Fee",
           "desc": "You do not want to deal with florists on special day; Clever Gifts help you pick and book a bouquet and/or a present days in advance.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "bill-lastdate"
         },
         {
           "title": "Create a Pattern",
           "desc": "You can set the gift to recurring every year or make adjustments as you please.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "gifts"
         },
         {
           "title": "Reminder Alert",
           "desc": "The app will remind you to make a purchase 4 weeks prior to the special occasion.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "reminder-notes"
         }
       ]
     },
@@ -3785,34 +3440,24 @@
       ],
       "techStack": [
         {
-          "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "label": "Vue JS",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Figma"
         },
         {
-          "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "label": "Typescript",
+          "path": "/img/stack/theme/typescript.png",
           "alt": "Illustrator"
         },
         {
-          "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "label": "Illustrator",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Vue JS"
         },
         {
-          "label": "VueX",
-          "path": "/img/stack/php.svg",
-          "alt": "VueX"
-        },
-        {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
           "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
+          "path": "/img/stack/theme/AnimateCss.png",
+          "alt": "VueX"
         }
       ],
       "url": ""
@@ -3906,26 +3551,22 @@
         {
           "title": "Find Resources",
           "desc": "Read articles and get access to helpful information regarding cannabis.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "resources-assets"
         },
         {
           "title": "Get Recommendations",
           "desc": "Apart from browsing daily updated menus, the Plantidote app takes your custom preferences and produces recommendations just for you.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "search-recommendations"
         },
         {
           "title": "Promotion Alerts",
           "desc": "Get notifications every time a dispensary near you starts a new promotion.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "promotion"
         },
         {
           "title": "Track Doses",
           "desc": "Use the in-app tracker to ensure you are using the correct dosage.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "capsules"
         }
       ]
     },
@@ -3940,33 +3581,18 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
           "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Illustrator"
         },
         {
           "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Vue JS"
-        },
-        {
-          "label": "VueX",
-          "path": "/img/stack/php.svg",
-          "alt": "VueX"
-        },
-        {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -4060,26 +3686,22 @@
         {
           "title": "Automatic Compilation of Data",
           "desc": "Saves you time in uploading data and making it visually coherent by doing it for you.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "settings-automatic"
         },
         {
           "title": "Manage Progress",
           "desc": "Pause offers statistics on each employee and their progress. It also helps managers transfer call notes between them and the salespeople.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "manage-progress"
         },
         {
           "title": "User Friendly",
           "desc": "Pause is created to be navigable and intuitive in design, where the app skin is decluttered to focus primarily on action icons.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "user-friendly"
         },
         {
           "title": "Integrate with CRM",
           "desc": "Download lead details and upload call notes directly.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "integration"
         }
       ]
     },
@@ -4093,34 +3715,19 @@
       ],
       "techStack": [
         {
-          "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "label": "Vue JS",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Figma"
         },
         {
-          "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "label": "Figma",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Illustrator"
         },
         {
-          "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "label": "Illustrator",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Vue JS"
-        },
-        {
-          "label": "VueX",
-          "path": "/img/stack/php.svg",
-          "alt": "VueX"
-        },
-        {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -4214,26 +3821,22 @@
         {
           "title": "Monitor Grades",
           "desc": "Ace It's grade calculator provides real-time grade updates, personalized feedback, progress tracking, and goal setting to empower students to excel.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "search-monitor"
         },
         {
           "title": "Find Study Material",
           "desc": "Professors can now provide students with downloadable notes to supplement lectures and enhance their understanding of course material.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "study-material"
         },
         {
           "title": "Socialize",
           "desc": "Engage in seamless note-sharing and resource exchange with fellow students through the integrated chat feature.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "persons-socialize"
         },
         {
           "title": "Use Calendar",
           "desc": "Easily access and manage your academic calendar, including key dates, deadlines, and assignments.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "wrap-calendar"
         }
       ]
     },
@@ -4248,33 +3851,28 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
           "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Illustrator"
         },
         {
           "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Vue JS"
         },
         {
-          "label": "VueX",
-          "path": "/img/stack/php.svg",
+          "label": "Typescript",
+          "path": "/img/stack/theme/typescript.png",
           "alt": "VueX"
         },
         {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
+          "label": "Vue X",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -4366,28 +3964,24 @@
       "heading": "the Dynamic Range of Cutting-Edge Go Wild Features!",
       "list": [
         {
-          "title": "",
-          "desc": "",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "title": "Augmented Reality",
+          "desc": "Find trails, clues to treasure maps, and historical characters all around the country.",
+          "icon":  "augmented-reality"
         },
         {
-          "title": "",
-          "desc": "",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "title": "Challenges ",
+          "desc": "Sign up for Treasure Hunts, Trail Runs, and Competitions for prizes. ",
+          "icon":  "challenges"
         },
         {
-          "title": "",
-          "desc": "",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "title": "Find Your Trail",
+          "desc": "Find trails around you, or create your own with the Go Wild History App.",
+          "icon":  "planning"
         },
         {
-          "title": "",
-          "desc": "",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "title": "Geolocation",
+          "desc": "Add your friends to your group and track each other’s progress on trails, runs, or brag about completed Treasure Hunts. ",
+          "icon":  "circle-navigation"
         }
       ]
     },
@@ -4402,33 +3996,23 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
           "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Illustrator"
         },
         {
           "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Vue JS"
         },
         {
           "label": "VueX",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
-        },
-        {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -4522,26 +4106,22 @@
         {
           "title": "Find Contractors",
           "desc": "Effortlessly connect with reliable contractors for a wide range of home services, from plumbing to remodeling.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "contractor"
         },
         {
           "title": "Activity Feature",
           "desc": "Instantly connect with highly rated service providers who are ready to tackle your immediate needs.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "activity-idea"
         },
         {
           "title": "Find Automotive Services",
           "desc": "Find automotive mechanics and towing services in case of an emergency or when you get stranded in the middle of nowhere.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "car-service"
         },
         {
           "title": "Profile by Skillset",
           "desc": "View profiles by the experience level and expertise of each service provider to get the perfect match.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "person-skillset"
         }
       ]
     },
@@ -4556,32 +4136,27 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
           "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Illustrator"
         },
         {
           "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Vue JS"
         },
         {
-          "label": "VueX",
-          "path": "/img/stack/php.svg",
+          "label": "Typescript",
+          "path": "/img/stack/theme/typescript.png",
           "alt": "VueX"
         },
         {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
           "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/AnimateCss.png",
           "alt": "Animate CSS"
         }
       ],
@@ -4676,26 +4251,22 @@
         {
           "title": "Connect",
           "desc": "The app will find a suitable trainer according to the availability of both parties, the needs of the trainee and the expertise of the personal trainer.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "gym-trainer"
         },
         {
           "title": "Give Feedback",
           "desc": "Share your honest assessment of your fitness trainer's expertise, guidance, and overall impact on your wellness goals",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "feedback"
         },
         {
           "title": "Easy gigs",
           "desc": "Conveniently agree on rates and securely pay or receive fees directly within the app, eliminating the hassle of external payment methods.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "gigs"
         },
         {
           "title": "Make your Profile",
           "desc": "Define your fitness objectives, identify your preferred workout venue, and specify your ideal exercise schedule to achieve your wellness goals.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "create-user"
         }
       ]
     },
@@ -4710,33 +4281,23 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
           "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Illustrator"
         },
         {
           "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Vue JS"
         },
         {
           "label": "VueX",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
-        },
-        {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -4830,26 +4391,22 @@
         {
           "title": "Find Guides",
           "desc": "Fast track to getting into the best spots by getting in touch with local guides who share your interest. ",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "tour-guide"
         },
         {
           "title": "Secure Activities",
           "desc": "Keep track of your upcoming excursion with update notifications or DM chats with your outfitter to ensure quality time with mother nature",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "activity-idea"
         },
         {
           "title": "Stay Connected ",
           "desc": "Find single or group packages by location, date or preferred activity type. Not sure what's available in your area? GuidED will let you explore your local possibilities.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "persons-socialize"
         },
         {
           "title": "Reviews",
           "desc": "Narrow down your choices by browsing through Featured Guides and guide ratings. Share how awesome your excursion was to boost your guides credentials!",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "search-recommendations"
         }
       ]
     },
@@ -4864,32 +4421,32 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
           "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Illustrator"
         },
         {
           "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Vue JS"
         },
         {
           "label": "VueX",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/typescript.png",
           "alt": "VueX"
         },
         {
           "label": "Typescript",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "Typescript"
         },
         {
           "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/animateCss.png",
           "alt": "Animate CSS"
         }
       ],
@@ -4984,26 +4541,22 @@
         {
           "title": "Find a Ride",
           "desc": "Effortlessly secure a car ride to your desired destination, whenever you need it, with just a few taps on your screen.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "car-ride"
         },
         {
           "title": "Place Bids",
           "desc": "Access current market rates for similar rides and negotiate for a fair fare with confidence, ensuring transparency and value for your money.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "place-bids"
         },
         {
           "title": "Order Groceries",
           "desc": "Enjoy the ease of having your groceries handpicked, packed, and delivered directly to your doorstep.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "groceries"
         },
         {
           "title": "Safety Feature",
           "desc": "Hop into Hoppiia rides with peace of mind, knowing that every journey is captured on video for your safety and security.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "safety"
         }
       ]
     },
@@ -5018,33 +4571,23 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
           "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Illustrator"
         },
         {
           "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "Vue JS"
         },
         {
           "label": "VueX",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/animateCss.png",
           "alt": "VueX"
-        },
-        {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -5138,26 +4681,22 @@
         {
           "title": "Create a Profile",
           "desc": "Express yourself and create a unique profile with colorful backgrounds and themes, as well as a profile song of your choice.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "create-user"
         },
         {
           "title": "Like to Match",
           "desc": "View people who are into the same music and interested in the same upcoming shows/ festivals in your area.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "online-match"
         },
         {
           "title": "Connect to Chat",
           "desc": "Start chatting with people who are liked by you and like you too, your mates in music await.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "chat-message"
         },
         {
           "title": "Buy Tickets",
           "desc": "Event Promoters/Labels can promote and sell tickets to their artists' shows on our platform.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "ticket"
         }
       ]
     },
@@ -5172,32 +4711,22 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
-          "label": "Illustrator",
-          "path": "/img/stack/php.svg",
-          "alt": "Illustrator"
-        },
-        {
-          "label": "Vue Js",
-          "path": "/img/stack/php.svg",
-          "alt": "Vue JS"
+          "label": "Vuejs",
+          "path": "/img/stack/theme/vue.png",
+          "alt": "Vuejs"
         },
         {
           "label": "VueX",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
         },
         {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
           "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
+          "path": "/img/stack/theme/animateCss.png",
           "alt": "Animate CSS"
         }
       ],
@@ -5292,26 +4821,22 @@
         {
           "title": "Secure",
           "desc": "Cashcrow keeps your funds secure until you have received your purchased goods or services, allowing you to shop stress free..",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "secure-shield"
         },
         {
           "title": "Connect",
           "desc": "Connect all your payment apps to Cashcrow allowing you to easily send money across multiple payment platforms.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "persons-socialize"
         },
         {
           "title": "Connect",
           "desc": "Small businesses can use Cashcrow to show online customers that when they buy from you they are going to get exactly what they paid for.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "reliability-badge"
         },
         {
           "title": "Consumers",
           "desc": "Cashcrow take the trust factor out of buying products and services from people you met online or social media. By hold your sent payment until the purchase or service is completed.",
-          "icon": "capital.svg",
-          "alt": "Settings Icon"
+          "icon":  "provide-consumers"
         }
       ]
     },
@@ -5325,34 +4850,24 @@
       ],
       "techStack": [
         {
-          "label": "Figma",
-          "path": "/img/stack/php.svg",
+          "label": "Vuejs",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Figma"
         },
         {
-          "label": "Illustrator",
-          "path": "/img/stack/php.svg",
+          "label": "VueX",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "Illustrator"
         },
         {
-          "label": "Vue Js",
-          "path": "/img/stack/php.svg",
+          "label": "Figma",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Vue JS"
         },
         {
-          "label": "VueX",
-          "path": "/img/stack/php.svg",
+          "label": "Illustrator",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "VueX"
-        },
-        {
-          "label": "Typescript",
-          "path": "/img/stack/php.svg",
-          "alt": "Typescript"
-        },
-        {
-          "label": "Animate CSS",
-          "path": "/img/stack/php.svg",
-          "alt": "Animate CSS"
         }
       ],
       "url": ""

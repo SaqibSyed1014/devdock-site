@@ -264,7 +264,7 @@
       "list": [
         {
           "title": "Can I see your designers' portfolios?",
-          "content": "The work of our talented designers is displayed with great pride. You can examine their portfolio to get a feel for their abilities, expertise, and writing style. If you are interested in viewing the work of our designers, check out our portfolio page here -> (Portfolio)."
+          "content": "The work of our talented designers is displayed with great pride. You can examine our portfolio section to get a feel for our abilities, expertise, and writing style."
         },
         {
           "title": "Why are UX services important?",
@@ -1390,7 +1390,7 @@
   },
   "hybrid-application": {
     "header": {
-      "heading": "Reach more platforms with a single Hybrid App Development solution",
+      "heading": "Reach more platforms With a Single Hybrid App Development Solution",
       "text": "Unifying your app experience across platforms with hybrid development",
       "meta": [
         {
@@ -1416,7 +1416,7 @@
       ]
     },
     "description": {
-      "heading": "Boost business growth with Hybrid App Development Services",
+      "heading": "Boost Business Growth With Hybrid App Development Services",
       "text": "In today's dynamic mobile-first world, businesses need to adapt and innovate to stay ahead of the curve. DevDock, your trusted partner in hybrid app development, provides the expertise and resources to craft seamless, cross-platform mobile applications that propel your business growth. Hybrid apps combine the best of both native and web app development, offering a cost-effective, time-efficient, and scalable solution for businesses of all sizes. Our team of experienced hybrid app developers possesses the skills and knowledge to transform your business ideas into engaging and functional mobile applications. We leverage cutting-edge hybrid app frameworks like Ionic, React Native, and Flutter, ensuring that your apps are compatible with major operating systems, including iOS and Android.",
       "bullets": [
         "Elevate your customer experience with intuitive and user-friendly hybrid apps that foster loyalty and brand advocacy.",

@@ -32,7 +32,10 @@
                     {{ `${index + 1}.` }}
                   </span>
                   <div class="pt-10 transition group-hover:pt-10">
-                    <img class="group-hover:hidden" :src="`/svg/${data.icon}`" :alt="data.alt">
+                    <span
+                        class="text-secondary text-4xl group-hover:text-primary"
+                        :class="[`icon-${data.icon}`]"
+                    />
                     <div class="flex gap-3 xl:gap-8 justify-between items-center pt-5">
                       <h3 class="text-2xl sm:text-2xl md:text-2xl xl:text-3xl font-medium sm:pr-5 transition group-hover:text-black group-hover:mb-2">
                         {{ data.title }}

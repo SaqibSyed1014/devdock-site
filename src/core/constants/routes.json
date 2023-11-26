@@ -209,7 +209,7 @@
   },
   "Service": {
     "name": "DevDockServiceDetails",
-    "path": "/service/:title?",
+    "path": "/services/:title?",
     "meta": {
       "ui-ux": {
         "title": "User-Friendly UI UX Design Services | DevDock",
