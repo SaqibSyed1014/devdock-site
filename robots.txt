@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://devdock.tech
+
+# Sitemaps
+Sitemap: https://devdock.tech/sitemap.xml
