@@ -56,9 +56,9 @@ export const featuresCardContent = {
     heading: 'Why You Should Choose DevDock Services',
     features: [
         {
-            startText: 'We offer',
+            startText: 'We Offer',
             highlightedText: 'Customized',
-            endText: 'approach',
+            endText: 'Approach',
             desc: 'We understand that every client and project is unique. Our agency takes a personalized approach, tailoring our services to your specific needs and goals. This ensures that the final product aligns perfectly with your vision and objectives.',
             image: 'connection.svg',
             alt: 'Connection',
@@ -66,9 +66,9 @@ export const featuresCardContent = {
             darkText: true
         },
         {
-            startText: 'We focus on',
+            startText: 'We Focus on',
             highlightedText: 'Educating',
-            endText: 'your users',
+            endText: 'Your Users',
             desc: 'Our agency boasts a team of seasoned professionals with years of experience in product development. We have a track record of delivering successful projects across various industries, ensuring your product is in capable hands.',
             image: 'laptop.svg',
             alt: 'Laptop',
@@ -76,9 +76,9 @@ export const featuresCardContent = {
             darkText: true
         },
         {
-            startText: 'We provide',
+            startText: 'We Provide',
             highlightedText: 'Innovative',
-            endText: 'solutions',
+            endText: 'Solutions',
             desc: 'We pride ourselves on staying at the forefront of technology trends and innovation. When you choose our agency, you gain access to cutting-edge solutions and approaches that can give your product a competitive edge in the market.',
             image: 'lens.svg',
             alt: 'Lens',

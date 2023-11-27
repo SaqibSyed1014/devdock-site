@@ -5,7 +5,7 @@ import App from './App.vue'
 import './assets/index.scss'
 import router from './router.js'
 // plugins
-import './core/plugins/smooth-scroll'
+// import './core/plugins/smooth-scroll'
 
 const head = createHead()
 const app = createApp(App)

@@ -15,14 +15,14 @@ const offerSolutionsData = pageData.offerSolutionsContent
     <div class="flex flex-nowrap justify-center whitespace-normal overflow-hidden py-6">
       <div class="flex first justify-around items-center horizontal-slider">
         <template v-for="(business, index) in offerSolutionsData.businesses" :key="index">
-            <h4 class="text-accent-light-gray text-center font-bold text-4xl md:text-5xl 2xl:text-8xl px-32">
+            <h4 class="text-accent-light-gray text-center font-bold text-4xl md:text-5xl 2xl:text-8xl px-20 md:px-24 lg:px-32">
               #{{ business }}
             </h4>
         </template>
       </div>
       <div class="flex second justify-around items-center horizontal-slider">
         <template v-for="(business, i) in offerSolutionsData.businesses" :key="i">
-            <h4 class="text-accent-light-gray text-center font-bold text-4xl md:text-5xl 2xl:text-8xl px-32">
+            <h4 class="text-accent-light-gray text-center font-bold text-4xl md:text-5xl 2xl:text-8xl px-20 md:px-24 lg:px-32">
               #{{ business }}
             </h4>
         </template>

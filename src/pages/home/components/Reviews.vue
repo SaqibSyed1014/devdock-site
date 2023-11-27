@@ -22,7 +22,9 @@ const reviewsData = pageData.clientReviews
       </template>
     </div>
     <div class="text-center">
-      <AppButton>Direct Contact</AppButton>
+      <router-link :to="{ name: 'DevDockContactUs' }">
+        <AppButton>Direct Contact</AppButton>
+      </router-link>
     </div>
   </section>
 </template>

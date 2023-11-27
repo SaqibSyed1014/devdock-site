@@ -6,7 +6,11 @@
           :class="[headingVerticalPosition]"
       >
         <div class="w-full lg:w-3/4 px-3 md:px-0 lg:px-8">
-          <img v-if="showImage" src="/svg/arrow.svg" alt="Up Arrow">
+          <img
+              v-if="showImage"
+              :src="image.path"
+              :alt="image.alt"
+          >
           <h2 class="text-white text-3xl md:text-5xl">
             <span class="text-secondary">{{ highlightedText }}</span>
             {{ headingText }}
@@ -63,6 +67,7 @@ import { CardsContent } from "@/core/types/components.ts";
 const props = defineProps<{
   showBtn: boolean;
   showImage: boolean;
+  image: Object,
   highlightedText: string;
   headingText: string;
   headingPosition: string;

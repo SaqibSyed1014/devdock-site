@@ -32,6 +32,10 @@
   "coreValuesContent": {
     "highlightedText": "Our Core Values",
     "heading": "That Drive Our Brand Forward",
+    "image": {
+      "path": "/svg/arrow.svg",
+      "alt": "Arrow"
+    },
     "details": [
       {
         "title": "Client Value",
@@ -66,7 +70,7 @@
     "heading": "We offer solutions for",
     "businesses": [
       "startups",
-      "small-businesses",
+      "small businesses",
       "ecommerce",
       "Ed-Tech",
       "LMS",

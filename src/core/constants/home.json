@@ -1,4 +1,46 @@
 {
+  "hero": {
+    "splitHeadline": [
+      "Get Your Personalized",
+      "Software Development",
+      "Services Under 1 Roof"
+    ],
+    "fullHeadline": "Get Your Personalized Software Development Services Under 1 Roof",
+    "headlineImages": [
+      {
+        "path": "/img/hire_01.webp",
+        "alt": "Software Development Services"
+      },
+      {
+        "path": "/img/hire_02.webp",
+        "alt": "Personalized"
+      },
+      {
+        "path": "/svg/connect_hand.svg",
+        "alt": "Hand"
+      }
+    ],
+    "subText": [
+      "Focus only on",
+      "productivity",
+      "now"
+    ],
+    "dropdownOptions": [
+      { "label": "Account", "pathName": "DevDockPortfolio" },
+      { "label": "Settings", "pathName": "DevDockPortfolio" }
+    ]
+  },
+  "ourClients": {
+    "text": "We are a collaborative team. We do offer solid core values and a intention meant to provide solutions, a dream come actual growth for the business.",
+    "tagLine": "Loved by clients around the world",
+    "logos": [
+      { "name": "shaoke.svg", "alt": "SHAOKE" },
+      { "name": "commkit.svg", "alt": "Commkit" },
+      { "name": "memee.svg", "alt": "MeMee" },
+      { "name": "blackburt.svg", "alt": "BlackBurt" },
+      { "name": "firetrust.svg", "alt": "FireTrust" }
+    ]
+  },
   "trustSection": {
     "heading": "Integrate Your Trust With",
     "badgeText": "DevDock",

@@ -1,27 +1,37 @@
 <template>
-  <button
-      type="button"
-      :class="[secondary ? 'secondary-btn' : 'primary-btn']"
-      class="inline-block rounded py-3 sm:py-3.5 px-4 md:px-[22px] 2xl:px-7 text-sm 2xl:text-lg font-medium leading-normal"
+  <component
+    :is="isLink ? 'router-link' : 'button'"
+    :to="isLink ? to : null"
+    :type="isLink ? null : 'button'"
+    :class="[secondary ? 'secondary-btn' : 'primary-btn']"
+    class="site-button inline-block rounded py-3 sm:py-3.5 px-4 md:px-[22px] 2xl:px-7 text-sm 2xl:text-lg font-medium leading-normal"
   >
     <span class="btn-bg" />
     <span class="btn-label flex justify-center items-center">
       <slot/>
     </span>
-  </button>
+  </component>
 </template>
 
-<script setup lang="ts">
+<script setup>
 defineProps({
   secondary: {
     type: Boolean,
     default: false,
-  }
+  },
+  isLink: {
+    type: Boolean,
+    default: false,
+  },
+  to: {
+    type: Object,
+    default: {},
+  },
 })
 </script>
 
 <style scoped lang="scss">
-button{
+.site-button{
   position: relative;
   .btn-label{
     isolation: isolate;

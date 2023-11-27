@@ -42,12 +42,20 @@
           </div>
 
           <div class="flex items-center gap-3 sm:gap-2 md:gap-5">
-            <router-link :to="{ name: 'DevDockPortfolio' }" class="shrink-0">
-              <AppButton v-if="route.name !== 'DevDockPortfolio'" secondary>
-                View Portfolio
-              </AppButton>
-            </router-link>
-            <AppButton class="hidden lg:block shrink-0">Direct Contact</AppButton>
+            <AppButton
+                v-if="route.name !== 'DevDockPortfolio'"
+                secondary
+                is-link
+                :to="{ name: 'DevDockPortfolio' }"
+                class="shrink-0"
+            >
+              View Portfolio
+            </AppButton>
+            <AppButton
+                class="hidden lg:block shrink-0"
+            >
+              Direct Contact
+            </AppButton>
             <!-- Hamburger button for mobile view -->
             <div class="flex lg:hidden items-center text-primary" @click="showMobileMenu = !showMobileMenu">
               <span v-if="!showMobileMenu" class="i-solar-hamburger-menu-linear w-9 h-9"/>
@@ -80,7 +88,9 @@
                     :style="{ '--index': index }"
                 >
                   <template v-if="link?.pathName">
-                    <router-link :to="{ name: link.pathName }">{{ link.label }}</router-link>
+                    <router-link :to="{ name: link.pathName }">
+                      {{ link.label }}
+                    </router-link>
                   </template>
                   <template v-else>
                     {{ link.label }}
@@ -96,7 +106,7 @@
                       class="sub-menu-link transition text-sm py-2"
                       :style="{ '--subIndex': i }"
                   >
-                    <router-link :to="{ name: subLink.pathName}">{{ subLink.label }}</router-link>
+                    <router-link :to="{ name: subLink.pathName, params: subLink?.param }">{{ subLink.label }}</router-link>
                   </li>
                 </ul>
               </li>

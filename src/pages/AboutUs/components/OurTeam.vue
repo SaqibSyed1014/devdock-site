@@ -16,7 +16,7 @@ const teamData = contactPageData.team
         </h3>
       </div>
       <div class="lg:col-span-2">
-        <div class="team-members grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 items-center gap-x-5 gap-y-10 pt-6">
+        <div class="team-members flex flex-wrap justify-around md:justify-start items-center gap-5 xss:gap-14 md:gap-10 pt-6">
           <template v-for="member in teamData">
             <AppAvatar
                 :user-name="member.name"

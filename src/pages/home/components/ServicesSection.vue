@@ -1,17 +1,22 @@
 <template>
   <SectionWithFourBoxes
-    :highlighted-text="siteName"
-    :heading-text="servicesHeading"
+    :highlighted-text="serviceVertices.highlighted"
+    :heading-text="serviceVertices.heading"
     heading-position="center"
     :show-image="true"
+    :image="serviceVertices.image"
     :show-btn="true"
-    :cards-data="servicesData"
-    full-span-cell="none"
+    :cards-data="serviceVertices.details"
   />
 </template>
 
-<script setup lang="ts">
-import { siteName } from "@/core/constants/site-info.ts";
-import { servicesData, servicesHeading } from "@/core/constants/home-view.ts";
+<script setup>
 import SectionWithFourBoxes from "@/core/components/SectionDetailsInGrid.vue"
+
+defineProps({
+  serviceVertices: {
+    type: Array,
+    required: true
+  }
+})
 </script>

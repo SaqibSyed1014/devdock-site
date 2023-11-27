@@ -16,7 +16,7 @@
                 :class="[feature.darkText?'text-primary':'text-white']"
                 :style="{background: feature.color}">
               <div class="sm:w-3/4 mx-auto px-3">
-                <h3 class="capitalize text-2xl sm:text-4xl font-medium pb-6">
+                <h3 class="text-2xl sm:text-4xl font-medium pb-6">
                   {{ feature.startText }}
                   <span
                       class="rounded-[100px] px-5 uppercase"
