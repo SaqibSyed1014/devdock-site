@@ -58,12 +58,18 @@
             >
               Direct Contact
             </AppButton>
+
             <!-- Hamburger button for mobile view -->
-            <div class="flex lg:hidden items-center text-primary" @click="showMobileMenu = !showMobileMenu">
-              <span v-if="!showMobileMenu" class="i-solar-hamburger-menu-linear w-9 h-9"/>
+            <div
+                class="flex lg:hidden items-center text-primary text-3xl"
+                @click="showMobileMenu = !showMobileMenu">
+              <span
+                  v-if="!showMobileMenu"
+                  class="i-solar-hamburger-menu-linear"
+              />
               <span
                   v-else
-                  class="i-ph-x w-9 h-9"
+                  class="i-ph-x"
               />
             </div>
           </div>
@@ -79,55 +85,97 @@
       <div class="bg-wrapper bg-white absolute top-0 left-0 h-full w-full" />
       <div class="mobile-nav-wrapper relative h-full">
         <nav class="h-full overflow-auto pt-3">
-          <div class="mobile-nav-container my-8 px-3">
-            <ul class="list-style-none">
-              <li
-                  v-for="(link, index) in menuLinks"
-                  :key="index"
-              >
-                <p
-                    class="menu-labels transition text-primary font-medium text-lg mb-3"
-                    :style="{ '--index': index }"
+          <div class="mobile-nav-container relative pb-10 pt-3 px-3">
+            <div
+                v-if="!showMobileSubMenuList"
+                class="mobile-default-menu-list"
+            >
+              <ul class="list-style-none">
+                <li
+                    v-for="(link, index) in menuLinks"
+                    :key="index"
                 >
-                  <template v-if="link?.pathName">
-                    <router-link :to="{ name: link.pathName }">
-                      {{ link.label }}
-                    </router-link>
-                  </template>
-                  <template v-else>
-                    {{ link.label }}
-                  </template>
-                </p>
-                <ul
-                    v-if="link.hasSubLinks"
-                    class="list-style-none mb-7"
-                >
-                  <li
-                      v-for="(subLink, i) in link.subLinks"
-                      :key="i"
-                      class="sub-menu-link transition text-sm py-2"
-                      :style="{ '--subIndex': i }"
+                  <p
+                      v-if="!excludedRoutesOnMobile.includes(link?.pathName)"
+                      class="menu-labels transition text-primary font-medium text-base mb-3"
+                      :style="{ '--index': index }"
                   >
-                    <router-link :to="{ name: subLink.pathName, params: subLink?.param }">{{ subLink.label }}</router-link>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-
-            <div class="nav-image transition relative pt-3 mb-40">
-              <div class="nav-image-container overflow-hidden rounded-2xl">
-                <img src="/public/img/rocket.webp" alt="Rocket" :class="[showMobileMenu? 'zoom-in':'zoom-out']">
+                    <div class="flex justify-between items-center">
+                      <template v-if="link?.pathName">
+                        <router-link :to="{ name: link.pathName }">
+                          {{ link.label }}
+                        </router-link>
+                      </template>
+                      <template v-else>
+                        {{ link.label }}
+                      </template>
+                      <span
+                          @click="showSubMenuList(link.subLinks)"
+                          class="i-charm-chevron-right text-dark-gray text-2xl shrink-0"
+                      />
+                    </div>
+                  </p>
+                </li>
+              </ul>
+              <div class="nav-image transition relative pt-10 mb-40">
+                <div class="nav-image-container overflow-hidden rounded-2xl">
+                  <img src="/public/img/rocket.webp" alt="Rocket" :class="[showMobileMenu? 'zoom-in':'zoom-out']">
+                </div>
+                <div class="absolute top-[50%] left-[50%] -translate-y-2/4 -translate-x-2/4">
+                  <button
+                      class="play-btn bg-white flex justify-center items-center rounded-full w-14 h-14 md:w-16 md:h-16 cursor-pointer"
+                      @click="playDemoVideo = true"
+                  >
+                    <span class="btn-control-icon i-mdi-play text-pink w-9 h-9 md:w-10 md:h-10"/>
+                  </button>
+                </div>
+                <h4 class="text-base absolute bottom-5 left-5 text-white font-bold">Product Tour</h4>
               </div>
-              <div class="absolute top-[50%] left-[50%] -translate-y-2/4 -translate-x-2/4">
-                <button
-                    class="play-btn bg-white flex justify-center items-center rounded-full w-14 h-14 md:w-16 md:h-16 cursor-pointer"
-                    @click="playDemoVideo = true"
-                >
-                  <span class="btn-control-icon i-mdi-play text-pink w-9 h-9 md:w-10 md:h-10"/>
-                </button>
-              </div>
-              <h4 class="text-base absolute bottom-5 left-5 text-white font-bold">Product Tour</h4>
             </div>
+
+            <div
+                v-else
+                class="mobile-sub-menu"
+            >
+              <button
+                  class="back-nav-btn absolute top-2 left-2.5 flex items-center gap-1"
+                  :style="{ '--subIndex': .2 }"
+                  @click="backToDefaultList"
+              >
+                <span class="i-charm-chevron-left text-primary text-xl"></span>
+                <span class="text-sm">Back</span>
+              </button>
+              <ul class="list-style-none pt-7">
+                <li
+                    v-for="(subLink, i) in mobileSubMenuList"
+                    :key="i"
+                    class="sub-menu-link transition text-sm py-2"
+                    :style="{ '--subIndex': i }"
+                >
+                  <router-link
+                      :to="{ name: subLink.pathName, params: subLink?.param }"
+                  >
+                    {{ subLink.label }}
+                  </router-link>
+                </li>
+              </ul>
+
+              <div class="nav-image transition relative pt-10 mb-40">
+                <div class="nav-image-container overflow-hidden rounded-2xl">
+                  <img src="/public/img/rocket.webp" alt="Rocket" :class="[showMobileMenu? 'zoom-in':'zoom-out']">
+                </div>
+                <div class="absolute top-[50%] left-[50%] -translate-y-2/4 -translate-x-2/4">
+                  <button
+                      class="play-btn bg-white flex justify-center items-center rounded-full w-14 h-14 md:w-16 md:h-16 cursor-pointer"
+                      @click="playDemoVideo = true"
+                  >
+                    <span class="btn-control-icon i-mdi-play text-pink w-9 h-9 md:w-10 md:h-10"/>
+                  </button>
+                </div>
+                <h4 class="text-base absolute bottom-5 left-5 text-white font-bold">Product Tour</h4>
+              </div>
+            </div>
+
           </div>
         </nav>
       </div>
@@ -149,6 +197,19 @@ import { menuLinks } from "@/core/constants/common.ts";
 
 let showMobileMenu = ref<boolean>(false)
 let playDemoVideo = ref<boolean>(false)
+const excludedRoutesOnMobile = ['DevDockPortfolio']
+let showMobileSubMenuList = ref(false)
+let mobileSubMenuList = ref([])
+
+const showSubMenuList = (list) => {
+  mobileSubMenuList.value = list
+  showMobileSubMenuList.value = true
+}
+const backToDefaultList = () => {
+  mobileSubMenuList.value = []
+  showMobileSubMenuList.value = false
+}
+
 const route = useRoute()
 
 const scrollY = ref(window.scrollY);
@@ -216,7 +277,7 @@ nav{
       animation: slideRight .8s cubic-bezier(.215, .61, .355, 1) forwards;
     }
   }
-  .menu-labels, .sub-menu-link, .nav-image{
+  .menu-labels, .sub-menu-link, .back-nav-btn, .nav-image{
     opacity: 0;
     transition: opacity .35s linear 0ms, transform .9s cubic-bezier(.215, .61, .355, 1) 0ms;
   }
@@ -225,6 +286,10 @@ nav{
     transition-delay: calc(var(--index)*50ms);
   }
   .sub-menu-link{
+    animation: linkListNavItem 1.3s calc(var(--subIndex)*80ms) cubic-bezier(.19,1,.22,1) forwards;
+    transition-delay: calc(var(--subIndex)*80ms);
+  }
+  .back-nav-btn{
     animation: linkListNavItem 1.3s calc(var(--subIndex)*80ms) cubic-bezier(.19,1,.22,1) forwards;
     transition-delay: calc(var(--subIndex)*80ms);
   }
