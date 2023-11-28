@@ -187,7 +187,7 @@
     />
 </template>
 
-<script setup lang="ts">
+<script setup>
 import AppButton from '@/core/components/AppButton.vue'
 import AppDropdown from "@/core/components/AppDropdown.vue"
 import VideoPlayer from '@/core/components/VideoPlayer.vue'
@@ -195,8 +195,8 @@ import { useRoute } from 'vue-router'
 import { logoUrl } from "@/core/constants/site-info.ts";
 import { menuLinks } from "@/core/constants/common.ts";
 
-let showMobileMenu = ref<boolean>(false)
-let playDemoVideo = ref<boolean>(false)
+let showMobileMenu = ref(false)
+let playDemoVideo = ref(false)
 const excludedRoutesOnMobile = ['DevDockPortfolio']
 let showMobileSubMenuList = ref(false)
 let mobileSubMenuList = ref([])
