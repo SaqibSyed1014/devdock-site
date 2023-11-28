@@ -59,6 +59,7 @@
     "unplugin-auto-import": "0.16.5",
     "unplugin-vue-components": "0.25.1",
     "vite": "4.4.2",
+    "vite-plugin-sitemap": "^0.5.3",
     "vue-tsc": "1.8.3",
     "wait-on": "7.0.1"
   }

@@ -15,7 +15,13 @@
             <span class="text-secondary">{{ highlightedText }}</span>
             {{ headingText }}
           </h2>
-          <AppButton v-if="showBtn" secondary class="mt-8">
+          <AppButton
+              v-if="showBtn"
+              is-link
+              :to="{ name: 'DevDockContactUs' }"
+              secondary
+              class="mt-8"
+          >
             Direct Contact
           </AppButton>
         </div>

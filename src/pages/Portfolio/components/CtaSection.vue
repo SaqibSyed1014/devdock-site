@@ -21,7 +21,13 @@ defineProps({
         </div>
         <p class="text-base md:text-xl 2xl:text-2xl">{{ ctaSectionData.text }}</p>
         <div>
-          <AppButton class="mt-10">Direct Contact</AppButton>
+          <AppButton
+              is-link
+              :to="{ name: 'DevDockContactUs' }"
+              class="mt-10"
+          >
+            Direct Contact
+          </AppButton>
         </div>
       </div>
       <div>

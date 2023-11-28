@@ -52,6 +52,8 @@
               View Portfolio
             </AppButton>
             <AppButton
+                is-link
+                :to="{ name: 'DevDockContactUs' }"
                 class="hidden lg:block shrink-0"
             >
               Direct Contact

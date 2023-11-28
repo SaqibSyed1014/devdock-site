@@ -46,7 +46,15 @@ defineProps({
 })
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+.product-logo{
+  display: flex;
+  align-items: end;
+  height: 50px;
+  img{
+    height: 100%;
+  }
+}
 .description-text{
   display: -webkit-box;
   -webkit-line-clamp: 3;

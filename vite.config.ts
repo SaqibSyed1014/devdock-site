@@ -4,6 +4,8 @@ import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import { defineConfig } from 'vite'
 import { version as pkgVersion } from './package.json'
+let dynamicRoutes = require('./generateRoutes.js')
+import Sitemap from 'vite-plugin-sitemap'
 
 process.env.VITE_APP_VERSION = pkgVersion
 if (process.env.NODE_ENV === 'production') {
@@ -13,6 +15,11 @@ if (process.env.NODE_ENV === 'production') {
 export default defineConfig({
   plugins: [
     vue(),
+    Sitemap({
+      hostname: 'https://devdock.tech',
+      readable: true,
+      dynamicRoutes
+    }),
     AutoImport({
       imports: [
         'vue',

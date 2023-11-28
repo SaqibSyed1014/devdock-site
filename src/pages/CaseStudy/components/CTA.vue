@@ -15,7 +15,13 @@ import AppButton from "@/core/components/AppButton.vue";
         <p class="text-base md:text-xl 2xl:text-2xl">Our experienced team is ready to listen to your needs, provide
           valuable insights, and tailor a customized solution that perfectly fits your goals.</p>
         <div>
-          <AppButton class="mt-10">Direct Contact</AppButton>
+          <AppButton
+              is-link
+              :to="{ name: 'DevDockContactUs' }"
+              class="mt-10"
+          >
+            Direct Contact
+          </AppButton>
         </div>
       </div>
       <div>
