@@ -49,9 +49,14 @@ defineProps({
 <style scoped lang="scss">
 .product-logo{
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   height: 50px;
+  width: 120px;
+  @media (max-width: theme('screens.sm')) {
+    height: 40px;
+  }
   img{
+    object-fit: contain;
     height: 100%;
   }
 }
