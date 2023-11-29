@@ -27,7 +27,11 @@ defineProps({
               </div>
               <div class="flex flex-wrap gap-9">
                 <template v-for="stack in selectedServices.list[0].stack">
-                  <img :src="`/svg/softwares/${stack}`" :alt="stack">
+                  <img
+                      :src="`/svg/softwares/${stack}`"
+                      :alt="stack"
+                      loading="lazy"
+                  >
                 </template>
               </div>
             </div>
@@ -42,7 +46,11 @@ defineProps({
               </div>
             <div class="flex flex-wrap gap-9">
               <template v-for="stack in selectedServices.list[1].stack">
-                <img :src="`/svg/softwares/${stack}`" :alt="stack">
+                <img
+                    :src="`/svg/softwares/${stack}`"
+                    :alt="stack"
+                    loading="lazy"
+                >
               </template>
             </div>
             </div>
@@ -56,7 +64,11 @@ defineProps({
                 <p class="pt-6">{{ selectedServices.list[2].description }}</p></div>
                 <div class="flex flex-wrap gap-9">
                   <template v-for="stack in selectedServices.list[2].stack">
-                    <img :src="`/svg/softwares/${stack}`" :alt="stack">
+                    <img
+                        :src="`/svg/softwares/${stack}`"
+                        :alt="stack"
+                        loading="lazy"
+                    >
                   </template>
                 </div>
             </div>
@@ -71,7 +83,11 @@ defineProps({
               </div>
               <div class="flex flex-wrap gap-5">
                 <template v-for="stack in selectedServices.list[3].stack">
-                  <img :src="`/svg/softwares/${stack}`" :alt="stack">
+                  <img
+                      :src="`/svg/softwares/${stack}`"
+                      :alt="stack"
+                      loading="lazy"
+                  >
                 </template>
               </div>
             </div>

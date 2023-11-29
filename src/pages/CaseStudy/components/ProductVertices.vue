@@ -16,12 +16,9 @@ defineProps({
         :heading-text="productVertices.heading"
         heading-position="center"
         :show-image="false"
+        :image="{ path: '', alt: '' }"
         :show-btn="false"
         :cards-data="productVertices.list"
     />
   </div>
 </template>
-
-<style scoped lang="scss">
-
-</style>

@@ -15,8 +15,3 @@ const portfolioData = pageData
     <cta-section :cta-section-data="portfolioData.ctaSection" />
   </div>
 </template>
-
-
-<style lang="scss" scoped>
-
-</style>

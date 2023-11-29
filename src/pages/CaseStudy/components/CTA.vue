@@ -30,7 +30,3 @@ import AppButton from "@/core/components/AppButton.vue";
     </div>
   </section>
 </template>
-
-<style scoped lang="scss">
-
-</style>

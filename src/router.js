@@ -1,22 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import DefaultLayout from '@/layout/DefaultLayout/DefaultLayout.vue'
-import Home from '@/pages/home/index.vue'
-import Portfolio from '@/pages/Portfolio/index.vue'
-import CaseStudy from '@/pages/CaseStudy/index.vue'
-import ContactUs from '@/pages/ContactUs/index.vue'
-import Services from '@/pages/Services/index.vue'
-import ServiceDetails from '@/pages/ServicesDetails/index.vue'
-import AboutUs from '@/pages/AboutUs/index.vue'
-import TermsAndConditions from "@/pages/TermsAndConditions/index.vue"
-import PrivacyPolicy from "@/pages/PrivacyPolicy/index.vue"
 import routesData from "@/core/constants/routes.json"
 const routesMeta = routesData
 
 const routes = [
   {
     path: '/',
-    component: DefaultLayout,
+    component: () => import('@/layout/DefaultLayout/DefaultLayout.vue'),
     name: 'SiteDefaultLayout',
     meta: {
       title: '',
@@ -25,39 +15,39 @@ const routes = [
     children: [
       {
         ...routesMeta.Home,
-        component: Home,
+        component: () => import('@/pages/home/index.vue')
       },
       {
         ...routesMeta.Portfolio,
-        component: Portfolio,
+        component: () => import('@/pages/Portfolio/index.vue')
       },
       {
         ...routesMeta.CaseStudy,
-        component: CaseStudy,
+        component: () => import('@/pages/CaseStudy/index.vue')
       },
       {
         ...routesMeta.ContactUs,
-        component: ContactUs,
+        component: () => import('@/pages/ContactUs/index.vue')
       },
       {
         ...routesMeta.Services,
-        component: Services,
+        component: () => import('@/pages/Services/index.vue')
       },
       {
         ...routesMeta.Service,
-        component: ServiceDetails,
+        component: () => import('@/pages/ServicesDetails/index.vue')
       },
       {
         ...routesMeta.AboutUs,
-        component: AboutUs,
+        component: () => import('@/pages/AboutUs/index.vue')
       },
       {
         ...routesMeta.TermsAndCondition,
-        component: TermsAndConditions,
+        component: () => import('@/pages/TermsAndConditions/index.vue')
       },
       {
         ...routesMeta.PrivacyPolicy,
-        component: PrivacyPolicy,
+        component: () => import('@/pages/PrivacyPolicy/index.vue')
       }
     ]
   },
