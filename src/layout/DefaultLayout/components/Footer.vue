@@ -4,7 +4,12 @@
       <div class="banner-bg" />
       <div class="flex items-center justify-between flex-wrap lg:flex-nowrap gap-5 relative z-11">
         <div class="flex items-center">
-          <img class="hidden md:block" src="/svg/right_arrow.svg" alt="Arrow">
+          <img
+              class="hidden md:block"
+              src="/svg/right_arrow.svg"
+              alt="Arrow"
+              loading="lazy"
+          >
           <p class="text-center md:text-left text-primary font-medium text-xl sm:text-2xl md:text-[32px] md:pl-[15px]">
             {{ footerContent.bannerHeading }}
           </p>
@@ -34,7 +39,7 @@
         <div class="col-span-3 sm:col-span-3 md:col-span-3">
           <label class="text-[15px] 2xl:text-xl">Email</label>
           <a
-              :href="`mailto:${contactEmail}`"
+             :href="`mailto:${contactEmail}`"
              class="block text-xl 2xl:text-2xl md:text-extra font-bold pt-3 pb-6"
           >
             {{ contactEmail }}
@@ -62,9 +67,9 @@
                   :key="link"
               >
                 <router-link
-                    :to="link.path"
+                  :to="{ ...link.path }"
                   class="opacity-8 hover:opacity-10 transition"
-              >
+                >
                 {{ link.label }}
                 <span
                     v-if="link?.icon"
@@ -85,7 +90,11 @@
       <div class="container text-center text-white">
         <div class="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 text-sm 2xl:text-lg">
           <router-link :to="{ name: route.Home.name }">
-            <img src="/public/svg/logo-white.svg" alt="DevDock">
+            <img
+                src="/svg/logo-white.svg"
+                alt="DevDock"
+                loading="lazy"
+            >
           </router-link>
           <div>
             <span class="border-r-2 border-[#1F5346] pr-3 mr-3">
@@ -104,7 +113,8 @@
               {{ siteName }}.
             </router-link>
             All Rights Reserved.
-          </span></div>
+          </span>
+        </div>
       </div>
     </div>
   </footer>

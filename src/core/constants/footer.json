@@ -7,7 +7,9 @@
         "links": [
           {
             "label": "About",
-            "path": "/about-us"
+            "path": {
+              "name": "DevDockAboutUs"
+            }
           },
           {
             "label": "Hire Us",
@@ -16,7 +18,9 @@
           },
           {
             "label": "Contact Us",
-            "path": "/contact-us"
+            "path": {
+              "name": "DevDockContactUs"
+            }
           }
         ]
       },
@@ -25,19 +29,36 @@
         "links": [
           {
             "label": "Web Development",
-            "path": "/service/web-development"
+            "path": {
+              "name": "DevDockServiceDetails",
+              "params": {
+                "title": "web-development"
+              }
+            }
           },
           {
             "label": "UI/UX",
-            "path": "/service/ui-ux"
+            "path": {
+              "name": "DevDockServiceDetails",
+              "params": {
+                "title": "ui-ux"
+              }
+            }
           },
           {
             "label": "MVP Design",
-            "path": "/service/mvp-design-&-development"
+            "path": {
+              "name": "DevDockServiceDetails",
+              "params": {
+                "title": "mvp-design-&-development"
+              }
+            }
           },
           {
             "label": "All Services",
-            "path": "/services"
+            "path": {
+              "name": "DevDockServices"
+            }
           }
         ]
       }

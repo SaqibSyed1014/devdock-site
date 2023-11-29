@@ -20,7 +20,11 @@ const builtTrustSection = sectionData.trustSection
               :class="[`col-span-${tech.col}`]"
               :key="index"
           >
-            <img :src="tech.name" :alt="tech.alt">
+            <img
+                :src="tech.name"
+                :alt="tech.alt"
+                loading="lazy"
+            >
           </div>
         </div>
       </div>
@@ -30,6 +34,7 @@ const builtTrustSection = sectionData.trustSection
               :src="builtTrustSection.image.path"
               :alt="builtTrustSection.image.alt"
               class="mx-auto align-top"
+              loading="lazy"
           >
         </div>
       </div>

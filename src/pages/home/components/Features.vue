@@ -30,7 +30,12 @@
                   {{ feature.desc }}
                 </p>
                 <figure class="w-3/4 md:w-2/4 mx-auto px-3 pt-7">
-                  <img class="mx-auto" :src="`/svg/${feature.image}`" :alt="feature.alt">
+                  <img
+                      class="mx-auto"
+                      :src="`/svg/${feature.image}`"
+                      :alt="feature.alt"
+                      loading="lazy"
+                  >
                 </figure>
               </div>
             </div>

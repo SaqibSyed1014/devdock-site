@@ -237,7 +237,7 @@
   },
   "Services": {
     "name": "DevDockServices",
-    "path": "/services",
+    "path": "/services/",
     "meta": {
       "path": "/services",
       "title": "DevDock Services | Software Design and Development Company",
