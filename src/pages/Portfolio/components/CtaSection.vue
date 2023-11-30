@@ -17,7 +17,7 @@ defineProps({
           {{ ctaSectionData.heading }}
         </h2>
         <div class="py-8">
-          <img class="mx-auto" src="/public/svg/curve.svg" alt="Curve Underline">
+          <img class="mx-auto" src="/svg/curve.svg" alt="Curve Underline">
         </div>
         <p class="text-base md:text-xl 2xl:text-2xl">{{ ctaSectionData.text }}</p>
         <div>

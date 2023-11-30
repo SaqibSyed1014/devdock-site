@@ -20,7 +20,6 @@ defineProps<{
           :class="[ hoverDisabled ? 'scale-125' : 'group-hover:scale-125' ]"
           :src="userImage"
           :alt="userName"
-          loading="lazy"
       >
       <figcaption
           class="user-avatar-details text-white text-sm w-full mx-auto transition-all duration-500"

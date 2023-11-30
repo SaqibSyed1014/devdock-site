@@ -106,7 +106,7 @@ defineProps({
     position: absolute;
     top: 17px;
     left: -70px;
-    background-image: url("/public/svg/illustrations.svg");
+    background-image: url("/svg/illustrations.svg");
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
@@ -117,7 +117,7 @@ defineProps({
     position: absolute;
     top: -18px;
     right: -12px;
-    background-image: url("/public/svg/star.svg");
+    background-image: url("/svg/star.svg");
     background-repeat: no-repeat;
     height: 15px;
     width: 13px;

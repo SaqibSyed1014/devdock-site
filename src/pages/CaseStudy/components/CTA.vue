@@ -10,7 +10,7 @@ import AppButton from "@/core/components/AppButton.vue";
           Ready to Elevate Your Project? Let's Talk!
         </h4>
         <div class="py-8">
-          <img class="mx-auto" src="/public/svg/curve.svg" alt="Curve Underline">
+          <img class="mx-auto" src="/svg/curve.svg" alt="Curve Underline">
         </div>
         <p class="text-base md:text-xl 2xl:text-2xl">Our experienced team is ready to listen to your needs, provide
           valuable insights, and tailor a customized solution that perfectly fits your goals.</p>

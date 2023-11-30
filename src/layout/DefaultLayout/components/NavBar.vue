@@ -119,7 +119,7 @@
               </ul>
               <div class="nav-image transition relative pt-10 mb-40">
                 <div class="nav-image-container overflow-hidden rounded-2xl">
-                  <img src="/public/img/rocket.webp" alt="Rocket" :class="[showMobileMenu? 'zoom-in':'zoom-out']">
+                  <img src="/img/rocket.webp" alt="Rocket" :class="[showMobileMenu? 'zoom-in':'zoom-out']">
                 </div>
                 <div class="absolute top-[50%] left-[50%] -translate-y-2/4 -translate-x-2/4">
                   <button
@@ -162,7 +162,7 @@
 
               <div class="nav-image transition relative pt-10 mb-40">
                 <div class="nav-image-container overflow-hidden rounded-2xl">
-                  <img src="/public/img/rocket.webp" alt="Rocket" :class="[showMobileMenu? 'zoom-in':'zoom-out']">
+                  <img src="/img/rocket.webp" alt="Rocket" :class="[showMobileMenu? 'zoom-in':'zoom-out']">
                 </div>
                 <div class="absolute top-[50%] left-[50%] -translate-y-2/4 -translate-x-2/4">
                   <button
