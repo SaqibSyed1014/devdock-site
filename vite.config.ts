@@ -16,7 +16,7 @@ export default defineConfig({
   plugins: [
     vue(),
     Sitemap({
-      hostname: 'https://devdock.tech',
+      hostname: 'https://www.devdock.tech',
       readable: true,
       dynamicRoutes
     }),
