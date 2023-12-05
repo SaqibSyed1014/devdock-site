@@ -4,7 +4,7 @@ import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import { defineConfig } from 'vite'
 import { version as pkgVersion } from './package.json'
-let dynamicRoutes = require('./generateRoutes.js')
+const dynamicRoutes = require('./generateRoutes.js')
 import Sitemap from 'vite-plugin-sitemap'
 
 process.env.VITE_APP_VERSION = pkgVersion
@@ -44,7 +44,7 @@ export default defineConfig({
   build: {
     minify: 'terser',
     rollupOptions: {
-      external: ['vue'],
+      external: [], // removed vue since it is expected to be available at runtime
     },
   },
   resolve: {
