@@ -13,214 +13,214 @@
     "name": "DevDockCaseStudyDetails",
     "path": "/case-study/:title?",
     "meta": {
-      "the-chef-card": {
-        "path": "/case-study/the-chef-card",
-        "title": "The Chef Card Design & Development Case Study | DevDock",
-        "description": "DevDock transforms budgeting with Chef Card with a custom design & development solution - an app for smart grocery shopping and savings.",
+      "kitchen-coin": {
+        "path": "/case-study/kitchen-coin",
+        "title": "Kitchen Coin Design & Development Case Study | DevDock",
+        "description": "DevDock transforms budgeting with Kitchen Coin with a custom design & development solution - an app for smart grocery shopping and savings.",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "whats-happen": {
-        "path": "/case-study/whats-happen",
-        "title": "What's Happen Design & Development Case Study | DevDock",
-        "description": "DevDock transforms dining exploration with Why What's Happen with a custom Full development solution - an app offering detailed venues for a memorable experience.",
+      "locale-lure": {
+        "path": "/case-study/locale-lure",
+        "title": "Locale Lure Design & Development Case Study | DevDock",
+        "description": "DevDock transforms dining exploration with Why Locale Lure with a custom Full development solution - an app offering detailed venues for a memorable experience.",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "mapa-aid": {
-        "path": "/case-study/mapa-aid",
-        "title": "Mapa Aid Design & Development Case Study | DevDock",
-        "description": "DevDock transforms parenting with Mapa Aid with a custom design & development solution - an all-in-one platform for tracking your infant's growth journey.",
+      "cherub-chart": {
+        "path": "/case-study/cherub-chart",
+        "title": "Cherub Chart Design & Development Case Study | DevDock",
+        "description": "DevDock transforms parenting with Cherub Chart with a custom design & development solution - an all-in-one platform for tracking your infant's growth journey.",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "livelock": {
-        "path": "/case-study/live-lock",
-        "title": "LiveLock Design & Development Case Study | DevDock",
-        "description": "DevDock transforms sports investment with LiveLock with a custom design & development solution - insight with data for smarter betting and market moves.",
+      "play-market-pro": {
+        "path": "/case-study/play-market-pro",
+        "title": "PlayMarket Pro Design & Development Case Study | DevDock",
+        "description": "DevDock transforms sports investment with PlayMarket Pro with a custom design & development solution - insight with data for smarter betting and market moves.",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "lemur": {
-        "path": "/case-study/lemur",
-        "title": "Lemur Design & Development Case Study | DevDock",
-        "description": "DevDock transforms fashion with Lemur with a custom design & development solution - connecting designers, retailers, and buyers for personalized apparel needs.",
+      "blend-mode": {
+        "path": "/case-study/blend-mode",
+        "title": "Blend Mode Design & Development Case Study | DevDock",
+        "description": "DevDock transforms fashion with Blend Mode with a custom design & development solution - connecting designers, retailers, and buyers for personalized apparel needs.",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "find-app": {
-        "path": "/case-study/find-app",
-        "title": "FindApp Design & Development Case Study | DevDock",
-        "description": "DevDock transforms navigation with FindApp with a custom design & development solution - navigates complex venues for seamless location discovery.",
+      "b": {
+        "path": "/case-study/nav-maze",
+        "title": "NavMaze Design & Development Case Study | DevDock",
+        "description": "DevDock transforms navigation with NavMaze with a custom design & development solution - navigates complex venues for seamless location discovery.",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "fight-roots": {
-        "path": "/case-study/fight-roots",
-        "title": "Fight Roots Design & Development Case Study | DevDock",
-        "description": "DevDock transforms martial arts with Fight Roots with a custom design & development solution  -  offering guidance and training solutions of all levels.",
+      "martial-mentor-hub": {
+        "path": "/case-study/martial-mentor-hub",
+        "title": "MartialMentor Hub Design & Development Case Study | DevDock",
+        "description": "DevDock transforms martial arts with MartialMentor Hub with a custom design & development solution  -  offering guidance and training solutions of all levels.",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "fair-fight-v1": {
-        "path": "/case-study/fair-fight-v1",
-        "title": "FairFight Design & Development Case Study | DevDock",
-        "description": "DevDock transforms gaming with FairFight with a custom design & development solution - uniting fans, organizers, and participants in mobile-based competitions",
+      "rivalry-rally-v1": {
+        "path": "/case-study/rivalry-rally-v1",
+        "title": "RivalryRally Design & Development Case Study | DevDock",
+        "description": "DevDock transforms gaming with RivalryRally with a custom design & development solution - uniting fans, organizers, and participants in mobile-based competitions",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "fair-fight-v2": {
-        "path": "/case-study/fair-fight-v2",
-        "title": "FairFight Design & Development Case Study | DevDock",
-        "description": "DevDock transforms gaming with FairFight with a custom design & development solution - uniting fans, organizers, and participants in mobile-based competitions",
+      "rivalry-rally-v2": {
+        "path": "/case-study/rivalry-rally-v2",
+        "title": "RivalryRally Design & Development Case Study | DevDock",
+        "description": "DevDock transforms gaming with RivalryRally with a custom design & development solution - uniting fans, organizers, and participants in mobile-based competitions",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "easy-n-fast": {
-        "path": "/case-study/easy-n-fast",
-        "title": "EasyNFast Design & Development Case Study | DevDock",
-        "description": "DevDock transforms shopping with EasyNFast with a custom design & development solution - delivers a range of items right to your doorstep",
+      "quixify": {
+        "path": "/case-study/quixify",
+        "title": "Quixify Design & Development Case Study | DevDock",
+        "description": "DevDock transforms shopping with Quixify with a custom design & development solution - delivers a range of items right to your doorstep",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "beespatch": {
-        "path": "/case-study/beespatch",
-        "title": "Beespatch Design & Development Case Study | DevDock",
-        "description": "DevDock transforms local commerce with Beespatch with a custom design & development solution - your go-to marketplace, from stationery to pet food and more",
+      "nookhive": {
+        "path": "/case-study/nookhive",
+        "title": "Nookhive Design & Development Case Study | DevDock",
+        "description": "DevDock transforms local commerce with Nookhive with a custom design & development solution - your go-to marketplace, from stationery to pet food and more",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "assero": {
-        "path": "/case-study/assero",
-        "title": "Assero Design & Development Case Study | DevDock",
-        "description": "DevDock transforms security with Assero with a custom design & development solution - links clients to screened professionals, saving effort and costs ",
+      "sentinel-sync": {
+        "path": "/case-study/sentinel-sync",
+        "title": "SentinelSync Design & Development Case Study | DevDock",
+        "description": "DevDock transforms security with SentinelSync with a custom design & development solution - links clients to screened professionals, saving effort and costs ",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "speedyssey": {
-        "path": "/case-study/speedyssey",
-        "title": "Speedyssey Design & Development Case Study | DevDock",
-        "description": "DevDock transforms delivery with Speedyssey with a custom design & development solution - network that offers affordable on-demand transportation",
+      "rushhaul": {
+        "path": "/case-study/rushhaul",
+        "title": "Rushhaul Design & Development Case Study | DevDock",
+        "description": "DevDock transforms delivery with Rushhaul with a custom design & development solution - network that offers affordable on-demand transportation",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "soya": {
-        "path": "/case-study/soya",
-        "title": "Soya Design & Development Case Study | DevDock",
-        "description": "DevDock transforms fuel needs with Soya with a custom design & development solution - saves time, ensuring timely meetings and hassle-free journeys",
+      "pump-point": {
+        "path": "/case-study/pump-point",
+        "title": "Pump Point Design & Development Case Study | DevDock",
+        "description": "DevDock transforms fuel needs with Pump Point with a custom design & development solution - saves time, ensuring timely meetings and hassle-free journeys",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "rsrv-a-go": {
-        "path": "/case-study/rsrv-a-go",
-        "title": "Rsrv-A-Go Design & Development Case Study | DevDock",
-        "description": "DevDock transforms night outs plans with Rsrv-A-Go with a custom full development solution - simplifies venue exploration, for a memorable experience.",
+      "night-oasis": {
+        "path": "/case-study/night-oasis",
+        "title": "NightOasis Design & Development Case Study | DevDock",
+        "description": "DevDock transforms night outs plans with NightOasis with a custom full development solution - simplifies venue exploration, for a memorable experience.",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "learned-app": {
-        "path": "/case-study/learned-app",
-        "title": "LearnedApp Design & Development Case Study | DevDock",
-        "description": "DevDock transforms education with LearnedApp with a custom design & development solution - makes math fun, engaging, and productive for children's screen time",
+      "grow-aim": {
+        "path": "/case-study/grow-aim",
+        "title": "Growaim Design & Development Case Study | DevDock",
+        "description": "DevDock transforms education with Growaim with a custom design & development solution - makes math fun, engaging, and productive for children's screen time",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "fit-shelf": {
-        "path": "/case-study/fit-shelf",
-        "title": "FitShelf Design & Development Case Study | DevDock",
-        "description": "DevDock transforms eating habits with Fitshelf with a custom design & development solution - offers healthy food and local delivery, revolutionizing your options.",
+      "my-green": {
+        "path": "/case-study/my-green",
+        "title": "Mygreen Design & Development Case Study | DevDock",
+        "description": "DevDock transforms eating habits with Mygreen with a custom design & development solution - offers healthy food and local delivery, revolutionizing your options.",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "its-a-healthy-life": {
-        "path": "/case-study/its-a-healthy-life",
-        "title": "It's a Healthy Life Design & Development Case Study | DevDock",
-        "description": "DevDock transforms lifestyles with It's a Healthy Life with a custom design & development solution - offers healthy eating,  workouts, and expert networking.",
+      "nutri-nest-life": {
+        "path": "/case-study/nutri-nest-life",
+        "title": "NutriNest Life Design & Development Case Study | DevDock",
+        "description": "DevDock transforms lifestyles with NutriNest Life with a custom design & development solution - offers healthy eating,  workouts, and expert networking.",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "my-car-hub": {
-        "path": "/case-study/my-car-hub",
-        "title": "My Car Hub Design & Development Case Study | DevDock",
-        "description": "DevDock transforms vehicle care with My Car Hub with a custom design & development solution - logs data and connects users with dealers, buyers, sellers, mechanics.",
+      "auto-connect-hub": {
+        "path": "/case-study/auto-connect-hub",
+        "title": "AutoConnect Hub Design & Development Case Study | DevDock",
+        "description": "DevDock transforms vehicle care with AutoConnect Hub with a custom design & development solution - logs data and connects users with dealers, buyers, sellers, mechanics.",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "icu": {
-        "path": "/case-study/icu",
-        "title": "ICU Design & Development Case Study | DevDock",
-        "description": "DevDock transforms societal challenges with ICU with a custom design & development solution - Saving from harassment and violence in public",
+      "dignity-defenders": {
+        "path": "/case-study/dignity-defenders",
+        "title": "DignityDefenders Design & Development Case Study | DevDock",
+        "description": "DevDock transforms societal challenges with DignityDefenders with a custom design & development solution - Saving from harassment and violence in public",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "ear-shotz": {
-        "path": "/case-study/ear-shotz",
-        "title": "Earshotz Design & Development Case Study | DevDock",
-        "description": "DevDock transforms entertainment with Earshotz with a custom design & development solution - elevates parties with engaging song trivia for all to enjoy",
+      "groove-guess": {
+        "path": "/case-study/groove-guess",
+        "title": "GrooveGuess Design & Development Case Study | DevDock",
+        "description": "DevDock transforms entertainment with GrooveGuess with a custom design & development solution - elevates parties with engaging song trivia for all to enjoy",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "digi-doula": {
-        "path": "/case-study/digi-doula",
-        "title": "DigiDoula Design & Development Case Study | DevDock",
-        "description": "DevDock transforms postpartum care with DigiDoula with a custom design & development solution - offers a supportive space for parents to connect, find support",
+      "postpartum-pal": {
+        "path": "/case-study/postpartum-pal",
+        "title": "PostpartumPal Design & Development Case Study | DevDock",
+        "description": "DevDock transforms postpartum care with PostpartumPal with a custom design & development solution - offers a supportive space for parents to connect, find support",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "dentist-now": {
-        "path": "/case-study/dentist-now",
-        "title": "DentistNow Design & Development Case Study | DevDock",
-        "description": "DevDock transforms dental care with DentistNow with a custom design & development solution - offers instant connections to book appointments with professionals",
+      "tooth-connect": {
+        "path": "/case-study/tooth-connect",
+        "title": "ToothConnect Design & Development Case Study | DevDock",
+        "description": "DevDock transforms dental care with ToothConnect with a custom design & development solution - offers instant connections to book appointments with professionals",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "date-up": {
-        "path": "/case-study/date-up",
-        "title": "DateUp Design & Development Case Study | DevDock",
-        "description": "DevDock transforms dating with DateUp with a custom design & development solution - innovates by allowing feedback to shape a person's profile rating.",
+      "match-marks": {
+        "path": "/case-study/match-marks",
+        "title": "MatchMarks Design & Development Case Study | DevDock",
+        "description": "DevDock transforms dating with MatchMarks with a custom design & development solution - innovates by allowing feedback to shape a person's profile rating.",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "clever-gifts": {
-        "path": "/case-study/clever-gifts",
-        "title": "Clever Gifts Design & Development Case Study | DevDock",
-        "description": "DevDock transforms gifting with Clever Gifts with a custom design & development solution - offers hand-picked presents, subscribe and set dates without store visits.",
+      "gift-crafted": {
+        "path": "/case-study/gift-crafted",
+        "title": "GiftCrafted Design & Development Case Study | DevDock",
+        "description": "DevDock transforms gifting with GiftCrafted with a custom design & development solution - offers hand-picked presents, subscribe and set dates without store visits.",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "plantidote": {
-        "path": "/case-study/plantidote",
-        "title": "Plantidote Design & Development Case Study | DevDock",
-        "description": "DevDock transforms cannabis choice with Plantidote with a custom design & development solution - aids in discovering tailored cannabis products for individual needs.",
+      "med-leaf-mate": {
+        "path": "/case-study/med-leaf-mate",
+        "title": "MedLeafMate Design & Development Case Study | DevDock",
+        "description": "DevDock transforms cannabis choice with MedLeafMate with a custom design & development solution - aids in discovering tailored cannabis products for individual needs.",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "pause": {
-        "path": "/case-study/pause",
-        "title": "Pause Design & Development Case Study | DevDock",
-        "description": "DevDock transforms sales with Pause with a custom design & development solution - streamlines sales professionals' progress and team management with automated tools.",
+      "sales-sync-hub": {
+        "path": "/case-study/sales-sync-hub",
+        "title": "SalesSync Hub Design & Development Case Study | DevDock",
+        "description": "DevDock transforms sales with SalesSync Hub with a custom design & development solution - streamlines sales professionals' progress and team management with automated tools.",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "ace-it": {
-        "path": "/case-study/ace-it",
-        "title": "Ace it Design & Development Case Study | DevDock",
-        "description": "DevDock transforms study habits with Ace it with a custom design & development solution - eliminates stress, saves time, and redefines efficient studying",
+      "zen-study-zone": {
+        "path": "/case-study/zen-study-zone",
+        "title": "ZenStudyZone Design & Development Case Study | DevDock",
+        "description": "DevDock transforms study habits with ZenStudyZone with a custom design & development solution - eliminates stress, saves time, and redefines efficient studying",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "go-wild": {
-        "path": "/case-study/path",
-        "title": "Go Wild Design & Development Case Study | DevDock",
-        "description": "DevDock transforms outdoor adventures with Go Wild with a custom design & development solution - experience a thrilling treasure hunt like never before!",
+      "outdoor-riddle": {
+        "path": "/case-study/outdoor-riddle",
+        "title": "OutdoorRiddle Design & Development Case Study | DevDock",
+        "description": "DevDock transforms outdoor adventures with OutdoorRiddle with a custom design & development solution - experience a thrilling treasure hunt like never before!",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "hey-active": {
-        "path": "/case-study/hey-active",
-        "title": "HeyActive Design & Development Case Study | DevDock",
-        "description": "DevDock transforms service access with HeyActive with a custom design & development solution - connecting users with independent contractors, avoiding delays",
+      "rapid-task": {
+        "path": "/case-study/rapid-task",
+        "title": "RapidTask Design & Development Case Study | DevDock",
+        "description": "DevDock transforms service access with RapidTask with a custom design & development solution - connecting users with independent contractors, avoiding delays",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "the-fitness-hub": {
-        "path": "/case-study/the-fitness-hub",
-        "title": "The Fitness Hub Design & Development Case Study | DevDock",
-        "description": "DevDock transforms fitness with The Fitness Hub with a custom design & development solution - connects you with a personalized trainer based on your need.",
+      "smart-fit-ally": {
+        "path": "/case-study/smart-fit-ally",
+        "title": "SmartFit Ally Design & Development Case Study | DevDock",
+        "description": "DevDock transforms fitness with SmartFit Ally with a custom design & development solution - connects you with a personalized trainer based on your need.",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "guided": {
-        "path": "/case-study/guided",
+      "adventure-sage": {
+        "path": "/case-study/adventure-sage",
         "title": "GuideED Design & Development Case Study | DevDock",
         "description": "DevDock transforms outdoor adventures with GuideED with a custom design & development solution - connects enthusiasts with informative guides and adventure ",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "hoppiia": {
-        "path": "/case-study/hoppiia",
-        "title": "Hoppiia Design & Development Case Study | DevDock",
-        "description": "DevDock transforms convenience with Hoppiia with a custom design & development solution - redefines ride-hailing and food delivery with unique features",
+      "hop-on-feast": {
+        "path": "/case-study/hop-on-feast",
+        "title": "HopOnFeast Design & Development Case Study | DevDock",
+        "description": "DevDock transforms convenience with HopOnFeast with a custom design & development solution - redefines ride-hailing and food delivery with unique features",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "sound-and-found": {
-        "path": "/case-study/sound-and-found",
-        "title": "Sound and Found Design & Development Case Study | DevDock",
-        "description": "DevDock transforms connections with Sound and Found with a custom design & development solution - social and dating platform that unites music lovers",
+      "sound-soulmates": {
+        "path": "/case-study/sound-soulmates",
+        "title": "SoundSoulmates Design & Development Case Study | DevDock",
+        "description": "DevDock transforms connections with SoundSoulmates with a custom design & development solution - social and dating platform that unites music lovers",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       },
-      "cash-crow": {
-        "path": "/case-study/cash-crow",
-        "title": "Cashcrow Design & Development Case Study | DevDock",
-        "description": "DevDock transforms online shopping with Cashcrow with a custom design & development solution - ensures secure holding of funds until received the package",
+      "protec-pay": {
+        "path": "/case-study/protec-pay",
+        "title": "ProtecPay Design & Development Case Study | DevDock",
+        "description": "DevDock transforms online shopping with ProtecPay with a custom design & development solution - ensures secure holding of funds until received the package",
         "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO, Web development case study, app development case study, mobile app case study, Android development case study, iOS development case study, software development case study, UI/UX case study, SEO case study"
       }
     }

@@ -1,6 +1,6 @@
 {
-  "name": "vite-ts-tailwind-starter",
-  "version": "4.1.0",
+  "name": "devdock-website",
+  "version": "0.0.5",
   "scripts": {
     "dev": "cross-env DEBUG=0 vite",
     "build": "vite build",
