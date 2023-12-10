@@ -20,7 +20,7 @@
           "tagLine": "",
           "desc": "Interactive Credit Card App Designed To Help Users",
           "image": {
-            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
+            "path": "/img/case-studies/kitchen-coin/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -31,7 +31,7 @@
           "tagLine": "",
           "desc": "Search Night Out Places By Location Or By Food",
           "image": {
-            "path": "/img/case-studies/thumbnails/locale-lure-thumbnail.webp",
+            "path": "/img/case-studies/locale-lure/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -42,7 +42,7 @@
           "tagLine": "",
           "desc": "Track The Progress And Manage The Baby Blues",
           "image": {
-            "path": "/img/case-studies/thumbnails/cherub-chart-thumbnail.webp",
+            "path": "/img/case-studies/cherub-chart/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -53,18 +53,18 @@
           "tagLine": "",
           "desc": "Sports Betting With Data-Driven Insights",
           "image": {
-            "path": "/img/case-studies/thumbnails/play-market-pro-thumbnail.webp",
+            "path": "/img/case-studies/play-market-pro/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
-          "title": "livelock"
+          "title": "play-market-pro"
         },
         {
           "name": "",
           "tagLine": "",
           "desc": "Order Your Fashion Must-Haves From Couch Comfort",
           "image": {
-            "path": "/img/case-studies/thumbnails/blend-mode-thumbnail.webp",
+            "path": "/img/case-studies/blend-mode/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -75,7 +75,7 @@
           "tagLine": "",
           "desc": "The Map That Provide Navigation Even In Popular Places",
           "image": {
-            "path": "/img/case-studies/thumbnails/nav-maze-thumbnail.webp",
+            "path": "/img/case-studies/nav-maze/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -86,7 +86,7 @@
           "tagLine": "",
           "desc": "The One-Stop App for all Your Martial Arts Needs",
           "image": {
-            "path": "/img/case-studies/thumbnails/martial-mentor-hub-thumbnail.webp",
+            "path": "/img/case-studies/martial-mentor-hub/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -97,7 +97,7 @@
           "tagLine": "",
           "desc": "An App Where Competitions Are Made By Fans For Fans",
           "image": {
-            "path": "/img/case-studies/thumbnails/rivalry-rally-thumbnail.webp",
+            "path": "/img/case-studies/rivalry-rally-v1/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -108,7 +108,7 @@
           "tagLine": "",
           "desc": "An App Where Competitions Are Made By Fans For Fans",
           "image": {
-            "path": "/img/case-studies/thumbnails/rivalry-rally-thumbnail.webp",
+            "path": "/img/case-studies/rivalry-rally-v2/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -119,7 +119,7 @@
           "tagLine": "",
           "desc": "Delivery App For Ordering All Sorts of Retail Items",
           "image": {
-            "path": "/img/case-studies/thumbnails/quixify-thumbnail.webp",
+            "path": "/img/case-studies/quixify/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -130,7 +130,7 @@
           "tagLine": "",
           "desc": "Order Stationary, Pet Food, Compost, Coffee With Ease",
           "image": {
-            "path": "/img/case-studies/thumbnails/nookhive-thumbnail.webp",
+            "path": "/img/case-studies/nookhive/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -141,7 +141,7 @@
           "tagLine": "",
           "desc": "A Revolutionary Marketplace For Security Professionals",
           "image": {
-            "path": "/img/case-studies/thumbnails/sentinel-sync-thumbnail.webp",
+            "path": "/img/case-studies/sentinel-sync/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -152,7 +152,7 @@
           "tagLine": "",
           "desc": "Deliver and Transport Items of All Sizes And Weights",
           "image": {
-            "path": "/img/case-studies/thumbnails/rushhaul-thumbnail.webp",
+            "path": "/img/case-studies/rushhaul/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -163,7 +163,7 @@
           "tagLine": "",
           "desc": "Delivering Fuel To Your Car, Wherever You Need",
           "image": {
-            "path": "/img/case-studies/thumbnails/pump-point-thumbnail.webp",
+            "path": "/img/case-studies/pump-point/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -174,7 +174,7 @@
           "tagLine": "",
           "desc": "Find And Book Your Next Favorite Spot For A Night Out",
           "image": {
-            "path": "/img/case-studies/thumbnails/night-oasis-thumbnail.webp",
+            "path": "/img/case-studies/night-oasis/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -185,7 +185,7 @@
           "tagLine": "",
           "desc": "Games Aim To Make Screen Time Productive For Kids",
           "image": {
-            "path": "/img/case-studies/thumbnails/grow-aim-thumbnail.webp",
+            "path": "/img/case-studies/grow-aim/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -196,7 +196,7 @@
           "tagLine": "",
           "desc": "Order Health Food From the Comfort of Your Couch",
           "image": {
-            "path": "/img/case-studies/thumbnails/my-green-thumbnail.webp",
+            "path": "/img/case-studies/my-green/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -207,7 +207,7 @@
           "tagLine": "",
           "desc": "Fitness App That Transforms The Way You Live",
           "image": {
-            "path": "/img/case-studies/thumbnails/nutri-nest-life-thumbnail.webp",
+            "path": "/img/case-studies/nutri-nest-life/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -218,7 +218,7 @@
           "tagLine": "",
           "desc": "Logging And Tracking App For Your Vehicle Monitoring",
           "image": {
-            "path": "/img/case-studies/thumbnails/auto-connect-hub-thumbnail.webp",
+            "path": "/img/case-studies/auto-connect-hub/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -229,7 +229,7 @@
           "tagLine": "",
           "desc": "Tackle Harassment, And Violence that Goes In Public",
           "image": {
-            "path": "/img/case-studies/thumbnails/dignity-defenders-thumbnail.webp",
+            "path": "/img/case-studies/dignity-defenders/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -240,7 +240,7 @@
           "tagLine": "",
           "desc": "Level Up The Boring Party With Play Song",
           "image": {
-            "path": "/img/case-studies/thumbnails/groove-guess-thumbnail.webp",
+            "path": "/img/case-studies/groove-guess/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -251,7 +251,7 @@
           "tagLine": "",
           "desc": "Helping Parents Connecting with Birth Workers",
           "image": {
-            "path": "/img/case-studies/thumbnails/postpartum-pal-thumbnail.webp",
+            "path": "/img/case-studies/postpartum-pal/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -262,7 +262,7 @@
           "tagLine": "",
           "desc": "Trip To The Dentist From Comfort Of Your Couch",
           "image": {
-            "path": "/img/case-studies/thumbnails/tooth-connect-thumbnail.webp",
+            "path": "/img/case-studies/tooth-connect/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -273,7 +273,7 @@
           "tagLine": "",
           "desc": "Finding Date! Pictures Can Deceive, But Ratings Don't Lie!",
           "image": {
-            "path": "/img/case-studies/thumbnails/match-marks-thumbnail.webp",
+            "path": "/img/case-studies/match-marks/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -284,7 +284,7 @@
           "tagLine": "",
           "desc": "Hand-Picked Gifts Tailored For Special Occasions",
           "image": {
-            "path": "/img/case-studies/thumbnails/gift-crafted-thumbnail.webp",
+            "path": "/img/case-studies/gift-crafted/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -295,7 +295,7 @@
           "tagLine": "",
           "desc": "Finding The Cannabis Products Suited To Needs",
           "image": {
-            "path": "/img/case-studies/thumbnails/med-leaf-mate-thumbnail.webp",
+            "path": "/img/case-studies/med-leaf-mate/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -306,7 +306,7 @@
           "tagLine": "",
           "desc": "Optimizing Progress Of Sales Professionals",
           "image": {
-            "path": "/img/case-studies/thumbnails/sales-sync-hub-thumbnail.webp",
+            "path": "/img/case-studies/sales-sync-hub/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -317,7 +317,7 @@
           "tagLine": "",
           "desc": "The Study App Built To Bring A Game To College",
           "image": {
-            "path": "/img/case-studies/thumbnails/zen-study-zone-thumbnail.webp",
+            "path": "/img/case-studies/zen-study-zone/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -328,7 +328,7 @@
           "tagLine": "",
           "desc": "Find The Trails Hund The Treasure Through The Past",
           "image": {
-            "path": "/img/case-studies/thumbnails/outdoor-riddle-thumbnail.webp",
+            "path": "/img/case-studies/outdoor-riddle/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -339,7 +339,7 @@
           "tagLine": "",
           "desc": "Find Independent Service Providers Near You",
           "image": {
-            "path": "/img/case-studies/thumbnails/rapid-tasks-thumbnail.webp",
+            "path": "/img/case-studies/rapid-task/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -350,7 +350,7 @@
           "tagLine": "",
           "desc": "Connect To A Personal Trainer Tailored As Per Needs",
           "image": {
-            "path": "/img/case-studies/thumbnails/smart-fit-ally-thumbnail.webp",
+            "path": "/img/case-studies/smart-fit-ally/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -361,7 +361,7 @@
           "tagLine": "",
           "desc": "Discover And Explore Adventure Guides Nation-Wide",
           "image": {
-            "path": "/img/case-studies/thumbnails/adventure-sage-thumbnail.webp",
+            "path": "/img/case-studies/adventure-sage/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -372,7 +372,7 @@
           "tagLine": "",
           "desc": "Book A Comfortable Car Ride Or Order Food",
           "image": {
-            "path": "/img/case-studies/thumbnails/hop-on-feast-thumbnail.webp",
+            "path": "/img/case-studies/hop-on-feast/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -383,7 +383,7 @@
           "tagLine": "",
           "desc": "Connect Music Lovers as individuals or as Couples",
           "image": {
-            "path": "/img/case-studies/thumbnails/sound-soulmates-thumbnail.webp",
+            "path": "/img/case-studies/sound-soulmates/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -394,7 +394,7 @@
           "tagLine": "",
           "desc": "Makes Checkout Convenient With Secure Transaction",
           "image": {
-            "path": "/img/case-studies/thumbnails/protec-pay-thumbnail.webp",
+            "path": "/img/case-studies/protec-pay/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -411,7 +411,7 @@
           "tagLine": "",
           "desc": "",
           "image": {
-            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
+            "path": "/img/case-studies/thumbnails/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "SaaS",
@@ -422,7 +422,7 @@
           "tagLine": "",
           "desc": "",
           "image": {
-            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
+            "path": "/img/case-studies/thumbnails/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "SaaS",
@@ -433,7 +433,7 @@
           "tagLine": "",
           "desc": "",
           "image": {
-            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
+            "path": "/img/case-studies/thumbnails/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "SaaS",
@@ -444,7 +444,7 @@
           "tagLine": "",
           "desc": "",
           "image": {
-            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
+            "path": "/img/case-studies/thumbnails/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "SaaS",
@@ -455,7 +455,7 @@
           "tagLine": "",
           "desc": "",
           "image": {
-            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
+            "path": "/img/case-studies/thumbnails/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "SaaS",
@@ -472,7 +472,7 @@
           "tagLine": "",
           "desc": "",
           "image": {
-            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
+            "path": "/img/case-studies/thumbnails/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "MVP",
@@ -483,7 +483,7 @@
           "tagLine": "",
           "desc": "",
           "image": {
-            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
+            "path": "/img/case-studies/thumbnails/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "MVP",
@@ -500,7 +500,7 @@
           "tagLine": "",
           "desc": "",
           "image": {
-            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
+            "path": "/img/case-studies/thumbnails/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Redesign",
@@ -511,7 +511,7 @@
           "tagLine": "",
           "desc": "",
           "image": {
-            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
+            "path": "/img/case-studies/thumbnails/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Redesign",
@@ -522,7 +522,7 @@
           "tagLine": "",
           "desc": "",
           "image": {
-            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
+            "path": "/img/case-studies/thumbnails/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Redesign",
@@ -539,7 +539,7 @@
           "tagLine": "",
           "desc": "",
           "image": {
-            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
+            "path": "/img/case-studies/thumbnails/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Social Media",
@@ -550,7 +550,7 @@
           "tagLine": "",
           "desc": "",
           "image": {
-            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
+            "path": "/img/case-studies/thumbnails/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Social Media",
@@ -561,7 +561,7 @@
           "tagLine": "",
           "desc": "",
           "image": {
-            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
+            "path": "/img/case-studies/thumbnails/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Social Media",
@@ -572,7 +572,7 @@
           "tagLine": "",
           "desc": "",
           "image": {
-            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
+            "path": "/img/case-studies/thumbnails/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Social Media",
@@ -583,7 +583,7 @@
           "tagLine": "",
           "desc": "",
           "image": {
-            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
+            "path": "/img/case-studies/thumbnails/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Social Media",
@@ -601,7 +601,7 @@
           "tagLine": "",
           "desc": "",
           "image": {
-            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
+            "path": "/img/case-studies/thumbnails/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Packaging",
@@ -612,7 +612,7 @@
           "tagLine": "",
           "desc": "",
           "image": {
-            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
+            "path": "/img/case-studies/thumbnails/thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Packaging",
