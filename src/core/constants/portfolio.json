@@ -19,12 +19,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Interactive Credit Card App Designed To Help Users",
-          "logo": {
-            "path": "/img/case-studies/black-logos/the-chef-card.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -34,12 +30,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Search Night Out Places By Location Or By Food",
-          "logo": {
-            "path": "/img/case-studies/black-logos/whats-happen.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/locale-lure-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -49,12 +41,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Track The Progress And Manage The Baby Blues",
-          "logo": {
-            "path": "/img/case-studies/black-logos/mapa-aid.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/cherub-chart-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -64,27 +52,19 @@
           "name": "",
           "tagLine": "",
           "desc": "Sports Betting With Data-Driven Insights",
-          "logo": {
-            "path": "/img/case-studies/black-logos/live-lock.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/play-market-pro-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
-          "title": "play-market-pro"
+          "title": "livelock"
         },
         {
           "name": "",
           "tagLine": "",
           "desc": "Order Your Fashion Must-Haves From Couch Comfort",
-          "logo": {
-            "path": "/img/case-studies/black-logos/Blend Mode.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/blend-mode-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -94,12 +74,8 @@
           "name": "",
           "tagLine": "",
           "desc": "The Map That Provide Navigation Even In Popular Places",
-          "logo": {
-            "path": "/img/case-studies/black-logos/find-app.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/nav-maze-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -109,12 +85,8 @@
           "name": "",
           "tagLine": "",
           "desc": "The One-Stop App for all Your Martial Arts Needs",
-          "logo": {
-            "path": "/img/case-studies/black-logos/fight-roots.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/martial-mentor-hub-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -124,12 +96,8 @@
           "name": "",
           "tagLine": "",
           "desc": "An App Where Competitions Are Made By Fans For Fans",
-          "logo": {
-            "path": "/img/case-studies/black-logos/fair-fight.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/rivalry-rally-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -139,12 +107,8 @@
           "name": "",
           "tagLine": "",
           "desc": "An App Where Competitions Are Made By Fans For Fans",
-          "logo": {
-            "path": "/img/case-studies/black-logos/fair-fight.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/rivalry-rally-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -154,12 +118,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Delivery App For Ordering All Sorts of Retail Items",
-          "logo": {
-            "path": "/img/case-studies/black-logos/easy-n-fast.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/quixify-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -169,12 +129,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Order Stationary, Pet Food, Compost, Coffee With Ease",
-          "logo": {
-            "path": "/img/case-studies/black-logos/nookhive.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/nookhive-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -183,13 +139,9 @@
         {
           "name": "",
           "tagLine": "",
-          "desc": "A Revolutionary Marketplace For Security Professonals",
-          "logo": {
-            "path": "/img/case-studies/black-logos/SentinelSync.webp",
-            "alt": "Logo"
-          },
+          "desc": "A Revolutionary Marketplace For Security Professionals",
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/sentinel-sync-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -199,12 +151,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Deliver and Transport Items of All Sizes And Weights",
-          "logo": {
-            "path": "/img/case-studies/black-logos/Rushhaul.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/rushhaul-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -214,12 +162,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Delivering Fuel To Your Car, Wherever You Need",
-          "logo": {
-            "path": "/img/case-studies/black-logos/Pump Point.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/pump-point-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -229,12 +173,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Find And Book Your Next Favorite Spot For A Night Out",
-          "logo": {
-            "path": "/img/case-studies/black-logos/NightOasis.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/night-oasis-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -244,12 +184,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Games Aim To Make Screen Time Productive For Kids",
-          "logo": {
-            "path": "/img/case-studies/black-logos/learned-app.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/grow-aim-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -259,12 +195,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Order Health Food From the Comfort of Your Couch",
-          "logo": {
-            "path": "/img/case-studies/black-logos/fit-shelf.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/my-green-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -274,12 +206,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Fitness App That Transforms The Way You Live",
-          "logo": {
-            "path": "/img/case-studies/black-logos/healthy-life.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/nutri-nest-life-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -289,12 +217,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Logging And Tracking App For Your Vehicle Monitoring",
-          "logo": {
-            "path": "/img/case-studies/black-logos/my-car-hub.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/auto-connect-hub-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -304,12 +228,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Tackle Harassment, And Violence that Goes In Public",
-          "logo": {
-            "path": "/img/case-studies/black-logos/icu.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/dignity-defenders-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -319,12 +239,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Level Up The Boring Party With Play Song",
-          "logo": {
-            "path": "/img/case-studies/black-logos/GrooveGuess .webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/groove-guess-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -334,12 +250,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Helping Parents Connecting with Birth Workers",
-          "logo": {
-            "path": "/img/case-studies/black-logos/digi-doula.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/postpartum-pal-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -349,12 +261,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Trip To The Dentist From Comfort Of Your Couch",
-          "logo": {
-            "path": "/img/case-studies/black-logos/dentist-now.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/tooth-connect-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -364,12 +272,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Finding Date! Pictures Can Deceive, But Ratings Don't Lie!",
-          "logo": {
-            "path": "/img/case-studies/black-logos/date-up.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/match-marks-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -379,12 +283,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Hand-Picked Gifts Tailored For Special Occasions",
-          "logo": {
-            "path": "/img/case-studies/black-logos/clever-gifts.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/gift-crafted-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -394,12 +294,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Finding The Cannabis Products Suited To Needs",
-          "logo": {
-            "path": "/img/case-studies/black-logos/plantitode.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/med-leaf-mate-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -409,12 +305,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Optimizing Progress Of Sales Professionals",
-          "logo": {
-            "path": "/img/case-studies/black-logos/pause.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/sales-sync-hub-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -424,12 +316,8 @@
           "name": "",
           "tagLine": "",
           "desc": "The Study App Built To Bring A Game To College",
-          "logo": {
-            "path": "/img/case-studies/black-logos/ace-it.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/zen-study-zone-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -439,12 +327,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Find The Trails Hund The Treasure Through The Past",
-          "logo": {
-            "path": "/img/case-studies/black-logos/go-wild.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/outdoor-riddle-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -454,12 +338,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Find Independent Service Providers Near You",
-          "logo": {
-            "path": "/img/case-studies/black-logos/hey-active.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/rapid-tasks-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -469,12 +349,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Connect To A Personal Trainer Tailored As Per Needs",
-          "logo": {
-            "path": "/img/case-studies/black-logos/the-fitness-hub.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/smart-fit-ally-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -484,12 +360,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Discover And Explore Adventure Guides Nation-Wide",
-          "logo": {
-            "path": "/img/case-studies/black-logos/AdventureSage.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/adventure-sage-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -499,12 +371,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Book A Comfortable Car Ride Or Order Food",
-          "logo": {
-            "path": "/img/case-studies/black-logos/hopiia.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/hop-on-feast-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -514,12 +382,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Connect Music Lovers as individuals or as Couples",
-          "logo": {
-            "path": "/img/case-studies/black-logos/sound-and-found.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/sound-soulmates-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -529,12 +393,8 @@
           "name": "",
           "tagLine": "",
           "desc": "Makes Checkout Convenient With Secure Transaction",
-          "logo": {
-            "path": "/img/case-studies/black-logos/cash-crow.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/protec-pay-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Landing Page",
@@ -550,12 +410,8 @@
           "name": "",
           "tagLine": "",
           "desc": "",
-          "logo": {
-            "path": "/img/case-studies/black-logos/.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "SaaS",
@@ -565,12 +421,8 @@
           "name": "",
           "tagLine": "",
           "desc": "",
-          "logo": {
-            "path": "/img/case-studies/black-logos/.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "SaaS",
@@ -580,12 +432,8 @@
           "name": "",
           "tagLine": "",
           "desc": "",
-          "logo": {
-            "path": "/img/case-studies/black-logos/.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "SaaS",
@@ -595,12 +443,8 @@
           "name": "",
           "tagLine": "",
           "desc": "",
-          "logo": {
-            "path": "/img/case-studies/black-logos/.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "SaaS",
@@ -610,12 +454,8 @@
           "name": "",
           "tagLine": "",
           "desc": "",
-          "logo": {
-            "path": "/img/case-studies/black-logos/.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "SaaS",
@@ -631,12 +471,8 @@
           "name": "",
           "tagLine": "",
           "desc": "",
-          "logo": {
-            "path": "/img/case-studies/black-logos/.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "MVP",
@@ -646,12 +482,8 @@
           "name": "",
           "tagLine": "",
           "desc": "",
-          "logo": {
-            "path": "/img/case-studies/black-logos/.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "MVP",
@@ -667,12 +499,8 @@
           "name": "",
           "tagLine": "",
           "desc": "",
-          "logo": {
-            "path": "/img/case-studies/black-logos/.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Redesign",
@@ -682,12 +510,8 @@
           "name": "",
           "tagLine": "",
           "desc": "",
-          "logo": {
-            "path": "/img/case-studies/black-logos/.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Redesign",
@@ -697,12 +521,8 @@
           "name": "",
           "tagLine": "",
           "desc": "",
-          "logo": {
-            "path": "/img/case-studies/black-logos/.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Redesign",
@@ -718,12 +538,8 @@
           "name": "",
           "tagLine": "",
           "desc": "",
-          "logo": {
-            "path": "/img/case-studies/black-logos/.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Social Media",
@@ -733,12 +549,8 @@
           "name": "",
           "tagLine": "",
           "desc": "",
-          "logo": {
-            "path": "/img/case-studies/black-logos/.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Social Media",
@@ -748,12 +560,8 @@
           "name": "",
           "tagLine": "",
           "desc": "",
-          "logo": {
-            "path": "/img/case-studies/black-logos/.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Social Media",
@@ -763,12 +571,8 @@
           "name": "",
           "tagLine": "",
           "desc": "",
-          "logo": {
-            "path": "/img/case-studies/black-logos/.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Social Media",
@@ -778,12 +582,8 @@
           "name": "",
           "tagLine": "",
           "desc": "",
-          "logo": {
-            "path": "/img/case-studies/black-logos/.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Social Media",
@@ -800,12 +600,8 @@
           "name": "",
           "tagLine": "",
           "desc": "",
-          "logo": {
-            "path": "/img/case-studies/black-logos/.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Packaging",
@@ -815,12 +611,8 @@
           "name": "",
           "tagLine": "",
           "desc": "",
-          "logo": {
-            "path": "/img/case-studies/black-logos/.webp",
-            "alt": "Logo"
-          },
           "image": {
-            "path": "/img/mockup.webp",
+            "path": "/img/case-studies/thumbnails/kitchen-coin-thumbnail.webp",
             "alt": "Picture"
           },
           "category": "Packaging",

@@ -9,7 +9,7 @@ for (const routeKey in routes) {
         const route = routes[routeKey];
 
         if (route.meta && route.meta.path) {
-            extractedPaths.push(route.meta.path);
+            if(route.meta.path !== '/') extractedPaths.push(route.meta.path);
         }
 
         // Check if the route has meta data
