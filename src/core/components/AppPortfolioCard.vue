@@ -1,16 +1,11 @@
 <template>
   <div class="group cursor-pointer"
   >
-    <div class="product-logo">
-      <img
-        :src="content.logo.path"
-        :alt="content.logo.alt"
-      >
-    </div>
     <router-link
-        :to="{ name: 'DevDockCaseStudyDetails',
-        params: { title: content?.title } }
-    ">
+        :to="{
+          name: 'DevDockCaseStudyDetails',
+          params: { title: content?.title }
+    }">
       <div
           class="project-image fancy-hover border border-dark-gray rounded hover:border-dark-gray/0 transition-all my-3 md:my-5"
       >
