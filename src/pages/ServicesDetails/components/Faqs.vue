@@ -1,7 +1,7 @@
 <template>
   <section class="service-faqs container pb-20 text-primary">
     <div>
-      <h2 class="text-2xl md:text-3xl font-semibold inline-block mr-28 md:mr-10">
+      <h2 class="text-3xl sm:text-4xl md:text-5xl 2xl:text-6.2xl font-semibold !leading-tight inline-block mr-28 md:mr-10">
         {{ serviceFaqs.heading }}
       </h2>
       <div class="grid md:grid-cols-2 md:gap-x-20 pt-10">
@@ -83,7 +83,7 @@ const toggleItem = (colIndex, index) => {
       display: block;
       position: absolute;
       right: -110px;
-      top: 5px;
+      top: 20px;
       background-image: url("/svg/dashed_arrow.svg");
       background-repeat: no-repeat;
       background-size: contain;
@@ -92,6 +92,7 @@ const toggleItem = (colIndex, index) => {
       @media(max-width: 450px) {
         width: 70px;
         right: -80px;
+        top: 10px;
       }
     }
   }

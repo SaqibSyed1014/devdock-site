@@ -18,7 +18,7 @@ const caseStudyGrid = computed(() => {
   <section class="container py-20">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <div class="col-span-1 md:pt-5">
-        <h2 class="text-3xl sm:text-5xl font-semibold text-primary">
+        <h2 class="text-3xl sm:text-4xl md:text-5xl 2xl:text-6.2xl font-semibold !leading-tight text-primary">
           {{ serviceCaseStudies.heading }}
         </h2>
       </div>

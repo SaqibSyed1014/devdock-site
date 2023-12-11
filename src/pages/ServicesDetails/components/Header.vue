@@ -10,10 +10,10 @@ defineProps({
 </script>
 
 <template>
-  <header class="container pb-10 pt-[155px]">
-    <div class="grid md:grid-cols-2 gap-10 md:gap-0">
-      <div class="col-span-1 text-primary">
-        <h1 class="text-3xl sm:text-4xl md:text-6.2xl font-semibold !leading-tight">
+  <header class="container pb-10 pt-32 md:pt-[155px]">
+    <div class="grid md:grid-cols-2 gap-16 md:gap-0 text-primary">
+      <div class="col-span-1">
+        <h1 class="text-3xl sm:text-4xl md:text-5xl 2xl:text-6.2xl font-semibold !leading-tight">
          {{ serviceHeader.heading }}
         </h1>
         <p class="py-5 pb-7">
@@ -44,7 +44,7 @@ defineProps({
         </div>
       </div>
       <div class="col-span-1">
-        <div>
+        <div class="flex justify-center px-10">
           <img
               :src="serviceHeader.image.path"
               :alt="serviceHeader.image.alt"

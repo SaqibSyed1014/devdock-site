@@ -136,7 +136,7 @@
       ],
       "image": {
         "path": "/img/services/uiux/hero-image.webp",
-        "alt": "UI/UX Illustration"
+        "alt": "UI/UX Hero Illustration"
       }
     },
     "description": {
@@ -147,7 +147,11 @@
         "We pride ourselves in redefining interaction and visual appeal, continually pushing the boundaries of what's possible in the industry.",
         "We invite you to step into the future of design and engagement with our UI/UX design services. By partnering with DevDock, you're not only embracing the latest trends but also shaping the future of user interactions and visual aesthetics in the digital world.",
         "It's not just about creating a visually appealing interface; it's about ensuring that every user interaction leads to a positive outcome, ultimately contributing to your business's growth and prosperity."
-      ]
+      ],
+      "image": {
+        "path": "/img/services/uiux/mobile-design-illustration.webp",
+        "alt": "Mobile Design Illustration"
+      }
     },
     "selectiveServices": {
       "heading": "The Power-Packed UI UX Design Services",
@@ -333,7 +337,11 @@
         "Our team stays at the forefront of web development trends and technologies. We harness the power of the latest tools, frameworks, and languages to ensure your website is not only visually appealing but also robust, secure, and highly responsive.",
         "User experience is at the heart of our website development process. We craft intuitive and user-friendly interfaces that engage your audience and drive conversions, delivering a seamless and enjoyable browsing experience.",
         "We don't just build websites and walk away. Our commitment to your success continues long after your site is live. We provide ongoing support, updates, and maintenance to ensure your website remains current, secure, and high-performing."
-      ]
+      ],
+      "image": {
+        "path": "/img/services/web-development/iMac-illustration.webp",
+        "alt": "Website in iMac Illustration"
+      }
     },
     "selectiveServices": {
       "heading": "The Power-Packed Web Development Services",
@@ -507,7 +515,7 @@
         }
       ],
       "image": {
-        "path": "/img/services/andriod-development/hero-image.webp",
+        "path": "/img/services/android-development/hero-image.webp",
         "alt": "UI/UX Illustration"
       }
     },
@@ -519,7 +527,11 @@
         "Our unmatched custom Android app development services and focus on exceptional experiences make us the premier choice to bring your vision to life.",
         "Our app development team collaborates to create custom features, streamline processes for a better user experience, analyze usage patterns for mobile optimization, and deliver actionable insights to refine your mobile strategy.",
         "Mobile application services help unlock your brand’s full potential and deliver innovative solutions to gain a competitive edge in today’s digital landscape."
-      ]
+      ],
+      "image": {
+        "path": "/img/services/android-development/mobile-illustration.webp",
+        "alt": "Mobile Display Illustration"
+      }
     },
     "selectiveServices": {
       "heading": "The Power-Packed Android App Development Services",
@@ -704,7 +716,11 @@
         "Say goodbye to the frustration of managing multiple teams or trying to bridge the communication gap between frontend and backend developers. DevDock offers a cohesive approach that ensures your project runs smoothly from start to finish.",
         "Worried about keeping up with the ever-evolving technology landscape? Rest easy. Our team stays up to date with the latest trends and best practices, guaranteeing that your project not only meets the current standards but also stands out in terms of performance and security.",
         "Don't let Full Stack Development pain points slow you down. DevDock is your dedicated partner, ready to turn your challenges into success stories. Join us to streamline your development process and achieve your digital goals efficiently and effectively."
-      ]
+      ],
+      "image": {
+        "path": "/img/services/full-stack-development/gallery-illustration.webp",
+        "alt": "Dashboard Gallery Illustration"
+      }
     },
     "selectiveServices": {
       "heading": "The Power-Packed Full Stack Development Services",
@@ -890,7 +906,11 @@
         "We help you optimize your app for the right keywords and demographics, ensuring that it reaches the audience most likely to engage with it.",
         "Optimizing your app store listing improves user perception and encourages more positive reviews and user engagement.",
         "Our ASO services are based on data analysis and ongoing performance monitoring, allowing us to make informed adjustments for continual improvement."
-      ]
+      ],
+      "image": {
+        "path": "/img/services/uiux/-illustration.webp",
+        "alt": " Illustration"
+      }
     },
     "selectiveServices": {
       "heading": "The Power-Packed App Store Optimization Services",
@@ -1076,7 +1096,11 @@
         "We will conduct an in-depth analysis of your competitors, both in the business arena and within search results, in order to devise the most effective course of action.",
         "Our experts will work to improve various aspects of your site to boost its performance and user experience.",
         "Our goal is to make your website load quickly, rank high on search engines, and provide a smooth and enjoyable browsing experience for your visitors."
-      ]
+      ],
+      "image": {
+        "path": "/img/services/search-engine-optimization/analytics-illustration.webp",
+        "alt": "DevDock SEO Analytics Illustration"
+      }
     },
     "selectiveServices": {
       "heading": "The Power-Packed Search Engine Optimization Services",
@@ -1262,7 +1286,11 @@
         "Our professional created and polished brand image can help you build trust and credibility with potential customers.",
         "Unique and memorable brand identity can help you differentiate your brand from competitors and stand out from the crowd.",
         "Our strong branding strategy can help you increase customer loyalty and encourage customers to come back for more."
-      ]
+      ],
+      "image": {
+        "path": "/img/services/logo-&-branding/logos-illustration.webp",
+        "alt": "DevDock Logo Illustration"
+      }
     },
     "selectiveServices": {
       "heading": "The Power-Packed Logo & Branding Services",
@@ -1448,7 +1476,11 @@
         "Reach a broader audience across multiple platforms with a single app, expanding your market presence and driving growth.",
         "Bring your innovative app ideas to market faster with our efficient hybrid app development approach.",
         "Our team of experienced developers is dedicated to providing you with expert guidance and support throughout the entire development process."
-      ]
+      ],
+      "image": {
+        "path": "/img/services/hybrid-application/mobile-laptop-illustration.webp",
+        "alt": "Mobile with Laptop Illustration"
+      }
     },
     "selectiveServices": {
       "heading": "The Power-Packed Hybrid Application Development Services",
@@ -1633,7 +1665,11 @@
         "SaaS application design: We can help you design your SaaS application from the ground up, ensuring that it meets your specific business needs and requirements. We will work with you to define your user personas, user flows, and overall user experience.",
         "SaaS application development: We use a variety of modern SaaS development technologies to develop scalable and secure SaaS applications. We will work with you to choose the right technologies for your project and to ensure that your SaaS application is built to meet your long-term needs.",
         "SaaS application maintenance and support: We offer ongoing SaaS application maintenance and support services to ensure that your SaaS application remains up and running smoothly. We will also provide you with support for bug fixes, performance optimization, and new feature development."
-      ]
+      ],
+      "image": {
+        "path": "/img/services/saas-development/saas-platform-illustration.webp",
+        "alt": "SaaS Website Illustration"
+      }
     },
     "selectiveServices": {
       "heading": "The Power-Packed SaaS Development Services",
@@ -1819,7 +1855,11 @@
         "Our developers possess in-depth knowledge of diverse technologies and platforms, ensuring that your MVP is built on a robust foundation that can scale seamlessly with your business growth",
         "We prioritize user experience, ensuring that your MVP is intuitive, engaging, and tailored to the specific needs of your target audience.",
         "We believe in delivering value for your investment. Our MVP development services are designed to be affordable and aligned with your budget, without compromising on quality."
-      ]
+      ],
+      "image": {
+        "path": "/img/services/mvp-design-development/mvp-website-design-illustration.webp",
+        "alt": "MVP Website Illustration"
+      }
     },
     "selectiveServices": {
       "heading": "The Power-Packed MVP Development Services",
@@ -1993,7 +2033,7 @@
         }
       ],
       "image": {
-        "path": "/img/services/iso-app-development/hero-image.webp",
+        "path": "/img/services/ios-app-development/hero-image.webp",
         "alt": "UI/UX Illustration"
       }
     },
@@ -2005,7 +2045,11 @@
         "We create user interfaces and user experiences that are both visually appealing and easy to use.",
         "We develop your app using the latest iOS technologies and best practices.",
         "We thoroughly test your app to ensure that it is bug-free and meets all of Apple's App Store requirements. We also help you deploy your app to the App Store."
-      ]
+      ],
+      "image": {
+        "path": "/img/services/ios-app-development/ios-app-illustration.webp",
+        "alt": "IOS Application Illustration"
+      }
     },
     "selectiveServices": {
       "heading": "The Power-Packed iOS App Development Services",
@@ -2190,7 +2234,11 @@
         "Ecommerce widgets: We can develop custom widgets to help you increase sales and improve the customer experience on your ecommerce website. For example, we can develop widgets for product recommendations, product reviews, and shopping carts.",
         "Content management widgets: We can develop custom widgets to help you manage your content more effectively. For example, we can develop widgets for social media integration, content search, and content moderation.",
         "Business intelligence widgets: We can develop custom widgets to help you visualize your data and make better business decisions. For example, we can develop widgets for dashboards, reports, and charts."
-      ]
+      ],
+      "image": {
+        "path": "/img/services/custom-widget-design/reposting-widget-illustration.webp",
+        "alt": "Custom Reposting Widget Illustration"
+      }
     },
     "selectiveServices": {
       "heading": "The Power-Packed Widget Development Services",

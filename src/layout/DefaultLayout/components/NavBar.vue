@@ -6,7 +6,7 @@
       <div class="container">
         <div class="flex items-center justify-between">
             <router-link
-                class="my-1 md:mb-0 md:mt-0"
+                class="mr-4 xss:mr-0 my-1 md:mb-0 md:mt-0"
                 :to="{ name: 'DevDockHome' }">
               <img :src="logoUrl" alt="DevDock">
             </router-link>
@@ -41,7 +41,7 @@
             </ul>
           </div>
 
-          <div class="flex items-center gap-3 sm:gap-2 md:gap-5">
+          <div class="flex items-center gap-2 xss:gap-3 md:gap-5">
             <AppButton
                 v-if="route.name !== 'DevDockPortfolio'"
                 secondary

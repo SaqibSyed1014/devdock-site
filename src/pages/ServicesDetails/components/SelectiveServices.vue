@@ -9,9 +9,9 @@ defineProps({
 
 <template>
   <section class="container py-10 md:py-20">
-    <div class="grid lg:grid-cols-3 gap-10 md:gap-5">
+    <div class="grid lg:grid-cols-3 gap-10 md:gap-5 text-primary">
       <div class="lg:col-span-1">
-        <h2 class="text-3xl md:text-4xl 2xl:text-5xl text-primary font-semibold">
+        <h2 class="text-3xl sm:text-4xl md:text-5xl 2xl:text-6.2xl font-semibold !leading-tight">
           {{ selectedServices.heading }}
         </h2>
       </div>
