@@ -27,11 +27,13 @@ defineProps({
               </div>
               <div class="flex flex-wrap gap-9">
                 <template v-for="stack in selectedServices.list[0].stack">
-                  <img
-                      :src="`/svg/softwares/${stack}`"
-                      :alt="stack"
-                      loading="lazy"
-                  >
+                  <div class="service-stack">
+                    <img
+                        :src="`/img/services/stack-illustrations/${stack}`"
+                        :alt="stack"
+                        loading="lazy"
+                    >
+                  </div>
                 </template>
               </div>
             </div>
@@ -46,11 +48,13 @@ defineProps({
               </div>
             <div class="flex flex-wrap gap-9">
               <template v-for="stack in selectedServices.list[1].stack">
-                <img
-                    :src="`/svg/softwares/${stack}`"
-                    :alt="stack"
-                    loading="lazy"
-                >
+                <div class="service-stack">
+                  <img
+                      :src="`/img/services/stack-illustrations/${stack}`"
+                      :alt="stack"
+                      loading="lazy"
+                  >
+                </div>
               </template>
             </div>
             </div>
@@ -64,11 +68,13 @@ defineProps({
                 <p class="pt-6">{{ selectedServices.list[2].description }}</p></div>
                 <div class="flex flex-wrap gap-9">
                   <template v-for="stack in selectedServices.list[2].stack">
-                    <img
-                        :src="`/svg/softwares/${stack}`"
+                    <div class="service-stack">
+                      <img
+                        :src="`/img/services/stack-illustrations/${stack}`"
                         :alt="stack"
                         loading="lazy"
-                    >
+                      >
+                    </div>
                   </template>
                 </div>
             </div>
@@ -81,13 +87,15 @@ defineProps({
                 </h3>
                 <p class="pt-6">{{ selectedServices.list[3].description }}</p>
               </div>
-              <div class="flex flex-wrap gap-5">
+              <div class="flex flex-wrap gap-9">
                 <template v-for="stack in selectedServices.list[3].stack">
-                  <img
-                      :src="`/svg/softwares/${stack}`"
-                      :alt="stack"
-                      loading="lazy"
-                  >
+                  <div class="service-stack">
+                    <img
+                        :src="`/img/services/stack-illustrations/${stack}`"
+                        :alt="stack"
+                        loading="lazy"
+                    >
+                  </div>
                 </template>
               </div>
             </div>
@@ -97,3 +105,18 @@ defineProps({
     </div>
   </section>
 </template>
+
+<style scoped lang="scss">
+.service-stack{
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+</style>

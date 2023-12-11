@@ -160,35 +160,36 @@
           "title": "Product Discovery",
           "description": "Take advantage of cooperation with the professional design team. Experience creative approaches and vision that will connect users and market to your individual business perspective and get a better understanding of the desired end product value.",
           "stack": [
-            "test.svg",
-            "ms_notes.svg",
-            "wordpress.svg"
+            "maze.webp",
+            "hotjar.webp",
+            "google-analytics.webp"
           ]
         },
         {
           "title": "UX & UI Design",
           "description": "Transform your business needs into robust solutions and design flawless user interfaces that will help achieve your business goals.",
           "stack": [
-            "figma.svg",
-            "miro.svg"
+            "figma.webp",
+            "sketch.webp",
+            "webflow.webp"
           ]
         },
         {
           "title": "Redesign",
           "description": "Whether you need to refresh or update an existing solution or create additional features , we will assist you in boosting engagement and retention.",
           "stack": [
-            "figma.svg",
-            "illustrator.svg"
+            "figma.webp",
+            "adobe-illustrator.webp",
+            "adobe-photoshop.webp"
           ]
         },
         {
-          "title": "UX Audit",
+          "title": "Dev Ready",
           "description": "Are you facing the issue of inefficient metrics? We'll help you find out the reasons and most importantly – will assist in fixing those issues. We will study and analyze the audit findings and provide suggestions on how to boost your product’s usability.",
           "stack": [
-            "aftereffects.svg",
-            "test2.svg",
-            "figma.svg",
-            "wordpress.svg"
+            "dev-ready.webp",
+            "components.webp",
+            "tailwind.webp"
           ]
         }
       ]
@@ -350,35 +351,36 @@
           "title": "Website Design",
           "description": "Elevate your online presence with captivating and user-friendly website designs. Our expert team crafts visually stunning, responsive, and intuitive layouts to engage and convert your visitors effectively.",
           "stack": [
-            "test.svg",
-            "ms_notes.svg",
-            "wordpress.svg"
+            "figma.webp",
+            "adobe-illustrator.webp",
+            "adobe-photoshop.webp"
           ]
         },
         {
           "title": "Custom Website Development",
           "description": "Tailored solutions to fuel your online success. We specialize in creating bespoke websites that perfectly align with your unique business needs, ensuring optimal functionality and a seamless user experience.",
           "stack": [
-            "figma.svg",
-            "miro.svg"
+            "vueJs.webp",
+            "typescript.webp",
+            "html-css.webp"
           ]
         },
         {
           "title": "API & Database Integration",
           "description": "Unlock the true potential of your web applications by integrating APIs and databases. Seamlessly connect your systems, enhance functionality, and provide a dynamic, interactive experience for your users.",
           "stack": [
-            "figma.svg",
-            "illustrator.svg"
+            "sql.webp",
+            "nodeJs.webp",
+            "sqlite.webp"
           ]
         },
         {
           "title": "SEO Ready",
           "description": "Boost your website's visibility and search engine rankings with our SEO-ready websites. Our designs are optimized for search engines, ensuring your online presence is easily discoverable by your target audience.",
           "stack": [
-            "aftereffects.svg",
-            "test2.svg",
-            "figma.svg",
-            "wordpress.svg"
+            "keywords-research.webp",
+            "ranking.webp",
+            "sitemap.webp"
           ]
         }
       ]
@@ -540,35 +542,36 @@
           "title": "Android App Design",
           "description": "We specialize in creating captivating and user-friendly Android app designs. Our design team crafts visually appealing and intuitive interfaces that enhance the user experience.",
           "stack": [
-            "test.svg",
-            "ms_notes.svg",
-            "wordpress.svg"
+            "figma.webp",
+            "adobe-illustrator.webp",
+            "adobe-photoshop.webp"
           ]
         },
         {
           "title": "Android App Development",
           "description": "Our expert developers bring your app ideas to life. We build robust and feature-rich Android applications that meet your specific requirements and objectives.",
           "stack": [
-            "figma.svg",
-            "miro.svg"
+            "flutter.webp",
+            "react.webp",
+            "swift.webp"
           ]
         },
         {
           "title": "API & Database Integration",
           "description": "Our expert developers bring your app ideas to life. We build robust and feature-rich Android applications that meet your specific requirements and objectives.",
           "stack": [
-            "figma.svg",
-            "illustrator.svg"
+            "sql.webp",
+            "nodeJs.webp",
+            "sqlite.webp"
           ]
         },
         {
           "title": "SEO Ready",
           "description": "Boost your website's visibility and search engine rankings with our SEO-ready websites. Our designs are optimized for search engines, ensuring your online presence is easily discoverable by your target audience.",
           "stack": [
-            "aftereffects.svg",
-            "test2.svg",
-            "figma.svg",
-            "wordpress.svg"
+            "keywords-research.webp",
+            "ranking.webp",
+            "sitemap.webp"
           ]
         }
       ]
@@ -729,35 +732,36 @@
           "title": "UI/UX Design",
           "description": "We're dedicated to creating exceptional user experiences. Our UI/UX design experts craft visually appealing and user-friendly interfaces that leave a lasting impression on your audience",
           "stack": [
-            "test.svg",
-            "ms_notes.svg",
-            "wordpress.svg"
+            "figma.webp",
+            "adobe-illustrator.webp",
+            "adobe-photoshop.webp"
           ]
         },
         {
           "title": "Frontend & Backend Development",
           "description": "Our proficient team handles both frontend and backend development with finesse. We ensure that your project is seamlessly integrated and functions smoothly from end to end.",
           "stack": [
-            "figma.svg",
-            "miro.svg"
+            "vueJs.webp",
+            "vue-x.webp",
+            "react.webp"
           ]
         },
         {
           "title": "API & Database Integration",
           "description": "We understand the importance of connectivity and data management. Our full stack developers expertly integrate APIs and databases to ensure your application operates seamlessly and efficiently.",
           "stack": [
-            "figma.svg",
-            "illustrator.svg"
+            "sql.webp",
+            "nodeJs.webp",
+            "rest-api.webp"
           ]
         },
         {
           "title": "SEO Ready",
           "description": "We prioritize visibility in the online landscape. Our full stack development services include making your project SEO-ready, allowing it to be easily discoverable and ranking well on search engines for maximum exposure.",
           "stack": [
-            "aftereffects.svg",
-            "test2.svg",
-            "figma.svg",
-            "wordpress.svg"
+            "keywords-research.webp",
+            "ranking.webp",
+            "sitemap.webp"
           ]
         }
       ]
@@ -919,35 +923,35 @@
           "title": "Analyze Competition",
           "description": "We delve deep into the competitive landscape, gaining insights into what makes your rivals succeed. This analysis informs our strategy to help your app stand out.",
           "stack": [
-            "test.svg",
-            "ms_notes.svg",
-            "wordpress.svg"
+            "test.webp",
+            "ms_notes.webp",
+            "wordpress.webp"
           ]
         },
         {
           "title": "Keyword Research",
           "description": "Our experts conduct thorough keyword research to identify the most relevant and high-performing keywords for your app. This ensures that your app is easily discoverable in app stores.",
           "stack": [
-            "figma.svg",
-            "miro.svg"
+            "figma.webp",
+            "miro.webp"
           ]
         },
         {
           "title": "Optimizing  App",
           "description": "We apply a range of techniques to optimize your app listing, including enhancing visuals, descriptions, and metadata. This ensures that your app is appealing and informative to potential users.",
           "stack": [
-            "figma.svg",
-            "illustrator.svg"
+            "figma.webp",
+            "illustrator.webp"
           ]
         },
         {
           "title": "Maximize Downloads",
           "description": "Our ultimate goal is to maximize the number of downloads for your app. With our optimization services, your app will have a better chance of ranking higher in app store search results, leading to increased downloads and visibility.",
           "stack": [
-            "aftereffects.svg",
-            "test2.svg",
-            "figma.svg",
-            "wordpress.svg"
+            "aftereffects.webp",
+            "test2.webp",
+            "figma.webp",
+            "wordpress.webp"
           ]
         }
       ]
@@ -1109,35 +1113,36 @@
           "title": "Speed Optimization",
           "description": "We prioritize speed optimization to ensure your website loads quickly and efficiently. A fast-loading website not only enhances user experience but also improves search engine rankings.",
           "stack": [
-            "test.svg",
-            "ms_notes.svg",
-            "wordpress.svg"
+            "speed-opttimization.webp",
+            "loading.webp",
+            "lcp.webp"
           ]
         },
         {
           "title": "Content Optimization",
           "description": "Our team specializes in content optimization. We fine-tune your website's content to be search engine-friendly, ensuring it ranks higher in search results and provides valuable information to your audience.",
           "stack": [
-            "figma.svg",
-            "miro.svg"
+            "keywords-research.webp",
+            "ranking.webp",
+            "sitemap.webp"
           ]
         },
         {
           "title": "Keyword Researching",
           "description": "We conduct comprehensive keyword research to identify the most relevant and high-impact keywords for your website. This research informs our strategy for boosting your website's visibility on search engines.",
           "stack": [
-            "figma.svg",
-            "illustrator.svg"
+            "semrush.webp",
+            "robot.webp",
+            "ahrefs.webp"
           ]
         },
         {
           "title": "Guest Posting",
           "description": "We engage in strategic guest posting to build quality backlinks and increase your website's authority in your industry. This not only drives traffic but also enhances your search engine rankings.",
           "stack": [
-            "aftereffects.svg",
-            "test2.svg",
-            "figma.svg",
-            "wordpress.svg"
+            "wordpress.webp",
+            "creately.webp",
+            "outbrain.webp"
           ]
         }
       ]
@@ -1299,35 +1304,36 @@
           "title": "Logo Design",
           "description": "A well-designed logo is the first step to building a strong brand. It should be visually appealing, memorable, and relevant to your business. Our team of experienced logo designers will work with you to create a logo that perfectly represents your brand and helps you stand out from the competition.",
           "stack": [
-            "test.svg",
-            "ms_notes.svg",
-            "wordpress.svg"
+            "canvas.webp",
+            "adobe-illustrator.webp",
+            "adobe-photoshop.webp"
           ]
         },
         {
           "title": "Brand Identity Design",
           "description": "Shape a strong visual identity for your brand with our comprehensive brand identity design services. We ensure consistency across all visual elements, fostering recognition and trust.",
           "stack": [
-            "figma.svg",
-            "miro.svg"
+            "canvas.webp",
+            "adobe-illustrator.webp",
+            "adobe-photoshop.webp"
           ]
         },
         {
           "title": "Brand Strategy Development",
           "description": "Your brand strategy is the roadmap for how you will build and grow your brand. It should define your brand positioning, target audience, and key brand messages. We will help you develop a brand strategy that is aligned with your business goals and will help you achieve your desired results.",
           "stack": [
-            "figma.svg",
-            "illustrator.svg"
+            "story-telling.webp",
+            "target-audience.webp",
+            "brand-presentation.webp"
           ]
         },
         {
           "title": "Brand Management",
           "description": "Once your brand is established, it's important to manage it carefully to ensure that it remains consistent and relevant. We offer a range of brand management services, including brand guidelines development, brand monitoring, and brand audits. We will help you ensure that your brand is always presented in a positive and professional light.",
           "stack": [
-            "aftereffects.svg",
-            "test2.svg",
-            "figma.svg",
-            "wordpress.svg"
+            "canvas.webp",
+            "figma.webp",
+            "adobe-photoshop.webp"
           ]
         }
       ]
@@ -1489,35 +1495,35 @@
           "title": "Hybrid App Design",
           "description": "Our expertise in hybrid app design ensures that your application has an engaging and user-friendly interface. We focus on creating visually appealing and intuitive designs that enhance the user experience.",
           "stack": [
-            "test.svg",
-            "ms_notes.svg",
-            "wordpress.svg"
+            "figma.webp",
+            "adobe-illustrator.webp",
+            "adobe-photoshop.webp"
           ]
         },
         {
           "title": "Hybrid App Development",
           "description": "We bring your app ideas to life with our expert hybrid app development services. Our team creates robust and feature-rich hybrid applications that align with your specific goals and requirements.",
           "stack": [
-            "figma.svg",
-            "miro.svg"
+            "react.webp",
+            "ionic.webp"
           ]
         },
         {
           "title": "API & Database Integration",
           "description": "Seamless integration with APIs and databases is essential for app functionality. We ensure that your hybrid app interacts seamlessly with external services and efficiently manages data.",
           "stack": [
-            "figma.svg",
-            "illustrator.svg"
+            "sql.webp",
+            "nodeJs.webp",
+            "sqlite.webp"
           ]
         },
         {
           "title": "SEO Ready",
           "description": "We understand the importance of online visibility. Our hybrid apps are designed to be SEO-ready, ensuring they can be easily discovered and ranked on search engines, maximizing your app's exposure.",
           "stack": [
-            "aftereffects.svg",
-            "test2.svg",
-            "figma.svg",
-            "wordpress.svg"
+            "semrush.webp",
+            "robot.webp",
+            "ahrefs.webp"
           ]
         }
       ]
@@ -1678,35 +1684,36 @@
           "title": "Custom SaaS Development",
           "description": "Custom SaaS development is the process of creating a SaaS application that is tailored to the specific needs of a business or organization. This type of development is ideal for businesses that have unique requirements or that need a SaaS application that can integrate with their existing systems.",
           "stack": [
-            "test.svg",
-            "ms_notes.svg",
-            "wordpress.svg"
+            "vueJs.webp",
+            "vue-x.webp",
+            "react.webp"
           ]
         },
         {
           "title": "SaaS Migration",
           "description": "SaaS migration is the process of moving an existing on-premises application to a cloud-based SaaS platform. This type of migration can offer a number of benefits, such as improved scalability, reduced costs, and increased security.",
           "stack": [
-            "figma.svg",
-            "miro.svg"
+            "flutter.webp",
+            "react.webp",
+            "swift.webp"
           ]
         },
         {
           "title": "SaaS Integration",
           "description": "SaaS integration is the process of connecting two or more SaaS applications together. This type of integration can allow businesses to automate their workflows and improve their efficiency.",
           "stack": [
-            "figma.svg",
-            "illustrator.svg"
+            "flutter.webp",
+            "react.webp",
+            "swift.webp"
           ]
         },
         {
           "title": "SaaS Maintenance and Support",
           "description": "SaaS maintenance and support is the process of ensuring that a SaaS application is running smoothly and that any issues are resolved quickly and efficiently. This type of service is essential for businesses that rely on SaaS applications to run their operations.",
           "stack": [
-            "aftereffects.svg",
-            "test2.svg",
-            "figma.svg",
-            "wordpress.svg"
+            "sql.webp",
+            "nodeJs.webp",
+            "rest-api.webp"
           ]
         }
       ]
@@ -1868,35 +1875,36 @@
           "title": "MVP Design",
           "description": "We excel in creating compelling and user-centric MVP designs. Our design team focuses on crafting visually appealing and intuitive interfaces that set the stage for a successful product launch.",
           "stack": [
-            "test.svg",
-            "ms_notes.svg",
-            "wordpress.svg"
+            "figma.webp",
+            "adobe-illustrator.webp",
+            "adobe-photoshop.webp"
           ]
         },
         {
           "title": "MVP Development",
           "description": "Our expert development team brings your MVP concept to life. We build functional and efficient MVPs that align with your specific goals, ensuring a strong foundation for your project.",
           "stack": [
-            "figma.svg",
-            "miro.svg"
+            "vueJs.webp",
+            "vue-x.webp",
+            "react.webp"
           ]
         },
         {
           "title": "API & Database Integration",
           "description": "Seamless integration with APIs and databases is crucial for MVP functionality. We ensure that your MVP interacts flawlessly with external services and effectively manages data.",
           "stack": [
-            "figma.svg",
-            "illustrator.svg"
+            "sql.webp",
+            "nodeJs.webp",
+            "rest-api.webp"
           ]
         },
         {
           "title": "SEO Ready",
           "description": "We recognize the significance of online visibility for your MVP. Our services include making your MVP SEO-ready, making it discoverable and well-ranked on search engines for maximum exposure.",
           "stack": [
-            "aftereffects.svg",
-            "test2.svg",
-            "figma.svg",
-            "wordpress.svg"
+            "semrush.webp",
+            "robot.webp",
+            "ahrefs.webp"
           ]
         }
       ]
@@ -2058,35 +2066,36 @@
           "title": "iOS App Design",
           "description": "Our team excels in crafting captivating and user-friendly iOS app designs. We focus on creating visually appealing and intuitive interfaces that enhance the user experience.",
           "stack": [
-            "test.svg",
-            "ms_notes.svg",
-            "wordpress.svg"
+            "figma.webp",
+            "adobe-illustrator.webp",
+            "adobe-photoshop.webp"
           ]
         },
         {
           "title": "iOS App Development",
           "description": "We turn your app ideas into reality. Our expert developers build robust and feature-rich iOS applications that align with your specific goals and requirements.",
           "stack": [
-            "figma.svg",
-            "miro.svg"
+            "flutter.webp",
+            "react.webp",
+            "swift.webp"
           ]
         },
         {
           "title": "API & Database Integration",
           "description": "Seamless integration with APIs and databases is vital for app functionality. We ensure your iOS app interacts seamlessly with external services and efficiently manages data.",
           "stack": [
-            "figma.svg",
-            "illustrator.svg"
+            "sql.webp",
+            "nodeJs.webp",
+            "rest-api.webp"
           ]
         },
         {
           "title": "SEO Ready",
           "description": "We understand the importance of online visibility. Our iOS apps are designed to be SEO-ready, ensuring they can be easily discovered and ranked on search engines for maximum exposure.",
           "stack": [
-            "aftereffects.svg",
-            "test2.svg",
-            "figma.svg",
-            "wordpress.svg"
+            "semrush.webp",
+            "robot.webp",
+            "ahrefs.webp"
           ]
         }
       ]
@@ -2247,35 +2256,33 @@
           "title": "Event Calendar",
           "description": "We create powerful event calendars that help you manage and showcase events with ease. Whether it's for personal use, business, or any other purpose, our event calendar widgets keep you organized and informed.",
           "stack": [
-            "test.svg",
-            "ms_notes.svg",
-            "wordpress.svg"
+            "vueJs.webp",
+            "react.webp",
+            "swift.webp"
           ]
         },
         {
           "title": "Social Media Feed",
           "description": "Our social media feed widgets allow you to seamlessly integrate and display your social media content on your website or app. Stay connected with your audience and keep them engaged with real-time updates.",
           "stack": [
-            "figma.svg",
-            "miro.svg"
+            "facebook.webp",
+            "twitter.webp",
+            "instagram.webp"
           ]
         },
         {
           "title": "Shipping Cost Calculator",
           "description": "Simplify the online shopping experience with our shipping cost calculator widgets. Your customers can quickly and accurately determine shipping costs, enhancing their shopping convenience.",
           "stack": [
-            "figma.svg",
-            "illustrator.svg"
+            "delivery.webp",
+            "shipping-cost.webp"
           ]
         },
         {
           "title": "Gallery",
           "description": "Showcase your content, products, or memories beautifully with our gallery widgets. Create visually appealing and organized galleries to captivate your audience and provide a delightful browsing experience.",
           "stack": [
-            "aftereffects.svg",
-            "test2.svg",
-            "figma.svg",
-            "wordpress.svg"
+            "gallery.webp"
           ]
         }
       ]
