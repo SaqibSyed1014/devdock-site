@@ -45,7 +45,10 @@ defineProps({
       </div>
       <div class="col-span-1">
         <div>
-          <img src="/img/services/uiux/header_img.webp" alt="Header Image">
+          <img
+              :src="serviceHeader.image.path"
+              :alt="serviceHeader.image.alt"
+          >
         </div>
       </div>
     </div>

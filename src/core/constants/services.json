@@ -140,7 +140,11 @@
           "label": "Web Design",
           "icon": "i-mdi-twitter"
         }
-      ]
+      ],
+      "image": {
+        "path": "/img/services/uiux/hero-image.webp",
+        "alt": "UI/UX Illustration"
+      }
     },
     "description": {
       "heading": "Boost Business Growth With Exceptional UIUX Design",
@@ -322,7 +326,11 @@
           "label": "Web Design",
           "icon": "i-carbon-tools-alt"
         }
-      ]
+      ],
+      "image": {
+        "path": "/img/services/web-development/hero-image.webp",
+        "alt": "UI/UX Illustration"
+      }
     },
     "description": {
       "heading": "Boost Business Growth With Exceptional Website Development Services",
@@ -504,7 +512,11 @@
           "label": "Web Design",
           "icon": "i-carbon-tools-alt"
         }
-      ]
+      ],
+      "image": {
+        "path": "/img/services/andriod-development/hero-image.webp",
+        "alt": "UI/UX Illustration"
+      }
     },
     "description": {
       "heading": "Boost Business Growth With Exceptional Android Development Services",
@@ -686,7 +698,11 @@
           "label": "Web Design",
           "icon": "i-carbon-tools-alt"
         }
-      ]
+      ],
+      "image": {
+        "path": "/img/services/full-stack-development/hero-image.webp",
+        "alt": "UI/UX Illustration"
+      }
     },
     "description": {
       "heading": "Boost Business Growth With Exceptional Full Stack Development Services",
@@ -867,7 +883,11 @@
           "label": "Web Design",
           "icon": "i-carbon-tools-alt"
         }
-      ]
+      ],
+      "image": {
+        "path": "/img/services/uiux/header_img.webp",
+        "alt": "UI/UX Illustration"
+      }
     },
     "description": {
       "heading": "Boost Growth with Exceptional App Store Optimization Services",
@@ -1049,7 +1069,11 @@
           "label": "Web Design",
           "icon": "i-carbon-tools-alt"
         }
-      ]
+      ],
+      "image": {
+        "path": "/img/services/search-engine-optimization/hero-image.webp",
+        "alt": "UI/UX Illustration"
+      }
     },
     "description": {
       "heading": "Boost Business Growth With Exceptional SEO Services",
@@ -1231,7 +1255,11 @@
           "label": "Web Design",
           "icon": "i-carbon-tools-alt"
         }
-      ]
+      ],
+      "image": {
+        "path": "/img/services/logo-&-branding/hero-image.webp",
+        "alt": "UI/UX Illustration"
+      }
     },
     "description": {
       "heading": "Boost Business Growth With Exceptional Logo & Branding Services",
@@ -1413,7 +1441,11 @@
           "label": "Web Design",
           "icon": "i-carbon-tools-alt"
         }
-      ]
+      ],
+      "image": {
+        "path": "/img/services/hybrid-application/hero-image.webp",
+        "alt": "UI/UX Illustration"
+      }
     },
     "description": {
       "heading": "Boost Business Growth With Hybrid App Development Services",
@@ -1595,7 +1627,11 @@
           "label": "Web Design",
           "icon": "i-carbon-tools-alt"
         }
-      ]
+      ],
+      "image": {
+        "path": "/img/services/saas-development/hero-image.webp",
+        "alt": "UI/UX Illustration"
+      }
     },
     "description": {
       "heading": "Boost Business Growth With Exceptional SaaS Development Services",
@@ -1776,7 +1812,11 @@
           "label": "Web Design",
           "icon": "i-carbon-tools-alt"
         }
-      ]
+      ],
+      "image": {
+        "path": "/img/services/mvp-design-development/hero-image.webp",
+        "alt": "UI/UX Illustration"
+      }
     },
     "description": {
       "heading": "Boost Business Growth With Exceptional MVP Development Services",
@@ -1958,7 +1998,11 @@
           "label": "Web Design",
           "icon": "i-carbon-tools-alt"
         }
-      ]
+      ],
+      "image": {
+        "path": "/img/services/iso-app-development/hero-image.webp",
+        "alt": "UI/UX Illustration"
+      }
     },
     "description": {
       "heading": "Boost Business Growth With Exceptional iOS App Development Services",
@@ -2140,7 +2184,11 @@
           "label": "Web Design",
           "icon": "i-carbon-tools-alt"
         }
-      ]
+      ],
+      "image": {
+        "path": "/img/services/custom-widget-design/hero-image.webp",
+        "alt": "UI/UX Illustration"
+      }
     },
     "description": {
       "heading": "Boost Business Growth With Exceptional Widget Development Services",
