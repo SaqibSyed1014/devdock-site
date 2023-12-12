@@ -75,26 +75,26 @@ const toggleItem = (colIndex, index) => {
 </script>
 
 <style scoped lang="scss">
-.service-faqs{
-  h2{
-    position: relative;
-    &::after{
-      content: '';
-      display: block;
-      position: absolute;
-      right: -110px;
-      top: 20px;
-      background-image: url("/svg/dashed_arrow.svg");
-      background-repeat: no-repeat;
-      background-size: contain;
-      width: 96px;
-      height: 56px;
-      @media(max-width: 450px) {
-        width: 70px;
-        right: -80px;
-        top: 10px;
-      }
-    }
-  }
-}
+//.service-faqs{
+//  h2{
+//    position: relative;
+//    &::after{
+//      content: '';
+//      display: block;
+//      position: absolute;
+//      right: -110px;
+//      top: 20px;
+//      background-image: url("/svg/dashed_arrow.svg");
+//      background-repeat: no-repeat;
+//      background-size: contain;
+//      width: 96px;
+//      height: 56px;
+//      @media(max-width: 450px) {
+//        width: 70px;
+//        right: -80px;
+//        top: 10px;
+//      }
+//    }
+//  }
+//}
 </style>

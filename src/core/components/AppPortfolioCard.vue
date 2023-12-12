@@ -1,23 +1,23 @@
 <template>
-  <div class="group cursor-pointer">
-    <router-link
-        :to="{
-          name: 'DevDockCaseStudyDetails',
-          params: { title: content?.title }
-        }"
-        class="cursor-pointer"
-    >
+  <div class="group">
       <div
           class="project-image fancy-hover border border-dark-gray rounded hover:border-dark-gray/0 transition-all my-3 md:my-5"
       >
-        <div class="overflow-hidden">
-          <img
-              :src="content?.image.path"
-              :alt="content?.image.alt"
-          >
-        </div>
+        <router-link
+            :to="{
+              name: 'DevDockCaseStudyDetails',
+              params: { title: content?.title }
+            }"
+        >
+          <div class="overflow-hidden cursor-pointer">
+            <img
+                :src="content?.image.path"
+                :alt="content?.image.alt"
+            >
+          </div>
+        </router-link>
+
       </div>
-    </router-link>
 
     <router-link
         :to="{

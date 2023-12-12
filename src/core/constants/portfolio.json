@@ -405,220 +405,27 @@
     {
       "label": "SaaS",
       "svg": "stats_up.svg",
-      "content": [
-        {
-          "name": "",
-          "tagLine": "",
-          "desc": "",
-          "image": {
-            "path": "/img/case-studies/thumbnails/thumbnail.webp",
-            "alt": "Picture"
-          },
-          "category": "SaaS",
-          "title": ""
-        },
-        {
-          "name": "",
-          "tagLine": "",
-          "desc": "",
-          "image": {
-            "path": "/img/case-studies/thumbnails/thumbnail.webp",
-            "alt": "Picture"
-          },
-          "category": "SaaS",
-          "title": ""
-        },
-        {
-          "name": "",
-          "tagLine": "",
-          "desc": "",
-          "image": {
-            "path": "/img/case-studies/thumbnails/thumbnail.webp",
-            "alt": "Picture"
-          },
-          "category": "SaaS",
-          "title": ""
-        },
-        {
-          "name": "",
-          "tagLine": "",
-          "desc": "",
-          "image": {
-            "path": "/img/case-studies/thumbnails/thumbnail.webp",
-            "alt": "Picture"
-          },
-          "category": "SaaS",
-          "title": ""
-        },
-        {
-          "name": "",
-          "tagLine": "",
-          "desc": "",
-          "image": {
-            "path": "/img/case-studies/thumbnails/thumbnail.webp",
-            "alt": "Picture"
-          },
-          "category": "SaaS",
-          "title": ""
-        }
-      ]
+      "content": []
     },
     {
       "label": "MVP",
       "svg": "infinity.svg",
-      "content": [
-        {
-          "name": "",
-          "tagLine": "",
-          "desc": "",
-          "image": {
-            "path": "/img/case-studies/thumbnails/thumbnail.webp",
-            "alt": "Picture"
-          },
-          "category": "MVP",
-          "title": ""
-        },
-        {
-          "name": "",
-          "tagLine": "",
-          "desc": "",
-          "image": {
-            "path": "/img/case-studies/thumbnails/thumbnail.webp",
-            "alt": "Picture"
-          },
-          "category": "MVP",
-          "title": ""
-        }
-      ]
+      "content": []
     },
     {
       "label": "Website Redesign",
       "svg": "curve_arrow.svg",
-      "content": [
-        {
-          "name": "",
-          "tagLine": "",
-          "desc": "",
-          "image": {
-            "path": "/img/case-studies/thumbnails/thumbnail.webp",
-            "alt": "Picture"
-          },
-          "category": "Redesign",
-          "title": ""
-        },
-        {
-          "name": "",
-          "tagLine": "",
-          "desc": "",
-          "image": {
-            "path": "/img/case-studies/thumbnails/thumbnail.webp",
-            "alt": "Picture"
-          },
-          "category": "Redesign",
-          "title": ""
-        },
-        {
-          "name": "",
-          "tagLine": "",
-          "desc": "",
-          "image": {
-            "path": "/img/case-studies/thumbnails/thumbnail.webp",
-            "alt": "Picture"
-          },
-          "category": "Redesign",
-          "title": ""
-        }
-      ]
+      "content": []
     },
     {
       "label": "Social Media",
       "svg": "stats_up.svg",
-      "content": [
-        {
-          "name": "",
-          "tagLine": "",
-          "desc": "",
-          "image": {
-            "path": "/img/case-studies/thumbnails/thumbnail.webp",
-            "alt": "Picture"
-          },
-          "category": "Social Media",
-          "title": ""
-        },
-        {
-          "name": "",
-          "tagLine": "",
-          "desc": "",
-          "image": {
-            "path": "/img/case-studies/thumbnails/thumbnail.webp",
-            "alt": "Picture"
-          },
-          "category": "Social Media",
-          "title": ""
-        },
-        {
-          "name": "",
-          "tagLine": "",
-          "desc": "",
-          "image": {
-            "path": "/img/case-studies/thumbnails/thumbnail.webp",
-            "alt": "Picture"
-          },
-          "category": "Social Media",
-          "title": ""
-        },
-        {
-          "name": "",
-          "tagLine": "",
-          "desc": "",
-          "image": {
-            "path": "/img/case-studies/thumbnails/thumbnail.webp",
-            "alt": "Picture"
-          },
-          "category": "Social Media",
-          "title": ""
-        },
-        {
-          "name": "",
-          "tagLine": "",
-          "desc": "",
-          "image": {
-            "path": "/img/case-studies/thumbnails/thumbnail.webp",
-            "alt": "Picture"
-          },
-          "category": "Social Media",
-          "title": ""
-        }
-
-      ]
+      "content": []
     },
     {
       "label": "Packaging",
       "svg": "infinity.svg",
-      "content": [
-        {
-          "name": "",
-          "tagLine": "",
-          "desc": "",
-          "image": {
-            "path": "/img/case-studies/thumbnails/thumbnail.webp",
-            "alt": "Picture"
-          },
-          "category": "Packaging",
-          "title": ""
-        },
-        {
-          "name": "",
-          "tagLine": "",
-          "desc": "",
-          "image": {
-            "path": "/img/case-studies/thumbnails/thumbnail.webp",
-            "alt": "Picture"
-          },
-          "category": "Packaging",
-          "title": ""
-        }
-      ]
+      "content": []
     }
   ]
 }
