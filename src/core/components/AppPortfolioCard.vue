@@ -1,11 +1,12 @@
 <template>
-  <div class="group cursor-pointer"
-  >
+  <div class="group cursor-pointer">
     <router-link
         :to="{
           name: 'DevDockCaseStudyDetails',
           params: { title: content?.title }
-    }">
+        }"
+        class="cursor-pointer"
+    >
       <div
           class="project-image fancy-hover border border-dark-gray rounded hover:border-dark-gray/0 transition-all my-3 md:my-5"
       >
@@ -19,13 +20,16 @@
     </router-link>
 
     <router-link
-        :to="{ name: 'DevDockCaseStudyDetails',
-         params: { title: content?.title } }
-    ">
+        :to="{
+           name: 'DevDockCaseStudyDetails',
+           params: { title: content?.title }
+         }"
+        class="cursor-pointer"
+    >
       <h2 class="description-text text-base md:text-xl 2xl:text-2xl text-primary font-medium pb-1 md:pb-1.5">
         {{ content.desc }}
       </h2>
-      <p class="text-sm md:text-base text-base-gray 2xl:text-xl hover:text-pink transition cursor-pointer">
+      <p class="text-sm md:text-base text-base-gray 2xl:text-xl hover:text-pink transition">
         View Case Study
       </p>
     </router-link>

@@ -16,7 +16,7 @@ defineProps({
             {{ serviceDescription.heading }}
           </h2>
 
-          <div class="w-fit mx-auto bg-orange rounded-t-[40px] hidden lg:block mt-10 overflow-hidden">
+          <div class="w-fit bg-orange rounded-t-[40px] hidden lg:block mt-10 overflow-hidden">
             <img
                 :src="serviceDescription.image.path"
                 :alt="serviceDescription.image.alt"

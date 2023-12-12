@@ -1,7 +1,7 @@
 <template>
   <section class="service-faqs container pb-20 text-primary">
     <div>
-      <h2 class="text-3xl sm:text-4xl md:text-5xl 2xl:text-6.2xl font-semibold !leading-tight inline-block mr-28 md:mr-10">
+      <h2 class="text-3xl sm:text-4xl md:text-5xl 2xl:text-6.2xl font-semibold !leading-tight inline-block mr-28 md:mr-16">
         {{ serviceFaqs.heading }}
       </h2>
       <div class="grid md:grid-cols-2 md:gap-x-20 pt-10">

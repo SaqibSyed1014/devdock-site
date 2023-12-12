@@ -18,5 +18,6 @@ defineProps({
       :show-btn="false"
       :cards-data="serviceVertices.list"
       :full-span-cell="7"
+      :image="{}"
   />
 </template>

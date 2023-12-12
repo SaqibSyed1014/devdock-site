@@ -8,8 +8,8 @@
         <div class="w-full lg:w-3/4 px-3 md:px-0 lg:px-8">
           <img
               v-if="showImage"
-              :src="image.path"
-              :alt="image.alt"
+              :src="image?.path"
+              :alt="image?.alt"
           >
           <h2 class="text-white text-3xl md:text-5xl">
             <span class="text-secondary">{{ highlightedText }}</span>
@@ -66,20 +66,43 @@
   </section>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import AppButton from "@/core/components/AppButton.vue";
-import { CardsContent } from "@/core/types/components.ts";
 
-const props = defineProps<{
-  showBtn: boolean;
-  showImage: boolean;
-  image: Object,
-  highlightedText: string;
-  headingText: string;
-  headingPosition: string;
-  cardsData: Array<CardsContent>;
-  fullSpanCell?: number;
-}>()
+const props = defineProps({
+  showBtn: {
+    type: Boolean,
+    required: true
+  },
+  showImage: {
+    type: Boolean,
+    required: true
+  },
+  image: {
+    type: Object,
+    required: true
+  },
+  highlightedText: {
+    type: String,
+    required: true
+  },
+  headingText: {
+    type: String,
+    required: true
+  },
+  headingPosition: {
+    type: String,
+    required: true
+  },
+  cardsData: {
+    type: Array,
+    required: true
+  },
+  fullSpanCell: {
+    type: Number,
+    required: true
+  }
+})
 
 const headingVerticalPosition = computed(() => {
   if (props.headingPosition === 'top') return 'items-start'

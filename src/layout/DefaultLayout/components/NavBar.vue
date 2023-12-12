@@ -153,7 +153,7 @@
                     :style="{ '--subIndex': i }"
                 >
                   <router-link
-                      :to="{ name: subLink.pathName, params: subLink?.param }"
+                      :to="{ name: subLink.pathName, params: subLink?.param, force: true }"
                   >
                     {{ subLink.label }}
                   </router-link>
