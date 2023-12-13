@@ -131,25 +131,3 @@ const route = routesData
 const currentDate = new Date()
 </script>
 
-<style scoped lang="scss">
-.banner-bg{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #FFDEF7;
-  background-image: url("/img/boxes_bg.webp");
-  background-position: 50%;
-  background-repeat: repeat;
-  background-size: auto 100%;
-  &::after{
-    content: '';
-    width: 100%;
-    height: 100%;
-    display: block;
-    opacity: 1;
-    background: linear-gradient(270deg, rgba(255, 222, 247, 1) 0.08%, rgba(255, 222, 247, 0.5) 10.2%, rgba(255, 222, 247, 0.9) 17.2%, rgba(255, 222, 247, 0.9) 70.33%, rgba(255, 222, 247, 0.5) 78.5%, rgba(255, 222, 247, 1) 92.88%);
-  }
-}
-</style>

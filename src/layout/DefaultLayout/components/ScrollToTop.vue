@@ -31,10 +31,10 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll));
 .scroll-to-top-btn{
   & .btn-bg {
     &::before {
-      background-color: #fff;
+      background-color: theme('colors.pink');
     }
     &::after{
-      background-color: #ff9254;
+      background-color: theme('colors.orange');
     }
   }
 }

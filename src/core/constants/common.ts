@@ -3,6 +3,8 @@ import servicesData from "@/core/constants/services.json";
 const servicesList = servicesData.vertices.services.map((service) => ({
     label: service.title,
     pathName: 'DevDockServiceDetails',
+    subTitle: service?.megaMenuData.subTitle,
+    icon: service?.megaMenuData.icon,
     param: { title: service.id }
 }))
 
@@ -11,6 +13,8 @@ export const menuLinks = [
         label: 'Services',
         pathName: 'DevDockServices',
         hasSubLinks: true,
+        megaMenuLabel: 'Our Services',
+        menuOpen: false,
         subLinks: servicesList
     },
     {
@@ -22,14 +26,18 @@ export const menuLinks = [
     {
         label: 'Company',
         hasSubLinks: true,
+        megaMenuLabel: 'Company',
+        menuOpen: false,
         subLinks: [
             {
                 label: 'About Us',
-                pathName: 'DevDockAboutUs'
+                pathName: 'DevDockAboutUs',
+                subTitle: 'Did you know we all are a family'
             },
             {
                 label: 'Contact Us',
-                pathName: 'DevDockContactUs'
+                pathName: 'DevDockContactUs',
+                subTitle: 'Let’s have a cup of coffee'
             }
         ]
     }

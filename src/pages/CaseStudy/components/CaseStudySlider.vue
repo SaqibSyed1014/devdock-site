@@ -42,18 +42,18 @@ const swiperOptions = {
             </template>
           </Swiper>
 
-          <div class="absolute bottom-2 right-6 md:bottom-5 md:right-5 flex gap-1 sm:gap-3 z-20">
-            <button
-                class="custom-arrow-prev bg-sky text-primary hover:bg-primary hover:text-sky transition w-10 h-6 sm:w-12 sm:h-8 md:w-16 md:h-10 flex justify-center items-center"
-            >
-              <span class="i-bi-arrow-left w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8"></span>
-            </button>
-            <button
-                class="custom-arrow-next bg-sky text-primary hover:bg-primary hover:text-sky transition w-10 h-6 sm:w-12 sm:h-8 md:w-16 md:h-10 flex justify-center items-center"
-            >
-              <span class="i-bi-arrow-right w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8"></span>
-            </button>
-          </div>
+<!--          <div class="absolute bottom-2 right-6 md:bottom-5 md:right-5 flex gap-1 sm:gap-3 z-20">-->
+<!--            <button-->
+<!--                class="custom-arrow-prev bg-sky text-primary hover:bg-primary hover:text-sky transition w-10 h-6 sm:w-12 sm:h-8 md:w-16 md:h-10 flex justify-center items-center"-->
+<!--            >-->
+<!--              <span class="i-bi-arrow-left w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8"></span>-->
+<!--            </button>-->
+<!--            <button-->
+<!--                class="custom-arrow-next bg-sky text-primary hover:bg-primary hover:text-sky transition w-10 h-6 sm:w-12 sm:h-8 md:w-16 md:h-10 flex justify-center items-center"-->
+<!--            >-->
+<!--              <span class="i-bi-arrow-right w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8"></span>-->
+<!--            </button>-->
+<!--          </div>-->
         </div>
       </div>
     </div>

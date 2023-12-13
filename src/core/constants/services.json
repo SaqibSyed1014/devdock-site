@@ -33,77 +33,121 @@
         "title": "UI/UX Design",
         "desc": "Elevate user experiences with our expert UI/UX design services. We craft visually captivating and user-friendly interfaces that captivate users, ensuring satisfaction beyond compare.",
         "icon": "capital.svg",
-        "alt": "Settings Icon"
+        "alt": "Settings Icon",
+        "megaMenuData": {
+          "icon": "",
+          "subTitle": "Segments with perfect target"
+        }
       },
       {
         "id": "web-development",
         "title": "Website Development",
         "desc": "Our website development services are your gateway to cutting-edge solutions, meticulously tailored to your unique requirements. Experience a responsive and fully functional online presence that sets you apart.",
         "icon": "software.svg",
-        "alt": "Software Icon"
+        "alt": "Software Icon",
+        "megaMenuData": {
+          "icon": "",
+          "subTitle": "Segments with perfect target"
+        }
       },
       {
         "id": "android-app-development",
         "title": "Android App Development",
         "desc": "Turn your ideas into reality with our Android App Development services. Our expert team creates innovative and user-friendly Android apps tailored to your specific needs, ensuring a seamless mobile experience for your audience.",
         "icon": "capital.svg",
-        "alt": "Reels Icon"
+        "alt": "Reels Icon",
+        "megaMenuData": {
+          "icon": "",
+          "subTitle": "Segments with perfect target"
+        }
       },
       {
         "id": "full-stack-development",
         "title": "Full Stack Development",
         "desc": "Our full-stack development services are the cornerstone of seamless and efficient web application development. We master both front-end and back-end, guaranteeing an unblemished user experience.",
         "icon": "strategy.svg",
-        "alt": "Strategy Icon"
+        "alt": "Strategy Icon",
+        "megaMenuData": {
+          "icon": "",
+          "subTitle": "Segments with perfect target"
+        }
       },
       {
         "id": "search-engine-optimization",
         "title": "Search Engine Optimization",
         "desc": "Secure a prime position in search engine rankings with our expert SEO strategies. Watch your organic traffic soar, elevating your online presence and reach.",
         "icon": "software.svg",
-        "alt": "Software Icon"
+        "alt": "Software Icon",
+        "megaMenuData": {
+          "icon": "",
+          "subTitle": "Segments with perfect target"
+        }
       },
       {
         "id": "logo-&-branding",
         "title": "Logo & Branding",
         "desc": "Forge a powerful brand identity with our logo and branding services. We create distinctive and unforgettable brand assets that deeply resonate with your audience, setting you apart from the competition.",
         "icon": "capital.svg",
-        "alt": "Reels Icon"
+        "alt": "Reels Icon",
+        "megaMenuData": {
+          "icon": "",
+          "subTitle": "Segments with perfect target"
+        }
       },
       {
         "id": "hybrid-application",
         "title": "Hybrid Application",
         "desc": "Reach a wider audience with our hybrid applications. We specialize in cross-platform apps that seamlessly operate on various devices and platforms, ensuring maximum reach.",
         "icon": "strategy.svg",
-        "alt": "Strategy Icon"
+        "alt": "Strategy Icon",
+        "megaMenuData": {
+          "icon": "",
+          "subTitle": "Segments with perfect target"
+        }
       },
       {
         "id": "saas-development",
         "title": "SaaS Development",
         "desc": "Revolutionize your business with scalable and efficient software as a service (SaaS) solutions, all crafted by our expertise. Watch as your operations streamline and thrive.",
         "icon": "capital.svg",
-        "alt": "Settings Icon"
+        "alt": "Settings Icon",
+        "megaMenuData": {
+          "icon": "",
+          "subTitle": "Segments with perfect target"
+        }
       },
       {
         "id": "mvp-design-&-development",
         "title": "MVP Design & Development",
         "desc": "Quickly launch your minimum viable product (MVP) with our top-tier design and development services. Test your concept in the market and bring your vision to life swiftly.",
         "icon": "software.svg",
-        "alt": "Software Icon"
+        "alt": "Software Icon",
+        "megaMenuData": {
+          "icon": "",
+          "subTitle": "Segments with perfect target"
+        }
       },
       {
         "id": "ios-application-development",
         "title": "IOS Application Development",
         "desc": "Harness the power of the iOS ecosystem with our application development services. We create high-quality iOS apps that engage and delight users, keeping them coming back for more.",
         "icon": "capital.svg",
-        "alt": "Reels Icon"
+        "alt": "Reels Icon",
+        "megaMenuData": {
+          "icon": "",
+          "subTitle": "Segments with perfect target"
+        }
       },
       {
         "id": "custom-widget-design",
         "title": "Custom Widget Design",
         "desc": "Elevate your website's or application's functionality with custom widget design. We create tailored widgets that perfectly meet your specific needs and requirements, enhancing your user experience.",
         "icon": "strategy.svg",
-        "alt": "Strategy Icon"
+        "alt": "Strategy Icon",
+        "megaMenuData": {
+          "icon": "",
+          "subTitle": "Segments with perfect target"
+        }
       }
     ]
   },

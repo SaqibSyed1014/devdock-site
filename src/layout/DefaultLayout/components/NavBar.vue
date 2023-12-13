@@ -16,19 +16,44 @@
                 class="list-style-none mr-auto flex flex-col items-center pl-0 mt-1 md:flex-row gap-3 xl:gap-5 text-base 2xl:text-lg font-medium"
             >
               <li v-for="(link, index) in menuLinks" :key="index">
-                <AppDropdown
+                <AppMegaMenu
                     v-if="link.hasSubLinks"
-                    show-hover-color
+                    :menu-label="link.megaMenuLabel"
                     :options="link.subLinks"
-                    :show-on-hover="index === 0"
+                    :isOpen="openMenuIndex === index"
+                    :toggleMenu="() => toggleMenu(index)"
                 >
-                  <template v-if="link?.pathName">
-                    <router-link :to="{ name: link.pathName }">{{ link.label }}</router-link>
+                  <template #menu-label>
+                    <template v-if="link?.pathName">
+                      <router-link :to="{ name: link.pathName }">{{ link.label }}</router-link>
+                    </template>
+                    <template v-else>
+                      {{ link.label }}
+                    </template>
                   </template>
-                  <template v-else>
-                    {{ link.label }}
+                  <template #menu-footer>
+                    <div class="footer-banner relative rounded-[10px] overflow-hidden py-5 px-4 md:px-7 mt-3">
+                      <div class="banner-bg" />
+                      <div class="flex justify-center items-center lg:mr-0 gap-4 text-primary relative z-11">
+                        <div class="flex justify-center items-center rounded bg-white cursor-pointer w-10 h-10">
+                          <span class="i-ri-facebook-fill w-6 h-6" />
+                        </div>
+                        <div class="flex justify-center items-center rounded bg-white cursor-pointer w-10 h-10">
+                          <span class="i-mdi-twitter w-6 h-6" />
+                        </div>
+                        <div class="flex justify-center items-center rounded bg-white cursor-pointer w-10 h-10">
+                          <span class="i-ri-instagram-fill w-6 h-6" />
+                        </div>
+                        <div class="flex justify-center items-center rounded bg-white cursor-pointer w-10 h-10">
+                          <span class="i-mdi-linkedin w-6 h-6" />
+                        </div>
+                        <div class="flex justify-center items-center rounded bg-white cursor-pointer w-10 h-10">
+                          <span class="i-mdi-youtube w-6 h-6" />
+                        </div>
+                      </div>
+                    </div>
                   </template>
-                </AppDropdown>
+                </AppMegaMenu>
                 <router-link
                     v-else
                     active-class="text-pink"
@@ -190,6 +215,7 @@
 <script setup>
 import AppButton from '@/core/components/AppButton.vue'
 import AppDropdown from "@/core/components/AppDropdown.vue"
+import AppMegaMenu from "@/core/components/AppMegaMenu.vue";
 import VideoPlayer from '@/core/components/VideoPlayer.vue'
 import { useRoute } from 'vue-router'
 import { logoUrl } from "@/core/constants/site-info.ts";
@@ -200,6 +226,11 @@ let playDemoVideo = ref(false)
 const excludedRoutesOnMobile = ['DevDockPortfolio']
 let showMobileSubMenuList = ref(false)
 let mobileSubMenuList = ref([])
+const openMenuIndex = ref(null);
+
+const toggleMenu = (index) => openMenuIndex.value = openMenuIndex.value === index ? null : index
+
+const closeMenus = () => openMenuIndex.value = null
 
 const showSubMenuList = (list) => {
   mobileSubMenuList.value = list
@@ -221,6 +252,7 @@ watch(route, () => {
 })
 
 const handleScroll = () => {
+  closeMenus()
   if (!showMobileMenu.value && window.scrollY >= 450) {
     isScrollingDown.value = window.scrollY > scrollY.value;
     scrollY.value = window.scrollY;
