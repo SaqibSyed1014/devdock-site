@@ -47,6 +47,7 @@ export default defineConfig({
       external: [], // removed vue since it is expected to be available at runtime
     },
   },
+  assetsInclude: ['**/*.webp', '**/*.ico', '**/*.svg', '**/*.png', '**/*.woff', '**/*.woff2', '**/*.ttf'],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),

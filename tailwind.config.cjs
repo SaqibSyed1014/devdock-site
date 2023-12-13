@@ -53,6 +53,10 @@ module.exports = {
         '9': '0.9',
         '10': '1',
       },
+      fontFamily: {
+        'vermena': ['Vermena Grotesk', 'sans-serif'],
+        'liberation': ['Liberation Sans', 'sans-serif']
+      },
       width: {
         '18': '70px'
       },

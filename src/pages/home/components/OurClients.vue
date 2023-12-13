@@ -12,9 +12,9 @@ const clientsData = componentData.ourClients
           {{ clientsData.text }}
         </p>
         <div>
-          <h2 class="sm:text-base 2xl:text-xl pb-6">
+          <p class="sm:text-base 2xl:text-xl pb-6">
             {{ clientsData.tagLine }}
-          </h2>
+          </p>
           <hr>
           <div class="flex flex-nowrap whitespace-normal overflow-hidden py-6">
             <div class="flex justify-around items-center horizontal-slider">
