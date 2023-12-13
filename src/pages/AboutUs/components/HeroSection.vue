@@ -1,11 +1,12 @@
 <script setup>
 import pageData from "@/core/constants/about-us.json";
+import Parallaxy from '@lucien144/vue3-parallaxy';
 
 const heroSectionData = pageData.heroSectionContent
 </script>
 
 <template>
-  <header class="pb-16 md:pb-20 pt-[155px]">
+  <header class="pb-14 md:pb-20 pt-[155px]">
     <div class="container text-center">
       <h1
           class="text-3xl sm:text-4xl md:text-5xl lg:text-6.2xl 2xl:text-8xl font-semibold text-primary"
@@ -16,10 +17,34 @@ const heroSectionData = pageData.heroSectionContent
         {{ heroSectionData.text }}
       </p>
 
-      <section class="grid lg:grid-cols-2 gap-5 lg:gap-20 pt-20 md:pt-32 text-primary">
+      <section class="mission-statement grid lg:grid-cols-2 gap-14 sm:gap-20 pt-20 md:pt-32 text-primary">
         <div class="order-2 lg:order-1">
           <figure>
-            <img :src="heroSectionData.ourMission.image" alt="DevDock Founders" class="mx-auto">
+            <div class="images-wrapper">
+              <div class="left-image">
+                <Parallaxy :speed="90">
+                  <img
+                      :src="heroSectionData.ourMission.founderImages[0].image"
+                      :alt="heroSectionData.ourMission.founderImages[0].alt"
+                      class="mx-auto"
+                  >
+                </Parallaxy>
+              </div>
+              <img
+                  :src="heroSectionData.ourMission.founderImages[1].image"
+                  :alt="heroSectionData.ourMission.founderImages[1].alt"
+                  class="center-image mx-auto"
+              >
+              <div class="right-image">
+                <Parallaxy :speed="90">
+                  <img
+                      :src="heroSectionData.ourMission.founderImages[2].image"
+                      :alt="heroSectionData.ourMission.founderImages[2].alt"
+                      class="mx-auto"
+                  >
+                </Parallaxy>
+              </div>
+            </div>
             <figcaption>{{ heroSectionData.ourMission.caption }}</figcaption>
           </figure>
         </div>
@@ -57,3 +82,84 @@ const heroSectionData = pageData.heroSectionContent
     </div>
   </header>
 </template>
+
+<style scoped lang="scss">
+.mission-statement{
+  .images-wrapper {
+    position: relative;
+    .left-image, .right-image{
+      position: absolute;
+      z-index: 11;
+      width: 25%;
+      @media(min-width: theme('screens.xss')) {
+        width: 25%;
+      }
+      @media(min-width: theme('screens.sm')) {
+        width: 25%;
+      }
+      @media(min-width: theme('screens.lg')) {
+        width: 35%;
+      }
+      @media(min-width: theme('screens.xl')) {
+        width: 25%;
+      }
+    }
+    .left-image {
+      left: 8%;
+      bottom: 0;
+      transform: rotate(-10deg);
+      @media(min-width: theme('screens.xss')) {
+        left: 8%;
+      }
+      @media(min-width: theme('screens.sm')) {
+        left: 8%;
+      }
+      @media(min-width: theme('screens.lg')) {
+        left: -8%;
+      }
+      @media(min-width: theme('screens.xl')) {
+        left: 5%;
+      }
+    }
+
+    .center-image {
+      margin: auto;
+      z-index: 1;
+      width: 60%;
+      @media(min-width: theme('screens.xss')) {
+        width: 60%;
+      }
+      @media(min-width: theme('screens.sm')) {
+        width: 55%;
+      }
+      @media(min-width: theme('screens.lg')) {
+        width: 75%;
+      }
+      @media(min-width: theme('screens.xl')) {
+        width: 60%;
+      }
+    }
+
+    .right-image {
+      right: 8%;
+      top: 15%;
+      transform: rotate(10deg);
+      @media(min-width: theme('screens.xss')) {
+        right: 8%;
+      }
+      @media(min-width: theme('screens.sm')) {
+        right: 8%;
+      }
+      @media(min-width: theme('screens.lg')) {
+        right: -8%;
+      }
+      @media(min-width: theme('screens.xl')) {
+        right: 5%;
+      }
+    }
+  }
+  figcaption{
+    padding-top: 3rem;
+  }
+}
+</style>

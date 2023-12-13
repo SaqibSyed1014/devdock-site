@@ -63,7 +63,7 @@ const contactData = pageData
           </div>
 
           <h2 class="font-bold text-xl 2xl:text-2xl">Our Experts</h2>
-          <div class="team-members flex flex-wrap justify-around md:justify-start items-center gap-5 xss:gap-14 md:gap-10 pt-6">
+          <div class="team-members flex flex-wrap justify-around md:justify-start items-center gap-5 xss:gap-14 md:gap-10 lg:gap-8 pt-6">
             <template v-for="member in contactData.team">
               <AppAvatar
                   :user-name="member.name"

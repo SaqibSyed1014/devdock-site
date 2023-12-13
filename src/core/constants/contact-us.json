@@ -42,39 +42,39 @@
   ],
   "team": [
     {
-      "name": "Abdul Wahab",
-      "designation": "CDO",
-      "image": "/img/team/wahab.webp",
-      "bgColor": "#FFA2EA"
-    },
-    {
-      "name": "Abdul Wahab",
-      "designation": "CDO",
-      "image": "/img/team/wahab.webp",
+      "name": "Waleed",
+      "designation": "Admin",
+      "image": "/img/team/admin-waleed.webp",
       "bgColor": "#D1F2FD"
     },
     {
-      "name": "Abdul Wahab",
+      "name": "F.Ibrahim",
       "designation": "CDO",
-      "image": "/img/team/wahab.webp",
+      "image": "/img/team/cdo-ibrahim.webp",
       "bgColor": "#FF9256"
     },
     {
-      "name": "Abdul Wahab",
-      "designation": "CDO",
-      "image": "/img/team/wahab.webp",
+      "name": "H.Fatima",
+      "designation": "Human Resource",
+      "image": "/img/team/hr-fatima.webp",
       "bgColor": "#FDFFAD"
     },
     {
-      "name": "Abdul Wahab",
-      "designation": "CDO",
-      "image": "/img/team/wahab.webp",
+      "name": "Saqib",
+      "designation": "Developer",
+      "image": "/img/team/developer-saqib.webp",
       "bgColor": "#FFDEF7"
     },
     {
-      "name": "Abdul Wahab",
-      "designation": "CDO",
-      "image": "/img/team/wahab.webp",
+      "name": "Abuzar",
+      "designation": "Designer",
+      "image": "/img/team/designer-abuzar.webp",
+      "bgColor": "orange"
+    },
+    {
+      "name": "Ahmed",
+      "designation": "Developer",
+      "image": "/img/team/developer-ahmed.webp",
       "bgColor": "orange"
     }
   ]

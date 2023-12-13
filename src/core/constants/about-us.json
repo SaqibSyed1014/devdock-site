@@ -16,9 +16,21 @@
         "icon": "/svg/round_curve.svg",
         "label": "Team members working together"
       },
-      "image": "/img/team/founders.webp",
-      "alt": "DevDock's Founders",
-      "caption": "Abdul Wahab, Fahad Ibrahim, & Waleed Butt, Founders of DevDock"
+      "founderImages": [
+        {
+          "image": "/img/team/founder-styled-img-left.webp",
+          "alt": "DevDock's Founders"
+        },
+        {
+          "image": "/img/team/founder-styled-img-center.webp",
+          "alt": "DevDock's Founders"
+        },
+        {
+          "image": "/img/team/founder-styled-img-right.webp",
+          "alt": "DevDock's Founders"
+        }
+      ],
+      "caption": "Abdul Wahab, Founder"
     }
   },
   "originStoryContent": {
