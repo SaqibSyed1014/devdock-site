@@ -68,7 +68,7 @@ const filterContent = (item, index) => {
       {{ headerData.endText }}
     </h2>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-x-5 gap-y-14 pt-20">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-x-5 gap-y-14 pt-14 md:pt-20">
       <template
           v-for="(content, i) in filteredContent"
           :key="i">
@@ -90,9 +90,7 @@ const filterContent = (item, index) => {
 }
 .underlined-word{
   &::after{
-    left: 0;
     bottom: -3px;
-    width: 100%;
   }
 }
 

@@ -8,7 +8,7 @@ defineProps({
 </script>
 
 <template>
-  <section class="container py-10 md:py-20">
+  <section class="container py-14 md:py-20">
     <div class="grid lg:grid-cols-3 gap-10 md:gap-5 text-primary">
       <div class="lg:col-span-1">
         <h2 class="text-3xl sm:text-4xl md:text-5xl 2xl:text-6.2xl font-semibold !leading-tight">

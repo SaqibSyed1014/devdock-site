@@ -6,12 +6,12 @@
       <div class="container">
         <div class="flex items-center justify-between">
             <router-link
-                class="mr-4 xss:mr-0 my-1 md:mb-0 md:mt-0"
+                class="mr-4 xss:mr-7 xl:mr-14 my-1 md:mb-0 md:mt-0"
                 :to="{ name: 'DevDockHome' }">
               <img :src="logoUrl" alt="DevDock">
             </router-link>
 
-          <div class="hidden lg:flex items-center flex-grow basis-[100%] md:basis-auto md:mt-0 mt-2 ml-7 xl:ml-14">
+          <div class="hidden lg:flex items-center flex-grow basis-[100%] md:basis-auto md:mt-0 mt-2 ">
             <ul
                 class="list-style-none mr-auto flex flex-col items-center pl-0 mt-1 md:flex-row gap-3 xl:gap-5 text-base 2xl:text-lg font-medium"
             >

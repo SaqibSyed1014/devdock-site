@@ -35,18 +35,18 @@ defineProps({
           <b class="text-2xl">
             Technology Stack
           </b>
-          <div class="flex items-center flex-wrap gap-5 py-5">
+          <div class="flex items-start flex-wrap gap-5 py-5">
             <div
                 v-for="(stack, index) in proposedSolution.techStack"
                 :key="index"
-                class="text-center"
+                class="text-center w-14"
             >
-              <div class="w-14 h-14 bg-sky grid place-items-center p-2">
+              <div class="w-14 h-14 bg-sky grid place-items-center p-2 mb-2.5">
                 <img :src="stack.path" :alt="stack.alt">
               </div>
-              <label class="text-xs">
+              <div class="text-xs !leading-normal">
                 {{ stack.label }}
-              </label>
+              </div>
             </div>
           </div>
         </div>

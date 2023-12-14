@@ -10,15 +10,15 @@ const contactData = pageData
 </script>
 
 <template>
-  <section class="container text-primary pb-16 md:pb-20 pt-40">
+  <section class="container text-primary pb-16 md:pb-20 pt-40 2xl:pt-44">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
       <div class="contact-details">
-        <h1 class="section-heading hidden md:flex header-heading">
+        <h1 class="section-heading hidden md:flex header-heading !text-left">
           <span>
             <img
                 :src="contactData.headingImages[0].src"
                 :alt="contactData.headingImages[0].alt"
-                class="w-24"
+                class="w-24 2xl:w-28"
             >
             {{ contactData.heading[0] }}
           </span>
@@ -27,12 +27,12 @@ const contactData = pageData
             <img
                 :src="contactData.headingImages[1].src"
                 :alt="contactData.headingImages[1].alt"
-                class="w-24 rounded-[100px]"
+                class="w-24 2xl:w-32 rounded-[100px]"
             >
             <img
                 :src="contactData.headingImages[2].src"
                 :alt="contactData.headingImages[2].alt"
-                class="w-24 rounded-[100px] ml-4"
+                class="w-24 2xl:w-32 rounded-[100px] ml-4"
             >
           </span>
         </h1>

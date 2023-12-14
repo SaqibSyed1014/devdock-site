@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?a4jrz');
-  src:  url('fonts/icomoon.eot?a4jrz#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?a4jrz') format('truetype'),
-    url('fonts/icomoon.woff?a4jrz') format('woff'),
-    url('fonts/icomoon.svg?a4jrz#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?2q5n38');
+  src:  url('fonts/icomoon.eot?2q5n38#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?2q5n38') format('truetype'),
+    url('fonts/icomoon.woff?2q5n38') format('woff'),
+    url('fonts/icomoon.svg?2q5n38#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,48 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-logo-designing:before {
+  content: "\e98c";
+}
+.icon-user-comment:before {
+  content: "\e97f";
+}
+.icon-hybrid-app:before {
+  content: "\e980";
+}
+.icon-android-app-dev:before {
+  content: "\e981";
+}
+.icon-cloudy:before {
+  content: "\e982";
+}
+.icon-mobile-phone:before {
+  content: "\e983";
+}
+.icon-fullstack-dev:before {
+  content: "\e984";
+}
+.icon-trophy:before {
+  content: "\e985";
+}
+.icon-web-dev-2:before {
+  content: "\e987";
+}
+.icon-option-grid:before {
+  content: "\e988";
+}
+.icon-send-fast:before {
+  content: "\e986";
+}
+.icon-dart-board:before {
+  content: "\e98a";
+}
+.icon-symbols-overlap:before {
+  content: "\e989";
+}
+.icon-exclamation-mark:before {
+  content: "\e98b";
+}
 .icon-cannabis-bag:before {
   content: "\e96e";
 }

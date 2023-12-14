@@ -6,7 +6,7 @@ const heroSectionData = pageData.heroSectionContent
 </script>
 
 <template>
-  <header class="pb-14 md:pb-20 pt-[155px]">
+  <header class="pb-14 md:pb-20 pt-[155px] 2xl:pt-44">
     <div class="container text-center">
       <h1 class="header-heading">
         {{ heroSectionData.heading }}

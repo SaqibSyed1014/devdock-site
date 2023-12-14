@@ -86,22 +86,22 @@
       "techStack": [
           {
             "label": "Figma",
-            "path": "/img/stack/theme/vuejs.png",
+            "path": "/img/stack/theme/figma.png",
             "alt": "Figma"
           },
           {
             "label": "Illustrator",
-            "path": "/img/stack/theme/vueX.png",
+            "path": "/img/stack/theme/illustrator.png",
             "alt": "Illustrator"
           },
           {
             "label": "Vue Js",
-            "path": "/img/stack/theme/typescript.png",
+            "path": "/img/stack/theme/vuejs.png",
             "alt": "Vue JS"
           },
           {
             "label": "VueX",
-            "path": "/img/stack/theme/animateCss.png",
+            "path": "/img/stack/theme/vueX.png",
             "alt": "VueX"
           }
         ],
@@ -261,12 +261,12 @@
         },
         {
           "label": "Illustrator",
-          "path": "/img/stack/theme/vuejs.png",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Illustrator"
         },
         {
           "label": "Vue Js",
-          "path": "/img/stack/theme/typescript.png",
+          "path": "/img/stack/theme/vuejs.png",
           "alt": "Vue JS"
         },
         {
@@ -601,17 +601,17 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/theme/vuejs.png",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
           "label": "Illustrator",
-          "path": "/img/stack/theme/animateCss.png",
+          "path": "/img/stack/theme/illustrator.png",
           "alt": "Illustrator"
         },
         {
           "label": "Vue Js",
-          "path": "/img/stack/theme/figma.svg",
+          "path": "/img/stack/theme/vuejs.svg",
           "alt": "Vue JS"
         }
       ],
@@ -935,19 +935,19 @@
       ],
       "techStack": [
         {
-          "label": "Vuejs",
-          "path": "/img/stack/theme/Vuejs.png",
-          "alt": "Figma"
+          "label": "Vue JS",
+          "path": "/img/stack/theme/vuejs.png",
+          "alt": "Vue JS"
         },
         {
           "label": "VueX",
           "path": "/img/stack/theme/vueX.png",
-          "alt": "Illustrator"
+          "alt": "VueX"
         },
         {
           "label": "Figma",
           "path": "/img/stack/theme/figma.png",
-          "alt": "Vue JS"
+          "alt": "Figma"
         }
       ],
       "url": ""
@@ -1105,19 +1105,19 @@
           "alt": "Figma"
         },
         {
-          "label": "Vuejs",
+          "label": "Vue JS",
           "path": "/img/stack/theme/vuejs.png",
-          "alt": "Illustrator"
+          "alt": "Vue JS"
         },
         {
           "label": "VueX",
           "path": "/img/stack/theme/vueX.png",
-          "alt": "Vue JS"
+          "alt": "VueX"
         },
         {
           "label": "Animate CSS",
           "path": "/img/stack/theme/animateCss.png",
-          "alt": "VueX"
+          "alt": "Animate CSS"
         },
         {
           "label": "Typescript",
@@ -1280,14 +1280,14 @@
           "alt": "Figma"
         },
         {
-          "label": "Vuejs",
+          "label": "Vue JS",
           "path": "/img/stack/theme/vuejs.png",
-          "alt": "Illustrator"
+          "alt": "Vue JS"
         },
         {
           "label": "Animate CSS",
           "path": "/img/stack/theme/animateCss.png",
-          "alt": "Vue JS"
+          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -1440,19 +1440,19 @@
       ],
       "techStack": [
         {
-          "label": "Vuejs",
+          "label": "Vue JS",
           "path": "/img/stack/theme/vuejs.png",
-          "alt": "Figma"
+          "alt": "Vue JS"
         },
         {
           "label": "Vuex",
           "path": "/img/stack/theme/vueX.png",
-          "alt": "Illustrator"
+          "alt": "VueX"
         },
         {
           "label": "Animate CSS",
           "path": "/img/stack/theme/animateCss.png",
-          "alt": "Vue JS"
+          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -1962,12 +1962,12 @@
         {
           "label": "Vue JS",
           "path": "/img/stack/theme/vuejs.png",
-          "alt": "Illustrator"
+          "alt": "Vue JS"
         },
         {
           "label": "Typescript",
           "path": "/img/stack/theme/typescript.png",
-          "alt": "Vue JS"
+          "alt": "Typescript"
         }
       ],
       "url": ""
@@ -2125,19 +2125,19 @@
           "alt": "Figma"
         },
         {
-          "label": "vuejs",
+          "label": "Vue JS",
           "path": "/img/stack/theme/vuejs.png",
-          "alt": "Illustrator"
+          "alt": "Vue JS"
         },
         {
           "label": "VueX",
           "path": "/img/stack/theme/vueX.png",
-          "alt": "Vue JS"
+          "alt": "VueX"
         },
         {
           "label": "Animate CSS",
           "path": "/img/stack/theme/animateCss.png",
-          "alt": "VueX"
+          "alt": "Animate CSS"
         },
         {
           "label": "Typescript",
@@ -2312,7 +2312,7 @@
         {
           "label": "Animate CSS",
           "path": "/img/stack/theme/animateCss.png",
-          "alt": "VueX"
+          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -2466,18 +2466,18 @@
       "techStack": [
         {
           "label": "Figma",
-          "path": "/img/stack/theme/illustrator.png",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
           "label": "Vue JS",
           "path": "/img/stack/theme/vuejs.png",
-          "alt": "Illustrator"
+          "alt": "Vue JS"
         },
         {
           "label": "Typescript",
           "path": "/img/stack/theme/typescript.png",
-          "alt": "Vue JS"
+          "alt": "Typescript"
         },
         {
           "label": "VueX",
@@ -2812,17 +2812,17 @@
         {
           "label": "Vue JS",
           "path": "/img/stack/theme/vuejs.png",
-          "alt": "Illustrator"
+          "alt": "Vue JS"
         },
         {
           "label": "VueX",
           "path": "/img/stack/theme/vueX.png",
-          "alt": "Vue JS"
+          "alt": "VueX"
         },
         {
           "label": "Typescript",
           "path": "/img/stack/theme/typescript.png",
-          "alt": "VueX"
+          "alt": "Typescript"
         }
       ],
       "url": ""
@@ -2977,22 +2977,22 @@
         {
           "label": "Illustrator",
           "path": "/img/stack/theme/illustrator.png",
-          "alt": "Figma"
+          "alt": "Illustrator"
         },
         {
           "label": "Vue JS",
           "path": "/img/stack/theme/vuejs.png",
-          "alt": "Illustrator"
+          "alt": "Vue JS"
         },
         {
           "label": "Figma",
           "path": "/img/stack/theme/figma.png",
-          "alt": "Vue JS"
+          "alt": "Figma"
         },
         {
           "label": "Animate CSS",
           "path": "/img/stack/theme/animateCss.png",
-          "alt": "VueX"
+          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -3322,17 +3322,17 @@
         {
           "label": "Vue JS",
           "path": "/img/stack/theme/vuejs.png",
-          "alt": "Figma"
+          "alt": "Vue JS"
         },
         {
           "label": "VueX",
           "path": "/img/stack/theme/vueX.png",
-          "alt": "Illustrator"
+          "alt": "VueX"
         },
         {
           "label": "Illustrator",
           "path": "/img/stack/theme/illustrator.png",
-          "alt": "Vue JS"
+          "alt": "Illustrator"
         }
       ],
       "url": ""
@@ -3492,17 +3492,17 @@
         {
           "label": "Vue JS",
           "path": "/img/stack/theme/vuejs.png",
-          "alt": "Illustrator"
+          "alt": "Vue JS"
         },
         {
           "label": "VueX",
           "path": "/img/stack/theme/vueX.png",
-          "alt": "Vue JS"
+          "alt": "VueX"
         },
         {
           "label": "Typescript",
           "path": "/img/stack/theme/typescript.png",
-          "alt": "VueX"
+          "alt": "Typescript"
         }
       ],
       "url": ""
@@ -3657,17 +3657,17 @@
         {
           "label": "Vue JS",
           "path": "/img/stack/theme/vuejs.png",
-          "alt": "Figma"
+          "alt": "Vue JS"
         },
         {
           "label": "Animate CSS",
           "path": "/img/stack/theme/animateCss.png",
-          "alt": "Illustrator"
+          "alt": "Animate CSS"
         },
         {
           "label": "Figma",
           "path": "/img/stack/theme/figma.png",
-          "alt": "Vue JS"
+          "alt": "Figma"
         },
         {
           "label": "Typescript",
@@ -3997,17 +3997,17 @@
         {
           "label": "Vue JS",
           "path": "/img/stack/theme/vuejs.png",
-          "alt": "Figma"
+          "alt": "Vue JS"
         },
         {
           "label": "Figma",
           "path": "/img/stack/theme/figma.png",
-          "alt": "Illustrator"
+          "alt": "Figma"
         },
         {
           "label": "VueX",
           "path": "/img/stack/theme/vueX.png",
-          "alt": "Vue JS"
+          "alt": "VueX"
         }
       ],
       "url": ""
@@ -4160,24 +4160,24 @@
       ],
       "techStack": [
         {
-          "label": "Vue JS",
-          "path": "/img/stack/theme/vuejs.png",
+          "label": "Figma",
+          "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         },
         {
           "label": "Typescript",
           "path": "/img/stack/theme/typescript.png",
-          "alt": "Illustrator"
+          "alt": "Typescript"
         },
         {
           "label": "Illustrator",
           "path": "/img/stack/theme/illustrator.png",
-          "alt": "Vue JS"
+          "alt": "Illustrator"
         },
         {
           "label": "Animate CSS",
           "path": "/img/stack/theme/AnimateCss.png",
-          "alt": "VueX"
+          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -4497,17 +4497,17 @@
         {
           "label": "Vue JS",
           "path": "/img/stack/theme/vuejs.png",
-          "alt": "Figma"
+          "alt": "Vue JS"
         },
         {
           "label": "Figma",
           "path": "/img/stack/theme/figma.png",
-          "alt": "Illustrator"
+          "alt": "Figma"
         },
         {
           "label": "Illustrator",
           "path": "/img/stack/theme/illustrator.png",
-          "alt": "Vue JS"
+          "alt": "Illustrator"
         }
       ],
       "url": ""
@@ -4677,12 +4677,12 @@
         {
           "label": "Typescript",
           "path": "/img/stack/theme/typescript.png",
-          "alt": "VueX"
+          "alt": "Typescript"
         },
         {
-          "label": "Vue X",
+          "label": "VueX",
           "path": "/img/stack/theme/vueX.png",
-          "alt": "Typescript"
+          "alt": "VueX"
         }
       ],
       "url": ""
@@ -5022,11 +5022,11 @@
         {
           "label": "Typescript",
           "path": "/img/stack/theme/typescript.png",
-          "alt": "VueX"
+          "alt": "Typescript"
         },
         {
           "label": "Animate CSS",
-          "path": "/img/stack/theme/AnimateCss.png",
+          "path": "/img/stack/theme/animateCss.png",
           "alt": "Animate CSS"
         }
       ],
@@ -5365,14 +5365,14 @@
           "alt": "Vue JS"
         },
         {
-          "label": "VueX",
+          "label": "Typescript",
           "path": "/img/stack/theme/typescript.png",
-          "alt": "VueX"
+          "alt": "Typescript"
         },
         {
-          "label": "Typescript",
+          "label": "VueX",
           "path": "/img/stack/theme/vueX.png",
-          "alt": "Typescript"
+          "alt": "VueX"
         },
         {
           "label": "Animate CSS",
@@ -5535,19 +5535,19 @@
           "alt": "Figma"
         },
         {
-          "label": "Illustrator",
+          "label": "Vue JS",
           "path": "/img/stack/theme/vuejs.png",
-          "alt": "Illustrator"
-        },
-        {
-          "label": "Vue Js",
-          "path": "/img/stack/theme/vueX.png",
           "alt": "Vue JS"
         },
         {
           "label": "VueX",
-          "path": "/img/stack/theme/animateCss.png",
+          "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
+        },
+        {
+          "label": "Animate CSS",
+          "path": "/img/stack/theme/animateCss.png",
+          "alt": "Animate CSS"
         }
       ],
       "url": ""
@@ -5705,9 +5705,9 @@
           "alt": "Figma"
         },
         {
-          "label": "Vuejs",
-          "path": "/img/stack/theme/vue.png",
-          "alt": "Vuejs"
+          "label": "Vue JS",
+          "path": "/img/stack/theme/vuejs.png",
+          "alt": "Vue JS"
         },
         {
           "label": "VueX",
@@ -5870,24 +5870,24 @@
       ],
       "techStack": [
         {
-          "label": "Vuejs",
+          "label": "Vue JS",
           "path": "/img/stack/theme/vuejs.png",
-          "alt": "Figma"
+          "alt": "Vue JS"
         },
         {
           "label": "VueX",
           "path": "/img/stack/theme/vueX.png",
-          "alt": "Illustrator"
+          "alt": "VueX"
         },
         {
           "label": "Figma",
           "path": "/img/stack/theme/figma.png",
-          "alt": "Vue JS"
+          "alt": "Figma"
         },
         {
           "label": "Illustrator",
           "path": "/img/stack/theme/illustrator.png",
-          "alt": "VueX"
+          "alt": "Illustrator"
         }
       ],
       "url": ""

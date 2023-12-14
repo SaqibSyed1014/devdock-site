@@ -11,43 +11,42 @@ defineProps({
 </script>
 
 <template>
-  <header class="bg-sky pb-16 md:pb-20 pt-[155px]">
+  <header class="bg-sky pb-16 md:pb-20 pt-[155px] 2xl:pt-44 overflow-x-hidden">
     <div class="intro-content container text-primary text-center">
       <h1
-          class="hero-message hidden lg:flex text-7xl xl:text-8xl !leading-[105px] 2xl:px-40"
+          class="hero-message w-full flex text-4xl xss:text-[32px] sm:text-5xl lg:text-6xl xl:text-8xl !leading-tight xl:!leading-[105px]"
       >
-        <span class="flex items-center slide-in-text" :style="{ '--delay': 1.5 }">
+        <span class="flex justify-center items-center slide-in-text gap-2 lg:gap-4" :style="{ '--delay': 1.5 }">
           <span>{{ heroData.splitHeadline[0] }}</span>
-          <img
+          <div class="hidden xss:block rounded-curved overflow-hidden shrink-0 w-[15%] xl:w-[13%]">
+            <img
               :src="heroData.headlineImages[0].path"
               :alt="heroData.headlineImages[0].alt"
-              width="165"
-              height="190"
-              class="rounded-curved ml-4"
-          >
+            >
+          </div>
         </span>
-        <span class="flex items-center slide-in-text" :style="{ '--delay': 2 }">
-          <img
-              :src="heroData.headlineImages[1].path"
-              :alt="heroData.headlineImages[1].alt"
-              width="165"
-              height="90"
-              class="rounded-curved mr-4"
-          >
+        <span class="flex justify-center items-center slide-in-text gap-2 lg:gap-4" :style="{ '--delay': 2 }">
+          <div class="hidden xss:block rounded-curved overflow-hidden shrink-0 w-[15%] xl:w-[13%]">
+            <img
+                :src="heroData.headlineImages[1].path"
+                :alt="heroData.headlineImages[1].alt"
+                class="w-full h-full object-cover"
+            >
+          </div>
           {{ heroData.splitHeadline[1] }}
         </span>
-        <span class="flex items-center slide-in-text" :style="{ '--delay': 2.3 }">
+        <span class="flex justify-center items-center slide-in-text gap-2 lg:gap-3" :style="{ '--delay': 2.3 }">
           {{ heroData.splitHeadline[2] }}
-          <img
-              :src="heroData.headlineImages[2].path"
-              :alt="heroData.headlineImages[2].alt"
-              width="165"
-              height="190"
-              class="ml-3"
-          >
+          <div class="overflow-hidden shrink-0 w-1/4 xss:w-[18%]">
+            <img
+                :src="heroData.headlineImages[2].path"
+                :alt="heroData.headlineImages[2].alt"
+                class="w-full h-full object-cover"
+            >
+          </div>
         </span>
       </h1>
-      <h1 class="block lg:hidden text-3xl xss:text-4xl md:text-6xl">
+      <h1 class="hidden text-3xl xss:text-4xl md:text-6xl">
         {{ heroData.fullHeadline }}
         <img
             :src="heroData.headlineImages[2].path"
@@ -93,10 +92,6 @@ defineProps({
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  img{
-    display: inline-block;
-    flex-shrink: 0;
-  }
 }
 .fancy-btn{
   position: relative;

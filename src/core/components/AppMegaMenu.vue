@@ -74,7 +74,7 @@ const handleToggle = () => props.toggleMenu()
           View All
         </router-link>
       </div>
-      <div class="grid grid-cols-2 gap-12">
+      <div class="grid grid-cols-2 gap-8">
         <div class="flex flex-col gap-4">
           <template v-for="option in firstMenuList">
             <router-link
@@ -83,7 +83,9 @@ const handleToggle = () => props.toggleMenu()
                 @click="toggleMenu"
             >
               <div class="flex gap-4 cursor-pointer group hover:bg-pink hover:rounded px-3 py-2 transition">
-                <div class="menu-icon w-6 h-6 bg-[#BFECFD] mt-1.5"></div>
+                <div class="menu-icon text-base mt-1.5">
+                  <span :class="[option.icon]"></span>
+                </div>
                 <div class="menu-labels">
                   <div class="sub-menu-link text-primary text-base font-bold truncate">
                     {{ option.label }}
@@ -104,9 +106,11 @@ const handleToggle = () => props.toggleMenu()
                 @click="toggleMenu"
             >
               <div class="flex gap-4 cursor-pointer group hover:bg-pink hover:rounded px-3 py-2 transition">
-                <div class="menu-icon w-6 h-6 bg-[#BFECFD] mt-1.5"></div>
+                <div class="menu-icon text-base mt-1.5">
+                  <span :class="[option.icon]"></span>
+                </div>
                 <div class="menu-labels">
-                  <div class="sub-menu-link text-primary text-base font-bold truncate">
+                  <div class="sub-menu-link text-primary text-base 2xl:text-lg font-bold truncate">
                     {{ option.label }}
                   </div>
                   <div class="sub-menu-subtitle text-base-gray text-sm group-hover:text-white transition">
@@ -158,5 +162,23 @@ const handleToggle = () => props.toggleMenu()
 .mega-menu-wrapper{
   width: 650px;
   box-shadow: 0 24px 56px 0 rgba(167, 174, 186, 0.16);
+  @media (min-width: theme('screens.2xl')) {
+    width: 700px;
+  }
+  .menu-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    text-align: center;
+    background: #BFECFD;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    @media (min-width: theme('screens.2xl')) {
+      width: 28px;
+      height: 28px;
+    }
+  }
 }
 </style>

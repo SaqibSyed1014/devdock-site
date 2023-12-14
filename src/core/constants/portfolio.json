@@ -421,11 +421,6 @@
       "label": "Social Media",
       "svg": "stats_up.svg",
       "content": []
-    },
-    {
-      "label": "Packaging",
-      "svg": "infinity.svg",
-      "content": []
     }
   ]
 }

@@ -22,7 +22,7 @@ defineProps<{
           :alt="userName"
       >
       <figcaption
-          class="user-avatar-details text-white mx-auto transition-all duration-500"
+          class="user-avatar-details text-white 2xl:text-base mx-auto transition-all duration-500"
           :class="[
               { 'w-full text-xs': size === 'md' },
               { 'w-3/4 text-sm': size === 'lg' },

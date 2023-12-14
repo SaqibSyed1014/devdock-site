@@ -8,7 +8,7 @@ const servicesList =
         label: service.title,
         pathName: 'DevDockServiceDetails',
         subTitle: service?.megaMenuData.subTitle,
-        icon: service?.megaMenuData.icon,
+        icon: service.icon,
         param: { title: service.id }
     }))
 
@@ -36,12 +36,14 @@ export const menuLinks = [
             {
                 label: 'About Us',
                 pathName: 'DevDockAboutUs',
-                subTitle: 'Did you know we all are a family'
+                subTitle: 'Did you know we all are a family',
+                icon: 'icon-user-comment'
             },
             {
                 label: 'Contact Us',
                 pathName: 'DevDockContactUs',
-                subTitle: 'Let’s have a cup of coffee'
+                subTitle: 'Let’s have a cup of coffee',
+                icon: 'icon-send-fast'
             }
         ]
     }

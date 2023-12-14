@@ -13,8 +13,8 @@ defineProps({
 
 <template>
   <div class="container">
-    <div class="py-10 md:py-28">
-      <h3 class="text-primary text-4xl md:text-6xl font-semibold text-center">
+    <div class="py-10 md:pb-28 md:pt-20 2xl:pt-20">
+      <h3 class="text-primary text-4xl md:text-6xl !leading-tight font-semibold text-center">
         Explore Similar Endeavors
       </h3>
 
