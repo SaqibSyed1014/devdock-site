@@ -19,7 +19,7 @@ const homeData = pageData
   />
   <OurClients />
   <HeroBanner
-    :show-banner-button="true"
+    :show-banner-button="false"
     :show-banner-heading="true"
   />
   <ServiceVertices />

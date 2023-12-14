@@ -33,5 +33,7 @@ const selectedCaseStudy = pageData[route.params.title]
     :product-images="selectedCaseStudy.comparison"
   />
   <CTA />
-  <SimilarCaseStudies />
+  <SimilarCaseStudies
+    :recommendations="selectedCaseStudy.recommendations"
+  />
 </template>

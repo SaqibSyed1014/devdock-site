@@ -1,12 +1,16 @@
 import servicesData from "@/core/constants/services.json";
 
-const servicesList = servicesData.vertices.services.map((service) => ({
-    label: service.title,
-    pathName: 'DevDockServiceDetails',
-    subTitle: service?.megaMenuData.subTitle,
-    icon: service?.megaMenuData.icon,
-    param: { title: service.id }
-}))
+const excludedServices = ['search-engine-optimization', 'custom-widget-design', 'logo-&-branding']
+const servicesList =
+    servicesData.vertices.services
+    .filter(service => !excludedServices.includes(service.id))
+    .map((service) => ({
+        label: service.title,
+        pathName: 'DevDockServiceDetails',
+        subTitle: service?.megaMenuData.subTitle,
+        icon: service?.megaMenuData.icon,
+        param: { title: service.id }
+    }))
 
 export const menuLinks = [
     {

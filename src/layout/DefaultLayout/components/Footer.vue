@@ -10,9 +10,9 @@
               alt="Arrow"
               loading="lazy"
           >
-          <p class="text-center md:text-left text-primary font-medium text-xl sm:text-2xl md:text-[32px] md:pl-[15px]">
+          <h2 class="text-center md:text-left text-primary font-medium text-xl sm:text-2xl md:text-[32px] md:pl-[15px]">
             {{ footerContent.bannerHeading }}
-          </p>
+          </h2>
         </div>
         <div class="flex mx-auto lg:mr-0 gap-4 text-primary">
           <div class="flex justify-center items-center rounded bg-white cursor-pointer w-10 h-10">

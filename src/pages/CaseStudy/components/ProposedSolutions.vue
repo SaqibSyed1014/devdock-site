@@ -55,7 +55,7 @@ defineProps({
         <a :href="proposedSolution.url">
           <AppButton class="my-5">
             <span class="i-mdi-web w-5 h-5 mr-2"/>
-            Web URL
+            Visit Website
           </AppButton>
         </a>
       </div>

@@ -8,9 +8,7 @@ const heroSectionData = pageData.heroSectionContent
 <template>
   <header class="pb-14 md:pb-20 pt-[155px]">
     <div class="container text-center">
-      <h1
-          class="text-3xl sm:text-4xl md:text-5xl lg:text-6.2xl 2xl:text-8xl font-semibold text-primary"
-      >
+      <h1 class="header-heading">
         {{ heroSectionData.heading }}
       </h1>
       <p class="text-base text-base-gray pt-7">
@@ -49,7 +47,7 @@ const heroSectionData = pageData.heroSectionContent
           </figure>
         </div>
         <div class="order-1 lg:order-2 text-start">
-          <h6 class="text-lg">{{ heroSectionData.ourMission.label }}</h6>
+          <p class="text-lg">{{ heroSectionData.ourMission.label }}</p>
           <h3 class="text-2xl lg:text-3xl 2xl:text-5xl font-medium pt-3 md:pt-6 2xl:pt-10 pb-2 md:pb-4 2xl:pb-7">
             {{ heroSectionData.ourMission.heading }}
           </h3>

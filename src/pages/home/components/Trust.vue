@@ -10,7 +10,7 @@ const builtTrustSection = sectionData.trustSection
       <div class="flex flex-col justify-center">
         <h2 class="text-3xl sm:text-5xl text-center lg:text-left font-medium text-primary !leading-normal">
           {{ builtTrustSection.heading }}
-          <span class="rounded-[100px] bg-primary px-5 text-white">
+          <span class="rounded-[100px] pt-1 bg-primary px-5 text-white">
             {{ builtTrustSection.badgeText }}
           </span>
         </h2>

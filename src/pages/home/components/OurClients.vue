@@ -7,7 +7,7 @@ const clientsData = componentData.ourClients
 <template>
   <section class="bg-sky pb-10 lg:py-16">
     <div class="container">
-      <div class="grid grid-rows-2 grid-cols-1 lg:grid-rows-1 lg:grid-cols-2 gap-2 lg:gap-5 text-primary">
+      <div class="grid grid-rows-2 grid-cols-1 lg:grid-rows-1 lg:grid-cols-2 gap-2 lg:gap-14 xl:gap-20 text-primary">
         <p class="text-center lg:text-left sm:text-lg 2xl:text-xl">
           {{ clientsData.text }}
         </p>

@@ -1,5 +1,5 @@
 <script setup>
-import HeroSection from "@/pages/AboutUs/components/HeroSection.vue";
+import Header from "@/pages/AboutUs/components/Header.vue";
 import OriginStory from "@/pages/AboutUs/components/OriginStory.vue";
 import CoreValues from "@/pages/AboutUs/components/CoreValues.vue";
 import OurTeam from "@/pages/AboutUs/components/OurTeam.vue";
@@ -9,7 +9,7 @@ import Features from "@/pages/home/components/Features.vue";
 </script>
 
 <template>
-  <HeroSection />
+  <Header />
   <OriginStory />
   <CoreValues />
   <OurTeam />

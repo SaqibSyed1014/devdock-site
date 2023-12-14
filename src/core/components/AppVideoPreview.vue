@@ -1,6 +1,6 @@
 <template>
   <div class="video-banner px-3 md:px-5">
-    <div class="video-container relative cursor-pointer rounded-lg lg:rounded-[40px] overflow-hidden">
+    <div class="video-container relative rounded-lg lg:rounded-[40px] overflow-hidden">
       <div class="flex flex-col justify-center">
         <img
             class="block lg:hidden"
@@ -33,7 +33,7 @@
             class="text-white text-xl sm:text-2xl md:text-4xl lg:text-5xl lg:text-[80px] lg:leading-[80px] cursor-pointer"
             :class="[playVideo? 'fade-out' : 'fade-in']"
           >
-            Feel the <br>BuzzZZz.
+            Feel the <br>buzzZZz.
           </h3>
         </div>
         <button

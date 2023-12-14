@@ -14,7 +14,7 @@ defineProps({
   <header class="bg-sky pb-16 md:pb-20 pt-[155px]">
     <div class="intro-content container text-primary text-center">
       <h1
-          class="hero-message hidden lg:flex text-7xl 2xl:text-8xl gap-3 font-semibold 2xl:px-40"
+          class="hero-message hidden lg:flex text-7xl xl:text-8xl !leading-[105px] 2xl:px-40"
       >
         <span class="flex items-center slide-in-text" :style="{ '--delay': 1.5 }">
           <span>{{ heroData.splitHeadline[0] }}</span>
@@ -47,16 +47,16 @@ defineProps({
           >
         </span>
       </h1>
-      <h1 class="block lg:hidden text-4xl md:text-6xl font-semibold">
+      <h1 class="block lg:hidden text-3xl xss:text-4xl md:text-6xl">
         {{ heroData.fullHeadline }}
         <img
             :src="heroData.headlineImages[2].path"
             :alt="heroData.headlineImages[2].alt"
-            class="inline-block align-bottom w-1/4 xss:w-2/12"
+            class="inline-block align-bottom w-1/4 xss:w-2/12 sm:w-[12%]"
         >
       </h1>
       <div class="pt-10">
-        <p class="text-lg lg:text-2xl">
+        <p class="text-base lg:text-2xl font-bold italic">
           {{ heroData.subText[0] }}
           <span class="underlined-word">
             {{ heroData.subText[1] }}

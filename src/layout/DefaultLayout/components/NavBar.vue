@@ -11,7 +11,7 @@
               <img :src="logoUrl" alt="DevDock">
             </router-link>
 
-          <div class="hidden lg:flex items-center flex-grow basis-[100%] md:basis-auto md:mt-0 mt-2 ml-5 xl:ml-10">
+          <div class="hidden lg:flex items-center flex-grow basis-[100%] md:basis-auto md:mt-0 mt-2 ml-7 xl:ml-14">
             <ul
                 class="list-style-none mr-auto flex flex-col items-center pl-0 mt-1 md:flex-row gap-3 xl:gap-5 text-base 2xl:text-lg font-medium"
             >
@@ -19,20 +19,25 @@
                 <AppMegaMenu
                     v-if="link.hasSubLinks"
                     :menu-label="link.megaMenuLabel"
+                    :route-to="link?.pathName"
                     :options="link.subLinks"
                     :isOpen="openMenuIndex === index"
                     :toggleMenu="() => toggleMenu(index)"
                 >
                   <template #menu-label>
                     <template v-if="link?.pathName">
-                      <router-link :to="{ name: link.pathName }">{{ link.label }}</router-link>
+                      <router-link
+                          :to="{ name: link.pathName, force: true }"
+                      >
+                        {{ link.label }}
+                      </router-link>
                     </template>
                     <template v-else>
                       {{ link.label }}
                     </template>
                   </template>
                   <template #menu-footer>
-                    <div class="footer-banner relative rounded-[10px] overflow-hidden py-5 px-4 md:px-7 mt-3">
+                    <div class="footer-banner relative rounded-[10px] overflow-hidden py-5 px-4 md:px-7 mt-3 mx-3">
                       <div class="banner-bg" />
                       <div class="flex justify-center items-center lg:mr-0 gap-4 text-primary relative z-11">
                         <div class="flex justify-center items-center rounded bg-white cursor-pointer w-10 h-10">
@@ -58,7 +63,7 @@
                     v-else
                     active-class="text-pink"
                     class="px-3"
-                    :to="{ name: link.pathName }"
+                    :to="{ name: link.pathName, force: true }"
                 >
                   {{ link.label }}
                 </router-link>
@@ -127,7 +132,7 @@
                   >
                     <div class="flex justify-between items-center">
                       <template v-if="link?.pathName">
-                        <router-link :to="{ name: link.pathName }">
+                        <router-link :to="{ name: link.pathName, force: true }">
                           {{ link.label }}
                         </router-link>
                       </template>
@@ -142,20 +147,6 @@
                   </p>
                 </li>
               </ul>
-              <div class="nav-image transition relative pt-10 mb-40">
-                <div class="nav-image-container overflow-hidden rounded-2xl">
-                  <img src="/img/rocket.webp" alt="Rocket" :class="[showMobileMenu? 'zoom-in':'zoom-out']">
-                </div>
-                <div class="absolute top-[50%] left-[50%] -translate-y-2/4 -translate-x-2/4">
-                  <button
-                      class="play-btn bg-white flex justify-center items-center rounded-full w-14 h-14 md:w-16 md:h-16 cursor-pointer"
-                      @click="playDemoVideo = true"
-                  >
-                    <span class="btn-control-icon i-mdi-play text-pink w-9 h-9 md:w-10 md:h-10"/>
-                  </button>
-                </div>
-                <h4 class="text-base absolute bottom-5 left-5 text-white font-bold">Product Tour</h4>
-              </div>
             </div>
 
             <div
@@ -184,23 +175,22 @@
                   </router-link>
                 </li>
               </ul>
-
-              <div class="nav-image transition relative pt-10 mb-40">
-                <div class="nav-image-container overflow-hidden rounded-2xl">
-                  <img src="/img/rocket.webp" alt="Rocket" :class="[showMobileMenu? 'zoom-in':'zoom-out']">
-                </div>
-                <div class="absolute top-[50%] left-[50%] -translate-y-2/4 -translate-x-2/4">
-                  <button
-                      class="play-btn bg-white flex justify-center items-center rounded-full w-14 h-14 md:w-16 md:h-16 cursor-pointer"
-                      @click="playDemoVideo = true"
-                  >
-                    <span class="btn-control-icon i-mdi-play text-pink w-9 h-9 md:w-10 md:h-10"/>
-                  </button>
-                </div>
-                <h4 class="text-base absolute bottom-5 left-5 text-white font-bold">Product Tour</h4>
-              </div>
             </div>
 
+            <div class="nav-image transition relative pt-10 mb-40">
+              <div class="nav-image-container overflow-hidden rounded-2xl">
+                <img src="/img/rocket.webp" alt="Rocket" :class="[showMobileMenu? 'zoom-in':'zoom-out']">
+              </div>
+              <div class="absolute top-[50%] left-[50%] -translate-y-2/4 -translate-x-2/4">
+                <button
+                    class="play-btn bg-white flex justify-center items-center rounded-full w-14 h-14 md:w-16 md:h-16 cursor-pointer"
+                    @click="playDemoVideo = true"
+                >
+                  <span class="btn-control-icon i-mdi-play text-pink w-9 h-9 md:w-10 md:h-10"/>
+                </button>
+              </div>
+              <h4 class="text-base absolute bottom-5 left-5 text-white font-bold">Product Tour</h4>
+            </div>
           </div>
         </nav>
       </div>

@@ -7,5 +7,7 @@ h1, h2, h3, h4, h5, h6{
 }
 @tailwind components;
 @tailwind utilities;
-
+.header-heading{
+  @apply text-3xl sm:text-4xl md:text-5xl lg:text-6.2xl 2xl:text-8xl lg:leading-none font-bold text-primary text-center
+}
 @import "custom";

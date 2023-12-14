@@ -11,8 +11,7 @@ import Reviews from '@/pages/home/components/Reviews.vue'
   <HeroSection />
   <OurClients />
   <HeroBanner
-      :show-banner-button="true"
-      banner-btn-text="Plethora of satisfied customers"
+      :show-banner-button="false"
       :show-banner-heading="false"
   />
   <ServiceVertices />

@@ -62,7 +62,7 @@ const filterContent = (item, index) => {
     <h1 class="text-dark-gray text-sm sm:text-base 2xl:text-xl font-medium md:pl-1 pt-3">
       Portfolio
     </h1>
-    <h2 class="text-center text-3xl sm:text-4xl md:text-6.2xl !leading-tight font-semibold pt-8 md:pt-14">
+    <h2 class="header-heading pt-8 md:pt-14">
       {{ headerData.startText }}
       <span class="underlined-word">{{ headerData.underlined }}</span>
       {{ headerData.endText }}

@@ -13,10 +13,10 @@ defineProps({
   <header class="bg-sky pb-8 md:pb-14 pt-[155px]">
     <div class="container">
       <div class="md:w-3/4 lg:w-3/4 mx-auto text-center mb-20 md:mb-36">
-        <h1 class="text-primary text-base opacity-8 font-bold">
+        <h1 class="text-primary text-base opacity-8 font-bold pb-3">
           {{ headerContent.productName }}
         </h1>
-        <h2 class="capitalize text-primary text-4xl md:text-6xl font-semibold mx-auto 2xl:w-2/4">
+        <h2 class="header-heading capitalize mx-auto 2xl:w-3/4">
           {{ headerContent.tagLine }}
         </h2>
         <div class="flex flex-wrap justify-center gap-4 md:gap-6 text-sm text-base-gray pt-7">

@@ -7,7 +7,7 @@ const reviewsData = pageData.clientReviews
 </script>
 
 <template>
-  <section class="container py-20">
+  <section class="container py-20 text-primary">
     <h2 class="text-3xl sm:text-5xl font-medium mx-auto text-center pb-14 w-full lg:w-2/4">
       {{ reviewsData.heading }}
     </h2>

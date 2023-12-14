@@ -19,14 +19,14 @@
                 <h3 class="text-2xl sm:text-4xl !leading-snug font-medium pb-6">
                   {{ feature.startText }}
                   <span
-                      class="rounded-[100px] px-5 uppercase"
+                      class="rounded-[100px] pt-1 px-5 uppercase"
                       :class="[feature.darkText?'bg-primary text-white':'bg-white text-primary']"
                   >
                     {{ feature.highlightedText }}
                   </span>
                   {{ feature.endText }}
                 </h3>
-                <p class="text-sm sm:text-lg sm:w-3/4 mx-auto leading-relaxed sm:leading-7">
+                <p class="text-[14.5px] 2xl:text-lg leading-6 md:leading-7 sm:w-3/4 mx-auto">
                   {{ feature.desc }}
                 </p>
                 <figure class="w-3/4 md:w-2/4 mx-auto px-3 pt-7">

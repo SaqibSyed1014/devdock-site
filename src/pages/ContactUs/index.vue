@@ -13,7 +13,7 @@ const contactData = pageData
   <section class="container text-primary pb-16 md:pb-20 pt-40">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
       <div class="contact-details">
-        <h1 class="section-heading hidden md:flex md:text-6.2xl !leading-tight font-semibold">
+        <h1 class="section-heading hidden md:flex header-heading">
           <span>
             <img
                 :src="contactData.headingImages[0].src"

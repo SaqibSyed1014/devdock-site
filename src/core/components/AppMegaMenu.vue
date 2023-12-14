@@ -10,6 +10,7 @@ const props = defineProps({
     type: String,
     required: true
   },
+  routeTo: String,
   isOpen: Boolean,
   toggleMenu: Function,
 })
@@ -22,9 +23,7 @@ props.options.forEach((option, index) => {
   else secondMenuList.push(option)
 })
 
-const handleToggle = () => {
-  props.toggleMenu();
-};
+const handleToggle = () => props.toggleMenu()
 </script>
 
 <template>
@@ -37,7 +36,7 @@ const handleToggle = () => {
   >
     <MenuButton
         class="mega-menu-btn group flex items-center whitespace-nowrap py-2.5 pl-3 pr-5 text-base-white hover:text-pink transition-colors duration-200 font-medium"
-        :class="[{ 'before:hidden': !isOpen }]"
+        :class="[{ 'before:hidden after:hidden': !isOpen }]"
     >
       <slot name="menu-label" />
       <span
@@ -61,22 +60,37 @@ const handleToggle = () => {
     <MenuItems
         v-show="isOpen"
         :static="isOpen"
-        class="mega-menu-wrapper bg-white absolute top-14 left-1/3 z-[100] mb-10 -translate-x-1/3 max-h-[80vh] overflow-y-auto px-5 py-5 origin-top-right rounded-2xl"
+        class="mega-menu-wrapper bg-white absolute top-14 left-1/3 z-[100] mb-10 -translate-x-1/3 border-[1px] border-dark-gray/50 max-h-[90vh] overflow-y-auto px-2 py-5 origin-top-right rounded-2xl"
     >
-      <div class="mega-menu-label text-[#97A3B7] text-base xl:text-lg font-bold mb-3">{{ menuLabel }}</div>
-      <div class="grid grid-cols-2 gap-14">
+      <div class="flex items-center justify-between mega-menu-label mb-3 px-3">
+        <div class="text-[#97A3B7] font-bold text-base">
+          {{ menuLabel }}
+        </div>
+        <router-link
+            v-if="routeTo"
+            :to="{ name: routeTo, force: true }"
+            class="text-sm text-primary hover:text-pink cursor-pointer transition"
+        >
+          View All
+        </router-link>
+      </div>
+      <div class="grid grid-cols-2 gap-12">
         <div class="flex flex-col gap-4">
           <template v-for="option in firstMenuList">
             <router-link
                 v-if="option?.pathName"
-                :to="{ name: option.pathName, params: option?.param }"
+                :to="{ name: option.pathName, params: option?.param, force: true }"
                 @click="toggleMenu"
             >
-              <div class="flex gap-4 cursor-pointer">
+              <div class="flex gap-4 cursor-pointer group hover:bg-pink hover:rounded px-3 py-2 transition">
                 <div class="menu-icon w-6 h-6 bg-[#BFECFD] mt-1.5"></div>
                 <div class="menu-labels">
-                  <div class="sub-menu-link text-primary text-base font-bold">{{ option.label }}</div>
-                  <div class="sub-menu-subtitle text-base-gray text-sm">{{ option.subTitle }}</div>
+                  <div class="sub-menu-link text-primary text-base font-bold truncate">
+                    {{ option.label }}
+                  </div>
+                  <div class="sub-menu-subtitle text-base-gray text-sm group-hover:text-white transition">
+                    {{ option.subTitle }}
+                  </div>
                 </div>
               </div>
             </router-link>
@@ -86,14 +100,18 @@ const handleToggle = () => {
           <template v-for="option in secondMenuList">
             <router-link
                 v-if="option?.pathName"
-                :to="{ name: option.pathName, params: option?.param }"
+                :to="{ name: option.pathName, params: option?.param, force: true }"
                 @click="toggleMenu"
             >
-              <div class="flex gap-4">
+              <div class="flex gap-4 cursor-pointer group hover:bg-pink hover:rounded px-3 py-2 transition">
                 <div class="menu-icon w-6 h-6 bg-[#BFECFD] mt-1.5"></div>
                 <div class="menu-labels">
-                  <div class="sub-menu-link text-primary text-base font-bold">{{ option.label }}</div>
-                  <div class="sub-menu-subtitle text-base-gray text-sm">{{ option.subTitle }}</div>
+                  <div class="sub-menu-link text-primary text-base font-bold truncate">
+                    {{ option.label }}
+                  </div>
+                  <div class="sub-menu-subtitle text-base-gray text-sm group-hover:text-white transition">
+                    {{ option.subTitle }}
+                  </div>
                 </div>
               </div>
             </router-link>
@@ -113,14 +131,28 @@ const handleToggle = () => {
   &:before {
     content: "";
     position: absolute;
-    top: 40px;
+    top: 43px;
     left: 50%;
     transform: translate(-50%);
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 17px 17px 17px;
+    border-width: 0 15px 15px 15px;
     border-color: transparent transparent #ffffff transparent;
+    z-index: 111;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    top: 41.5px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 15px 15px;
+    border-color: transparent transparent rgb(136, 155, 160, .5) transparent;
+    z-index: 11;
   }
 }
 .mega-menu-wrapper{
