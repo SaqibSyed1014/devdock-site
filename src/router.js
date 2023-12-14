@@ -48,6 +48,10 @@ const routes = [
       {
         ...routesMeta.PrivacyPolicy,
         component: () => import('@/pages/PrivacyPolicy/index.vue')
+      },
+      {
+        ...routesMeta.NotFound,
+        component: () => import('@/pages/404NotFound/index.vue')
       }
     ]
   },
