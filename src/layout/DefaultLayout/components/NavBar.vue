@@ -82,9 +82,8 @@
               View Portfolio
             </AppButton>
             <AppButton
-                is-link
-                :to="{ name: 'DevDockContactUs' }"
                 class="hidden lg:block shrink-0"
+                @click="() => store.toggleContactForm(true)"
             >
               Direct Contact
             </AppButton>
@@ -210,6 +209,7 @@ import VideoPlayer from '@/core/components/VideoPlayer.vue'
 import { useRoute } from 'vue-router'
 import { logoUrl } from "@/core/constants/site-info.ts";
 import { menuLinks } from "@/core/constants/common.ts";
+import { useGlobalStore } from '@/stores/global'
 
 let showMobileMenu = ref(false)
 let playDemoVideo = ref(false)
@@ -218,6 +218,7 @@ let showMobileSubMenuList = ref(false)
 let mobileSubMenuList = ref([])
 const openMenuIndex = ref(null);
 
+const store = useGlobalStore()
 const toggleMenu = (index) => openMenuIndex.value = openMenuIndex.value === index ? null : index
 
 const closeMenus = () => openMenuIndex.value = null

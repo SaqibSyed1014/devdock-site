@@ -3,7 +3,7 @@
     :is="isLink ? 'router-link' : 'button'"
     :to="isLink ? to : null"
     :type="isLink ? null : 'button'"
-    :class="[secondary ? 'secondary-btn' : 'primary-btn']"
+    :class="[secondary ? 'secondary-btn' : 'primary-btn', { 'w-full': block }]"
     class="site-button inline-block rounded py-2.5 xss:py-3 sm:py-3.5 px-3 xss:px-4 md:px-[22px] lg:px-7 2xl:px-8 text-xs xss:text-sm 2xl:text-lg font-medium leading-normal"
   >
     <span class="btn-bg" />
@@ -27,6 +27,10 @@ defineProps({
     type: Object,
     default: {},
   },
+  block: {
+    type: Boolean,
+    default: false
+  }
 })
 </script>
 
