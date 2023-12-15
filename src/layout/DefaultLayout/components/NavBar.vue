@@ -81,12 +81,7 @@
             >
               View Portfolio
             </AppButton>
-            <AppButton
-                class="hidden lg:block shrink-0"
-                @click="() => store.toggleContactForm(true)"
-            >
-              Direct Contact
-            </AppButton>
+            <AppContactUsButton class="hidden lg:block shrink-0" />
 
             <!-- Hamburger button for mobile view -->
             <div
@@ -114,7 +109,7 @@
       <div class="bg-wrapper bg-white absolute top-0 left-0 h-full w-full" />
       <div class="mobile-nav-wrapper relative h-full">
         <nav class="h-full overflow-auto pt-3">
-          <div class="mobile-nav-container relative pb-10 pt-3 px-3">
+          <div class="mobile-nav-container relative pb-40 pt-3 px-3">
             <div
                 v-if="!showMobileSubMenuList"
                 class="mobile-default-menu-list"
@@ -176,7 +171,7 @@
               </ul>
             </div>
 
-            <div class="nav-image transition relative pt-10 mb-40">
+            <div class="nav-image transition relative pt-10 mb-5">
               <div class="nav-image-container overflow-hidden rounded-2xl">
                 <img src="/img/rocket.webp" alt="Rocket" :class="[showMobileMenu? 'zoom-in':'zoom-out']">
               </div>
@@ -190,6 +185,8 @@
               </div>
               <h4 class="text-base absolute bottom-5 left-5 text-white font-bold">Product Tour</h4>
             </div>
+
+            <AppContactUsButton block />
           </div>
         </nav>
       </div>
@@ -203,13 +200,12 @@
 
 <script setup>
 import AppButton from '@/core/components/AppButton.vue'
-import AppDropdown from "@/core/components/AppDropdown.vue"
 import AppMegaMenu from "@/core/components/AppMegaMenu.vue";
 import VideoPlayer from '@/core/components/VideoPlayer.vue'
 import { useRoute } from 'vue-router'
 import { logoUrl } from "@/core/constants/site-info.ts";
-import { menuLinks } from "@/core/constants/common.ts";
-import { useGlobalStore } from '@/stores/global'
+import { menuLinks } from "@/core/constants/common";
+import AppContactUsButton from "@/core/components/AppContactUsButton.vue";
 
 let showMobileMenu = ref(false)
 let playDemoVideo = ref(false)
@@ -218,7 +214,6 @@ let showMobileSubMenuList = ref(false)
 let mobileSubMenuList = ref([])
 const openMenuIndex = ref(null);
 
-const store = useGlobalStore()
 const toggleMenu = (index) => openMenuIndex.value = openMenuIndex.value === index ? null : index
 
 const closeMenus = () => openMenuIndex.value = null

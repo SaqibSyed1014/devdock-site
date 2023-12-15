@@ -72,7 +72,7 @@ declare global {
   const useRouter: typeof import('vue-router')['useRouter']
   const useSeoMeta: typeof import('@vueuse/head')['useSeoMeta']
   const useSlots: typeof import('vue')['useSlots']
-  const useStore: typeof import('@/stores/global.js')['useStore']
+  const useStore: typeof import('@/store')['useStore']
   const watch: typeof import('vue')['watch']
   const watchEffect: typeof import('vue')['watchEffect']
   const watchPostEffect: typeof import('vue')['watchPostEffect']
@@ -154,7 +154,7 @@ declare module 'vue' {
     readonly useRouter: UnwrapRef<typeof import('vue-router')['useRouter']>
     readonly useSeoMeta: UnwrapRef<typeof import('@vueuse/head')['useSeoMeta']>
     readonly useSlots: UnwrapRef<typeof import('vue')['useSlots']>
-    readonly useStore: UnwrapRef<typeof import('@/stores/global.js')['useStore']>
+    readonly useStore: UnwrapRef<typeof import('@/store')['useStore']>
     readonly watch: UnwrapRef<typeof import('vue')['watch']>
     readonly watchEffect: UnwrapRef<typeof import('vue')['watchEffect']>
     readonly watchPostEffect: UnwrapRef<typeof import('vue')['watchPostEffect']>
@@ -230,7 +230,7 @@ declare module '@vue/runtime-core' {
     readonly useRouter: UnwrapRef<typeof import('vue-router')['useRouter']>
     readonly useSeoMeta: UnwrapRef<typeof import('@vueuse/head')['useSeoMeta']>
     readonly useSlots: UnwrapRef<typeof import('vue')['useSlots']>
-    readonly useStore: UnwrapRef<typeof import('@/stores/global.js')['useStore']>
+    readonly useStore: UnwrapRef<typeof import('@/store')['useStore']>
     readonly watch: UnwrapRef<typeof import('vue')['watch']>
     readonly watchEffect: UnwrapRef<typeof import('vue')['watchEffect']>
     readonly watchPostEffect: UnwrapRef<typeof import('vue')['watchPostEffect']>

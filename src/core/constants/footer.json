@@ -6,15 +6,10 @@
         "heading": "Company",
         "links": [
           {
-            "label": "About",
+            "label": "About Us",
             "path": {
               "name": "DevDockAboutUs"
             }
-          },
-          {
-            "label": "Hire Us",
-            "path": "",
-            "icon": "i-ph-arrow-up-right-light"
           },
           {
             "label": "Contact Us",

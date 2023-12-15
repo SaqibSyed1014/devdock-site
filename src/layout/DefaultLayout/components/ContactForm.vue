@@ -29,12 +29,12 @@ const selected = ref(null)
 
 <template>
   <aside
-      class="contact-form-sidebar bg-water fixed right-0 top-0 h-screen w-[600px] text-primary overflow-auto z-40 p-12"
+      class="contact-form-sidebar bg-water fixed right-0 top-0 h-screen w-full sm:w-[600px] text-primary overflow-auto z-40 p-12"
       :class="[store.isFormOpen ? 'expanded':'collapsed']"
   >
     <div class="flex justify-between items-start">
-      <div class="flex items-center gap-3">
-        <span class="icon-connecting text-6xl font-medium"></span>
+      <div class="flex items-center gap-4">
+        <span class="icon-envelope-doodle text-4xl font-medium"></span>
         <h3 class="text-2xl">Contact Us</h3>
       </div>
       <button @click="() => store.toggleContactForm(false)">
@@ -42,7 +42,7 @@ const selected = ref(null)
       </button>
     </div>
 
-    <div class="text-lg text-center w-3/4 mx-auto pt-6 pb-5">
+    <div class="text-lg text-center mx-auto pt-6 pb-5">
       <p>
         We appreciate your interest in DevDock.
       </p>
@@ -178,16 +178,16 @@ input, textarea, select, .select-list{
   border: 1px solid #ADB7C3;
   outline: none;
   box-shadow: none;
-  font-size: 18px;
+  font-size: 16px;
   background: white;
   text-align: left;
-  padding: .5rem .75rem;
+  padding: theme('spacing.[3]') theme('spacing.[3.5]');
   &::placeholder{
     color: #ADB7C3;
   }
   &:focus{
-    box-shadow: inset 0 0 0 1px theme('colors.primary');
-    border: 1px solid theme('colors.primary');
+    box-shadow: inset 0 0 0 1px theme('colors.pink');
+    border: 1px solid theme('colors.pink');
   }
 }
 </style>

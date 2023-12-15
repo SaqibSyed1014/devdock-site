@@ -1,6 +1,8 @@
 <template>
   <component
-    :is="isLink ? 'router-link' : 'button'"
+    :is="isLink ? externalLink ? 'a' : 'router-link' : 'button'"
+    :href="externalLink ? to : null"
+    :target="externalLink ? '_blank' : null"
     :to="isLink ? to : null"
     :type="isLink ? null : 'button'"
     :class="[secondary ? 'secondary-btn' : 'primary-btn', { 'w-full': block }]"
@@ -26,6 +28,10 @@ defineProps({
   to: {
     type: Object,
     default: {},
+  },
+  externalLink: {
+    type: Boolean,
+    default: false
   },
   block: {
     type: Boolean,

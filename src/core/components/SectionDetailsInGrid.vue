@@ -15,15 +15,11 @@
             <span class="text-secondary">{{ highlightedText }}</span>
             {{ headingText }}
           </h2>
-          <AppButton
+          <AppContactUsButton
               v-if="showBtn"
-              is-link
-              :to="{ name: 'DevDockContactUs' }"
               secondary
               class="mt-8"
-          >
-            Direct Contact
-          </AppButton>
+          />
         </div>
       </div>
       <div class="grid-container">
@@ -67,6 +63,7 @@
 
 <script setup>
 import AppButton from "@/core/components/AppButton.vue";
+import AppContactUsButton from "@/core/components/AppContactUsButton.vue";
 
 const props = defineProps({
   showBtn: {

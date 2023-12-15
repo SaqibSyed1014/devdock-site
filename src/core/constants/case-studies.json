@@ -1,5 +1,6 @@
 {
   "kitchen-coin": {
+    "url": "https://kitchen-coin.vercel.app/",
     "header": {
       "productName": "Kitchen Coin",
       "tagLine": "Meet your New Grocery Trip Companion",
@@ -104,8 +105,7 @@
             "path": "/img/stack/theme/vueX.png",
             "alt": "VueX"
           }
-        ],
-      "url": ""
+        ]
     },
     "comparison": [
       {
@@ -274,8 +274,7 @@
           "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -341,6 +340,7 @@
     ]
   },
   "cherub-chart": {
+    "url": "https://cherub-chart.vercel.app/",
     "header": {
       "productName": "Cherub Chart",
       "tagLine": "Input! Track! Manage! The Baby Growth",
@@ -449,8 +449,7 @@
           "path": "/img/stack/theme/typescript.png",
           "alt": "Typescript"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -614,8 +613,7 @@
           "path": "/img/stack/theme/vuejs.svg",
           "alt": "Vue JS"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -681,6 +679,7 @@
     ]
   },
   "blend-mode": {
+    "url": " https://blend-mode-alpha.vercel.app/",
     "header": {
       "productName": "Blend Mode",
       "tagLine": "Your One Stop Fashion Solution",
@@ -784,8 +783,7 @@
           "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -949,8 +947,7 @@
           "path": "/img/stack/theme/figma.png",
           "alt": "Figma"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -1124,8 +1121,7 @@
           "path": "/img/stack/theme/typescript.png",
           "alt": "Typescript"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -1289,8 +1285,7 @@
           "path": "/img/stack/theme/animateCss.png",
           "alt": "Animate CSS"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -1454,8 +1449,7 @@
           "path": "/img/stack/theme/animateCss.png",
           "alt": "Animate CSS"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -1634,8 +1628,7 @@
           "path": "/img/stack/theme/animateCss.png",
           "alt": "Animate CSS"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -1804,8 +1797,7 @@
           "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -1969,8 +1961,7 @@
           "path": "/img/stack/theme/typescript.png",
           "alt": "Typescript"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -2144,8 +2135,7 @@
           "path": "/img/stack/theme/typescript.png",
           "alt": "Typescript"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -2314,8 +2304,7 @@
           "path": "/img/stack/theme/animateCss.png",
           "alt": "Animate CSS"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -2484,8 +2473,7 @@
           "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -2551,6 +2539,7 @@
     ]
   },
   "grow-aim": {
+    "url": " https://grow-aim.vercel.app/",
     "header": {
       "productName": "Growaim",
       "tagLine": "Meet Your New Mentor",
@@ -2654,8 +2643,7 @@
           "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -2824,8 +2812,7 @@
           "path": "/img/stack/theme/typescript.png",
           "alt": "Typescript"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -2994,8 +2981,7 @@
           "path": "/img/stack/theme/animateCss.png",
           "alt": "Animate CSS"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -3061,6 +3047,7 @@
     ]
   },
   "auto-connect-hub": {
+    "url": "https://auto-connect-hub.vercel.app/",
     "header": {
       "productName": "AutoConnect Hub",
       "tagLine": "Meet Your New Car Mechanic",
@@ -3169,8 +3156,7 @@
           "path": "/img/stack/theme/typescript.png",
           "alt": "Typescript"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -3334,8 +3320,7 @@
           "path": "/img/stack/theme/illustrator.png",
           "alt": "Illustrator"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -3401,6 +3386,7 @@
     ]
   },
   "groove-guess": {
+    "url": "https://groove-guess.vercel.app/",
     "header": {
       "productName": "GrooveGuess",
       "tagLine": "Play! Listen! Guess! and Win",
@@ -3504,8 +3490,7 @@
           "path": "/img/stack/theme/typescript.png",
           "alt": "Typescript"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -3674,8 +3659,7 @@
           "path": "/img/stack/theme/typescript.png",
           "alt": "Typescript"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -3844,8 +3828,7 @@
           "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -4009,8 +3992,7 @@
           "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -4076,6 +4058,7 @@
     ]
   },
   "gift-crafted": {
+    "url": "https://gift-crafted.vercel.app/",
     "header": {
       "productName": "GiftCrafted",
       "tagLine": "Find and Give Unique Gifts",
@@ -4179,8 +4162,7 @@
           "path": "/img/stack/theme/AnimateCss.png",
           "alt": "Animate CSS"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -4344,8 +4326,7 @@
           "path": "/img/stack/theme/vuejs.png",
           "alt": "Vue JS"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -4509,8 +4490,7 @@
           "path": "/img/stack/theme/illustrator.png",
           "alt": "Illustrator"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -4684,8 +4664,7 @@
           "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -4854,8 +4833,7 @@
           "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -5029,8 +5007,7 @@
           "path": "/img/stack/theme/animateCss.png",
           "alt": "Animate CSS"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -5199,8 +5176,7 @@
           "path": "/img/stack/theme/vueX.png",
           "alt": "VueX"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -5266,6 +5242,7 @@
     ]
   },
   "adventure-sage": {
+    "url": "https://adventure-sage.vercel.app/",
     "header": {
       "productName": "GuideED",
       "tagLine": "Meet Your New Adventure Guide",
@@ -5379,8 +5356,7 @@
           "path": "/img/stack/theme/animateCss.png",
           "alt": "Animate CSS"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -5446,6 +5422,7 @@
     ]
   },
   "hop-on-feast": {
+    "url": "https://hop-on-feast.vercel.app/",
     "header": {
       "productName": "HopOnFeast",
       "tagLine": "Meet Your One-stop Riding Solution",
@@ -5549,8 +5526,7 @@
           "path": "/img/stack/theme/animateCss.png",
           "alt": "Animate CSS"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -5719,8 +5695,7 @@
           "path": "/img/stack/theme/animateCss.png",
           "alt": "Animate CSS"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {
@@ -5889,8 +5864,7 @@
           "path": "/img/stack/theme/illustrator.png",
           "alt": "Illustrator"
         }
-      ],
-      "url": ""
+      ]
     },
     "comparison": [
       {

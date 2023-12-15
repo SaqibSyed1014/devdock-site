@@ -28,6 +28,7 @@ const selectedCaseStudy = pageData[route.params.title]
   />
   <ProposedSolutions
     :proposed-solution="selectedCaseStudy.proposeSolutions"
+    :url="selectedCaseStudy.url"
   />
   <CaseStudySlider
     :product-images="selectedCaseStudy.comparison"

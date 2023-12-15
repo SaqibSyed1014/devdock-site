@@ -49,21 +49,6 @@ export const menuLinks = [
     }
 ]
 
-export const headingImages = [
-    {
-        src: '/svg/connect_hand.svg',
-        alt: 'Connect SVG'
-    },
-    {
-        src: '/img/hire_01.webp',
-        alt: 'Connect SVG'
-    },
-    {
-        src: '/img/hire_02.webp',
-        alt: 'Connect SVG'
-    },
-]
-
 export const featuresCardContent = {
     totalReasons: 4,
     highlighted: 'Reasons,',

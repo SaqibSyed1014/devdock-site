@@ -70,12 +70,6 @@ defineProps({
           >
             View Portfolio
           </AppButton>
-          <AppDropdown
-              show-on-hover
-              :options="heroData.dropdownOptions"
-          >
-            Explore our Gallery
-          </AppDropdown>
         </div>
       </div>
     </div>

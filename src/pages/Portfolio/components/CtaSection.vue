@@ -1,5 +1,6 @@
 <script setup>
 import AppButton from "@/core/components/AppButton.vue";
+import AppContactUsButton from "@/core/components/AppContactUsButton.vue";
 
 defineProps({
   ctaSectionData: {
@@ -21,13 +22,7 @@ defineProps({
         </div>
         <p class="text-base md:text-xl 2xl:text-2xl">{{ ctaSectionData.text }}</p>
         <div>
-          <AppButton
-              is-link
-              :to="{ name: 'DevDockContactUs' }"
-              class="mt-10"
-          >
-            Direct Contact
-          </AppButton>
+          <AppContactUsButton class="mt-10" />
         </div>
       </div>
       <div>

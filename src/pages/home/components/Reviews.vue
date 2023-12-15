@@ -2,6 +2,7 @@
 import UserCard from "@/core/components/UserCard.vue";
 import AppButton from "@/core/components/AppButton.vue";
 import pageData from "@/core/constants/reviews.json"
+import AppContactUsButton from "@/core/components/AppContactUsButton.vue";
 
 const reviewsData = pageData.clientReviews
 </script>
@@ -22,12 +23,7 @@ const reviewsData = pageData.clientReviews
       </template>
     </div>
     <div class="text-center">
-      <AppButton
-          is-link
-          :to="{ name: 'DevDockContactUs' }"
-      >
-        Direct Contact
-      </AppButton>
+      <AppContactUsButton />
     </div>
   </section>
 </template>

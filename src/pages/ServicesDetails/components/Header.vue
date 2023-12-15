@@ -1,5 +1,6 @@
 <script setup>
 import AppButton from "@/core/components/AppButton.vue";
+import AppContactUsButton from "@/core/components/AppContactUsButton.vue";
 
 defineProps({
   serviceHeader: {
@@ -19,7 +20,7 @@ defineProps({
         <p class="py-5 pb-7">
           {{ serviceHeader.text }}
         </p>
-        <AppButton>Direct Contact</AppButton>
+        <AppContactUsButton />
         <div class="flex md:hidden xl:flex flex-wrap gap-4 md:gap-6 text-sm text-base-gray pt-10">
           <div class="flex items-center gap-2">
             <span class="i-bi-send w-5 h-5"/>

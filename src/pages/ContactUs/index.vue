@@ -5,6 +5,7 @@ import Parallaxy from '@lucien144/vue3-parallaxy';
 import AppButton from "@/core/components/AppButton.vue";
 
 import pageData from "@/core/constants/contact-us.json"
+import AppContactUsButton from "@/core/components/AppContactUsButton.vue";
 
 const contactData = pageData
 </script>
@@ -95,7 +96,7 @@ const contactData = pageData
             <p class="text-base md:text-xl 2xl:text-2xl pb-8">
               {{ contactData.banner.text }}
             </p>
-            <AppButton>Direct Contact</AppButton>
+            <AppContactUsButton />
           </div>
         </div>
       </div>
