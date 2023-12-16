@@ -40,21 +40,18 @@
                     <div class="footer-banner relative rounded-[10px] overflow-hidden py-5 px-4 md:px-7 mt-3 mx-3">
                       <div class="banner-bg" />
                       <div class="flex justify-center items-center lg:mr-0 gap-4 text-primary relative z-11">
-                        <div class="flex justify-center items-center rounded bg-white cursor-pointer w-10 h-10">
-                          <span class="i-ri-facebook-fill w-6 h-6" />
-                        </div>
-                        <div class="flex justify-center items-center rounded bg-white cursor-pointer w-10 h-10">
-                          <span class="i-mdi-twitter w-6 h-6" />
-                        </div>
-                        <div class="flex justify-center items-center rounded bg-white cursor-pointer w-10 h-10">
-                          <span class="i-ri-instagram-fill w-6 h-6" />
-                        </div>
-                        <div class="flex justify-center items-center rounded bg-white cursor-pointer w-10 h-10">
-                          <span class="i-mdi-linkedin w-6 h-6" />
-                        </div>
-                        <div class="flex justify-center items-center rounded bg-white cursor-pointer w-10 h-10">
-                          <span class="i-mdi-youtube w-6 h-6" />
-                        </div>
+                        <template v-for="social in socialLinks">
+                          <a
+                              :href="social.link"
+                              target="_blank"
+                              class="flex justify-center items-center rounded bg-white cursor-pointer w-10 h-10"
+                          >
+                            <span
+                                class="w-6 h-6"
+                                :class="social.icon"
+                            />
+                          </a>
+                        </template>
                       </div>
                     </div>
                   </template>
@@ -206,6 +203,7 @@ import { useRoute } from 'vue-router'
 import { logoUrl } from "@/core/constants/site-info.ts";
 import { menuLinks } from "@/core/constants/common";
 import AppContactUsButton from "@/core/components/AppContactUsButton.vue";
+import contactData from "@/core/constants/contact-us.json";
 
 let showMobileMenu = ref(false)
 let playDemoVideo = ref(false)
@@ -213,6 +211,8 @@ const excludedRoutesOnMobile = ['DevDockPortfolio']
 let showMobileSubMenuList = ref(false)
 let mobileSubMenuList = ref([])
 const openMenuIndex = ref(null);
+
+const socialLinks = contactData.socialLinks
 
 const toggleMenu = (index) => openMenuIndex.value = openMenuIndex.value === index ? null : index
 

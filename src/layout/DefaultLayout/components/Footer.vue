@@ -15,21 +15,18 @@
           </h2>
         </div>
         <div class="flex mx-auto lg:mr-0 gap-4 text-primary">
-          <div class="flex justify-center items-center rounded bg-white cursor-pointer w-10 h-10">
-            <span class="i-ri-facebook-fill w-6 h-6" />
-          </div>
-          <div class="flex justify-center items-center rounded bg-white cursor-pointer w-10 h-10">
-            <span class="i-mdi-twitter w-6 h-6" />
-          </div>
-          <div class="flex justify-center items-center rounded bg-white cursor-pointer w-10 h-10">
-            <span class="i-ri-instagram-fill w-6 h-6" />
-          </div>
-          <div class="flex justify-center items-center rounded bg-white cursor-pointer w-10 h-10">
-            <span class="i-mdi-linkedin w-6 h-6" />
-          </div>
-          <div class="flex justify-center items-center rounded bg-white cursor-pointer w-10 h-10">
-            <span class="i-mdi-youtube w-6 h-6" />
-          </div>
+          <template v-for="social in socialLinks">
+            <a
+                :href="social.link"
+                target="_blank"
+                class="flex justify-center items-center rounded bg-white cursor-pointer w-10 h-10"
+            >
+              <span
+                  class="w-6 h-6"
+                  :class="social.icon"
+              />
+            </a>
+          </template>
         </div>
       </div>
     </div>
@@ -124,9 +121,11 @@
 import { siteName, contactEmail, contactNumber } from "@/core/constants/site-info.ts"
 import footerData from "@/core/constants/footer.json"
 import routesData from "@/core/constants/routes.json"
+import contactData from "@/core/constants/contact-us.json"
 
 const footerContent = footerData.footerContent
 const route = routesData
+const socialLinks = contactData.socialLinks
 
 const currentDate = new Date()
 </script>

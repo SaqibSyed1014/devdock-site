@@ -19,25 +19,21 @@
   "banner": {
     "heading": "Dm Now",
     "text": "Ask all your questions and discover DevDock services in action! Chat to one of us today.",
-    "image": "/img/rocket-portrait.webp",
-    "alt": "Rocket"
+    "image": "/img/person-illustration.webp",
+    "alt": "Contact Us Now"
   },
   "socialLinks":[
     {
-      "icon": "i-mdi-twitter",
-      "link": ""
-    },
-    {
       "icon": "i-ri-facebook-fill",
-      "link": ""
+      "link": "https://www.facebook.com/devdock.team"
     },
     {
       "icon": "i-mdi-linkedin",
-      "link": ""
+      "link": "https://www.linkedin.com/company/devdock"
     },
     {
       "icon": "i-ri-instagram-fill",
-      "link": ""
+      "link": " https://www.instagram.com/devdock.tech/"
     }
   ],
   "team": [

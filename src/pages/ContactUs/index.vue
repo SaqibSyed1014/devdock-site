@@ -79,7 +79,7 @@ const contactData = pageData
         </div>
       </div>
       <div class="contact-banner">
-        <div class="relative rounded-[10px] overflow-hidden mx-auto">
+        <div class="relative rounded-[10px] md: lg:rounded-5xl overflow-hidden mx-auto">
           <Parallaxy :speed="90" direction="opposite">
             <img
                 fetchpriority="high"
