@@ -11,6 +11,7 @@
     "@headlessui/vue": "^1.7.16",
     "@lucien144/vue3-parallaxy": "^0.1.1",
     "@studio-freight/lenis": "^1.0.27",
+    "@typeform/embed": "^4.4.0",
     "@vueuse/head": "2.0.0",
     "aatjs": "^0.0.4",
     "gsap": "^3.12.2",

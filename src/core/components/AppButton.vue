@@ -43,6 +43,7 @@ defineProps({
 <style scoped lang="scss">
 .site-button{
   position: relative;
+  cursor: pointer;
   .btn-label{
     isolation: isolate;
     transition: transform .5s cubic-bezier(.19,1,.22,1);
