@@ -12,23 +12,24 @@ const props = defineProps({
     required: true
   }
 })
+const excludedCaseStudies = ['adventure-sage', 'auto-connect-hub', 'blend-mode', 'cherub-chart', 'dignity-defenders', 'gift-crafted', 'groove-guess', 'grow-aim', 'hop-on-feast', 'kitchen-coin']
 
-let filteredContent = ref(props.portfolioFilters?.flatMap(item => item.content))
+let filteredContent = ref(props.portfolioFilters?.flatMap(item => item.content.filter(caseStudy => excludedCaseStudies.includes(caseStudy.title))))
 let selectedContentIndex = ref(-1)
 
 const selectAllFilters = () => {
   selectedContentIndex.value = -1
-  filteredContent.value = props.portfolioFilters?.flatMap(item => item.content)
+  filteredContent.value = props.portfolioFilters?.flatMap(item => item.content.filter(caseStudy => excludedCaseStudies.includes(caseStudy.title)))
 }
 
 const filterContent = (item, index) => {
   selectedContentIndex.value = index
-  filteredContent.value = item.content
+  filteredContent.value = item.content.filter(caseStudy => excludedCaseStudies.includes(caseStudy.title))
 }
 </script>
 
 <template>
-  <div class="container px-1">
+  <div class="container">
     <hr class="border border-light-gray">
     <div class="container px-2 md:px-3 pt-8 pb-5 lg:py-5">
       <div class="flex flex-wrap items-center gap-3 sm:gap-5">
