@@ -13,10 +13,10 @@ import AppContactUsButton from "@/core/components/AppContactUsButton.vue";
         <div class="py-8">
           <img class="mx-auto" src="/svg/curve.svg" alt="Curve Underline">
         </div>
-        <p class="text-base md:text-xl 2xl:text-2xl">Our experienced team is ready to listen to your needs, provide
+        <p class="text-base md:text-xl 2xl:text-2xl mb-6 md:mb-10">Our experienced team is ready to listen to your needs, provide
           valuable insights, and tailor a customized solution that perfectly fits your goals.</p>
         <div>
-          <AppContactUsButton class="mt-10" />
+          <AppContactUsButton />
         </div>
       </div>
       <div>

@@ -1,7 +1,7 @@
 <script setup>
 import Hero from '@/pages/home/components/Hero.vue'
 import OurClients from "@/pages/home/components/OurClients.vue";
-import HeroBanner from "@/pages/home/components/HeroBanner.vue";
+// import HeroBanner from "@/pages/home/components/HeroBanner.vue";
 import ServiceVertices from "@/pages/Services/components/ServiceVertices.vue";
 import Features from '@/pages/home/components/Features.vue'
 import Trust from '@/pages/home/components/Trust.vue'
@@ -18,10 +18,10 @@ const homeData = pageData
     :hero-data="homeData.hero"
   />
   <OurClients />
-  <HeroBanner
-    :show-banner-button="false"
-    :show-banner-heading="true"
-  />
+<!--  <HeroBanner-->
+<!--    :show-banner-button="false"-->
+<!--    :show-banner-heading="true"-->
+<!--  />-->
   <ServiceVertices />
   <Features />
   <Trust />

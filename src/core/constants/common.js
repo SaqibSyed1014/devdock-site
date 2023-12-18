@@ -3,7 +3,7 @@ import servicesData from "@/core/constants/services.json";
 const excludedServices = ['search-engine-optimization', 'custom-widget-design', 'logo-&-branding']
 const servicesList =
     servicesData.vertices.services
-    .filter(service => !excludedServices.includes(service.id))
+    .filter(service => window.innerWidth < 990 || !excludedServices.includes(service.id))
     .map((service) => ({
         label: service.title,
         pathName: 'DevDockServiceDetails',

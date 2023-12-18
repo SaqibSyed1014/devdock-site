@@ -30,7 +30,7 @@ const filterContent = (item, index) => {
 <template>
   <div class="container px-1">
     <hr class="border border-light-gray">
-    <div class="container px-2 md:px-3 py-5">
+    <div class="container px-2 md:px-3 pt-8 pb-5 lg:py-5">
       <div class="flex flex-wrap items-center gap-3 sm:gap-5">
         <button
             class="filter-badge relative flex justify-center rounded-5xl font-medium cursor-pointer px-4 py-2 sm:py-3 sm:px-5"
@@ -59,11 +59,11 @@ const filterContent = (item, index) => {
   </div>
 
   <div class="container">
-    <h1 class="text-dark-gray text-sm sm:text-base 2xl:text-xl font-medium md:pl-1 pt-3">
+    <label class="text-lg text-dark-gray block md:pl-1 pt-3">
       Portfolio
-    </h1>
+    </label>
     <h2 class="header-heading pt-8 md:pt-14">
-      {{ headerData.startText }}
+      {{ headerData.startText }}<br>
       <span class="underlined-word">{{ headerData.underlined }}</span>
       {{ headerData.endText }}
     </h2>

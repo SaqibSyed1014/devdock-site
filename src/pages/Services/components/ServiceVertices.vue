@@ -23,30 +23,30 @@ const serviceVertices = pageData.vertices
             <div
                 class="group border-[1px] border-b-0 border-x-0 sm:border-b-[1px] sm:border-x-[1px] border-white border-opacity-50 cursor-pointer transition hover:bg-secondary"
             >
-              <div class="flex items-center h-72 sm:h-[400px] px-3 sm:px-7 md:px-[21px]">
+              <div class="flex items-center h-96 sm:h-[400px] xl:h-[450px] px-3 sm:px-7 md:px-[21px]">
                 <div class="text-white flex-1">
-                <span class="text-4xl md:text-[53px] transition group-hover:text-primary opacity-2">
-                  {{ `${index + 1}.` }}
-                </span>
-                  <div class="pt-10 transition group-hover:pt-10">
+                  <span class="text-5xl md:text-[53px] transition group-hover:text-primary opacity-2">
+                    {{ `${index + 1}.` }}
+                  </span>
+                  <div class="pt-20">
                     <span
                         class="text-secondary text-4xl group-hover:text-primary group-hover:hidden"
                          :class="[`${data.icon}`]"
                     />
                     <div class="flex gap-3 xl:gap-8 justify-between items-center pt-5">
-                      <h3 class="text-2xl sm:text-2xl md:text-2xl xl:text-3xl font-bold sm:pr-5 transition group-hover:text-primary">
+                      <h3 class="text-2xl sm:text-2xl md:text-2xl xl:text-3xl font-bold sm:pr-5 text-white transition group-hover:text-primary">
                         {{ data.title }}
                       </h3>
                       <span class="i-mdi-arrow-right w-9 h-9 md:w-12 md:h-12 transition group-hover:hidden"/>
                     </div>
-                    <p class="text-primary text-[14.5px] 2xl:text-lg leading-6 md:leading-7 2xl:leading-9 hidden transition group-hover:block pt-5 pb-2">
+                    <p class="text-primary text-[14.5px] 2xl:text-lg leading-6 md:leading-7 2xl:leading-9 hidden transition group-hover:!line-clamp-4 pt-5 pb-2">
                       {{ data.desc }}
                     </p>
 
-                    <span class="text-primary text-sm 2xl:text-lg hidden transition group-hover:block hover:underline">
+                    <span class="text-primary text-sm 2xl:text-lg hidden transition group-hover:block">
                       <router-link
                           :to="{ name: 'DevDockServiceDetails', params: { title: data.id } }"
-                          class="flex justify-end items-center gap-3"
+                          class="flex justify-end items-center gap-3 hover:underline"
                       >
                         Read More <span class="i-gg-arrow-right w-5 h-5" />
                       </router-link>

@@ -16,7 +16,7 @@
                 :class="[feature.darkText?'text-primary':'text-white']"
                 :style="{background: feature.color}">
               <div class="sm:w-3/4 mx-auto px-3">
-                <h3 class="text-2xl sm:text-4xl !leading-snug font-medium pb-6">
+                <h3 class="text-2xl sm:text-4xl !leading-snug text-inherit font-medium pb-6">
                   {{ feature.startText }}
                   <span
                       class="rounded-[100px] pt-1 px-3 sm:px-5 uppercase"
@@ -82,7 +82,6 @@ onMounted(() => {
 <style scoped>
 .feature-card-inner{
   will-change: transform;
-  background: white;
   display: flex;
   transform-origin: center top;
 }

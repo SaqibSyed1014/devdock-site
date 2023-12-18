@@ -24,15 +24,15 @@
   },
   "socialLinks":[
     {
-      "icon": "i-ri-facebook-fill",
+      "icon": "facebook",
       "link": "https://www.facebook.com/devdock.team"
     },
     {
-      "icon": "i-mdi-linkedin",
+      "icon": "linkedin-square",
       "link": "https://www.linkedin.com/company/devdock"
     },
     {
-      "icon": "i-ri-instagram-fill",
+      "icon": "instagram",
       "link": " https://www.instagram.com/devdock.tech/"
     }
   ],

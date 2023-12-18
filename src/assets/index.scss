@@ -1,9 +1,9 @@
 @tailwind base;
 body{
-  @apply font-liberation
+  @apply font-liberation text-primary
 }
 h1, h2, h3, h4, h5, h6{
-  @apply font-vermena
+  @apply font-vermena text-primary
 }
 @tailwind components;
 @tailwind utilities;

@@ -4,7 +4,7 @@
     "text": "Let’s Get To Know Each Other! Here Is Our Story.",
     "ourMission": {
       "label": "Our mission",
-      "heading": "We Are Mature and Passionate About What We Do",
+      "heading": "We are Mature and Passionate About What We Do",
       "text": "At DevDock, we are mature and passionate about helping our clients achieve their business goals. We leverage our deep industry knowledge and experience to deliver innovative and customized development solutions that help our clients succeed.",
       "startUp": {
         "startYear": 2017,
@@ -84,13 +84,13 @@
       "startups",
       "small businesses",
       "ecommerce",
-      "Ed-Tech",
+      "ed-tech",
       "LMS",
-      "Dashboards",
-      "Call center",
+      "dashboards",
+      "call center",
       "HVAC",
-      "Local businesses",
-      "Social Media"
+      "local businesses",
+      "social media"
     ]
   }
 }

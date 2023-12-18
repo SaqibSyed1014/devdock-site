@@ -80,7 +80,7 @@ const contactData = pageData
       </div>
       <div class="contact-banner">
         <div class="relative rounded-[10px] md: lg:rounded-5xl overflow-hidden mx-auto">
-          <Parallaxy :speed="90" direction="opposite">
+          <Parallaxy :speed="50" direction="opposite">
             <img
                 fetchpriority="high"
                 class="parallax-effect"
@@ -90,7 +90,7 @@ const contactData = pageData
           </Parallaxy>
 
           <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-3/4 text-white text-center">
-            <h3 class="uppercase text-3xl 2xl:text-4xl md:text-5xl font-semibold">
+            <h3 class="uppercase text-3xl 2xl:text-4xl md:text-5xl text-inherit font-semibold">
               {{ contactData.banner.heading }}
             </h3>
             <p class="text-base md:text-xl 2xl:text-2xl pb-8">

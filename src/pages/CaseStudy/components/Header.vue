@@ -10,9 +10,9 @@ defineProps({
 </script>
 
 <template>
-  <header class="bg-sky pb-8 md:pb-14 pt-[155px]">
+  <header class="bg-sky pb-10 md:pb-20 pt-[155px]">
     <div class="container">
-      <div class="md:w-3/4 lg:w-3/4 mx-auto text-center mb-20 md:mb-36">
+      <div class="md:w-3/4 lg:w-3/4 mx-auto text-center">
         <h1 class="text-primary text-base 2xl:text-xl opacity-8 font-bold pb-3">
           {{ headerContent.productName }}
         </h1>
@@ -40,9 +40,9 @@ defineProps({
       </div>
     </div>
 
-    <AppVideoPreview
-        :show-btn="false"
-        :show-preview-heading="false"
-    />
+<!--    <AppVideoPreview-->
+<!--        :show-btn="false"-->
+<!--        :show-preview-heading="false"-->
+<!--    />-->
   </header>
 </template>

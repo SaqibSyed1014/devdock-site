@@ -109,6 +109,9 @@ html{
     background: linear-gradient(270deg, rgba(255, 222, 247, .9) 0.08%, rgba(255, 222, 247, 0.5) 10.2%, rgba(255, 222, 247, 0.8) 17.2%, rgba(255, 222, 247, 0.8) 70.33%, rgba(255, 222, 247, 0.5) 78.5%, rgba(255, 222, 247, .9) 92.88%);
   }
 }
+.industries-list-slider .swiper-wrapper{
+  transition-timing-function: linear;
+}
 
 html.lenis {
   height: auto;

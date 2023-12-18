@@ -6,7 +6,8 @@
         <router-link
             :to="{
               name: 'DevDockCaseStudyDetails',
-              params: { title: content?.title }
+              params: { title: content?.title },
+              force: true
             }"
         >
           <div class="overflow-hidden cursor-pointer">
@@ -22,7 +23,8 @@
     <router-link
         :to="{
            name: 'DevDockCaseStudyDetails',
-           params: { title: content?.title }
+           params: { title: content?.title },
+           force: true
          }"
         class="cursor-pointer"
     >

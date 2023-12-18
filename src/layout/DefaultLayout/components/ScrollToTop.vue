@@ -13,7 +13,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll));
 <template>
   <button
       v-if="showBtn"
-      class="scroll-to-top-btn fixed bottom-5 right-5 2xl:bottom-10 2xl:right-10 flex justify-center items-center rounded-full w-12 h-12 md:w-10 md:h-10 2xl:w-16 2xl:h-16 cursor-pointer"
+      class="scroll-to-top-btn fixed bottom-5 right-5 2xl:bottom-10 2xl:right-10 flex justify-center items-center rounded-full z-20 w-12 h-12 md:w-10 md:h-10 2xl:w-16 2xl:h-16 cursor-pointer"
       @click="scrollToTop"
   >
     <div class="btn-bg" />

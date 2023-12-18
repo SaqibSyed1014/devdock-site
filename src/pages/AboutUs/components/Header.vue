@@ -47,7 +47,7 @@ const heroSectionData = pageData.heroSectionContent
           </figure>
         </div>
         <div class="order-1 lg:order-2 text-start">
-          <p class="text-lg">{{ heroSectionData.ourMission.label }}</p>
+          <p class="text-lg text-dark-gray">{{ heroSectionData.ourMission.label }}</p>
           <h3 class="text-2xl lg:text-3xl 2xl:text-5xl font-medium pt-3 md:pt-6 2xl:pt-10 pb-2 md:pb-4 2xl:pb-7">
             {{ heroSectionData.ourMission.heading }}
           </h3>
@@ -55,7 +55,7 @@ const heroSectionData = pageData.heroSectionContent
             {{ heroSectionData.ourMission.text }}
           </p>
 
-          <div class="flex flex-col sm:flex-row gap-10 pt-7 font-medium">
+          <div class="flex flex-col sm:flex-row gap-6 sm:gap-10 pt-7 font-medium">
             <div class="w-48">
               <div class="bg-primary text-green rounded-[65px] flex gap-2 py-1 px-2 mb-1.5 w-fit">
                 <span class="text-xl lg:text-2xl 2xl:text-3xl">
