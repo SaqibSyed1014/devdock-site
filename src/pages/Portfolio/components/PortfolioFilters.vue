@@ -12,19 +12,18 @@ const props = defineProps({
     required: true
   }
 })
-const excludedCaseStudies = ['adventure-sage', 'auto-connect-hub', 'blend-mode', 'cherub-chart', 'dignity-defenders', 'gift-crafted', 'groove-guess', 'grow-aim', 'hop-on-feast', 'kitchen-coin']
 
-let filteredContent = ref(props.portfolioFilters?.flatMap(item => item.content.filter(caseStudy => excludedCaseStudies.includes(caseStudy.title))))
+let filteredContent = ref(props.portfolioFilters?.flatMap(item => item.content))
 let selectedContentIndex = ref(-1)
 
 const selectAllFilters = () => {
   selectedContentIndex.value = -1
-  filteredContent.value = props.portfolioFilters?.flatMap(item => item.content.filter(caseStudy => excludedCaseStudies.includes(caseStudy.title)))
+  filteredContent.value = props.portfolioFilters?.flatMap(item => item.content)
 }
 
 const filterContent = (item, index) => {
   selectedContentIndex.value = index
-  filteredContent.value = item.content.filter(caseStudy => excludedCaseStudies.includes(caseStudy.title))
+  filteredContent.value = item.content
 }
 </script>
 

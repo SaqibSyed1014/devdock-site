@@ -160,6 +160,7 @@
     ]
   },
   "locale-lure": {
+    "url": "https://locale-lure.vercel.app/",
     "header": {
       "productName": "Locale Lure",
       "tagLine": "Meet Your New Night Out Finding Companion",
@@ -500,6 +501,7 @@
     ]
   },
   "play-market-pro": {
+    "url": "https://play-market-pro.vercel.app/",
     "header": {
       "productName": "Play Market Pro",
       "tagLine": "Learn. Network. Implement. Repeat!",
@@ -830,6 +832,7 @@
     ]
   },
   "nav-maze": {
+    "url": "https://nav-maze.vercel.app/",
     "header": {
       "productName": "NavMaze",
       "tagLine": "Meet your New Location Finding Companion",
@@ -992,6 +995,7 @@
     ]
   },
   "martial-mentor-hub": {
+    "url": "https://martial-mentor-hub.vercel.app/",
     "header": {
       "productName": "MartialMentor Hub",
       "tagLine": "Meet Your New Martial Arts Trainer ",
@@ -1155,8 +1159,9 @@
     ]
   },
   "rivalry-rally-v1": {
+    "url": "https://rivalry-rally-v1.vercel.app/",
     "header": {
-      "productName": "FairFight",
+      "productName": "RivalryRally",
       "tagLine": "Meet Your New Gaming Competitions",
       "meta": [
         {
@@ -1186,9 +1191,9 @@
     },
     "businessChallenges": {
       "heading": "Connecting dots between gamers and competitive experience",
-      "highlightedText": "FairFight grow interest in community-based challenges, providing a centralized space for organizing and participating...",
+      "highlightedText": "RivalryRally grow interest in community-based challenges, providing a centralized space for organizing and participating...",
       "texts": [
-        "FairFight, a mobile platform, revolutionizes informal competitions by offering users the ability to organize, stream, engage, and place bets within a vibrant community setting. The app caters to a growing interest in community-based challenges, providing a centralized space for organizing, participating in, and enjoying these events. It unites fans, organizers, participants, judges, and referees within a singular interface. FairFight's multifunctional features enable users to initiate challenges, stream events, communicate via message boards, and engage in betting activities. It stands as a unifying hub, fostering interaction and collaboration among diverse stakeholders involved in informal competitions. Through its user-friendly interface and comprehensive toolkit, FairFight empowers a cohesive community experience, centralizing and enhancing engagement within the dynamic landscape of informal competitions."
+        "RivalryRally, a mobile platform, revolutionizes informal competitions by offering users the ability to organize, stream, engage, and place bets within a vibrant community setting. The app caters to a growing interest in community-based challenges, providing a centralized space for organizing, participating in, and enjoying these events. It unites fans, organizers, participants, judges, and referees within a singular interface. RivalryRally's multifunctional features enable users to initiate challenges, stream events, communicate via message boards, and engage in betting activities. It stands as a unifying hub, fostering interaction and collaboration among diverse stakeholders involved in informal competitions. Through its user-friendly interface and comprehensive toolkit, RivalryRally empowers a cohesive community experience, centralizing and enhancing engagement within the dynamic landscape of informal competitions."
       ]
     },
     "aboutProduct": {
@@ -1198,9 +1203,9 @@
         "DevDock team worked with the client to identify the initial product vision, project objectives, and ensured efficient communication between stakeholders. This approach kept scope creep to a minimum."
       ],
       "bullets": [
-        "Community Hub for Informal Competitions: FairFight aims to serve as a centralized platform, uniting fans, organizers, participants, judges, and referees within a single space, fostering engagement in informal competitions.",
+        "Community Hub for Informal Competitions: RivalryRally aims to serve as a centralized platform, uniting fans, organizers, participants, judges, and referees within a single space, fostering engagement in informal competitions.",
         "Multifaceted Functionality: The platform offers a range of tools, including organizing challenges, streaming events, enabling communication via message boards, and facilitating betting activities, enhancing the overall experience of informal competitions",
-        "Empowering Inclusive Interaction: FairFight seeks to empower individuals from various roles within the competition ecosystem to actively engage, interact, and contribute, creating an inclusive environment for community-driven competition involvement."
+        "Empowering Inclusive Interaction: RivalryRally seeks to empower individuals from various roles within the competition ecosystem to actively engage, interact, and contribute, creating an inclusive environment for community-driven competition involvement."
       ]
     },
     "vertices": {
@@ -1219,7 +1224,7 @@
         },
         {
           "title": "Search Events",
-          "desc": "FairFight users can filter their searches and browse for event and announcements they are particularly interested in.",
+          "desc": "RivalryRally users can filter their searches and browse for event and announcements they are particularly interested in.",
           "icon":  "search-events"
         },
         {
@@ -1233,9 +1238,9 @@
       "heading": "How We Address the Solution",
       "highlightedText": "Our client is a startup company based in Singapore that is changing the way mobile competition.",
       "texts": [
-        "Based on the information gathered, we outline the design approach. As the project requires a first website for the brand, we decide to start the design from scratch to align it with the overall theme and concept of FairFight.",
+        "Based on the information gathered, we outline the design approach. As the project requires a first website for the brand, we decide to start the design from scratch to align it with the overall theme and concept of RivalryRally.",
         "We prioritize a visually appealing yet simple and modern website design. The intuitive interface ensures seamless navigation, minimizing clutter to highlight the core platform message.",
-        "By following this process, we have created a comprehensive and compelling website for the FairFight, ensuring that it aligns with the goals and objectives of the project."
+        "By following this process, we have created a comprehensive and compelling website for the RivalryRally, ensuring that it aligns with the goals and objectives of the project."
       ],
       "techStack": [
         {
@@ -1317,8 +1322,9 @@
     ]
   },
   "rivalry-rally-v2": {
+    "url": "https://rivalry-rally-v2.vercel.app/",
     "header": {
-      "productName": "FairFight",
+      "productName": "RivalryRally",
       "tagLine": "Meet Your New Gaming Competitions",
       "meta": [
         {
@@ -1348,9 +1354,9 @@
     },
     "businessChallenges": {
       "heading": "Connecting dots between gamers and competitive gaming experience",
-      "highlightedText": "FairFight grow interest in community-based challenges, providing a centralized space for organizing and participating...",
+      "highlightedText": "RivalryRally grow interest in community-based challenges, providing a centralized space for organizing and participating...",
       "texts": [
-        "FairFight, a mobile platform, revolutionizes informal competitions by offering users the ability to organize, stream, engage, and place bets within a vibrant community setting. The app caters to a growing interest in community-based challenges, providing a centralized space for organizing, participating in, and enjoying these events. It unites fans, organizers, participants, judges, and referees within a singular interface. FairFight's multifunctional features enable users to initiate challenges, stream events, communicate via message boards, and engage in betting activities. It stands as a unifying hub, fostering interaction and collaboration among diverse stakeholders involved in informal competitions. Through its user-friendly interface and comprehensive toolkit, FairFight empowers a cohesive community experience, centralizing and enhancing engagement within the dynamic landscape of informal competitions."
+        "RivalryRally, a mobile platform, revolutionizes informal competitions by offering users the ability to organize, stream, engage, and place bets within a vibrant community setting. The app caters to a growing interest in community-based challenges, providing a centralized space for organizing, participating in, and enjoying these events. It unites fans, organizers, participants, judges, and referees within a singular interface. RivalryRally's multifunctional features enable users to initiate challenges, stream events, communicate via message boards, and engage in betting activities. It stands as a unifying hub, fostering interaction and collaboration among diverse stakeholders involved in informal competitions. Through its user-friendly interface and comprehensive toolkit, RivalryRally empowers a cohesive community experience, centralizing and enhancing engagement within the dynamic landscape of informal competitions."
       ]
     },
     "aboutProduct": {
@@ -1360,14 +1366,14 @@
         "DevDock team worked with the client to identify the initial product vision, project objectives, and ensured efficient communication between stakeholders. This approach kept scope creep to a minimum."
       ],
       "bullets": [
-        "Community Hub for Informal Competitions: FairFight aims to serve as a centralized platform, uniting fans, organizers, participants, judges, and referees within a single space, fostering engagement in informal competitions.",
+        "Community Hub for Informal Competitions: RivalryRally aims to serve as a centralized platform, uniting fans, organizers, participants, judges, and referees within a single space, fostering engagement in informal competitions.",
         "Multifaceted Functionality: The platform offers a range of tools, including organizing challenges, streaming events, enabling communication via message boards, and facilitating betting activities, enhancing the overall experience of informal competitions.",
-        "Empowering Inclusive Interaction: FairFight seeks to empower individuals from various roles within the competition ecosystem to actively engage, interact, and contribute, creating an inclusive environment for community-driven competition involvement."
+        "Empowering Inclusive Interaction: RivalryRally seeks to empower individuals from various roles within the competition ecosystem to actively engage, interact, and contribute, creating an inclusive environment for community-driven competition involvement."
       ]
     },
     "vertices": {
       "highlighted": "Explore",
-      "heading": "the Dynamic Range of Cutting-Edge FairFight  Features!",
+      "heading": "the Dynamic Range of Cutting-Edge RivalryRally  Features!",
       "list": [
         {
           "title": "Online Streaming",
@@ -1381,7 +1387,7 @@
         },
         {
           "title": "Search Events",
-          "desc": "FairFight users can filter their searches and browse for event and announcements they are particularly interested in.",
+          "desc": "RivalryRally users can filter their searches and browse for event and announcements they are particularly interested in.",
           "icon":  "search-events"
         },
         {
@@ -1395,9 +1401,9 @@
       "heading": "How We Address the Solution",
       "highlightedText": "Our client is a startup company based in Singapore that is changing the way mobile competition.",
       "texts": [
-        "Based on the information gathered, we outline the design approach. As the project requires a first website for the brand, we decide to start the design from scratch to align it with the overall theme and concept of FairFight.",
+        "Based on the information gathered, we outline the design approach. As the project requires a first website for the brand, we decide to start the design from scratch to align it with the overall theme and concept of RivalryRally.",
         "We prioritize a visually appealing yet simple and modern website design. The intuitive interface ensures seamless navigation, minimizing clutter to highlight the core platform message.",
-        "By following this process, we have created a comprehensive and compelling website for the FairFight, ensuring that it aligns with the goals and objectives of the project."
+        "By following this process, we have created a comprehensive and compelling website for the RivalryRally, ensuring that it aligns with the goals and objectives of the project."
       ],
       "techStack": [
         {
@@ -1470,6 +1476,7 @@
     ]
   },
   "quixify": {
+    "url": "https://quixify-tan.vercel.app/",
     "header": {
       "productName": "Quixify",
       "tagLine": "Meet your New Fast Grocery Companion",
@@ -1647,8 +1654,9 @@
     ]
   },
   "nookhive": {
+    "url": "https://nookhive.vercel.app/",
     "header": {
-      "productName": "nookhive",
+      "productName": "Nookhive",
       "tagLine": "Meet your New The One Stop Local Marketplace",
       "meta": [
         {
@@ -1814,6 +1822,7 @@
     ]
   },
   "sentinel-sync": {
+    "url": "https://sentinel-sync.vercel.app/",
     "header": {
       "productName": "SentinelSync",
       "tagLine": "Meet Your New Security Professional",
@@ -1976,6 +1985,7 @@
     ]
   },
   "rushhaul": {
+    "url": "https://rushhaul.vercel.app/",
     "header": {
       "productName": "Rushhaul",
       "tagLine": "Meet Your New Delivery Partner",
@@ -2148,6 +2158,7 @@
     ]
   },
   "pump-point": {
+    "url": "https://pump-point.vercel.app/",
     "header": {
       "productName": "Pump Point",
       "tagLine": "Fuel Up Anytime Anywhere",
@@ -2315,6 +2326,7 @@
     ]
   },
   "night-oasis": {
+    "url": "https://night-oasis.vercel.app/",
     "header": {
       "productName": "NightOasis",
       "tagLine": "Find And Reserve The Best Location",
@@ -2650,6 +2662,7 @@
     ]
   },
   "my-green": {
+    "url": "https://my-green-six.vercel.app/",
     "header": {
       "productName": "Mygreen",
       "tagLine": "Find Healthy Eat Healthy",
@@ -2808,6 +2821,7 @@
     ]
   },
   "nutri-nest-life": {
+    "url": "https://nutri-nest-life.vercel.app/",
     "header": {
       "productName": "NutriNest Life ",
       "tagLine": "Meet Your New Health Trainer",
@@ -3148,6 +3162,7 @@
     ]
   },
   "dignity-defenders": {
+    "url": "https://dignity-defenders.vercel.app/",
     "header": {
       "productName": "ICU",
       "tagLine": "Meet Your New Safety Companion",
@@ -3478,6 +3493,7 @@
     ]
   },
   "postpartum-pal": {
+    "url": "https://postpartum-pal.vercel.app/",
     "header": {
       "productName": "PostpartumPal",
       "tagLine": "Meet Your New Health Care Taker",
@@ -3645,6 +3661,7 @@
     ]
   },
   "tooth-connect": {
+    "url": "https://tooth-connect.vercel.app/",
     "header": {
       "productName": "ToothConnect",
       "tagLine": "Meet Your All-in-one Dental Solutions",
@@ -3812,6 +3829,7 @@
     ]
   },
   "match-marks": {
+    "url": "https://match-marks.vercel.app/",
     "header": {
       "productName": "Date Up",
       "tagLine": "Find! Talk! Date!",
@@ -4142,6 +4160,7 @@
     ]
   },
   "med-leaf-mate": {
+    "url": "https://med-leaf-mate.vercel.app/",
     "header": {
       "productName": "MedLeafMate",
       "tagLine": "Find Your Cannabis Solutions",
@@ -4304,8 +4323,9 @@
     ]
   },
   "sales-sync-hub": {
+    "url": "https://sales-sync-hub.vercel.app/",
     "header": {
-      "productName": "Pause",
+      "productName": "SalesSync Hub",
       "tagLine": "Meet Your NewSales Professional",
       "meta": [
         {
@@ -4382,9 +4402,9 @@
       "heading": "How We Address the Solution",
       "highlightedText": "Our client is a startup company based in the Dubai that help corporates managing sales team, tracking their work and generate reports",
       "texts": [
-        "Based on the information gathered, we outline the design approach. As the project requires a first website for the brand, we decide to start the design from scratch to align it with the overall theme and concept of Pause.",
+        "Based on the information gathered, we outline the design approach. As the project requires a first website for the brand, we decide to start the design from scratch to align it with the overall theme and concept of SalesSync Hub.",
         "We prioritize a visually appealing yet simple and modern website design. The intuitive interface ensures seamless navigation, minimizing clutter to highlight the core platform message.",
-        "By following this process, we have created a comprehensive and compelling website for the Pause, ensuring that it aligns with the goals and objectives of the project."
+        "By following this process, we have created a comprehensive and compelling website for the SalesSync Hub, ensuring that it aligns with the goals and objectives of the project."
       ],
       "techStack": [
         {
@@ -4466,6 +4486,7 @@
     ]
   },
   "zen-study-zone": {
+    "url": "https://zen-study-zone.vercel.app/",
     "header": {
       "productName": "ZenStudyZone ",
       "tagLine": "Meet Your New Study Management Partner",
@@ -4638,6 +4659,7 @@
     ]
   },
   "outdoor-riddle": {
+    "url": "https://outdoor-riddle.vercel.app/",
     "header": {
       "productName": "OutdoorRiddle",
       "tagLine": "A Challenge And Journey",
@@ -4805,6 +4827,7 @@
     ]
   },
   "rapid-task": {
+    "url": "https://rapid-task.vercel.app/",
     "header": {
       "productName": "RapidTask",
       "tagLine": "Meet Your New Independent Contractor",
@@ -4977,6 +5000,7 @@
     ]
   },
   "smart-fit-ally": {
+    "url": "https://smart-fit-ally.vercel.app/",
     "header": {
       "productName": "SmartFit Ally",
       "tagLine": "Meet Your New Fitness Expert",
@@ -5490,6 +5514,7 @@
     ]
   },
   "sound-soulmates": {
+    "url": "https://sound-soulmates.vercel.app/",
     "header": {
       "productName": "SoundSoulmates",
       "tagLine": "Music, Love Connect",
@@ -5657,6 +5682,7 @@
     ]
   },
   "protec-pay": {
+    "url": "https://protec-pay.vercel.app/",
     "header": {
       "productName": "ProtecPay",
       "tagLine": "Protection From Fraudulent Retailers",
