@@ -16,12 +16,13 @@ defineProps({
       <h1
           class="hero-message w-full flex text-4xl xss:text-[32px] sm:text-5xl lg:text-6xl xl:text-8xl !leading-tight xl:!leading-[105px]"
       >
-        <span class="flex justify-center items-center slide-in-text gap-2 lg:gap-4" :style="{ '--delay': 1.5 }">
+        <span class="flex justify-center items-center slide-in-text gap-2 lg:gap-4 mb-1 sm:mb-0" :style="{ '--delay': 1.5 }">
           <span>{{ heroData.splitHeadline[0] }}</span>
-          <div class="hidden xss:block rounded-curved overflow-hidden shrink-0 w-[15%] xl:w-[13%]">
+          <div class="hidden xss:block rounded-curved overflow-hidden shrink-0 w-[16%] xl:w-[13%]">
             <img
               :src="heroData.headlineImages[0].path"
               :alt="heroData.headlineImages[0].alt"
+              class="w-full h-full object-cover"
             >
           </div>
         </span>
@@ -45,14 +46,6 @@ defineProps({
             >
           </div>
         </span>
-      </h1>
-      <h1 class="hidden text-3xl xss:text-4xl md:text-6xl">
-        {{ heroData.fullHeadline }}
-        <img
-            :src="heroData.headlineImages[2].path"
-            :alt="heroData.headlineImages[2].alt"
-            class="inline-block align-bottom w-1/4 xss:w-2/12 sm:w-[12%]"
-        >
       </h1>
       <div class="pt-10">
         <p class="text-base lg:text-2xl font-bold italic">
