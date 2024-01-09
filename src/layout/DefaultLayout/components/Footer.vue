@@ -1,5 +1,5 @@
 <script setup>
-import { siteName, contactEmail, contactNumber } from "@/core/constants/site-info.ts"
+import siteInfo from "@/core/constants/site-info.json"
 import footerData from "@/core/constants/footer.json"
 import routesData from "@/core/constants/routes.json"
 import contactData from "@/core/constants/contact-us.json"
@@ -51,13 +51,13 @@ const currentDate = new Date()
           <span
              class="text-xl 2xl:text-2xl md:text-extra font-bold"
           >
-            {{ contactEmail }}
+            {{ siteInfo.contactEmail }}
           </span>
           <label class="text-[15px] 2xl:text-xl block pb-3 pt-6">Whatsapp</label>
           <span
               class="text-xl 2xl:text-2xl md:text-extra font-bold"
           >
-            {{ contactNumber }}
+            {{ siteInfo.contactNumber }}
           </span>
         </div>
         <template
@@ -117,7 +117,7 @@ const currentDate = new Date()
             © Copyright
             {{ currentDate.getFullYear() }}
             <router-link :to="{ name: route.Home.name, force: true }">
-              {{ siteName }}.
+              {{ siteInfo.siteName }}.
             </router-link>
             All Rights Reserved.
           </span>

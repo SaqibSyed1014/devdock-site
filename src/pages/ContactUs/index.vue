@@ -1,8 +1,7 @@
 <script setup>
-import { contactEmail } from '@/core/constants/site-info'
+import siteInfo from "@/core/constants/site-info.json"
 import AppAvatar from "@/core/components/AppAvatar.vue";
 import Parallaxy from '@lucien144/vue3-parallaxy';
-import AppButton from "@/core/components/AppButton.vue";
 
 import pageData from "@/core/constants/contact-us.json"
 import AppContactUsButton from "@/core/components/AppContactUsButton.vue";
@@ -48,7 +47,7 @@ const contactData = pageData
           </address>
           <p class="underline pb-3">
             Say👋 at
-            <a :href="`mailto:${contactEmail}`">{{ contactEmail }}</a>
+            <a :href="`mailto:${siteInfo.contactEmail}`">{{ siteInfo.contactEmail }}</a>
           </p>
           <h2 class="follow-prompt font-bold text-xl 2xl:text-2xl pt-5">Follow Us!</h2>
 

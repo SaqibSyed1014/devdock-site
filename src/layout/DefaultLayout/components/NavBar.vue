@@ -8,7 +8,7 @@
             <router-link
                 class="mr-4 xss:mr-7 xl:mr-14 my-1 md:mb-0 md:mt-0"
                 :to="{ name: 'DevDockHome' }">
-              <img :src="logoUrl" alt="DevDock">
+              <img :src="siteInfo.logoUrl" alt="DevDock">
             </router-link>
 
           <div class="hidden lg:flex items-center flex-grow basis-[100%] md:basis-auto md:mt-0 mt-2 ">
@@ -202,7 +202,7 @@ import AppButton from '@/core/components/AppButton.vue'
 import AppMegaMenu from "@/core/components/AppMegaMenu.vue";
 import VideoPlayer from '@/core/components/VideoPlayer.vue'
 import { useRoute } from 'vue-router'
-import { logoUrl } from "@/core/constants/site-info.ts";
+import siteInfo from "@/core/constants/site-info.json"
 import { menuLinks } from "@/core/constants/common";
 import AppContactUsButton from "@/core/components/AppContactUsButton.vue";
 import contactData from "@/core/constants/contact-us.json";

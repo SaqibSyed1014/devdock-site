@@ -15,7 +15,7 @@
     }
   ],
   "text": "We’ll gladly answer any of your questions",
-  "address": "366 R1, Johar Town Lahore, Pakistan",
+  "address": "13000 Harbor Dr, 100, Woodbridge, Virginia, United States",
   "banner": {
     "heading": "Dm Now",
     "text": "Ask all your questions and discover DevDock services in action! Chat to one of us today.",
@@ -71,6 +71,18 @@
       "name": "Ahmad",
       "designation": "Developer",
       "image": "/img/team/developer-ahmed.webp",
+      "bgColor": "orange"
+    },
+    {
+      "name": "Asad",
+      "designation": "Developer",
+      "image": "/img/team/developer-asad.webp",
+      "bgColor": "orange"
+    },
+    {
+      "name": "Zainab",
+      "designation": "Manager",
+      "image": "/img/team/manager-zainab.webp",
       "bgColor": "orange"
     }
   ]
