@@ -38,16 +38,22 @@
   ],
   "team": [
     {
-      "name": "Waleed",
-      "designation": "Admin",
-      "image": "/img/team/admin-waleed.webp",
-      "bgColor": "#D1F2FD"
-    },
-    {
       "name": "F.Ibrahim",
       "designation": "CDO",
       "image": "/img/team/cdo-ibrahim.webp",
       "bgColor": "#FF9256"
+    },
+    {
+      "name": "A. Rehman",
+      "designation": "Business Manager",
+      "image": "/img/team/manager-rahman.webp",
+      "bgColor": "#FF9256"
+    },
+    {
+      "name": "Waleed",
+      "designation": "Admin",
+      "image": "/img/team/admin-waleed.webp",
+      "bgColor": "#D1F2FD"
     },
     {
       "name": "H.Fatima",
