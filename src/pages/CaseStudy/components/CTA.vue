@@ -4,7 +4,7 @@ import AppContactUsButton from "@/core/components/AppContactUsButton.vue";
 </script>
 
 <template>
-  <section class="container pt-20 2xl:pt-32">
+  <section class="container py-20 2xl:pt-32 2xl:pb-20">
     <div class="grid grid-cols-1 lg:grid-cols-2 md:gap-5">
       <div class="flex flex-col text-center justify-center text-primary sm:px-10">
         <h4 class="text-3xl md:text-4xl 2xl:text-5xl !leading-tight font-bold w-3/4 md:w-2/4 mx-auto">

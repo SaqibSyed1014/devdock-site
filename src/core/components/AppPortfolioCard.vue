@@ -1,7 +1,7 @@
 <template>
   <div class="group">
       <div
-          class="project-image fancy-hover border border-dark-gray rounded hover:border-dark-gray/0 transition-all my-3 md:my-5"
+          class="project-image fancy-hover"
       >
         <router-link
             :to="{
@@ -12,12 +12,12 @@
         >
           <div class="overflow-hidden cursor-pointer">
             <img
+                class="object-contain w-100 h-100"
                 :src="content?.image.path"
                 :alt="content?.image.alt"
             >
           </div>
         </router-link>
-
       </div>
 
     <router-link
@@ -28,10 +28,10 @@
          }"
         class="cursor-pointer"
     >
-      <h2 class="description-text text-base md:text-xl 2xl:text-2xl text-primary font-medium pb-1 md:pb-1.5">
+      <h2 class="description-text">
         {{ content.desc }}
       </h2>
-      <p class="text-sm md:text-base text-base-gray 2xl:text-xl hover:text-pink transition">
+      <p class="view-detail-btn">
         View Case Study
       </p>
     </router-link>
@@ -48,19 +48,6 @@ defineProps({
 </script>
 
 <style scoped lang="scss">
-.product-logo{
-  display: flex;
-  align-items: flex-end;
-  height: 50px;
-  width: 120px;
-  @media (max-width: theme('screens.sm')) {
-    height: 40px;
-  }
-  img{
-    object-fit: contain;
-    height: 100%;
-  }
-}
 .description-text{
   display: -webkit-box;
   -webkit-line-clamp: 3;

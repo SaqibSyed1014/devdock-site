@@ -1,5 +1,4 @@
 <script setup>
-import AppButton from "@/core/components/AppButton.vue";
 import AppContactUsButton from "@/core/components/AppContactUsButton.vue";
 
 defineProps({

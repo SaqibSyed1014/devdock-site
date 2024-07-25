@@ -323,6 +323,16 @@
       }
     }
   },
+  "Blogs": {
+    "name": "DevDockBlogs",
+    "path": "/blogs/",
+    "meta": {
+      "path": "/blogs",
+      "title": "DevDock Blogs | Software Design and Development Company",
+      "description": "DevDock Services - Your gateway to tailored web, app, and software development and design solutions. Explore our offerings and let's shape your digital success.",
+      "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO"
+    }
+  },
   "ContactUs": {
     "name": "DevDockContactUs",
     "path": "/contact-us",

@@ -46,7 +46,13 @@ export const menuLinks = [
                 icon: 'icon-send-fast'
             }
         ]
-    }
+    },
+    {
+        label: 'Blogs',
+        pathName: 'DevDockBlogs',
+        hasSubLinks: false,
+        subLinks: []
+    },
 ]
 
 export const featuresCardContent = {

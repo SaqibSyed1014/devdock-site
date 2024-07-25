@@ -26,6 +26,7 @@ html{
 }
 
 .fancy-hover{
+  @apply border border-dark-gray rounded hover:border-dark-gray/0 transition-all my-3 md:my-5;
   position: relative;
   z-index: 11;
   transition: transform .5s cubic-bezier(.19,1,.22,1);
@@ -121,3 +122,10 @@ html.lenis {
   scroll-behavior: auto;
 }
 
+
+.description-text{
+  @apply text-base md:text-xl 2xl:text-2xl text-primary font-medium pb-1 md:pb-1.5
+}
+.view-detail-btn{
+  @apply text-sm md:text-base text-base-gray 2xl:text-xl hover:text-pink transition
+}

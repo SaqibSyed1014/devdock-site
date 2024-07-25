@@ -38,6 +38,10 @@ const routes = [
         component: () => import('@/pages/ServicesDetails/index.vue')
       },
       {
+        ...routesMeta.Blogs,
+        component: () => import('@/pages/Blogs/index.vue')
+      },
+      {
         ...routesMeta.AboutUs,
         component: () => import('@/pages/AboutUs/index.vue')
       },
