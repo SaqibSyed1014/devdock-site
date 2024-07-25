@@ -9,7 +9,7 @@ defineProps({
     <div class="project-image fancy-hover">
       <router-link
           :to="{
-            name: 'DevDockBlogs',
+            name: 'DevDockBlogDetails',
             force: true
           }"
       >
@@ -24,7 +24,7 @@ defineProps({
 
     <router-link
         :to="{
-           name: 'DevDockBlogs',
+           name: 'DevDockBlogDetails',
            force: true
         }"
         class="cursor-pointer"

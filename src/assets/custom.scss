@@ -129,3 +129,27 @@ html.lenis {
 .view-detail-btn{
   @apply text-sm md:text-base text-base-gray 2xl:text-xl hover:text-pink transition
 }
+
+
+// Blog Detail CSS
+.blog-detail-page{
+  .blog-content-index{
+    .indexed-link{
+      @apply underline cursor-pointer
+    }
+  }
+  .blog-content{
+    &{
+      @apply text-[#111111]
+    }
+    h3{
+      @apply text-3xl font-bold pb-6
+    }
+    h4{
+      @apply text-2xl font-bold pb-5
+    }
+    p{
+      @apply text-lg pb-5
+    }
+  }
+}
