@@ -131,6 +131,7 @@
                         {{ link.label }}
                       </template>
                       <span
+                          v-if="link.subLinks.length"
                           @click="showSubMenuList(link.subLinks)"
                           class="i-charm-chevron-right text-dark-gray text-2xl shrink-0"
                       />
