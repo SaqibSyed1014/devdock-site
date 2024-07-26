@@ -31,7 +31,7 @@ function copyLink() {
 </script>
 
 <template>
-  <div class="share-links max-md:fixed max-md:right-0 max-md:top-1/3 flex items-center flex-col gap-3 max-md:pr-3">
+  <div class="share-links max-md:fixed max-md:right-0 max-md:top-1/3 flex items-center flex-col gap-3 max-md:pr-3 max-md:z-20">
     <p class="pb-2 font-semibold text-lg max-md:hidden">Share: {{showCopyToast}}</p>
 
     <template v-for="social in shareLinks">

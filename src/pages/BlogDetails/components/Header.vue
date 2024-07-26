@@ -14,11 +14,11 @@
             Stay ahead of the curve with Tech Trends, your go-to source for the latest technological advancements.
           </p>
           <div class="flex items-center gap-3 md:pt-10">
-            <div class="flex items-center justify-center border border-primary rounded-full w-[69px] h-[69px] overflow-hidden shrink-0">
+            <div class="flex items-center justify-center border border-primary rounded-full h-14 w-14 md:w-[69px] md:h-[69px] overflow-hidden shrink-0">
               <img src="/img/logo-clipped.png" alt="Clipped Logo" class="">
             </div>
             <div class="">
-              <p class="text-lg font-bold">DevDock Team</p>
+              <p class="md:text-lg font-bold">DevDock Team</p>
               <small class="text-sm">
                 13 June 2024
                 <span class="">&nbsp;.&nbsp;</span>

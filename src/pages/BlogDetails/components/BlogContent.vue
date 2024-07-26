@@ -13,7 +13,7 @@ function scrollToContent(id :string) {
   <section class="blog-detail-page">
     <div class="container">
         <div class="blog-detail">
-          <div class="blog-content-index md:ml-20 bg-sky rounded-[10px] p-[29px] mb-6">
+          <div class="blog-content-index md:ml-20 bg-sky rounded-[10px] p-5 md:p-[29px] mb-6">
             <div class="flex justify-between mb-5">
               <h4 class="text-2xl">Table of Content</h4>
             </div>
@@ -88,7 +88,7 @@ function scrollToContent(id :string) {
               <hr class="border border-[#F1F1F1] w-full my-11">
 
               <div class="blog-tags">
-                <div class="flex flex-wrap items-center gap-2 text-lg">
+                <div class="flex flex-wrap items-center gap-2 md:text-lg">
                   <p class="font-semibold mr-2">Tags:</p>
                     <div class="bg-[#F1F1F1] rounded-[20px] px-5 py-1">
                       <span>Product Design</span>

@@ -143,13 +143,13 @@ html.lenis {
       @apply text-[#111111]
     }
     h3{
-      @apply text-3xl font-bold pb-6
+      @apply text-2xl md:text-3xl font-bold pb-6
     }
     h4{
-      @apply text-2xl font-bold pb-5
+      @apply text-xl md:text-2xl font-bold pb-5
     }
     p{
-      @apply text-lg pb-5
+      @apply md:text-lg pb-5
     }
   }
 }
