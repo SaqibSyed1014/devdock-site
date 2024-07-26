@@ -1,26 +1,9 @@
 <script setup lang="ts">
-const shareLinks = [
-  {
-    icon: "i-mdi-facebook",
-    link: "https://www.facebook.com/devdock.team"
-  },
-  {
-    icon: "i-mdi-twitter",
-    link: ""
-  },
-  {
-    icon: "i-mdi-instagram",
-    link: " https://www.instagram.com/devdock.tech/"
-  },
-  {
-    icon: "i-mdi-linkedin",
-    link: "https://www.linkedin.com/company/devdock"
-  }
-]
+import ShareBlogLinks from "@/pages/BlogDetails/components/ShareBlogLinks.vue";
 
 function scrollToContent(id :string) {
   const element = document.getElementById(id)
-  element.scrollIntoView({
+  element?.scrollIntoView({
     behavior: "smooth"
   })
 }
@@ -30,7 +13,7 @@ function scrollToContent(id :string) {
   <section class="blog-detail-page">
     <div class="container">
         <div class="blog-detail">
-          <div class="blog-content-index ml-20 bg-sky rounded-[10px] p-[29px] mb-6">
+          <div class="blog-content-index md:ml-20 bg-sky rounded-[10px] p-[29px] mb-6">
             <div class="flex justify-between mb-5">
               <h4 class="text-2xl">Table of Content</h4>
             </div>
@@ -43,29 +26,7 @@ function scrollToContent(id :string) {
             <p class="indexed-link" @click="scrollToContent('sectionFour')">Conclusion</p>
           </div>
           <div class="flex gap-8">
-            <div class="share-links flex flex-col gap-3">
-              <p class="pb-2 font-semibold text-lg">Share:</p>
-
-              <template v-for="social in shareLinks">
-                <a
-                    :href="social.link"
-                    target="_blank"
-                    class="flex justify-center items-center w-10 h-10 border border-primary/50 rounded cursor-pointer group hover:bg-primary transition"
-                >
-                <span
-                    class="text-xl xl:text-2xl text-primary group-hover:text-white transition"
-                    :class="[`${social.icon}`]"
-                />
-                </a>
-              </template>
-
-              <div
-                  class="flex justify-center items-center w-10 h-10 border border-primary/50 rounded cursor-pointer group hover:bg-primary transition">
-                <span
-                    class="text-xl xl:text-2xl text-primary i-mdi-link-variant group-hover:text-white transition"></span>
-              </div>
-            </div>
-
+            <ShareBlogLinks />
             <div>
               <div class="blog-content">
                 <p>
@@ -127,9 +88,8 @@ function scrollToContent(id :string) {
               <hr class="border border-[#F1F1F1] w-full my-11">
 
               <div class="blog-tags">
-                <div class="flex items-center gap-3 text-lg">
-                  <p class="font-semibold">Tags:</p>
-                  <div class="flex gap-2">
+                <div class="flex flex-wrap items-center gap-2 text-lg">
+                  <p class="font-semibold mr-2">Tags:</p>
                     <div class="bg-[#F1F1F1] rounded-[20px] px-5 py-1">
                       <span>Product Design</span>
                     </div>
@@ -139,7 +99,6 @@ function scrollToContent(id :string) {
                     <div class="bg-[#F1F1F1] rounded-[20px] px-5 py-1">
                       <span>Redesign</span>
                     </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -148,7 +107,3 @@ function scrollToContent(id :string) {
       </div>
   </section>
 </template>
-
-<style scoped lang="scss">
-
-</style>
