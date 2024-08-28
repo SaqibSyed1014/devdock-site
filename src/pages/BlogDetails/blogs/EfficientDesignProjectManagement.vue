@@ -2,7 +2,7 @@
 import { ref } from 'vue';
 import BlogHeader from "@/pages/BlogDetails/components/BlogHeader.vue";
 import BlogContentTemplate from "@/pages/BlogDetails/components/BlogContentTemplate.vue";
-// import RecentBlogs from "@/pages/BlogDetails/components/RecentBlogs.vue";
+import RecentBlogs from "@/pages/BlogDetails/components/RecentBlogs.vue";
 import BlogTags from "@/pages/BlogDetails/components/BlogTags.vue";
 import pageData from "@/core/constants/blogs.json";
 import TableOfContents from "@/pages/BlogDetails/components/TableOfContents.vue";
@@ -188,5 +188,5 @@ let selectedBlog = ref<Blog>(pageData.blogs[4]);
     </BlogContentTemplate>
   </div>
 
-<!--  <RecentBlogs />-->
+  <RecentBlogs :recent-blogs-index="[1, 3, 7]" />
 </template>
