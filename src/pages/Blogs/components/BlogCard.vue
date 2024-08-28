@@ -9,14 +9,15 @@ defineProps({
     <div class="project-image fancy-hover">
       <router-link
           :to="{
-            name: 'DevDockBlogDetails',
+            path: blog.path,
             force: true
           }"
       >
-        <div class="overflow-hidden cursor-pointer">
+        <div class="overflow-hidden cursor-pointer h-[235px]">
           <img
-              src="/img/blogs/blog-image.png"
-              alt="content?.image.alt"
+              :src="blog.image.path"
+              :alt="blog.image.alt"
+              class="w-full h-full object-cover"
           >
         </div>
       </router-link>
@@ -24,13 +25,13 @@ defineProps({
 
     <router-link
         :to="{
-           name: 'DevDockBlogDetails',
+           path: blog.path,
            force: true
         }"
         class="cursor-pointer"
     >
       <h2 class="description-text">
-        <span v-for="text in blog.title" class="block">{{ text }}</span>
+        {{ blog.title }}
       </h2>
       <p class="view-detail-btn">
         Read Blog
@@ -38,7 +39,3 @@ defineProps({
     </router-link>
   </div>
 </template>
-
-<style scoped lang="scss">
-
-</style>

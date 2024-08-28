@@ -39,11 +39,35 @@ const routes = [
       },
       {
         ...routesMeta.Blogs,
-        component: () => import('@/pages/Blogs/index.vue')
+        component: () => import('@/pages/Blogs/index.vue'),
       },
       {
-        ...routesMeta.Blog,
-        component: () => import('@/pages/BlogDetails/index.vue')
+        ...routesData.MustHaveAiToolsForGraphicDesign2024Blog,
+        component: () => import('@/pages/BlogDetails/blogs/MustHaveAiToolsForGraphicDesign2024.vue'),
+      },
+      {
+        ...routesData.MasterThe5StepDesignBriefForTopTierOutcomes,
+        component: () => import('@/pages/BlogDetails/blogs/MasterThe5StepDesignBriefForTopTierOutcome.vue'),
+      },
+      {
+        ...routesData.WebDesignVsWebDevelopment,
+        component: () => import('@/pages/BlogDetails/blogs/WebDesignVsWebDevelopment.vue'),
+      },
+      {
+        ...routesData.WhyBigBrandsInvestInUniqueFonts,
+        component: () => import('@/pages/BlogDetails/blogs/WhyBigBrandsInvestInUniqueFonts.vue'),
+      },
+      {
+        ...routesData.AvoidTheseUXDesignMistakesIn2024,
+        component: () => import('@/pages/BlogDetails/blogs/AvoidTheseUXDesignMistakesIn2024.vue'),
+      },
+      {
+        ...routesData.EfficientDesignProjectManagement,
+        component: () => import('@/pages/BlogDetails/blogs/EfficientDesignProjectManagement.vue'),
+      },
+      {
+        ...routesData.ArtworkManagementEssentialsFor2024,
+        component: () => import('@/pages/BlogDetails/blogs/ArtworkManagementEssentialsFor2024.vue'),
       },
       {
         ...routesMeta.AboutUs,

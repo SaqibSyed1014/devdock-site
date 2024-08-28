@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, watch } from 'vue'
+import { ref } from 'vue'
 import ToastNotification from "@/core/components/ToastNotification.vue";
 const shareLinks = [
   {
@@ -31,8 +31,8 @@ function copyLink() {
 </script>
 
 <template>
-  <div class="share-links max-md:fixed max-md:right-0 max-md:top-1/3 flex items-center flex-col gap-3 max-md:pr-3 max-md:z-20">
-    <p class="pb-2 font-semibold text-lg max-md:hidden">Share: {{showCopyToast}}</p>
+  <div class="share-links sticky top-0 max-md:fixed max-md:right-0 max-md:top-1/3 flex items-center flex-col gap-3 max-md:pr-3 max-md:z-20">
+    <p class="pb-2 font-semibold text-lg max-md:hidden">Share:</p>
 
     <template v-for="social in shareLinks">
       <a

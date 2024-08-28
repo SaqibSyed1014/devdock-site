@@ -6,5 +6,402 @@
       "path": "/img/blogs/hero-image.webp",
       "alt": "Blogs Illustration"
     }
-  }
+  },
+  "blogs": [
+     {
+      "title": "Must-Have AI Tools for Graphic Design in 2024",
+      "path": "/blog/must-have-ai-tools-for-graphic-design",
+      "subTitle": "The creative landscape is being changed by AI graphic design tools, which give designers new ways of creating, editing and polishing their work.",
+      "image": {
+        "path": "/img/blogs/blog-one/header-img.webp",
+        "alt": "Blogs Illustration"
+      },
+       "tags": ["Product Design", "UX Audit", "Redesign"],
+       "tableContentLinks": [
+         {
+           "id": "",
+           "text": "Here, we shall look at top 12 AI graphic design tools for various stages in the creative process.",
+           "subLinks": [
+             {
+               "id": "",
+               "text": "Designs.ai"
+             },
+             {
+               "id": "",
+               "text": "Adobe Sensei"
+             },
+             {
+               "id": "",
+               "text": "Autodraw"
+             },
+             {
+               "id": "",
+               "text": "Uizard"
+             },
+             {
+               "id": "",
+               "text": "Looka"
+             },
+             {
+               "id": "",
+               "text": "Let’s Enhance"
+             },
+             {
+               "id": "",
+               "text": "Khroma"
+             },
+             {
+               "id": "",
+               "text": "Remove.bg"
+             },
+             {
+               "id": "",
+               "text": "Canva"
+             },
+             {
+               "id": "",
+               "text": "Sketch2Code"
+             },
+             {
+               "id": "",
+               "text": "DreamStudio"
+             },
+             {
+               "id": "",
+               "text": "Fontjoy"
+             }
+           ]
+         },
+         {
+           "id": "",
+           "text": "Final Thoughts",
+           "subLinks": []
+         }
+       ]
+    },
+    {
+      "title": "Master the 5-Step Design Brief for Top-Tier Outcomes",
+      "path": "/blog/master-the-5-step-design-brief-for-top-tier-outcomes",
+      "subTitle": "On this note, the success of any project in the area of graphic design is usually tied to the quality of the design brief.",
+      "image": {
+        "path": "/img/blogs/blog-two/header-img.webp",
+        "alt": "Blogs Illustration"
+      },
+      "tags": ["Product Design", "UX Audit", "Redesign"],
+      "tableContentLinks": [
+        {
+          "id": "",
+          "text": "Important steps to develop a design",
+          "subLinks": [
+            {
+              "id": "",
+              "text": "Definition of objectives and goals"
+            },
+            {
+              "id": "",
+              "text": "Research and get an insight into your audience"
+            },
+            {
+              "id": "",
+              "text": "Identify Key Messages and Brand Identity"
+            },
+            {
+              "id": "",
+              "text": "Clearly spell out deliverables and specifications"
+            },
+            {
+              "id": "",
+              "text": "Define the Project Timeline and Budget"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "text": "Differences between an In-House and an External Design Brief",
+          "subLinks": []
+        },
+        {
+          "id": "",
+          "text": "Key features",
+          "subLinks": []
+        },
+        {
+          "id": "",
+          "text": "Final Thoughts",
+          "subLinks": []
+        }
+      ]
+    },
+    {
+      "title": "Web Design vs. Web Development",
+      "path": "/blog/web-design-vs-web-development",
+      "subTitle": "Web design and web development are two different but very important processes in coming up with an effective website where web design deals with user experience and the visual aspects of the site, while web development deals with coding and functionality.",
+      "image": {
+        "path": "/img/blogs/blog-three/header-img.webp",
+        "alt": "Blogs Illustration"
+      },
+      "tags": ["Product Design", "UX Audit", "Redesign"],
+      "tableContentLinks": [
+        {
+          "id": "",
+          "text": "Key Points",
+          "subLinks": []
+        },
+        {
+          "id": "",
+          "text": "What Is Web Design?",
+          "subLinks": []
+        },
+        {
+          "id": "",
+          "text": "Why is Web Design Important?",
+          "subLinks": []
+        },
+        {
+          "id": "",
+          "text": "Benefits of Good Web Design",
+          "subLinks": []
+        },
+        {
+          "id": "",
+          "text": "What is Web Development?",
+          "subLinks": []
+        },
+        {
+          "id": "",
+          "text": "Why Web Development Matters?",
+          "subLinks": []
+        },
+        {
+          "id": "",
+          "text": "Benefits of Web Development",
+          "subLinks": []
+        },
+        {
+          "id": "",
+          "text": "Web Design vs. Web Development: Key Differences",
+          "subLinks": []
+        },
+        {
+          "id": "",
+          "text": "Conclusion",
+          "subLinks": []
+        }
+      ]
+    },
+    {
+      "title": "Why Big Brands Invest in Unique Fonts",
+      "path": "/blog/why-big-brands-invest-in-unique-fonts",
+      "subTitle": "If competing brands such as Coca-Cola, Netflix, or Apple stand out, it's not only through their logos but their custom fonts.",
+      "image": {
+        "path": "/img/blogs/blog-four/header-img.webp",
+        "alt": "Blogs Illustration"
+      },
+      "tags": ["Product Design", "UX Audit", "Redesign"],
+      "tableContentLinks": [
+        {
+          "id": "",
+          "text": "",
+          "subLinks": [
+            {
+              "id": "",
+              "text": "Why Develop a Custom Font?"
+            },
+            {
+              "id": "",
+              "text": "Aligning Fonts with Brand Identity"
+            },
+            {
+              "id": "",
+              "text": "Choosing the Right Fonts"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "text": "The Role of 3D Fonts in Branding",
+          "subLinks": []
+        },
+        {
+          "id": "",
+          "text": "Conclusion",
+          "subLinks": []
+        }
+      ]
+    },
+    {
+      "title": "Efficient Design Project Management",
+      "path": "/blog/efficient-design-project-management",
+      "subTitle": "Workflow in effecting a design project necessitates a coordination of the abstract processes with one characterized by particularity. Here is an outline of the eight key steps undertaken in effecting design projects and the top five tools to streamline your process.",
+      "image": {
+        "path": "/img/blogs/blog-five/header-img.webp",
+        "alt": "Blogs Illustration"
+      },
+      "tags": ["Product Design", "UX Audit", "Redesign"],
+      "tableContentLinks": [
+        {
+          "id": "",
+          "text": "What is Design Project Management?",
+          "subLinks": []
+        },
+        {
+          "id": "",
+          "text": "8 Steps in Setting up an Effective Design Project Management Process",
+          "subLinks": [
+            {
+              "id": "",
+              "text": "Define Project Objectives and Scope"
+            },
+            {
+              "id": "",
+              "text": "Team Formation And Empowerment"
+            },
+            {
+              "id": "",
+              "text": "Select Appropriate Tools for Project Management"
+            },
+            {
+              "id": "",
+              "text": "Develop a Road Map for the Project"
+            },
+            {
+              "id": "",
+              "text": "Develop a Creative Brief"
+            },
+            {
+              "id": "",
+              "text": "Enable Communication and Collaboration"
+            },
+            {
+              "id": "",
+              "text": "Implementing Workflow and Design Process"
+            },
+            {
+              "id": "",
+              "text": "What Sets Design Project Management Apart"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "text": "Top 5 Design Project Management Software",
+          "subLinks": [
+            {
+              "id": "",
+              "text": "Trello"
+            },
+            {
+              "id": "",
+              "text": "Filestage"
+            },
+            {
+              "id": "",
+              "text": "Monday.com"
+            },
+            {
+              "id": "",
+              "text": "Adobe Creative Cloud with Adobe Project Rush"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "text": "Conclusion",
+          "subLinks": []
+        }
+      ]
+    },
+    {
+      "title": "Avoid These UX Design Mistakes in 2024",
+      "path": "/blog/avoid-these-ux-design-mistakes-in-2024",
+      "subTitle": "If competing brands such as Coca-Cola, Netflix, or Apple stand out, it's not only through their logos but their custom fonts.",
+      "image": {
+        "path": "/img/blogs/blog-six/header-img.webp",
+        "alt": "Blogs Illustration"
+      },
+      "tags": ["Product Design", "UX Audit", "Redesign"],
+      "tableContentLinks": [
+        {
+          "id": "",
+          "text": "Steps for Improving UX and Avoiding Mistakes",
+          "subLinks": [
+            {
+              "id": "",
+              "text": "Conduct User Research"
+            },
+            {
+              "id": "",
+              "text": "Wireframing and Prototyping"
+            },
+            {
+              "id": "",
+              "text": "Iterative Design Process"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "text": "Common mistakes of UX/UI design to avoid Overly complicated navigation menus",
+          "subLinks": [
+            {
+              "id": "",
+              "text": "Slow Load Times"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "text": "DevDock Opinion about AI",
+          "subLinks": []
+        },
+        {
+          "id": "",
+          "text": "Trend 2024: Investments in AI and Data Analytics",
+          "subLinks": []
+        },
+        {
+          "id": "",
+          "text": "Conclusion",
+          "subLinks": []
+        }
+      ]
+    },
+    {
+      "title": "Artwork Management Essentials for 2024",
+      "path": "/blog/artwork-management-essentials-for-2024",
+      "subTitle": "One might think, considering the quantum of digital content consumed every day, that print media is dying. But latest statistics from Gitnux show just the opposite. According to them, the printing industry will grow at a CAGR of 4.64% from 2021 to 2026.",
+      "image": {
+        "path": "/img/blogs/blog-seven/header-img.webp",
+        "alt": "Blogs Illustration"
+      },
+      "tags": ["Product Design", "UX Audit", "Redesign"],
+      "tableContentLinks": [
+        {
+          "id": "",
+          "text": "What is Artwork Management?",
+          "subLinks": []
+        },
+        {
+          "id": "",
+          "text": "The Surging Demand for Artwork Management Software",
+          "subLinks": []
+        },
+        {
+          "id": "",
+          "text": "How Automated Artwork Approval Management Benefits You",
+          "subLinks": []
+        },
+        {
+          "id": "",
+          "text": "The Future Trends in Artwork Approval Management",
+          "subLinks": []
+        },
+        {
+          "id": "",
+          "text": "Conclusion",
+          "subLinks": []
+        }
+      ]
+    }
+  ]
 }

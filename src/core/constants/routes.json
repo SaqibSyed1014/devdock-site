@@ -333,12 +333,72 @@
       "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO"
     }
   },
-  "Blog": {
-    "name": "DevDockBlogDetails",
-    "path": "/blogs/tech-trends",
+  "MustHaveAiToolsForGraphicDesign2024Blog": {
+    "name": "MustHaveAiToolsForGraphicDesign2024Blog",
+    "path": "/blog/must-have-ai-tools-for-graphic-design",
     "meta": {
-      "path": "/blogs/tech-trends",
-      "title": "DevDock Blogs | Software Design and Development Company",
+      "path": "/blog/must-have-ai-tools-for-graphic-design",
+      "title": "DevDock Blogs | Must-Have AI Tools for Graphic Design in 2024",
+      "description": "DevDock Services - Your gateway to tailored web, app, and software development and design solutions. Explore our offerings and let's shape your digital success.",
+      "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO"
+    }
+  },
+  "MasterThe5StepDesignBriefForTopTierOutcomes": {
+    "name": "MasterThe5StepDesignBriefForTopTierOutcomes",
+    "path": "/blog/master-the-5-step-design-brief-for-top-tier-outcomes",
+    "meta": {
+      "path": "/blog/master-the-5-step-design-brief-for-top-tier-outcomes",
+      "title": "DevDock Blogs | Master the 5-Step Design Brief for Top-Tier Outcomes",
+      "description": "DevDock Services - Your gateway to tailored web, app, and software development and design solutions. Explore our offerings and let's shape your digital success.",
+      "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO"
+    }
+  },
+  "WebDesignVsWebDevelopment": {
+    "name": "WebDesignVsWebDevelopment",
+    "path": "/blog/web-design-vs-web-development",
+    "meta": {
+      "path": "/blog/web-design-vs-web-development",
+      "title": "DevDock Blogs | Web Design vs. Web Development",
+      "description": "DevDock Services - Your gateway to tailored web, app, and software development and design solutions. Explore our offerings and let's shape your digital success.",
+      "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO"
+    }
+  },
+  "WhyBigBrandsInvestInUniqueFonts": {
+    "name": "WhyBigBrandsInvestInUniqueFonts",
+    "path": "/blog/why-big-brands-invest-in-unique-fonts",
+    "meta": {
+      "path": "/blog/why-big-brands-invest-in-unique-fonts",
+      "title": "DevDock Blogs | Why Big Brands Invest in Unique Fonts",
+      "description": "DevDock Services - Your gateway to tailored web, app, and software development and design solutions. Explore our offerings and let's shape your digital success.",
+      "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO"
+    }
+  },
+  "AvoidTheseUXDesignMistakesIn2024": {
+    "name": "AvoidTheseUXDesignMistakesIn2024",
+    "path": "/blog/avoid-these-ux-design-mistakes-in-2024",
+    "meta": {
+      "path": "/blog/avoid-these-ux-design-mistakes-in-2024",
+      "title": "DevDock Blogs | Avoid These UX Design Mistakes in 2024",
+      "description": "DevDock Services - Your gateway to tailored web, app, and software development and design solutions. Explore our offerings and let's shape your digital success.",
+      "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO"
+    }
+  },
+  "EfficientDesignProjectManagement": {
+    "name": "EfficientDesignProjectManagement",
+    "path": "/blog/efficient-design-project-management",
+    "meta": {
+      "path": "/blog/efficient-design-project-management",
+      "title": "DevDock Blogs | Efficient Design Project Management",
+      "description": "DevDock Services - Your gateway to tailored web, app, and software development and design solutions. Explore our offerings and let's shape your digital success.",
+      "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO"
+    }
+  },
+  "ArtworkManagementEssentialsFor2024": {
+    "name": "ArtworkManagementEssentialsFor2024",
+    "path": "/blog/artwork-management-essentials-for-2024",
+    "meta": {
+      "path": "/blog/artwork-management-essentials-for-2024",
+      "title": "DevDock Blogs | Artwork Management Essentials for 2024",
       "description": "DevDock Services - Your gateway to tailored web, app, and software development and design solutions. Explore our offerings and let's shape your digital success.",
       "keywords": "Web development services, app development services, mobile app development services, Android development services, iOS development services, software development services, React.js, Next.js, Vue.js, Flutter, Node.js, Swift, Tailwind CSS, HTML, CSS, Web development, app development, Android, iOS, software development, UI Design Services, Ux Design Services, UI/UX consulting services, Product Design Services, Product Design, UI Design, UX design, UI/UX design, SEO, Search Engine Marketing, Digital Marketing, Social Media, SEM, Search Engine Marketing, On page SEO, Off page SEO, Technical SEO, Local SEO"
     }
