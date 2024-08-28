@@ -17,6 +17,11 @@ function scrollToContent(id :string) {
   <div class="blog-content-index bg-sky rounded-[10px] p-5 md:p-[29px] mb-6">
   <div class="flex justify-between mb-5">
     <h4 class="text-2xl">Table of Content</h4>
+    <button type="button" class="flex gap-1.5 items-center text-sm font-bold py-2.5 px-3 bg-white rounded-[82px]">
+      <img src="/svg/ai-document.svg" alt="AI Document SVG">
+      Read AI-Generated Summary
+      <img src="/svg/chevron-down.svg" alt="Dropdown Arrow SVG">
+    </button>
   </div>
     <template v-for="link in tableContents">
       <p class="indexed-link" @click="scrollToContent(link.id)">

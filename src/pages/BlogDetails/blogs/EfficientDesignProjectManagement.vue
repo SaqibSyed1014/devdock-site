@@ -37,10 +37,10 @@ let selectedBlog = ref<Blog>(pageData.blogs[4]);
 
         <BlogContentSection
             heading="8 Steps in Setting up an Effective Design Project Management Process"
-            heading-id=""
+            heading-id="managementSteps"
         >
 
-          <BlogContentBlock sub-heading="Define Project Objectives and Scope" sub-heading-id="">
+          <BlogContentBlock sub-heading="Define Project Objectives and Scope" sub-heading-id="stepOne">
             <p><b>Set Expectations:</b> Define what is required from the client. That is, the goals in terms of audience
               and expected results.</p>
 
@@ -54,7 +54,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[4]);
             <p><b>Alignment:</b> Clarify these requirements with all stakeholders.</p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Team Formation And Empowerment" sub-heading-id="">
+          <BlogContentBlock sub-heading="Team Formation And Empowerment" sub-heading-id="stepTwo">
             <p><b>Roles Involved:</b> A number of professionals, for example project managers, designers, art directors,
               UX designers, copywriters, among others.</p>
 
@@ -64,12 +64,12 @@ let selectedBlog = ref<Blog>(pageData.blogs[4]);
             <p><b>Alignment:</b> Clarify these requirements with all stakeholders.</p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Select Appropriate Tools for Project Management" sub-heading-id="">
+          <BlogContentBlock sub-heading="Select Appropriate Tools for Project Management" sub-heading-id="stepThree">
             <p><b>Select the Right Tools:</b> A number of professionals, for example project managers, designers, art
               directors, UX designers, copywriters, among others.</p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Develop a Road Map for the Project" sub-heading-id="">
+          <BlogContentBlock sub-heading="Develop a Road Map for the Project" sub-heading-id="stepFour">
             <p><b>Develop a Road Map:</b> Objectives, scope, period of time, resource utilization, and budget.</p>
 
             <p><b>Facilitate Communication:</b> A well-thought plan initiates an effective communication and
@@ -78,19 +78,19 @@ let selectedBlog = ref<Blog>(pageData.blogs[4]);
             <img src="/img/blogs/blog-five/brainstorming.webp" alt="Brainstorming">
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Develop a Creative Brief" sub-heading-id="">
+          <BlogContentBlock sub-heading="Develop a Creative Brief" sub-heading-id="stepFive">
             <p><b>Elaborate Brief:</b> Include project objectives, target audience, brand guidelines and other mandatory details.</p>
 
             <p><b>Touchpoint:</b> Use the brief as a reference throughout the project and as evidence in case of scope changes.</p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Enable Communication and Collaboration" sub-heading-id="">
+          <BlogContentBlock sub-heading="Enable Communication and Collaboration" sub-heading-id="stepSix">
             <p><b>Communication Channels:</b> For keeping updates and feedback, make sure you have these in place.</p>
 
             <p><b>Team Meetings:</b> Schedule regular feedback loops to ensure there is transparency and alignment.</p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Enable Communication and Collaboration" sub-heading-id="">
+          <BlogContentBlock sub-heading="Enable Communication and Collaboration" sub-heading-id="stepSeven">
             <p><b>Structured Methodologies:</b> Come up with workflows around ideation, creation, and iteration.
               This has to be aimed at making sure that tasks are structured in an appropriate manner and roles are
               clearly defined for whom.</p>
@@ -105,7 +105,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[4]);
               where you will want to enhance the management process.</p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="What Sets Design Project Management Apart" sub-heading-id="">
+          <BlogContentBlock sub-heading="What Sets Design Project Management Apart" sub-heading-id="stepEight">
             <p><b>Creative and Aesthetic:</b> Emphasis on presentations and creative steps.<br>
               <b>Collaboration with designers:</b> Interaction with designers and creative crews<br>
               <b>Iterative Process:</b> Implementation of changes and improvements per feedback<br>
@@ -113,8 +113,8 @@ let selectedBlog = ref<Blog>(pageData.blogs[4]);
               <b>Visual Communication:</b> Highly skilled at handling visual materials and prototypes</p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Top 5 Design Project Management Software" sub-heading-id="">
-            <p><b>Trello</b><br> Most Ideal for Task and Project Management.</p>
+          <BlogContentBlock sub-heading="Top 5 Design Project Management Software" sub-heading-id="topDesignManagementSoftware">
+            <p id="trello"><b>Trello</b><br> Most Ideal for Task and Project Management.</p>
 
             <p>
               <b>Visual Workflow:</b> Project/ task management via boards, lists, and cards.<br>
@@ -127,7 +127,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[4]);
           </BlogContentBlock>
 
           <BlogContentBlock sub-heading="" sub-heading-id="">
-            <p><b>Filestage</b><br> Best for Review and Approval</p>
+            <p id="fileStage"><b>Filestage</b><br> Best for Review and Approval</p>
 
             <p>
               <b>Due Dates:</b> You can set deadlines for review rounds.<br>
@@ -140,7 +140,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[4]);
           </BlogContentBlock>
 
           <BlogContentBlock sub-heading="" sub-heading-id="">
-            <p><b>Monday.com</b><br> Best for Creative Collaboration and Resource Management</p>
+            <p id="monday"><b>Monday.com</b><br> Best for Creative Collaboration and Resource Management</p>
 
             <p>
               <b>Customizable Workflows:</b> It provides the facility to customize boards and views for design projects.<br>
@@ -153,7 +153,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[4]);
           </BlogContentBlock>
 
           <BlogContentBlock sub-heading="" sub-heading-id="">
-            <p><b>Adobe Creative Cloud with Adobe Project Rush</b> Best for Creative Collaboration and Resource Management</p>
+            <p id="adobeCreativeCloud"><b>Adobe Creative Cloud with Adobe Project Rush</b> Best for Creative Collaboration and Resource Management</p>
 
             <p>
               <b>Collaboration:</b> Share and Sync Assets with Creative Cloud Libraries<br>
@@ -173,7 +173,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[4]);
 
 
 
-          <BlogContentBlock sub-heading="Conclusion" sub-heading-id="">
+          <BlogContentBlock sub-heading="Conclusion" sub-heading-id="conclusion">
             <p>A good design project management process should be organized, collaborative, and well-equipped. Follow
               these steps and use the right software—they are going to bring efficiency and make it possible that your
               design project will satisfy the client's expectation. Choose the most appropriate tools for your team's

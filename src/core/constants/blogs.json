@@ -20,7 +20,7 @@
        "tableContentLinks": [
          {
            "id": "aiToolsList",
-           "text": "Here, we shall look at top 12 AI graphic design tools for various stages in the creative process.",
+           "text": "Top 12 AI graphic design tools for various stages in the creative process",
            "subLinks": [
              {
                "id": "designAI",
@@ -240,72 +240,72 @@
       "tags": ["Product Design", "UX Audit", "Redesign"],
       "tableContentLinks": [
         {
-          "id": "",
+          "id": "designProjectManagement",
           "text": "What is Design Project Management?",
           "subLinks": []
         },
         {
-          "id": "",
+          "id": "managementSteps",
           "text": "8 Steps in Setting up an Effective Design Project Management Process",
           "subLinks": [
             {
-              "id": "",
+              "id": "stepOne",
               "text": "Define Project Objectives and Scope"
             },
             {
-              "id": "",
+              "id": "stepTwo",
               "text": "Team Formation And Empowerment"
             },
             {
-              "id": "",
+              "id": "stepThree",
               "text": "Select Appropriate Tools for Project Management"
             },
             {
-              "id": "",
+              "id": "stepFour",
               "text": "Develop a Road Map for the Project"
             },
             {
-              "id": "",
+              "id": "stepFive",
               "text": "Develop a Creative Brief"
             },
             {
-              "id": "",
+              "id": "stepSix",
               "text": "Enable Communication and Collaboration"
             },
             {
-              "id": "",
+              "id": "stepSeven",
               "text": "Implementing Workflow and Design Process"
             },
             {
-              "id": "",
+              "id": "stepEight",
               "text": "What Sets Design Project Management Apart"
             }
           ]
         },
         {
-          "id": "",
+          "id": "topDesignManagementSoftware",
           "text": "Top 5 Design Project Management Software",
           "subLinks": [
             {
-              "id": "",
+              "id": "trello",
               "text": "Trello"
             },
             {
-              "id": "",
+              "id": "fileStage",
               "text": "Filestage"
             },
             {
-              "id": "",
+              "id": "monday",
               "text": "Monday.com"
             },
             {
-              "id": "",
+              "id": "adobeCreativeCloud",
               "text": "Adobe Creative Cloud with Adobe Project Rush"
             }
           ]
         },
         {
-          "id": "",
+          "id": "conclusion",
           "text": "Conclusion",
           "subLinks": []
         }
@@ -340,27 +340,22 @@
           ]
         },
         {
-          "id": "",
+          "id": "commonUiUxMistakes",
           "text": "Common mistakes of UX/UI design to avoid Overly complicated navigation menus",
-          "subLinks": [
-            {
-              "id": "",
-              "text": "Slow Load Times"
-            }
-          ]
-        },
-        {
-          "id": "",
-          "text": "DevDock Opinion about AI",
           "subLinks": []
         },
         {
-          "id": "",
+          "id": "DevDockOpinion",
+          "text": "DevDock Opinion About AI",
+          "subLinks": []
+        },
+        {
+          "id": "2024Trend",
           "text": "Trend 2024: Investments in AI and Data Analytics",
           "subLinks": []
         },
         {
-          "id": "",
+          "id": "conclusion",
           "text": "Conclusion",
           "subLinks": []
         }
@@ -377,27 +372,60 @@
       "tags": ["Product Design", "UX Audit", "Redesign"],
       "tableContentLinks": [
         {
-          "id": "",
+          "id": "artworkManagement",
           "text": "What is Artwork Management?",
           "subLinks": []
         },
         {
-          "id": "",
+          "id": "surgingDemand",
           "text": "The Surging Demand for Artwork Management Software",
           "subLinks": []
         },
         {
-          "id": "",
+          "id": "automatedArtwork",
           "text": "How Automated Artwork Approval Management Benefits You",
-          "subLinks": []
+          "subLinks": [
+            {
+              "id": "automatingArtworkBenefits",
+              "text": "Several benefits of automating artwork and design approvals"
+            },
+            {
+              "id": "approvalProcess",
+              "text": "The Artwork Approval Process"
+            },
+            {
+              "id": "artworkApprovalTool",
+              "text": "Selecting the Appropriate Artwork Approval Tool"
+            },
+            {
+              "id": "navigatingMarket",
+              "text": "Navigation through the Market"
+            },
+            {
+              "id": "roiOnArtwork",
+              "text": "Calculating the ROI on Artwork Approval Solutions"
+            },
+            {
+              "id": "artworksLifeCycle",
+              "text": "Understanding an Artwork's Life Cycle"
+            },
+            {
+              "id": "currentStandards",
+              "text": "Current Standard for Approving Artwork"
+            },
+            {
+              "id": "leadingApps",
+              "text": "Leading Apps for Managing Artwork Approval"
+            }
+          ]
         },
         {
-          "id": "",
+          "id": "futureTrendInArtWork",
           "text": "The Future Trends in Artwork Approval Management",
           "subLinks": []
         },
         {
-          "id": "",
+          "id": "conclusion",
           "text": "Conclusion",
           "subLinks": []
         }

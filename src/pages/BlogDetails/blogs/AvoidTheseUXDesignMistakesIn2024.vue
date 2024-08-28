@@ -79,7 +79,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[5]);
 
         <BlogContentSection
             heading="Common mistakes of UX/UI design to avoid Overly complicated navigation menus"
-            heading-id=""
+            heading-id="commonUiUxMistakes"
         >
           <BlogContentBlock sub-heading="" sub-heading-id="">
             <p>
@@ -110,20 +110,20 @@ let selectedBlog = ref<Blog>(pageData.blogs[5]);
             </p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="DevDock Opinion about AI" sub-heading-id="">
+          <BlogContentBlock sub-heading="DevDock Opinion about AI" sub-heading-id="DevDockOpinion">
             <p>The opportunities opened up by AI in improving efficiency in web development come with associated risks
               relating to transparency and privacy issues. It's foremost that AI solutions must develop according to the
               unique needs and problems for each business and that AI-driven ideas need to be experimented with so as
               not to lose creative diversity or unique user experiences.</p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Trend 2024: Investments in AI and Data Analytics" sub-heading-id="">
+          <BlogContentBlock sub-heading="Trend 2024: Investments in AI and Data Analytics" sub-heading-id="2024Trend">
             <p>Rather than investing in fleeting design trends on the web, the investment in AI and data analytics will
               enable brands to gather and analyze user data in a way that will create the means to deliver personalized
               content, enhance user experiences, and drive deeper engagement and loyalty.</p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Conclusion" sub-heading-id="">
+          <BlogContentBlock sub-heading="Conclusion" sub-heading-id="conclusion">
             <p>Now one has to keep the investment going in AI and data analytics and stay focused on the user to drive
               engagement and brand growth.</p>
             <p>Combining that with advanced tools and technologies will help level up your brand for massive growth while

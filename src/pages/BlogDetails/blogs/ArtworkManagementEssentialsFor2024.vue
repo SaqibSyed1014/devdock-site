@@ -35,7 +35,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[6]);
 
           <BlogContentBlock
               sub-heading="What is Artwork Management?"
-              sub-heading-id=""
+              sub-heading-id="artworkManagement"
           >
             <p>Artwork management includes easy review, fast approval, and the use of artwork for printing in a highly
               efficient way subsequently. A lot of players participate in the process: from copywriters and designers
@@ -47,7 +47,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[6]);
 
           <BlogContentBlock
               sub-heading="The Surging Demand for Artwork Management Software"
-              sub-heading-id=""
+              sub-heading-id="surgingDemand"
           >
             <p>As the businesses grow, their needs for producing content for digital as well as printed media grow,
               from producing travel brochures to flyers and outdoor ads, irrespective of what is being published,
@@ -63,12 +63,12 @@ let selectedBlog = ref<Blog>(pageData.blogs[6]);
 
         <BlogContentSection
             heading="How Automated Artwork Approval Management Benefits You"
-            heading-id=""
+            heading-id="automatedArtwork"
         >
 
           <BlogContentBlock
               sub-heading="There are several benefits of automating artwork and design approvals:"
-              sub-heading-id=""
+              sub-heading-id="automatingArtworkBenefits"
           >
             <p><b>Single platform:</b> Brings all the stakeholders together to ensure easier alignment<br>
               <b>Efficient reviews:</b> No more headache of email-based review rounds<br>
@@ -78,7 +78,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[6]);
             </p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="The Artwork Approval Process" sub-heading-id="">
+          <BlogContentBlock sub-heading="The Artwork Approval Process" sub-heading-id="approvalProcess">
             <p>Concededly, the approval of artworks can be quite thorny, with a full gamut of issues—from
               miscommunication to subjective feedback—which may then lead to delays, errors, or even issues of
               compliance such as use of works whose copyright you haven't sought permission or not keeping brand
@@ -89,7 +89,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[6]);
               ensure mistakes are caught early and legal and brand standards are adhered to.</p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Selecting the Appropriate Artwork Approval Tool" sub-heading-id="">
+          <BlogContentBlock sub-heading="Selecting the Appropriate Artwork Approval Tool" sub-heading-id="artworkApprovalTool">
             <p>If a business opts for software to approve designs, factors such as ease of using the software for
               different stakeholders would need consideration.</p>
 
@@ -108,7 +108,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[6]);
             </p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Navigation through the Market" sub-heading-id="">
+          <BlogContentBlock sub-heading="Navigation through the Market" sub-heading-id="navigatingMarket">
             <p>Considering the various alternatives available, it is almost challenging to settle for the right artwork
               workflow system. Here are some of the highlights that can be used in navigating the various systems.</p>
 
@@ -120,7 +120,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[6]);
             </p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Calculating the ROI on Artwork Approval Solutions" sub-heading-id="">
+          <BlogContentBlock sub-heading="Calculating the ROI on Artwork Approval Solutions" sub-heading-id="roiOnArtwork">
             <p>An artwork approval solution should be all about efficiency, reduce errors, and better collaboration.
               The following are the outlines based on which ROI can be calculated:</p>
 
@@ -131,7 +131,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[6]);
             </p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Understanding an Artwork's Life Cycle" sub-heading-id="">
+          <BlogContentBlock sub-heading="Understanding an Artwork's Life Cycle" sub-heading-id="artworksLifeCycle">
             <p>An artwork's life cycle consists of six major stages:</p>
 
             <p><b>Conception:</b> Development of the primary idea or concept.<br>
@@ -143,7 +143,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[6]);
             </p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Current Standard for Approving Artwork" sub-heading-id="">
+          <BlogContentBlock sub-heading="Current Standard for Approving Artwork" sub-heading-id="currentStandards">
             <p>Different industries have different requirements for approving artwork:</p>
 
             <p><b>Pharmaceutical:</b> Regulated compliance; right product labeling.<br>
@@ -152,7 +152,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[6]);
             </p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Leading Apps for Managing Artwork Approval" sub-heading-id="">
+          <BlogContentBlock sub-heading="Leading Apps for Managing Artwork Approval" sub-heading-id="leadingApps">
             <p>Here they are along with what each app is great for:</p>
 
             <p><b>Wrike:</b> One of the best general project management apps with fully customizable workflow as per
@@ -173,7 +173,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[6]);
             <img src="/img/blogs/blog-seven/proofhub.webp" alt="ProofHub">
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="The Future Trends in Artwork Approval Management" sub-heading-id="">
+          <BlogContentBlock sub-heading="The Future Trends in Artwork Approval Management" sub-heading-id="futureTrendInArtWork">
             <p>Automation and AI to proof and quality assurance revolution.<br><br>
 
               Digital Asset Management increasing the storage, organization, and access to artwork assets.<br><br>
