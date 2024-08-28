@@ -40,24 +40,24 @@ let selectedBlog = ref<Blog>(pageData.blogs[5]);
 
         <BlogContentSection
             heading="Essential Steps for Improving UX and Avoiding Mistakes"
-            heading-id=""
+            heading-id="stepsForImprovingUX"
         >
 
-          <BlogContentBlock sub-heading="Conduct User Research" sub-heading-id="">
+          <BlogContentBlock sub-heading="Conduct User Research" sub-heading-id="userResearch">
             <p><b>Know Your Audience:</b> Research user needs, behaviors, and pain points through surveys, interviews, and
               usability testing.<br>
               <b>Develop User Personas:</b> Personas drive design decisions, ensuring that a website caters to all the needs
               of a target audience.</p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Wireframing and Prototyping" sub-heading-id="">
+          <BlogContentBlock sub-heading="Wireframing and Prototyping" sub-heading-id="wireframingPrototyping">
             <p><b>Outline Content Flow:</b> Map the journey and layout of a user with wireframes before getting into
               detailed design.<br>
               <b>Test Functionality:</b> Come up with prototypes and test for usability to fine-tune functionality.</p>
 
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Iterative Design Process" sub-heading-id="">
+          <BlogContentBlock sub-heading="Iterative Design Process" sub-heading-id="iterativeDesign">
             <p><b>Test, Refine Based on Feedback:</b> Test continually and revise designs further based on user feedback
               for developing functionality and improving aesthetics. The Art of Balancing Aesthetics and Usability—Balancing
               aesthetics and usability, Andy pointed out that a middle path should be adopted for the same.</p>

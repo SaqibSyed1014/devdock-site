@@ -322,19 +322,19 @@
       "tags": ["Product Design", "UX Audit", "Redesign"],
       "tableContentLinks": [
         {
-          "id": "",
+          "id": "stepsForImprovingUX",
           "text": "Steps for Improving UX and Avoiding Mistakes",
           "subLinks": [
             {
-              "id": "",
+              "id": "userResearch",
               "text": "Conduct User Research"
             },
             {
-              "id": "",
+              "id": "wireframingPrototyping",
               "text": "Wireframing and Prototyping"
             },
             {
-              "id": "",
+              "id": "iterativeDesign",
               "text": "Iterative Design Process"
             }
           ]
