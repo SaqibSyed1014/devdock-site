@@ -7,8 +7,10 @@ import ShareBlogLinks from "@/pages/BlogDetails/components/ShareBlogLinks.vue";
     <div class="container">
         <div class="blog-detail">
 
-          <div class="flex gap-8 mx-40">
-            <ShareBlogLinks />
+          <div class="flex md:gap-3 lg:gap-8 lg:mx-20 2xl:mx-40">
+            <div>
+              <ShareBlogLinks/>
+            </div>
 
             <div>
               <slot name="table-contents"></slot>

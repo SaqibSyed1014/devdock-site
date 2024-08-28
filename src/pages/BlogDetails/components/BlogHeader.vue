@@ -32,7 +32,7 @@ defineProps<{
           </div>
         </div>
         <div class="col-span-1">
-          <div class="flex justify-end overflow-hidden rounded-[20px] lg:mx-5 2xl:ml-10">
+          <div class="flex justify-end overflow-hidden rounded-lg md:rounded-[20px] lg:mx-5 2xl:ml-10">
             <img
                 :src="blogImage"
                 alt="Blog Image"

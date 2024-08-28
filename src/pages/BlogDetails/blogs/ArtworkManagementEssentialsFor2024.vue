@@ -191,7 +191,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[6]);
           </BlogContentBlock>
 
 
-          <BlogContentBlock sub-heading="Conclusion" sub-heading-id="">
+          <BlogContentBlock sub-heading="Conclusion" sub-heading-id="conclusion">
             <p>Proper management of artwork approval results in timely and quality projects and is a significant source
               of continued brand compliance. With its tools and processes, it's also easy to scale up and hit the
               confident deadline.</p>
