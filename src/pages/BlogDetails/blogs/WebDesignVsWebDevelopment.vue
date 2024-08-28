@@ -33,7 +33,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[2]);
 
           <BlogContentBlock
               sub-heading="Key Points"
-              sub-heading-id=""
+              sub-heading-id="keyPoints"
           >
             <p><b>Web Design works on:</b><br>
               Looks
@@ -58,13 +58,13 @@ let selectedBlog = ref<Blog>(pageData.blogs[2]);
             <p><b>Similarities:</b> Both are goal-driven, collaborative, and user experience-centered.</p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="What Is Web Design?" sub-heading-id="">
+          <BlogContentBlock sub-heading="What Is Web Design?" sub-heading-id="webDesignIntro">
             <p>Web design is the process of designing visual elements and the UI. It deals with layouts, color schemes,
               typography, and imagery. A good web design reflects making a site visually appealing and
               user-friendly.</p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Why is Web Design Important?" sub-heading-id="">
+          <BlogContentBlock sub-heading="Why is Web Design Important?" sub-heading-id="webDesignImportance">
             <p><b>First Impressions:</b> Creates an impression at first glance and thus ensures a seamless usability for the
               users across the site.<br>
               <b>Brand Identity:</b> Reinforces brand recognition and builds trust.<br>
@@ -74,7 +74,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[2]);
             <img src="/img/blogs/blog-three/working.webp" alt="People Working">
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Benefits of Good Web Design:" sub-heading-id="">
+          <BlogContentBlock sub-heading="Benefits of Good Web Design:" sub-heading-id="webDesignBenefits">
             <p><b>Increased Engagement:</b>  Visually pleasing sites are visited more and explored for a longer period.<br>
               <b>Increased Conversions:</b> A well-designed website gives a better conversion rate.<br>
               <b>Better Accessibility:</b> It makes sure that all kinds of people will gain access to the site,
@@ -82,18 +82,18 @@ let selectedBlog = ref<Blog>(pageData.blogs[2]);
               your business stand out, attract customers, and help the business grow.</p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="What is Web Development?" sub-heading-id="">
+          <BlogContentBlock sub-heading="What is Web Development?" sub-heading-id="webDevIntro">
             <p>Web development is the process of technically developing and maintaining a website. Much of it involves
               coding front-end interfaces and back-end systems for data management and the functioning of the site.</p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Why Web Development Matters?" sub-heading-id="">
+          <BlogContentBlock sub-heading="Why Web Development Matters?" sub-heading-id="webDevImportance">
             <p><b>Functionality:</b> Smooth running of the site, adapting to user needs.<br>
               <b>Performance:</b> Determines speed, responsiveness, and generally how satisfied users are with the site.<br>
               <b>Security:</b> Cyber security of the site and protection of sensitive data.</p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Benefits of Web Development:" sub-heading-id="">
+          <BlogContentBlock sub-heading="Benefits of Web Development:" sub-heading-id="webDevBenefits">
             <p><b>Improved Performance:</b> Quick loading time and smooth navigation.<br>
               <b>Scalability:</b> Expandability and growth to suit changing business needs.<br>
               <b>Security:</b> Application of strong measures to help a website be secure from cyber threats.<br>
@@ -103,7 +103,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[2]);
 
           <BlogContentSection
               heading="Web Design vs. Web Development: Key Differences"
-              heading-id=""
+              heading-id="webDesignAndDevDifference"
           >
             <BlogContentBlock sub-heading="Focus:" sub-heading-id="">
               <p><b>Web Design:</b> It deals with the aesthetic aspect and user experience of a website. The aspects
@@ -152,7 +152,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[2]);
                 by coming up with creative solutions to ensure that the website can satisfy its targets.</p>
             </BlogContentBlock>
 
-            <BlogContentBlock sub-heading="Conclusion" sub-heading-id="">
+            <BlogContentBlock sub-heading="Conclusion" sub-heading-id="conclusion">
               <p>While web design and web development have two different roles in the running of a website, they are
                 interdependent processes. Basically, well-coordinated work between the designer and the developer
                 results

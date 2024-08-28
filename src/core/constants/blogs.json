@@ -19,61 +19,61 @@
        "tags": ["Product Design", "UX Audit", "Redesign"],
        "tableContentLinks": [
          {
-           "id": "",
+           "id": "aiToolsList",
            "text": "Here, we shall look at top 12 AI graphic design tools for various stages in the creative process.",
            "subLinks": [
              {
-               "id": "",
+               "id": "designAI",
                "text": "Designs.ai"
              },
              {
-               "id": "",
+               "id": "adobeSensei",
                "text": "Adobe Sensei"
              },
              {
-               "id": "",
+               "id": "autodraw",
                "text": "Autodraw"
              },
              {
-               "id": "",
+               "id": "uizard",
                "text": "Uizard"
              },
              {
-               "id": "",
+               "id": "looka",
                "text": "Looka"
              },
              {
-               "id": "",
+               "id": "letsEnhance",
                "text": "Let’s Enhance"
              },
              {
-               "id": "",
+               "id": "khroma",
                "text": "Khroma"
              },
              {
-               "id": "",
+               "id": "removeBg",
                "text": "Remove.bg"
              },
              {
-               "id": "",
+               "id": "canva",
                "text": "Canva"
              },
              {
-               "id": "",
+               "id": "sketch2Code",
                "text": "Sketch2Code"
              },
              {
-               "id": "",
+               "id": "dreamStudio",
                "text": "DreamStudio"
              },
              {
-               "id": "",
+               "id": "fontJoy",
                "text": "Fontjoy"
              }
            ]
          },
          {
-           "id": "",
+           "id": "finalThoughts",
            "text": "Final Thoughts",
            "subLinks": []
          }
@@ -90,43 +90,43 @@
       "tags": ["Product Design", "UX Audit", "Redesign"],
       "tableContentLinks": [
         {
-          "id": "",
+          "id": "stepsToDevelopDesign",
           "text": "Important steps to develop a design",
           "subLinks": [
             {
-              "id": "",
+              "id": "firstStep",
               "text": "Definition of objectives and goals"
             },
             {
-              "id": "",
+              "id": "secondStep",
               "text": "Research and get an insight into your audience"
             },
             {
-              "id": "",
+              "id": "thirdStep",
               "text": "Identify Key Messages and Brand Identity"
             },
             {
-              "id": "",
+              "id": "fourthStep",
               "text": "Clearly spell out deliverables and specifications"
             },
             {
-              "id": "",
+              "id": "fifthStep",
               "text": "Define the Project Timeline and Budget"
             }
           ]
         },
         {
-          "id": "",
+          "id": "differencesInDesign",
           "text": "Differences between an In-House and an External Design Brief",
           "subLinks": []
         },
         {
-          "id": "",
+          "id": "keyFeatures",
           "text": "Key features",
           "subLinks": []
         },
         {
-          "id": "",
+          "id": "finalThoughts",
           "text": "Final Thoughts",
           "subLinks": []
         }
@@ -143,47 +143,47 @@
       "tags": ["Product Design", "UX Audit", "Redesign"],
       "tableContentLinks": [
         {
-          "id": "",
+          "id": "keyPoints",
           "text": "Key Points",
           "subLinks": []
         },
         {
-          "id": "",
+          "id": "webDesignIntro",
           "text": "What Is Web Design?",
           "subLinks": []
         },
         {
-          "id": "",
+          "id": "webDesignImportance",
           "text": "Why is Web Design Important?",
           "subLinks": []
         },
         {
-          "id": "",
+          "id": "webDesignBenefits",
           "text": "Benefits of Good Web Design",
           "subLinks": []
         },
         {
-          "id": "",
+          "id": "webDevIntro",
           "text": "What is Web Development?",
           "subLinks": []
         },
         {
-          "id": "",
+          "id": "webDevImportance",
           "text": "Why Web Development Matters?",
           "subLinks": []
         },
         {
-          "id": "",
+          "id": "webDevBenefits",
           "text": "Benefits of Web Development",
           "subLinks": []
         },
         {
-          "id": "",
+          "id": "webDesignAndDevDifference",
           "text": "Web Design vs. Web Development: Key Differences",
           "subLinks": []
         },
         {
-          "id": "",
+          "id": "conclusion",
           "text": "Conclusion",
           "subLinks": []
         }
@@ -204,26 +204,26 @@
           "text": "",
           "subLinks": [
             {
-              "id": "",
+              "id": "customFonts",
               "text": "Why Develop a Custom Font?"
             },
             {
-              "id": "",
+              "id": "brandIdentity",
               "text": "Aligning Fonts with Brand Identity"
             },
             {
-              "id": "",
+              "id": "rightFonts",
               "text": "Choosing the Right Fonts"
             }
           ]
         },
         {
-          "id": "",
+          "id": "roleOf3DFonts",
           "text": "The Role of 3D Fonts in Branding",
           "subLinks": []
         },
         {
-          "id": "",
+          "id": "conclusion",
           "text": "Conclusion",
           "subLinks": []
         }

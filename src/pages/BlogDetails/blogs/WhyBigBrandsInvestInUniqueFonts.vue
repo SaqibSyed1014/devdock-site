@@ -39,20 +39,21 @@ let selectedBlog = ref<Blog>(pageData.blogs[3]);
         >
           <BlogContentBlock
               sub-heading="1. Why Develop a Custom Font?"
-              sub-heading-id=""
+              sub-heading-id="customFonts"
           >
             <p>Custom fonts could turn out to be one of the best ways towards brand recognition and identity. So, here's
               why they prove game-changing:</p>
 
-            <p>
-              <b>Brand Awareness:</b>
-              With a strong, different font, a brand becomes more visible amidst the noise that's going on in the market. As Brittney comments, "It's one thing to flash your logo everywhere, but with an exclusive font, your business can be recognized in more contexts and with more subtlety." An original font will make sure your brand remains both prominent and unforgettable, reducing the chances of potential customers confusing it with other brands.
-            </p>
+            <p><b>Brand Awareness:</b>
+              With a strong, different font, a brand becomes more visible amidst the noise that's going on in the
+              market. As Brittney comments, "It's one thing to flash your logo everywhere, but with an exclusive font,
+              your business can be recognized in more contexts and with more subtlety." An original font will make sure
+              your brand remains both prominent and unforgettable, reducing the chances of potential customers confusing
+              it with other brands.</p>
 
-            <p>
-              <b>Consistency Across Mediums:</b>
-              A custom font allows brands to maintain uniformity across all mediums and media. This consistency is begetter of reliability and trustworthiness with the consumers.
-            </p>
+            <p><b>Consistency Across Mediums:</b>
+              A custom font allows brands to maintain uniformity across all mediums and media. This consistency is
+              begetter of reliability and trustworthiness with the consumers.</p>
 
             <p><b>Emotional Context:</b>
               Fonts carry an emotional undertone and can change the way a message from a brand is
@@ -62,7 +63,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[3]);
 
           <BlogContentBlock
               sub-heading="2. Aligning Fonts with Brand Identity"
-              sub-heading-id=""
+              sub-heading-id="brandIdentity"
           >
             <p>To go about effortlessly integrating a custom font into your brand, follow these steps:</p>
 
@@ -80,7 +81,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[3]);
 
           <BlogContentBlock
               sub-heading="3. Choosing the Right Fonts"
-              sub-heading-id=""
+              sub-heading-id="rightFonts"
           >
             <p>
               The right bespoke font requires just a few considerations:
@@ -97,7 +98,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[3]);
               in print may not translate so beautifully to digital screens.</p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="The Role of 3D Fonts in Branding" sub-heading-id="">
+          <BlogContentBlock sub-heading="The Role of 3D Fonts in Branding" sub-heading-id="roleOf3DFonts">
             <p>3D fonts are trendy, but Brittney cautions against using them for branding :</p>
 
             <img src="/img/blogs/blog-four/brand.webp" alt="Brand">
@@ -114,7 +115,7 @@ let selectedBlog = ref<Blog>(pageData.blogs[3]);
               your brand versatile without losing readability.</p>
           </BlogContentBlock>
 
-          <BlogContentBlock sub-heading="Conclusion" sub-heading-id="">
+          <BlogContentBlock sub-heading="Conclusion" sub-heading-id="conclusion">
             <p>A custom font will impact your brand's identity and, therefore, its recognition. It means that creating a
               bespoke font reflects your brand's personality, enhancing consistency, emotional connection, and
               visibility. Collaborate with an expert, try a few, and select a font that pays homage to your brand's
