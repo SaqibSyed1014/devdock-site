@@ -1,30 +1,27 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import ToastNotification from "@/core/components/ToastNotification.vue";
+import { blogSharing } from "@/core/utils/utils.functions.ts";
+
 const shareLinks = [
   {
     icon: "i-mdi-facebook",
-    link: "https://www.facebook.com/devdock.team"
+    onClick: () => blogSharing('facebook')
   },
   {
     icon: "i-mdi-twitter",
-    link: ""
-  },
-  {
-    icon: "i-mdi-instagram",
-    link: " https://www.instagram.com/devdock.tech/"
+    onClick: () => blogSharing('X')
   },
   {
     icon: "i-mdi-linkedin",
-    link: "https://www.linkedin.com/company/devdock"
+    onClick: () => blogSharing('linkedin')
   }
 ]
 
 const showCopyToast = ref<boolean>(false);
 const showErrorCopyToast = ref<boolean>(false);
 function copyLink() {
-  const currentUrl = window.location.href;
-  navigator.clipboard.writeText(currentUrl)
+  navigator.clipboard.writeText(window.location.href)
       .then(() => showCopyToast.value = true)
       .catch(() => showErrorCopyToast.value = true);
 }
@@ -35,16 +32,15 @@ function copyLink() {
     <p class="pb-2 font-semibold text-lg max-md:hidden">Share:</p>
 
     <template v-for="social in shareLinks">
-      <a
-          :href="social.link"
-          target="_blank"
+      <div
           class="flex justify-center items-center w-10 h-10 bg-white border border-primary/50 rounded cursor-pointer group hover:bg-primary transition"
+          @click="social.onClick"
       >
         <span
             class="text-xl xl:text-2xl text-primary group-hover:text-white transition"
             :class="[`${social.icon}`]"
         />
-      </a>
+      </div>
     </template>
 
     <div @click="copyLink" class="flex justify-center items-center w-10 h-10 bg-white border border-primary/50 rounded cursor-pointer group hover:bg-primary transition">

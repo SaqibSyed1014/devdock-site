@@ -110,6 +110,10 @@ router.beforeEach((to) => {
   document.querySelector('meta[name="keywords"]').setAttribute('content', keywords)
   document.querySelector('meta[name="keywords"]').setAttribute('content', keywords)
   document.querySelector('link[rel="canonical"]').setAttribute('href', to.path)
+  document.querySelector('meta[property="og:title"]').setAttribute('content', title)
+  document.querySelector('meta[property="og:description"]').setAttribute('content', description)
+  document.querySelector('meta[property="og:url"]').setAttribute('href', to.path)
+  document.querySelector('meta[property="og:image"]').setAttribute('href', 'https://www.devdock.tech/favicons/apple-touch-icon.png')
 })
 
 export default router

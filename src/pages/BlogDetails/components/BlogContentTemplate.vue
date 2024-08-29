@@ -9,7 +9,7 @@ import ShareBlogLinks from "@/pages/BlogDetails/components/ShareBlogLinks.vue";
 
           <div class="flex md:gap-3 lg:gap-8 lg:mx-20 2xl:mx-40">
             <div>
-              <ShareBlogLinks/>
+              <ShareBlogLinks />
             </div>
 
             <div>
