@@ -16,7 +16,7 @@ defineProps<{
   >
     <figure>
       <img
-          class="user-avatar-image transition duration-500"
+          class="user-avatar-image transition duration-500 object-cover w-full h-full pt-6"
           :class="[ hoverDisabled ? 'scale-110' : 'group-hover:scale-125' ]"
           :src="userImage"
           :alt="userName"
@@ -44,8 +44,7 @@ defineProps<{
   flex-shrink: 0;
   .user-avatar-image {
     position: absolute;
-    bottom: 0px;
-    left: 0;
+    bottom: 0;
   }
   .user-avatar-details{
     position: absolute;

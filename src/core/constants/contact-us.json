@@ -68,6 +68,12 @@
       "bgColor": "#FFDEF7"
     },
     {
+      "name": "Kainat",
+      "designation": "Designer",
+      "image": "/img/team/designer-kainat.webp",
+      "bgColor": "#FFDEF7"
+    },
+    {
       "name": "Ahmad",
       "designation": "Developer",
       "image": "/img/team/developer-ahmed.webp",
