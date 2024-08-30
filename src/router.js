@@ -1,7 +1,9 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router';
+import routesData from "@/core/constants/routes.json";
+import blogsData from "@/core/constants/blogs.json";
 
-import routesData from "@/core/constants/routes.json"
-const routesMeta = routesData
+const routesMeta = routesData;
+let blogsList = blogsData.blogs;
 
 const routes = [
   {
@@ -98,22 +100,28 @@ const router = createRouter({
 })
 
 router.beforeEach((to) => {
-  const { params } = to
-  let { title, description, keywords } = to.meta
+  const baseURL = window.location.origin;
+  const { params } = to;
+  let { title, description, keywords } = to.meta;
   if (to.meta[params?.title]) {
-    title = to.meta[params?.title].title
-    description = to.meta[params?.title].description
-    keywords = to.meta[params?.title].keywords
+    title = to.meta[params?.title].title;
+    description = to.meta[params?.title].description;
+    keywords = to.meta[params?.title].keywords;
   }
-  document.title = title
-  document.querySelector('meta[name="description"]').setAttribute('content', description)
-  document.querySelector('meta[name="keywords"]').setAttribute('content', keywords)
-  document.querySelector('meta[name="keywords"]').setAttribute('content', keywords)
-  document.querySelector('link[rel="canonical"]').setAttribute('href', to.path)
-  document.querySelector('meta[property="og:title"]').setAttribute('content', title)
-  document.querySelector('meta[property="og:description"]').setAttribute('content', description)
-  document.querySelector('meta[property="og:url"]').setAttribute('href', to.path)
-  document.querySelector('meta[property="og:image"]').setAttribute('href', 'https://www.devdock.tech/favicons/apple-touch-icon.png')
+  document.title = title;
+  document.querySelector('meta[name="description"]').setAttribute('content', description);
+  document.querySelector('meta[name="keywords"]').setAttribute('content', keywords);
+  document.querySelector('link[rel="canonical"]').setAttribute('href', `${baseURL}${to.path}`);
+  document.querySelector('meta[property="og:title"]').setAttribute('content', title);
+  document.querySelector('meta[property="og:description"]').setAttribute('content', description);
+  document.querySelector('meta[property="og:url"]').setAttribute('content', `${baseURL}${to.path}`);
+  if (to.path.includes('/blog')) {
+    blogsList.forEach((blog) => {
+      if (blog.path === to.path)
+        document.querySelector('meta[property="og:image"]').setAttribute('content', `${baseURL}${blog.image.path}`);
+    })
+  } else
+    document.querySelector('meta[property="og:image"]').setAttribute('content', 'https://www.devdock.tech/favicons/apple-touch-icon.png');
 })
 
 export default router
