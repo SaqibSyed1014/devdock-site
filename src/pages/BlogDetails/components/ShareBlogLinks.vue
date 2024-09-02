@@ -2,22 +2,25 @@
 import { ref } from 'vue'
 import ToastNotification from "@/core/components/ToastNotification.vue";
 import { blogSharing } from "@/core/utils/utils.functions.ts";
+import { useRoute } from "vue-router";
+
+const route = useRoute();
 
 const shareLinks = [
   {
     icon: "i-mdi-facebook",
     title: "Share on Facebook",
-    onClick: () => blogSharing('facebook')
+    onClick: () => blogSharing('facebook', route.meta.title as string)
   },
   {
     icon: "i-mdi-twitter",
     title: "Share on Twitter(X)",
-    onClick: () => blogSharing('X')
+    onClick: () => blogSharing('X', route.meta.title as string)
   },
   {
     icon: "i-mdi-linkedin",
     title: "Share on Linkedin",
-    onClick: () => blogSharing('linkedin')
+    onClick: () => blogSharing('linkedin', route.meta.title as string)
   }
 ]
 

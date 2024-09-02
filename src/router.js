@@ -113,15 +113,21 @@ router.beforeEach((to) => {
   document.querySelector('meta[name="keywords"]').setAttribute('content', keywords);
   document.querySelector('link[rel="canonical"]').setAttribute('href', `${baseURL}${to.path}`);
   document.querySelector('meta[property="og:title"]').setAttribute('content', title);
+  document.querySelector('meta[property="twitter:title"]').setAttribute('content', title);
   document.querySelector('meta[property="og:description"]').setAttribute('content', description);
+  document.querySelector('meta[property="twitter:description"]').setAttribute('content', description);
   document.querySelector('meta[property="og:url"]').setAttribute('content', `${baseURL}${to.path}`);
   if (to.path.includes('/blog')) {
     blogsList.forEach((blog) => {
-      if (blog.path === to.path)
+      if (blog.path === to.path) {
         document.querySelector('meta[property="og:image"]').setAttribute('content', `${baseURL}${blog.image.path}`);
+        document.querySelector('meta[property="twitter:image"]').setAttribute('content', `${baseURL}${blog.image.path}`);
+      }
     })
-  } else
+  } else {
     document.querySelector('meta[property="og:image"]').setAttribute('content', 'https://www.devdock.tech/favicons/apple-touch-icon.png');
+    document.querySelector('meta[property="twitter:image"]').setAttribute('content', 'https://www.devdock.tech/favicons/apple-touch-icon.png');
+  }
 })
 
 export default router
