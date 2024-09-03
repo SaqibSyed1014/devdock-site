@@ -14,10 +14,10 @@ const routeMeta = routeData.AboutUs;
 setTimeout(() => {
   useSeoMeta({
     title: routeMeta.meta.title,
-    description: () => routeMeta.meta.description,
-    ogDescription: () => routeMeta.meta.description,
-    ogTitle: () => routeMeta.meta.title,
-    ogImage: '/img/blogs/blog-three/header-img.webp',
+    description: routeMeta.meta.description,
+    ogDescription:routeMeta.meta.description,
+    ogTitle: routeMeta.meta.title,
+    ogImage: `${window.location.origin}/img/blogs/blog-three/header-img.webp`,
   })
 }, 2000);
 

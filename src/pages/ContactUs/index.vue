@@ -12,11 +12,11 @@ const contactData = pageData;
 const routeMeta = routeData.ContactUs;
 
 useSeoMeta({
-  title: () => routeMeta.meta.title,
-  description: () => routeMeta.meta.description,
-  ogDescription: () => routeMeta.meta.description,
-  ogTitle: () => routeMeta.meta.title,
-  ogImage: '/img/blogs/blog-two/header-img.webp',
+  title: routeMeta.meta.title,
+  description: routeMeta.meta.description,
+  ogDescription: routeMeta.meta.description,
+  ogTitle: routeMeta.meta.title,
+  ogImage: `${window.location.origin}/img/blogs/blog-two/header-img.webp`,
 })
 </script>
 

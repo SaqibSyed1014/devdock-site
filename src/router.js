@@ -99,35 +99,63 @@ const router = createRouter({
   },
 })
 
-// router.beforeEach((to) => {
-//   const baseURL = window.location.origin;
-//   const { params } = to;
-//   let { title, description, keywords } = to.meta;
-//   if (to.meta[params?.title]) {
-//     title = to.meta[params?.title].title;
-//     description = to.meta[params?.title].description;
-//     keywords = to.meta[params?.title].keywords;
-//   }
-//   document.title = title;
-//   document.querySelector('meta[name="description"]').setAttribute('content', description);
-//   document.querySelector('meta[name="keywords"]').setAttribute('content', keywords);
-//   document.querySelector('link[rel="canonical"]').setAttribute('href', `${baseURL}${to.path}`);
-//   document.querySelector('meta[property="og:title"]').setAttribute('content', title);
-//   document.querySelector('meta[property="twitter:title"]').setAttribute('content', title);
-//   document.querySelector('meta[property="og:description"]').setAttribute('content', description);
-//   document.querySelector('meta[property="twitter:description"]').setAttribute('content', description);
-//   document.querySelector('meta[property="og:url"]').setAttribute('content', `${baseURL}${to.path}`);
-//   if (to.path.includes('/blog')) {
-//     blogsList.forEach((blog) => {
-//       if (blog.path === to.path) {
-//         document.querySelector('meta[property="og:image"]').setAttribute('content', `${baseURL}${blog.image.path}`);
-//         document.querySelector('meta[property="twitter:image"]').setAttribute('content', `${baseURL}${blog.image.path}`);
-//       }
-//     })
-//   } else {
-//     document.querySelector('meta[property="og:image"]').setAttribute('content', 'https://www.devdock.tech/favicons/apple-touch-icon.png');
-//     document.querySelector('meta[property="twitter:image"]').setAttribute('content', 'https://www.devdock.tech/favicons/apple-touch-icon.png');
-//   }
-// })
+router.beforeEach((to) => {
+  const baseURL = window.location.origin;
+  const { params } = to;
+
+  // Extract meta data from route or default meta
+  let title = to.meta.title || 'Default Title';
+  let description = to.meta.description || 'Default Description';
+  let keywords = to.meta.keywords || []; // Can be empty array
+
+  // If route has specific meta for the current param value (e.g., /blog/:slug)
+  if (to.meta[params?.title]) {
+    title = to.meta[params?.title].title || title;
+    description = to.meta[params?.title].description || description;
+    keywords = to.meta[params?.title].keywords || keywords;
+  }
+
+  // Create or update meta tags
+  updateMetaTag('title', title);
+  updateMetaTag('description', description);
+  updateMetaTag('keywords', keywords); // Join keywords into a comma-separated string
+  updateMetaTag('canonical', `${baseURL}${to.path}`);
+
+  updateOpenGraphMeta('title', title);
+  updateOpenGraphMeta('description', description);
+  updateOpenGraphMeta('url', `${baseURL}${to.path}`);
+
+  if (to.path.includes('/blog')) {
+    blogsList.forEach((blog) => {
+      if (blog.path === to.path) {
+        updateOpenGraphMeta('image', `${baseURL}${blog.image.path}`)
+        updateOpenGraphMeta('twitter:image', `${baseURL}${blog.image.path}`)
+      }
+    })
+  }else {
+    updateOpenGraphMeta('image', 'https://www.devdock.tech/favicons/apple-touch-icon.png')
+    updateOpenGraphMeta('twitter:image', 'https://www.devdock.tech/favicons/apple-touch-icon.png')
+  }
+
+  updateTwitterMeta('title', title);
+  updateTwitterMeta('description', description);
+});
+
+// Helper function to create or update a meta tag
+function updateMetaTag(name, content) {
+    const newMeta = document.createElement('meta');
+    newMeta.setAttribute('property', name);
+    newMeta.content = content;
+    document.head.appendChild(newMeta);
+}
+
+// Helper functions for specific Open Graph and Twitter meta tags
+function updateOpenGraphMeta(property, content) {
+  updateMetaTag(`og:${property}`, content);
+}
+
+function updateTwitterMeta(property, content) {
+  updateMetaTag(`twitter:${property}`, content);
+}
 
 export default router
