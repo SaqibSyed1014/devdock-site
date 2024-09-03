@@ -6,6 +6,21 @@ import OurTeam from "@/pages/AboutUs/components/OurTeam.vue";
 import TargetClients from "@/pages/AboutUs/components/TargetClients.vue";
 import Reviews from "@/pages/home/components/Reviews.vue";
 import Features from "@/pages/home/components/Features.vue";
+import {useSeoMeta} from "unhead";
+import routeData from "@/core/constants/routes.json";
+
+const routeMeta = routeData.AboutUs;
+
+setTimeout(() => {
+  useSeoMeta({
+    title: routeMeta.meta.title,
+    description: () => routeMeta.meta.description,
+    ogDescription: () => routeMeta.meta.description,
+    ogTitle: () => routeMeta.meta.title,
+    ogImage: '/img/blogs/blog-three/header-img.webp',
+  })
+}, 2000);
+
 </script>
 
 <template>

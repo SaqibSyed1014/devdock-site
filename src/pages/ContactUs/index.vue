@@ -4,9 +4,20 @@ import AppAvatar from "@/core/components/AppAvatar.vue";
 import Parallaxy from '@lucien144/vue3-parallaxy';
 
 import pageData from "@/core/constants/contact-us.json"
+import routeData from "@/core/constants/routes.json"
 import AppContactUsButton from "@/core/components/AppContactUsButton.vue";
+import {useSeoMeta} from "unhead";
 
-const contactData = pageData
+const contactData = pageData;
+const routeMeta = routeData.ContactUs;
+
+useSeoMeta({
+  title: () => routeMeta.meta.title,
+  description: () => routeMeta.meta.description,
+  ogDescription: () => routeMeta.meta.description,
+  ogTitle: () => routeMeta.meta.title,
+  ogImage: '/img/blogs/blog-two/header-img.webp',
+})
 </script>
 
 <template>
