@@ -1,9 +1,19 @@
-<script setup>
+<script setup lang="ts">
 import PortfolioFilters from "@/pages/Portfolio/components/PortfolioFilters.vue";
 import CtaSection from "@/pages/Portfolio/components/CtaSection.vue";
 import pageData from "@/core/constants/portfolio.json"
+import { useSeoMeta } from 'unhead'
+// import {  } from '@unhead/schema'
 
-const portfolioData = pageData
+const portfolioData = pageData;
+
+useSeoMeta({
+  title: 'DevDock Portfolio | Software Design and Development Company',
+  description: 'Explore DevDock portfolio – a showcase of our exceptional web, app, and software development and designed projects. Witness innovation in action.',
+  ogDescription: 'Explore DevDock portfolio – a showcase of our exceptional web, app, and software development and designed projects. Witness innovation in action.',
+  ogTitle: 'DevDock Portfolio | Software Design and Development Company',
+  ogImage: '/img/blogs/blog-six/header-img.webp',
+})
 </script>
 
 <template>
