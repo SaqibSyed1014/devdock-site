@@ -8,87 +8,98 @@ let blogsList = blogsData.blogs;
 const routes = [
   {
     path: '/',
-    component: () => import('@/layout/DefaultLayout/DefaultLayout.vue'),
-    name: 'SiteDefaultLayout',
-    meta: {
-      title: '',
-    },
-    redirect: { name: 'DevDockHome' },
+    component: () => import('@/layout/MinimalLayout/MinimalLayout.vue'),
+    name: 'SiteMinimalLayout',
+    redirect: '/coming-soon',
     children: [
       {
-        ...routesMeta.Home,
-        component: () => import('@/pages/home/index.vue')
+        ...routesMeta.ComingSoon,
+        component: () => import('@/pages/ComingSoon/index.vue')
       },
-      {
-        ...routesMeta.Portfolio,
-        component: () => import('@/pages/Portfolio/index.vue')
-      },
-      {
-        ...routesMeta.CaseStudy,
-        component: () => import('@/pages/CaseStudy/index.vue')
-      },
-      {
-        ...routesMeta.ContactUs,
-        component: () => import('@/pages/ContactUs/index.vue')
-      },
-      {
-        ...routesMeta.Services,
-        component: () => import('@/pages/Services/index.vue')
-      },
-      {
-        ...routesMeta.Service,
-        component: () => import('@/pages/ServicesDetails/index.vue')
-      },
-      {
-        ...routesMeta.Blogs,
-        component: () => import('@/pages/Blogs/index.vue'),
-      },
-      {
-        ...routesData.MustHaveAiToolsForGraphicDesign2024Blog,
-        component: () => import('@/pages/BlogDetails/blogs/MustHaveAiToolsForGraphicDesign2024.vue'),
-      },
-      {
-        ...routesData.MasterThe5StepDesignBriefForTopTierOutcomes,
-        component: () => import('@/pages/BlogDetails/blogs/MasterThe5StepDesignBriefForTopTierOutcome.vue'),
-      },
-      {
-        ...routesData.WebDesignVsWebDevelopment,
-        component: () => import('@/pages/BlogDetails/blogs/WebDesignVsWebDevelopment.vue'),
-      },
-      {
-        ...routesData.WhyBigBrandsInvestInUniqueFonts,
-        component: () => import('@/pages/BlogDetails/blogs/WhyBigBrandsInvestInUniqueFonts.vue'),
-      },
-      {
-        ...routesData.AvoidTheseUXDesignMistakesIn2024,
-        component: () => import('@/pages/BlogDetails/blogs/AvoidTheseUXDesignMistakesIn2024.vue'),
-      },
-      {
-        ...routesData.EfficientDesignProjectManagement,
-        component: () => import('@/pages/BlogDetails/blogs/EfficientDesignProjectManagement.vue'),
-      },
-      {
-        ...routesData.ArtworkManagementEssentialsFor2024,
-        component: () => import('@/pages/BlogDetails/blogs/ArtworkManagementEssentialsFor2024.vue'),
-      },
-      {
-        ...routesMeta.AboutUs,
-        component: () => import('@/pages/AboutUs/index.vue')
-      },
-      {
-        ...routesMeta.TermsAndCondition,
-        component: () => import('@/pages/TermsAndConditions/index.vue')
-      },
-      {
-        ...routesMeta.PrivacyPolicy,
-        component: () => import('@/pages/PrivacyPolicy/index.vue')
-      },
-      {
-        ...routesMeta.NotFound,
-        component: () => import('@/pages/404NotFound/index.vue')
-      }
     ]
   },
+  // {
+  //   path: '/',
+  //   component: () => import('@/layout/DefaultLayout/DefaultLayout.vue'),
+  //   name: 'SiteDefaultLayout',
+  //   meta: {
+  //     title: '',
+  //   },
+  //   children: [
+  //     {
+  //       ...routesMeta.Home,
+  //       component: () => import('@/pages/home/index.vue')
+  //     },
+  //     {
+  //       ...routesMeta.Portfolio,
+  //       component: () => import('@/pages/Portfolio/index.vue')
+  //     },
+  //     {
+  //       ...routesMeta.CaseStudy,
+  //       component: () => import('@/pages/CaseStudy/index.vue')
+  //     },
+  //     {
+  //       ...routesMeta.ContactUs,
+  //       component: () => import('@/pages/ContactUs/index.vue')
+  //     },
+  //     {
+  //       ...routesMeta.Services,
+  //       component: () => import('@/pages/Services/index.vue')
+  //     },
+  //     {
+  //       ...routesMeta.Service,
+  //       component: () => import('@/pages/ServicesDetails/index.vue')
+  //     },
+  //     {
+  //       ...routesMeta.Blogs,
+  //       component: () => import('@/pages/Blogs/index.vue'),
+  //     },
+  //     {
+  //       ...routesData.MustHaveAiToolsForGraphicDesign2024Blog,
+  //       component: () => import('@/pages/BlogDetails/blogs/MustHaveAiToolsForGraphicDesign2024.vue'),
+  //     },
+  //     {
+  //       ...routesData.MasterThe5StepDesignBriefForTopTierOutcomes,
+  //       component: () => import('@/pages/BlogDetails/blogs/MasterThe5StepDesignBriefForTopTierOutcome.vue'),
+  //     },
+  //     {
+  //       ...routesData.WebDesignVsWebDevelopment,
+  //       component: () => import('@/pages/BlogDetails/blogs/WebDesignVsWebDevelopment.vue'),
+  //     },
+  //     {
+  //       ...routesData.WhyBigBrandsInvestInUniqueFonts,
+  //       component: () => import('@/pages/BlogDetails/blogs/WhyBigBrandsInvestInUniqueFonts.vue'),
+  //     },
+  //     {
+  //       ...routesData.AvoidTheseUXDesignMistakesIn2024,
+  //       component: () => import('@/pages/BlogDetails/blogs/AvoidTheseUXDesignMistakesIn2024.vue'),
+  //     },
+  //     {
+  //       ...routesData.EfficientDesignProjectManagement,
+  //       component: () => import('@/pages/BlogDetails/blogs/EfficientDesignProjectManagement.vue'),
+  //     },
+  //     {
+  //       ...routesData.ArtworkManagementEssentialsFor2024,
+  //       component: () => import('@/pages/BlogDetails/blogs/ArtworkManagementEssentialsFor2024.vue'),
+  //     },
+  //     {
+  //       ...routesMeta.AboutUs,
+  //       component: () => import('@/pages/AboutUs/index.vue')
+  //     },
+  //     {
+  //       ...routesMeta.TermsAndCondition,
+  //       component: () => import('@/pages/TermsAndConditions/index.vue')
+  //     },
+  //     {
+  //       ...routesMeta.PrivacyPolicy,
+  //       component: () => import('@/pages/PrivacyPolicy/index.vue')
+  //     },
+  //     {
+  //       ...routesMeta.NotFound,
+  //       component: () => import('@/pages/404NotFound/index.vue')
+  //     }
+  //   ]
+  // }
 ]
 
 const router = createRouter({
